@@ -182,8 +182,8 @@ The most diverse of strains Teejee females are either breeders or drones; the br
 
 ***Required Traits:***
 * Four Legs - gain + 6 to all balance checks related to the character keeping their footing, also ignore up to two penalty dice to movement checks caused by rough or difficult terrain.
-* Pheromone Communication - can communicate with other Teejee within 30m silently.
-* Pheromone Influence - gain 4 bonus dice on all checks to control Teejee drones and are similarly susceptible to control by Teejee breeding females.
+* Pheromone Communication - can communicate rough ideas with other Teejee within 30m silently.
+* Pheromone Influence - gain 4 bonus dice on all checks to control Teejee drones and 4 penalty dice to avoid being influenced by Teejee breeding females.
 
 ***Strain Traits:***
 * Winged - cost 8, gain flying movement equal to 6 plus personal movement(flight) skill with a maneuverability of 1:1(1/6 direction change per meter moved), each round in flight costs 3 * consecutive rounds in flight stamina.
@@ -194,10 +194,13 @@ The most diverse of strains Teejee females are either breeders or drones; the br
 ***Build points:*** + 5
 
 #### Torleni
+Technically a sub-strain of their Pure-Blooded cousins the Torleni that carry the blood of Shimmer in their veins are so much more common a sight throughout Flax it is not uncommon for the less educated not to know this. Teejee can be found in all the lands that once belonged to the Kingdom of Grail that they ruled and still possess most of the positions of power in the lands that once belonged to that, no fractured, kingdom.
 
 ***Physical Appearance:***
+Two arms, two legs, and covered in scales is about the extent of how you can generalize a Torleni for the blood of Shimmer flows in their veins and they may alter their appearances individually to their will. Each Torleni shapes themselves as they see fit, gaining or loosing mass, growing claws or wings, spitting acid or fire, changing the color and pattern of their scales, and even the shape of their faces and sound of their voice. Torleni are truly the most diverse of strains in appearances.
 
 ***Origin:***
+Torleni were created by Milnot, the mistress of the mountain, in the range dominated by Mount Milomb. In the first days Milnot was not the only Ohma to dwell amongst her children however; Shimmer, the changeling, unable to create a strain of his own, resided with the Torleni and mixed his blood with theirs until nearly all of Milnot's children were decedents of Shimmer as well. Some say that Shimmer still resides on Mount Milomb teaching and guiding the Torleni who reside in their ancestral birthplace.
 
 ***Size:*** 6
 
