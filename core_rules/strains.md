@@ -68,7 +68,7 @@ Denja are generally quick witted and conversational, preferring to participate i
 * Reduced Attribute - body, the character’s attribute is reduced by one
 
 ***Strain Traits:***
-* Gliding Membrane - cost 2, as a move action costing 2 stamina the character can jump from a height and glide 3 meter per meter fallen. A character already falling may take a full round action to glide the rest of the way down. A gliding character does not suffer falling damage upon landing. Gliding membrane can not be used if the character is wearing clothing or armor that would prevent the membrane from extending, additionally the horizontal distance traveled is reduced by 1m for every 10lbs of equipment after the first 10lbs; if the horizontal glide was 1-2m per meter fallen the character suffers half normal falling damage and if it was 0m per meter fallen the character suffers full falling damage.
+* Gliding Membrane - cost 2, as a move action costing 2 stamina the character can jump from a height and glide 3 meter per meter fallen. A character already falling may take a full round action to glide the rest of the way down. A gliding character does not suffer falling damage upon landing. Gliding membrane can not be used if the character is wearing clothing or armor that would prevent the membrane from extending, additionally the horizontal distance traveled is reduced by 1m for every 10lbs of equipment after the first 10lbs; if the horizontal glide was 1-2m per meter fallen the character suffers half normal falling damage and if it was 0m per meter fallen the character suffers full falling damage. A gliding character can not fall more than 10m per round plus 2m per 10lbs carried after the first 20lbs.
 
 ***Arcane Traits:***
 * Learned Mage: 10
@@ -213,10 +213,25 @@ Torleni were created by Milnot, the mistress of the mountain, in the range domin
 ***Attribute points:*** 8
 
 ***Required Traits:***
-* Blood of Shimmer - increase two attributes by one point or one attribute by two points. Each month the character may choose to decrease one attribute increased by this trait by one point to gain one reserve point, or loose one reserve point to gain one point in an attribute of their choice. The character may, over a number of months equal to the cost of a positive, non-arcane trait, lose that trait in order to gain that many trait-reserve points, or the character may spend a number of months and spend as many trait-reserve points to gain a new trait.
-* Natural Armor - scales - armor value: 3, body value: 0
+* Blood of Shimmer - increase two attributes by one point or one attribute by two points. Each month the character may choose to decrease one attribute increased by this trait by one point to gain one reserve point, or loose one reserve point to gain one point in an attribute of their choice. The character may, over a number of months equal to the cost of a positive, non-arcane trait, lose that trait in order to gain that many trait-reserve points, or the character may spend a number of months and spend as many trait-reserve points to gain a new non-arcane trait.
+* Natural Armor - scales - armor value: 3, body value: 2
 
-***Strain Traits:*** MANY TO BE ADDED
+***Strain Traits:***
+* Thickened Scales (1) - Natural Armor + 1 body. Each time this trait is taken increase the cost to take it again by one.
+* Hardened Scales (1) - Natural Armor + 1 armor value. Each time this trait is taken increase the cost to take it again by one.
+* Elemental Scales (1) - distribute 3 points between cold, fire, and lightning and gain resistance in each equal to the number of points allocated. Each time this trait is taken increase the cost to take it again by one.
+* Chameleon Scales (1) - passively others require an additional success to visually notice the you. Each time this trait is taken increase the cost to take it again by one.
+* Natural Weapon - Claws (1) - brawling attacks may deal penetrating damage with armor piercing 0 that can not be raised with extra successes.
+* Natural Weapon - Claws (2) - brawling attacks may deal penetrating damage with armor piercing 1.
+Natural Weapon - Claws (4) - brawling attacks may deal penetrating damage + 1 with armor piercing 4.  
+* Natural Weapon - Wings (1) - brawling bash attacks may be made to the character's sides with reach 20, extra successes increase the damage by 2 each for purposes of bash's defense comparison only.
+* Gliding - Wings (3) - as a move action costing 2 stamina the character can jump from a height and glide 3 meter per meter fallen. A character already falling may take a full round action to glide the rest of the way down. A gliding character does not suffer falling damage upon landing. These wings can not be used if the character is wearing clothing or armor that would prevent them from extending, additionally the horizontal distance traveled per meter fallen is reduced by 1m for every 10lbs of equipment after the first 20lbs; if the horizontal glide was 1-2m per meter fallen the character suffers half normal falling damage and if it was 0m per meter fallen the character suffers full falling damage. A gliding character can not fall more than 10m per round plus 2m per 10lbs carried after the first 20lbs.
+* Flying - Wings (8) - gain flying movement equal to 10 plus personal movement(flight) skill with a maneuverability of 1:6(1/6 direction change per 6 meters moved), each round in flight costs 3 + number of consecutive rounds in flight stamina.
+* Soaring - Wings (12) - the character's wings function as either flying or gliding wings at the character's choice on any given round, when gliding they increase the distance traveled horizontally to 4 meters per meter fallen.
+* Vaulting Leaper (2) -  the character may make a move action, costing 3 stamina, to leap up to their body stat + ranks in personal movement(jumping) meters; an additional horizontal meter can be added for every 5m in a straight line the character has traveled this turn in ground movement.
+* Breath Weapon - Flame () -
+* Breath Weapon - Ink () -
+* Bellowing Voice (1) - the character's voice travels up to 10x as far and as loudly as other characters.
 
 ***Arcane Traits:***
 * Learned Mage: 10
