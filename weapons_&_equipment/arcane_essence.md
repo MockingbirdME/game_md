@@ -21,7 +21,13 @@ Some individuals have arcane potential that they find unlocked by the consumptio
 Most essence is harvested from the Shardlands where it can be found in veins of rock and sand just as iron can be in Askelon or zinc in Proto. The corpses of Mablen as well as both bodies and eggs of Pure-Blooded Torlini and their Dragon kin are also known to be sources of very high end essence though their extraction requires a skill alchemist. All essence requires refinement, a delicate and time consuming process performed by alchemists.
 
 ## Bound Essence
+Well refined essence is good for more than fending off sleep; it can be imbued, with the assistance of an alchemist, by a spell caster with any effect they could otherwise muster themselves. Binding essence allows a mage to pay arcane dues now to gain their spell effects later, or allows a non-arcane user to utilize power as if they were.
+
+**Game Effect:** refined essence may hold a specific number of successes worth of arcane effect based on its level of refinement, these successes must be cast into the essence by, or with the help of, an alchemist as a single action that takes one minute per success being bound into the essence. The essence must then be sealed away from the air and will release its spell effect when the seal is cracked and the bound essence exposed.
+
+Essence imbued in such a way holds its bound effects for months or years depending on the skill of the alchemist, if not exposed; its potency can be checked upon by a mage utilizing the sense magic arcane power. Skilled alchemists can drain the power bound in a dose of essence making it possible to imbue it again, this is risky however as it is possible to set off the bound effects if the alchemist is not careful, or skilled, enough destroying the essence in the process.
 
 ## Essence Locks and Keys
+
 
 ## True Essence
