@@ -49,7 +49,7 @@
 * Duplicate Effect - spell/effect, free for all mages, all mages
     * (+) - cast this spell/effect an additional time for each success spent. Spells that require a skill check to target or need to be thrown still require separate skill checks and actions, spells that do not require a skill check to target can not select the same target more than once.
 * Energize - short, lighting, all mages
-    * (1+) - target character regains X stamina plus one per additional success spent, the character then suffers one fatigue plus one for every three additional successes spent on this power.
+    * (x) - target character regains X stamina per success spent, the character then suffers one fatigue plus one for every three additional successes spent on this power.
 * Enhance Range - spell/effect, space, all mages
     * (x) - for each success choose close range, range increment, or max range to increase that statistic by its base value, if close range exceeds max range increase max range so that it is one range increment higher than close range.
 * Force Barrier - short, force, all mages
@@ -108,13 +108,13 @@
 * Slow - touch, temporal or cold, all mages
     * (1+) - target character is slowed, the first success spent reduces their movement by X, the second success decreases their defense by X, the third grants the character half of X, rounded down, penalty dice to all reflex based actions. Additional successes may be spent in order to increase the target’s movement, defense, or bonus dice to reflex based actions by one. The effects of slow last for one round. Slow effects caused by cold have their function as if they had one fewer success in them for each 3 cold resistance the target has not gained from mundane equipment.
 * Speed Recovery - touch, healing, all mages
-    * (1+) - target character heals wounds X times as fast as natural for the next X days. Additional successes may be spent to increase the number of days this spell lasts for by one.
+    * (1+) - target character heals wounds X+1 times as fast as natural for the next X days. Additional successes may be spent to increase the number of days this spell lasts for by one.
 * Throw Spell - spell/effect, free for all mages, all mages
     * (1) - the spell or effect lasts untriggered for a number of rounds equal to the character’s mind stat, during this time the mage may throw the spell and have it take effect at the end of the throw. Thrown spells have a close range and range increment equal to the caster’s body + mind stats in meters and a max range equal to its the same times the caster’s rank in arcane aptitude. Thrown spells have a range penalty of 3.
 * Time Lapse - touch, temporal, all mages
     * (+) - speed up or slow down a multi round action or event by adding or subtracting one round or minute to the number needed to complete the action or event. The caster may not spend more than X successes on this power. This power can not be used to reduce the amount of time needed below one round or minute.
     * (+) - speed up or slow down an action or event that requires multiple successes by increasing or decreasing the number of successes needed to complete the action or event. The caster may not spend more than X successes on this power. This power can not be used to reduce the number of successes needed below 5.
 * Water to … - touch, water, all mages
-    * (1+) - turn up to X deciliters of purified water plus one deciliter per additional success spent into another liquid that the caster has paid the needed successes for. Different liquid types require different amounts of success for example dirty water requires none, beer requires 1, wine 2, liquor 3, ink or oil or honey 4, etc.
+    * (1+) - turn up to X doses of purified water plus one dose per additional success spent into another liquid that the caster chooses. Different liquid types have different dose sizes for example dirtying water can be performed on 4 liters of water, beer on 1 liter, wine on half a liter, liquor on a deciliter, ink or oil or honey on a milliliter, etc.
 * Wizard’s Fire - touch, fire, all mages
     * (3) - the caster conjures arcane flame that inflicts Xd4 fire damage.
