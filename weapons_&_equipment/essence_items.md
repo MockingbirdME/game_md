@@ -19,6 +19,7 @@ Some of the most commonly bound effects are:
 
 
 # Essence Locks
+Some common essence locks may be available off the shelf of a high end alchemist shop but most of these items need to be commissioned; most alchemists will keep a catalog of the powers they can imbue and lock into essence. Any alchemist capable of creating essence locks can set a command word or trigger substance as keys to their locks but the more complicated and specific the key the more skilled an alchemist is required to create the lock.
 
 ## Common
 
