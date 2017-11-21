@@ -43,9 +43,9 @@
 * Draw Water - touch, water, all mages
     * (+) - draw moisture from the air, under normal conditions conjure X ounces of water per success spent. Various weather or humidity conditions may affect this difficulty, for example in the desert the total amount of water conjured may be only 20% of normal while during a storm it may be 5 times as much as normal.
 * Duration, basic - spell/effect, free for all mages, all mages
-    * (+) - the spell/effect continues for one round per success spent.
+    * (+) - the spell/effect continues for one round per success spent. When this spell would expire the caster may suffer one stamina point and one penalty die to all actions this round to keep it going for one round.
 * Duration, true - spell/effect, temporal, all mages
-    * (1+) - the spell/effect continues for X rounds, plus one round per additional success spent.
+    * (1+) - the spell/effect continues for X rounds, plus one round per additional success spent. When this spell would expire the caster may suffer one stamina point and one penalty die to all actions this round to keep it going for one round.
 * Duplicate Effect - spell/effect, free for all mages, all mages
     * (+) - cast this spell/effect an additional time for each success spent. Spells that require a skill check to target or need to be thrown still require separate skill checks and actions, spells that do not require a skill check to target can not select the same target more than once.
 * Energize - short, lighting, all mages
