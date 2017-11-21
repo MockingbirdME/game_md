@@ -38,3 +38,8 @@ steps in designing spells -
   AOE - 2m radius blast
   Damage - 2d4 + 1d6 fire damage.
   Ungated: 1 additional success increases max range to 26m.*
+
+##### Cantrips
+Mages, in addition to their spells, know a number of cantrips. Mages start knowing three cantrips but may spend 3 character points to gain an additional cantrip slot. In between adventures a mage my change what cantrips they know.
+
+A cantrip is a lot like a spell with the following exceptions: it does not benefit from any free successes, the maximum number of successes in the cantrip is equal to the mages mind stat or rank in arcane aptitude (whichever is greater), the maximum number of successes in a cantrip in one power is equal to the character's rank in that powers secondary skill, use the casting a cantrip action instead of the cast spell action when casting a cantrip in combat, no skill check is required to cast a cantrip.
