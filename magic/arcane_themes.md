@@ -11,7 +11,6 @@ All mages, regardless of type, have access to the following arcane powers:
 * Throw Spell
 additionally all learned mages have access to
 * Reduce Cost
-
 ### Arcane
 One of the most common arcane themes on Flax for all types of mages, it is taught in nearly every arcane academy and in specialized alchemy schools for both Learned and Dependent mages.
 * sense magic
