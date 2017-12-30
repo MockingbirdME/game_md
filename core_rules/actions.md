@@ -33,7 +33,7 @@ Most opportunities for a skill check have a difficulty of 0 and some number of r
 * Calculate successes:
     * add half the primary attribute to successes (round down for standard, up for taken time)
     * add the primary skills value to success, double this value for taken time
-    * add ranks in all relevant secondary skills as successes
+    * add half the ranks in all relevant secondary skills as successes (round down for standard, up for taken time)
 * Add one success for every bonus die
 * Remove two successes for every penalty die, reduced to one per die for taken time
 * Apply your total successes to the action being taken
@@ -80,7 +80,7 @@ Ranged actions have a turn requirement of one that can be reduced to zero by add
 
 ##### Magic Actions:
 Magic actions have a turn requirement of one and may only be taken by characters with an arcane trait. Magical skill checks use mind as a primary attribute.
-* Cast Cantrip (1) - choose one cantrip the character knows, cast that cantrip. This action's turn requirement may be reduced to zero, doing so adds one penalty die to all other actions taken this turn; the caster may not take an additional magic action this turn.
+* Cast Cantrip (2) - choose one cantrip the character knows, cast that cantrip. This action's turn requirement may be reduced to zero, doing so adds one penalty die to all other actions taken this turn; the caster may not take an additional magic action this turn.
 * Cast spell(0) - choose one spell the character knows and choose either where to gate it or to cast it ungated. Make a skill check and total the successes. If the number of successes rolled was at least what was required for a gated spell resolve the spell at the gated level and suffer arcane dues equal to the spell's cost, if the spell was cast ungated and achieved at least as many successes as it’s highest gated value the spell succeeds triggering the the spell’s successes in order up to the total successes rolled with any additional successes being randomized by the GM from amongst the spells effects the caster then suffers arcane dues equal to the total successes rolled + total number of free successes, finally if the skill check did not achieve the needed number of successes the caster suffers arcane dues equal to the total successes rolled and the spell fails.
 * Gather arcane energy(0) - make a skill check with no relevant secondary skills. This check’s successes are stored for future use; the GM secretly rolls a d4 adding that many successes to the amount stored. A character with stored arcane energy who takes an action with a turn requirement of one other than to gather or shape arcane energy will lose all stored successes and suffer arcane dues as if they had shaped an effect with them.
 * Shape arcane energy(0) - a character with stored arcane energy shapes those successes into an effect. Make a skill check with no relevant secondary skills. For every success rolled one stored success may be added to a power in the crafted effect, stored successes not assigned in this way will be randomly assigned to already used powers by the GM; the character suffers arcane dues for the successes in the effect.

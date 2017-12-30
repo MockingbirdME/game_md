@@ -47,7 +47,7 @@ Fire damage is reduced by any fire resistance the character may have. Fire damag
 | 3 | 1 stun | 13 | 2 wounds, burning
 | 5 | 1 stun, burning | every additional 5 | +1 wound, burning|
 
-#####Cold damage
+##### Cold damage
 Cold damage is reduced by a character’s body stat plus any cold resistance they may have. Cold damage gains +1 for every round the target has suffered cold damage since they were last warm.
 
 | Damage | stamina/stun/wound | Damage | stamina/stun/wound
@@ -61,7 +61,7 @@ Cold damage is reduced by a character’s body stat plus any cold resistance the
 ##### Lightning damage
 Lightning damage is reduced by the character’s body, armor value that is gained from metal armor, and by any lightning resistance they may have. Lightning damage is always inflicted to the body location.
 
-| Damage | stamina/stun/wound | Damage | stamina/stun/wound 
+| Damage | stamina/stun/wound | Damage | stamina/stun/wound
 | --- | --- | ---| ---
 | 0 or less | recovers 1 stamina | 8 | 3 stuns
 | 1 | 1 stamina | 10 | 3 stuns,  wound

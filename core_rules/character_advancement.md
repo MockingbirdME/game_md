@@ -4,9 +4,9 @@
 At character creation they gain 5, or more, advancement points. Advancement points are spent to grant the character in game advantages and to increase their skill and attribute ranks over time.
 
 ##### In game uses
-Only one advancement point can be spent by a character at each opportunity.
-* A character may spend an advancement point to gain one bonus die to a skill check they are about to make. Doing so adds the advancement point to the primary skill being used.
-* A character may spend an advancement point to grant another character a bonus die to a skill check they are about to perform if they can role play how they are doing so. The character regains this advancement point at the end of the scene.
+Only one advancement point can be spent by a character at each opportunity. When a character spends an advancement point in one of these ways they add it to the most appropriate primary skill for the situation.
+* A character may spend an advancement point to gain one bonus die to a skill check they are about to make.
+* A character may spend an advancement point to grant another character a bonus die to a skill check they are about to make if they can role play how they are doing so.
 * A character may spend an advancement point to increase the difficulty of an action taken by another character by one success or 3 points, this may be declared after the skill check has been made.
 
 ##### Out of game uses
@@ -19,4 +19,4 @@ When not actively playing a character may spend advancement points to increase t
 ##### Gaining advancement points
 At the end of each session or scene the GM should award one or more advancement points based on the accomplishments and experience of the characters. The number of advancement points granted will vary based on the speed the GM wants the characters increase in power, for standard power progression it is recommended that characters gain between 3 and 10 advancement points per session for a typical campaign. GMs are encouraged to provide all characters with an equal number of advancement points each session.
 
-It's a good practice to keep track of how many character points have been awarded over the duration of a campaign to make it easier to bring in new characters at an equal power level to those that are already in the campaign. 
+It's a good practice to keep track of how many character points have been awarded over the duration of a campaign to make it easier to bring in new characters at an equal power level to those that are already in the campaign.
