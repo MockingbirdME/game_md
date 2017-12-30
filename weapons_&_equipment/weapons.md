@@ -31,21 +31,21 @@
 * Askelonian Arming Sword: Reach: 6, Difficulty: 4, Parry: 4/4/1, Damage: body +1, APV: 4, Attack-types: cut, thrust, strike, half-sword, mordstreich Notes: hand and a half.
 * Askelonian Longsword: Reach: 7, Difficulty: 5, Parry: 2/4/-, Damage: body +2, APV: 5, Attack-types: cut, thrust, strike, half-sword, mordstreich Notes: hand and a half.
 * Askelonian Side Sword: Reach: 5, Difficulty: 4, Parry: 4/-/1, Damage: body, APV: 4, Attack-types: cut, thrust, strike, half-sword Notes: none.
-* Askelonian Small Sword: Reach: 4, Difficulty: 4, Parry: 5/-/1, Damage: body -1, APV: 6, Attack-types: thrust, strike Notes: none.
+* Askelonian Small Sword: Reach: 4, Difficulty: 4, Parry: 5/-/1, Damage: body -1, APV: 5, Attack-types: thrust, strike Notes: none.
 * Cleaver Falchion: Reach: 4, Difficulty: 4, Parry: 3/-/-, Damage: body +1, APV: 6, Attack-types: hack, slash, strike Notes: none.
 * Grailian Falchion: Reach: 6, Difficulty: 4, Parry: 5/4/1, Damage: body+1, APV: 5, Attack-types: cut, thrust, slash, strike, mordstreich Notes: hand and a half.
 * Grailian Back Sword: Reach: 5, Difficulty: 4, Parry: 4/-/1, Damage: body, APV: 4, Attack-types: cut, thrust, slash, strike Notes: none.
 * Proto Long Blade: Reach: 6, Difficulty: 4, Parry: 4/-/1, Damage: body, APV: 2, Attack-types: cut, thrust, strike Notes: none.
 * Proto Short Blade: Reach: 4, Difficulty: 4, Parry: 3/-/1, Damage: body -1, APV: 2, Attack-types: cut, thrust, strike Notes: none.
 * Islander’s Short Sword: Reach: 4, Difficulty: 4, Parry: 3/-/1, Damage: body, APV: 4, Attack-types: cut, thrust, strike Notes: none.
-* Boarding Sword: Reach: 4, Difficulty: 4, Parry: 3/-/1, Damage: body -1, APV: 3, Attack-types: cut, slash, strike Notes: none.
+* Boarding Sword: Reach: 4, Difficulty: 4, Parry: 3/-/1, Damage: body -1, APV: 5, Attack-types: cut, slash, strike Notes: none.
 
 ### Common Bludgeoning Weapons
 * Club: Reach: 3, Difficulty: 0, Parry: 1/0/0, Damage: body, APV: 0, Attack-types: bash Notes: none.
-* Light Mace/Hammer: Reach: 3, Difficulty: 2, Parry: 0/-/0, Damage: body, APV: 0, Attack-types: hammer Notes: none.
+* Light Mace/Hammer: Reach: 3, Difficulty: 2, Parry: 1/-/0, Damage: body, APV: 0, Attack-types: hammer Notes: none.
 * Heavy Mace/Warhammer: Reach: 4, Difficulty: 4, Parry: 2/1/0, Damage: body, APV: 0, Attack-types: bash, hammer Notes: hand and a half, may have a beak and/or spike granting it pick and thrust attack types respectively.
 * Sledge: Reach: 6, Difficulty: 6, Parry: -/1/-, Damage: body+1, APV: 0, Attack-types: hammer, bash, Notes: additional successes spent on hammer grant 1 additional damage when making a power attack.
-* Quarter Stave: Reach: 6, Difficulty: 3, Parry: 1/3/-, Damage: body, APV: 0, Attack-types: bash, Notes: uses bludgeoning weapons or spears secondary skill.
+* Quarter Stave: Reach: 6, Difficulty: 3, Parry: 1/5/-, Damage: body, APV: 0, Attack-types: bash, Notes: uses bludgeoning weapons or spears secondary skill.
 
 ### Common Axes
 * Throwing Axe: Reach: 1, Difficulty: 4, Parry: 0/-/0, Damage: body -1, APV: 2, Attack-types: hack, punch, throw(Close Range: body, Range Increment: 2, Max Range: 2 x body, Range Penalty: 1 die and 1 damage), Notes: none.
@@ -78,7 +78,7 @@
 Bows have a body rating that is used for calculating the rest of their statistics as follows.
 
 
-Close Range: 10m, Range Increment: 3 x body, Max Range: 12 x body, Range Penalty: 1 die and 1 APV, Damage Type: based on arrow type, Damage: ¾ body plus die based on arrow type, APV: ½ body modified by arrow type, Additional Successes:  one APV per success or d4 damage per two successes, Notes: bows require two hands to use, if a character’s body stat plus ranks in the bows secondary skill does not equal or exceed the bow’s body rating they suffer one penalty die for each point they are short, Reload: notching a readied arrow to a readied bow costs no stamina and has no turn requirement.
+Close Range: body, Range Increment: 3 x body, Max Range: 12 x body, Range Penalty: 1 die and 1 APV, Damage Type: based on arrow type, Damage: ¾ body plus die based on arrow type, APV: ½ body modified by arrow type, Additional Successes: one APV per success or d4 damage per two successes, Notes: bows require two hands to use, if a character’s body stat plus ranks in the bows secondary skill does not equal or exceed the bow’s body rating they suffer one penalty die for each point they are short, Reload: notching a readied arrow to a readied bow costs no stamina and has no turn requirement.
 
 ### Common Bows
 * Hunter’s Bow - Body: 7, Close Range: 7m, Range Increment: 21m, Max Range: 84m, Range Penalty: 1 die and 1 APV, Damage Type: based on arrow type, Damage: 5 + arrow die, APV: 4 modified by arrow type.

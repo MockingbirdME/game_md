@@ -6,8 +6,9 @@ The power of a bloodline is granted by a familia relationship passed from parent
 
 #### House of Smiths
 The driving power behind the metallurgic superiority of Askelon the house of smiths is headquartered at Carbon Keep, an island on Askel near the capital city. The house employs a small army of mages, called recruiters, who score the nation, and sometimes further, in search of individuals born with the blessing of the house, those found are brought to Carbon Keep for training and education. All members of the house of smiths have exceptional talent with metallurgy, smithing, and mining, those who are also mages have additional access to the Metal arcane theme, or its powers.
+
 **Crunch** to be a member of the house of smiths requires a trait that costs 4 points, it grants 2 bonus dice to all skill checks related to the science, crafting, or finding of metals, additionally if they have access to arcane themes or powers they may choose the metal theme or its powers.
 
-#### 
+####
 
 ####

@@ -50,6 +50,11 @@ Natural mages can develop this talent anywhere, and it is especially common to t
 * energize
 * lighting
 * resist shock
+### Matter
+* affect mass
+* augment body
+* ignore matter
+* shape matter
 ### Mind
 Mind mages are especially secretive, only the most prestigious academies for learned mages can boast a teacher of this discipline. This theme's powers are also especially rare amongst dependent and learned mages except for Torleni and their kin.
 * augment mind
@@ -74,6 +79,12 @@ Rarely a specialty of learned mages space magics are often dabbled in for their 
 * area of effect
 * enhance range
 * relocate
+### Steel
+Solely the purview of those born a member of the arcane house of smiths, steel magic is exceptionally rare and steel mages are very expensive to employ.
+* Enhance Metal
+* Find/Identify Metal
+* Imbue Metal
+* Weaken Metal
 ### Storm
 While some dependents manifest powers of this theme storm magic is generally the domain of natural sorcerers with very few learned practitioners.
 * call rain
