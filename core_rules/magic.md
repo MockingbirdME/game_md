@@ -26,18 +26,18 @@ steps in designing spells -
 *Example spell design - the beginner learned mage Rodrick Leesen has 3 ranks in arcane aptitude, 2 ranks in the fire arcane theme, 1 rank in the space arcane theme, and one rank in the water arcane theme.*
 1. *Rodrick wishes to craft a fireball spell, he determines it will need to be ranged and inflict fire damage in an area.*
 2. *For this spell he wants to add his free success gained from his ranks in the fire secondary skill, saving his free successes for space and water for other spells. He determines that he will put the free success towards creating wizard’s fire, noting, from it’s description, that he will require a second and third success to create it.*
-3. *This spell looks to include fire to create wizard’s fire and possibly to control temperature to make it deal more damage. It will also include space for Enhance Range, blast AOE, and potentially 3D AOE.*
+3. *This spell looks to include fire to create wizard’s fire and possibly to control temperature to make it deal more damage. It will also include space for Enhance Spell Range, blast AOE, and potentially 3D AOE.*
 4. *For fire Rodrick needs to list two success uses (because he has two ranks in the spell), he uses them to be the needed extra successes to create wizards fire. He has only a single listed effect for space and chooses to put it towards burst AOE.*
 5. *Rodrick has three ranks in arcane aptitude so chooses to put one rank towards throw spell, an effect any mage can produce, another success to in burst AOE, and the last one in Enhance range.*
-6. *In order Rodrick lists the success: wizard’s fire(free), wizard’s fire, wizard’s fire, throw spell, burst AOE, burst AOE, enhance range.*
+6. *In order Rodrick lists the success: wizard’s fire(free), wizard’s fire, wizard’s fire, throw spell, burst AOE, burst AOE, enhance spell range.*
 7. *Rodrick thinks the enhanced range won’t always be needed and decides to put the spell’s gate before before that success.*
 8. *Rodrick records his spell as follows:*
 
   **Fireball -** *difficulty: 5 successes, cost: 6, secondary skills: fire and space
   Range of 5m close, 5m increment, and 15m max.
-  AOE - 3m diameter blast
+  AOE - 3m diameter blast.
   Damage - 2d4 fire damage.
-  Ungated: 1 additional success increases max range to 30m.*
+  Ungated: 1 additional success double's the spell's ranges.*
 
 ##### Cantrips
 Mages, in addition to their spells, know a number of cantrips. Mages start knowing three cantrips but may spend 5 advancement points to gain an additional cantrip slot. In between adventures a mage my change what cantrips they know.

@@ -7,6 +7,7 @@ Theme Description including list of arcane powers that come with it.
 All mages, regardless of type, have access to the following arcane powers:
 * Duration, basic
 * Duplicate Effect
+* Enhance Spell Range, basic
 * Quick Cast
 * Throw Spell
 additionally all learned mages have access to
@@ -16,7 +17,6 @@ One of the most common arcane themes on Flax for all types of mages, it is taugh
 * sense magic
 * suppress magic
 * imbue essence
-* channel power
 * detect talent
 ### Cold  
 Natural mages with this theme are almost exclusive to Flax's colder, northern, reaches. Learned and dependent mages are also more likely to study this theme or its powers in the north but some academy's do teach it further south.
@@ -48,7 +48,7 @@ One of the rarest gifts amongst natural and dependent mages healing arts are tau
 Natural mages can develop this talent anywhere, and it is especially common to those who come of age in the Shardlands; it is rare to find a teacher north of the Bredth Bogs and northern reaches of Mount Milomb.
 * augment speed
 * energize
-* lighting
+* Lightning
 * resist shock
 ### Matter
 * affect mass
@@ -77,7 +77,8 @@ Generally considered an unsavory practice perception magic is frowned upon by le
 ### Space
 Rarely a specialty of learned mages space magics are often dabbled in for their utility.
 * area of effect
-* enhance range
+* enhance spell range, true
+* enhance weapon range
 * relocate
 ### Steel
 Solely the purview of those born a member of the arcane house of smiths, steel magic is exceptionally rare and steel mages are very expensive to employ.

@@ -31,11 +31,10 @@ Most opportunities for a skill check have a difficulty of 0 and some number of r
 * Determine if action requires a skill check
 * Determine primary attribute, primary skill, and relevant secondary skill(s)
 * Calculate successes:
-    * add half the primary attribute to successes (round down for standard, up for taken time)
-    * add the primary skills value to success, double this value for taken time
-    * add half the ranks in all relevant secondary skills as successes (round down for standard, up for taken time)
-* Add one success for every bonus die
-* Remove two successes for every penalty die, reduced to one per die for taken time
+    * add half the primary attribute(round down for standard, up for taken time) plus one to successes
+    * add the primary skills value to success
+    * add half the number of bonus dice, including those from secondary skills, (round down for standard, up for taken time) as successes
+    * Remove one successes for every penalty die
 * Apply your total successes to the action being taken
 
 

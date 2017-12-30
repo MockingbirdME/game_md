@@ -8,9 +8,9 @@ Arcane Power stat meanings:
   * spell/effect - this power can not be cast by itself, it affects the rest of the spell or effect it is included in.
   * self - this power is used to affect the caster.
   * touch - this power affects a target that is touched or the caster.
-  * short - this power can be thrown with a short range of the caster's mind stat, a range increment of the caster's mind stat, and a max range of the caster's mind stat.
-  * medium - this power can be thrown with a short range of the caster's mind stat, a range increment of the caster's mind stat, and a max range of three times the caster's mind stat.
-  * long - this power can be thrown with a short range of twice the caster's mind stat, a range increment of twice the caster's mind stat, and a max range of ten times the caster's mind stat.
+  * short - this power can be thrown with a close range of the caster's mind stat, a range increment of the caster's mind stat, and a max range of three times the caster's mind stat.
+  * medium - this power can be thrown with a close range of twice the caster's mind stat, a range increment of twice the caster's mind stat, and a max range of six times the caster's mind stat.
+  * long - this power can be thrown with a close range of three times the caster's mind stat, a range increment of three times the caster's mind stat, and a max range of ten times the caster's mind stat.
 * Theme - the arcane theme(s), if any, that this power is associated with.
 * Mage Types allowed - some power's are restricted to certain mage types or mages with certain other traits, these requirements will be listed here.
 
@@ -37,7 +37,7 @@ Arcane Power stat meanings:
     * 3D (1) - made a spell or effects AOE as tall as it is long or wide, turning a burst into a sphere, a line into a wall, etc.
 * Arcane Targeting - spell/effect, targeting, all mages
     * (1+) - added to a spell with a range other than touch or self the spell may be thrown using the magical aptitude skill as it’s primary skill and add this power’s secondary skill as a relevant secondary skill. Additional successes may be spent to add X to the throw’s skill check total.
-* Augment Body - short, force, all mages
+* Augment Body - short, force or matter, all mages
     * (1+) - target gains +X bonus, plus one per additional success spent, to all skill check results where body is the primary attribute.
     * (4++) - target gains X to their body stat, plus one per two additional successes spent, this bonus does not apply to the character’s body for purposes of calculating arcane dues.
 * Augment Mind - short, mind, all mages
@@ -49,12 +49,14 @@ Arcane Power stat meanings:
 * Augment Reflexes - short, movement, all mages
     * (1+) - target gains +X bonus, plus one per additional success spent, to all skill check results where reflexes is the primary attribute.
     * (4++) - target gains X to their reflexes stat, plus one per two additional successes spent.
-* Augment Speed - short, movement, all mages
+* Augment Speed - short, lightning or movement or wind, all mages
     * (3++) - target gains X to their movement stat or meters moved, for non ground movement maneuvers, plus one per two additional success spent.
 * Call  Rain - long, water, all mages
     * (1+) - the difficulty to force the air to release its water is determined by how much it holds, up to 20 for desert conditions and as little as 5 for when a storm is ready to break; the character can make a difficulty of up to X plus one per additional success spent. If the total difficulty the caster reaches exceeds the needs of the weather it begins to rain or the strength of the rain increases, alternatively if the total difficulty the caster reaches fails to meet that needed but exceeds half of it reduce the difficulty to call rain in the area by one for X minutes.
 * Control Temperature - spell/effect or short, fire or cold, all mages
     * (+) - for each success spent the caster may add* or subtract up to X damage from a heat based damage source; the temperature of the damage source is adjusted accordingly. * if this power is gained from a arcane theme secondary skill damage may only be increased if it is of the appropriate type (eg. the fire theme allows the mage to increase the damage of an attack that deals fire damage but not one that deals cold damage).
+* Detect Talent - close, arcane, all mages
+    * (1+) - identify a character as a mage or member of a bloodline or house with difficulty X, plus one per additional success spent on this power. Difficulty to identify a natural mage is 5, a learned mage is 10, and a dependent mage is 15 each of these is reduced by one for each rank the character has in arcane aptitude, difficulty to identify a member of a house or bloodline is 10. To identify which type of mage or member the character is cost an additional three successes. The difficulty to identify a character can be reduced by 5 if the caster chooses a single mage type, bloodline, or house to be searching for membership in when using this power.
 * Direct Heat - effect/spell or short, fire, all mages
     * (1 +) - for each success spent choose up to a quadrant of an spell/effect you cast/shaped or of another heat source that inflicts no more than Xd6 damage to not radiate heat. Additional Successes can be spent to increase the maximum size of the affected heat source by 1d6.
 * Draw Water - short, water, all mages
@@ -65,10 +67,14 @@ Arcane Power stat meanings:
     * (1+) - the spell/effect continues for X rounds, plus one round per additional success spent. When this spell would expire the caster may suffer one stamina point and one penalty die to all actions this round to keep it going for one round.
 * Duplicate Effect - spell/effect, free for all mages, all mages
     * (+) - cast this spell/effect an additional time for each success spent. Spells that require a skill check to target or need to be thrown still require separate skill checks and actions, spells that do not require a skill check to target can not select the same target more than once.
-* Energize - short, lighting, all mages
+* Energize - short, healing or lighting, all mages
     * (x) - target character regains X stamina per success spent, the character then suffers one fatigue plus one for every three additional successes spent on this power.
-* Enhance Range - spell/effect, space, all mages
-    * (x) - for each success choose close range, range increment, or max range to increase that statistic by its base value.
+* Enhance Spell's Range, basic - spell/effect, free for all mages, all mages
+    * (1+) - for each success choose close range, range increment, or max range to increase that statistic by its base value.
+* Enhance Spell's Range, true - spell/effect, space, all mages
+    * (1+) - multiply the spell's close range, range increment, and max range each by X+1. Each additional success spent in this power doubles either the spell's close range, range increment, or max range. 
+* Enhance Weapon's Range - touch, space, all mages
+    * (1+) - target ranged weapon or piece of ammunition has it's close range, range increment, and max range increased by 10X% for it's next attack within X rounds. One success can be spent to have this affect all attacks made with that weapon for X rounds, affect X weapons or pieces of ammunition, additional successes may also be spent to increase X by 1 for all parts of this power's effect.
 * Enhance Metal - touch, metal, house of smiths
     * Maintenance (3) - Target metal item, weapon, or piece/suit of armor is shinned, sharpened, buffed, and oiled removing any negative effects it was suffering due to wear or age.
     * Improve (3+) - Target metal weapon or armor gains +1 to its damage, Armor Piercing Value, Armor Value, or Body Value. Each additional 3 success can increase one of these stats by an additional one. No weapon or piece/suit of armor may have the total value of all increases from this power exceed X-1 for non steel metals, X for Steel, X+1 for Askelonian Steel, and twice X for True Steel.
@@ -76,7 +82,7 @@ Arcane Power stat meanings:
     * (1+) - Identify the current location of all metal objects within range for one round. Additional successes can be used to double the current range of the power, to identify the type of a single source of metal or to identify all sources of a selected type of metal.
 * Force Barrier - short, force, all mages
     * (1+) - create a shield or wall of pure force X meters square and shaped as the caster wishes; the barrier has a body and armor value of X and may hold back 100 time X pounds. Additional successes may be spent to increase the body or armor value by one each or one success can be used to allow the mage to move the barrier as a shield while it lasts providing 3 times X cover bonus (max 9). The barrier has its armor value reduced by two whenever it is bypassed and by one for each wound it would suffer from non-penetrating damage, the barrier is destroyed if its armor value is ever reduced to zero. A target just beyond a force barrier takes damage if the barrier’s armor was bypassed with added damage reduction of the barrier’s armor before the reduction caused by the attack.
-* Force Push - short, force, all mages
+* Force Push - short, force or wind, all mages
     * (1+) - move one object of up to 10 times X pounds up to X meters, additional successes may be spent to increase the max weight of the object by 10 pounds or the distance traveled by one meter. For every half of the weight the target object is double the max distance it may be moved. If this moved object is used for an attack the spell must be thrown with the skill check to do so being used as the attack skill check, a solid object like a stone or brick will inflict Xd4 damage plus 1 per additional success spent on weight or distance and will have an APV of 0 or that of the moved object.
     * (1+) - target a character, the difficulty to push that character is the average of their body and size stats plus one for every 50lbs of gear they are carrying; a character willing to be pushed may count their body stat as zero for this calculation. Reduce the difficulty of the push by X, plus one for each additional success spent. If the difficulty is reduced to zero the caster can move the target up to X meters plus one for each point below zero the difficulty was reduced. A pushed character may suffer damage if he collides with a solid object. A pushed character is knocked prone if the distance in meters traveled exceeds the sum of their ranks in personal movement and personal defense as well as any secondary skills deemed relevant to the situation.
 * Force Strike - medium, force, all mages
@@ -85,25 +91,28 @@ Arcane Power stat meanings:
 * Freeze - short, cold, all mages
     * (+) - the caster instantly freezes up to X ounces of water per success spent. Additional successes may be spent to freeze other liquids (+1 for beer, +2 for wine or ink, etc.). The flash freezing creates ice nearly as hard as steel and for one additional success may be shaped as a temporary weapon (see alternate armor and weapon materials)..
     * (3) - the caster chills their target inflicting Xd4 cold damage.
-* Haste - touch, temporal, all mages
+* Haste - touch, movement or temporal, all mages
     * (1+) - target character is speed up, the first success spent increases their movement by X, the second success increases their defense by X, the third grants the character half of X, rounded down, bonus dice to all reflex based actions. Additional successes may be spent in order to increase the target’s movement, defense, or bonus dice to reflex based actions by one. The effects of haste last for one round.   
 * Ignite - short, fire, all mages
     * (1+) reduce a target’s fire resistance by X plus one for each additional success spent. If a target’s body + fire resistance every equals zero they catch alight suffering X fire damage plus 3 for each point below zero the total is reduced. The effects of ignite last for one round.
 * Ignore Matter - touch, matter, all mages
     * Perceptually(varies) - target willing character can perceive through up to X  cubic millimeters of nonliving mass with a single sense, OR up to X cubic meters of nonliving mass does not block a single sense for one round. The base difficulty for this ability is 3 successes for wood, 6 for stone, and 10 for metal. Additional successes may be spent to increase the volume of mass perceived through by 1 cubic millimeter, add an additional sense to the effect, or 3 additional successes may be used to make this ability only affect a mass in only one direction.
     * Physically(varies) - target item or willing character can move through an area of nonliving mass X meters square and X centimeters (millimeters if the mass is made of iron or steel) deep OR the same area of nonliving mass does not block a movement for one round. The base difficulty for this ability is 5 successes for wood, 10 for stone, and 15 for metal. Additional successes may be spent to increase the area of mass being passed through by 1 cubic meter or increase the depth being passed through by 1 centimeter (millimeter if the mass is made of iron or steel) or 3 additional successes may be used to make this ability only affect a mass in one direction.
+* Imbue Essence - touch, arcane, all mages
+    * (1+) - the powers of this spell/effect or of another cast within X rounds of this power's use can be imbued into a single dose of arcane essence, the essence will hold this effect for X months and will release it upon a set condition (command word, attack with the metal object, etc.). Additional successes can double the amount of time the spell can be stored.
+    * (1+) - remove the spell bound in essence if it contained X, plus one per additional success, or less successes in its casting. If the spell has more power than can be removed this power triggers the spell if it is not locked.
 * Imbue Metal - touch, metal, house of smiths
-    * (1+) - the powers of this spell/effect or of another cast within X rounds of this power's use can be imbued into a single piece of metal, the metal will hold this effect for X minutes and will release it upon a set condition (command word, attack with the metal object, etc.). Most pieces of metal can hold one spell at a time, two for steel, three for Askelonian steel, and 5 for true steel. Additional successes can double the amount of time the spell can be stored for or allow for an additional spell to be imbued during the X rounds following the use of this power. This power cast into steel increase the duration from minutes to hours, cast into Askelonian steel increases it to days, and True steel increases it to .
-* Lightning - short, lightning, all mages
+    * (1+) - the powers of this spell/effect or of another cast within X rounds of this power's use can be imbued into a single piece of metal, the metal will hold this effect for X minutes and will release it upon a set condition (command word, attack with the metal object, etc.). Most pieces of metal can hold one spell at a time, two for steel, three for Askelonian steel, and 5 for true steel. Additional successes can double the amount of time the spell can be stored for or allow for an additional spell to be imbued during the X rounds following the use of this power. This power cast into steel increase the duration from minutes to hours, cast into Askelonian steel increases it to days, and True steel increases it to.
+* Lightning - short, lightning or storm, all mages
     * Strike (3+) - caster calls an arcane lightning strike that inflicts 1d8 lightning damage to one target within X meters, increase the damage by one or the range by X for each additional success spent. The damage from a lightning strike can be increased based on the weather at the GM’s discretion by up to 3d8 during a thunderstorm.
     * Shock (3+) - caster conjures arcane lightning that can be thrown, the hit target suffers 1d4 lightning damage then the closest target suffers the same, repeat this X times. Increase the damage by 1d4 for each additional success spent. 	
 * Mental Communication - medium, mind, all mages
     * Speak Silently (1+) - target a character, the difficulty to affect them is equal to 1+ their mind stat, the target may chose not to resist the effect counting their mind stat as one for the purposes of this effect. Once the connection is made the caster may speak directly into their target’s mind in any language they know and they can choose to communicate back. For three additional successes the caster can communicate even if they do not understand the same language, they may not communicate any ideas the other is not capable of understanding.
     * Read Surface Thoughts (3+) - target a character, the difficulty to affect them is equal to 3+ their mind stat, the target may chose not to resist the effect counting their mind stat as one for the purposes of this effect. The caster may understand the surface thoughts of a character they successfully targeted, this allows the mage to understand if the target is lying, the basics of what they’re feeling, and if they are currently experiencing pleasure or pain.  
-* Move Water - medium, water, all mages
+* Move Water - medium, movement or water, all mages
     * Displace (1+) - move up to 10 times X liters of liquid up to X meters, increase total amount of water by up to 10 liters or the total distance by up to 1 meter per additional success spent.
     * Speed (1+) - adjust the speed of X tons of water by up to ten times X meters per minute, increase the tonnage by one or meters per minute by ten for each additional success spent. This power does not allow the mage to move water outside its normal barriers. Ships on the moving water and items or creatures in it have their speed adjusted by the same amount as the water.
-* Move Wind - medium, movement, all mages
+* Move Wind - medium, movement or storm or wind, all mages
     * Displace (1+) - move up to 10 times X cubic meters of air up to X meters, increase total volume of air by up to 10 cubic meters or total distance by up to 1 meter, the air continues moving losing one meter of distance each round.
     * Area (1+) - an area of up to X cubic meters of air moves erratically causing all ranged attacks passing through it to suffer -X to their skill check results, modified by projectile size, for X rounds. Additional successes can be spent to increase the cubic meters, skill check penalty, or duration by one.
     * Speed (1+) - the wind in an area of no more than ten times X cubic meters has its speed increased or decreased by up to 150 times X meters per minute. Additional successes may be spent to increase the volume by 10 cubic meters or the speed by 150 meters per minute.
@@ -116,8 +125,8 @@ Arcane Power stat meanings:
 * Reduce Cost - spell, all learned mages, learned mages only
     * (+) - reduce the arcane dues suffered by the casting of the spell by the number of successes spent on this power for each success spent on it. This reduction can never reduce the arcane dues below 3. All instances of this power in a spell must be before any gate.
 * Relocate - close, space, all mages
-    * (3+) - target object of up to X times 10 pounds that is not held by a character can be relocated up to X meters. Additional successes can be spent to increase the weight of the object by up to 10lbs each. For each half of the weight (minimum 1 lb) the target object is the range may be extended by X meters. This effect can not cause the target to relocate to within another object/character.
-    * (3+) - target character with up to combined body and size attributes of X may be relocated by up to X meters. The target’s combined stats may be reduced for this calculation by one for each additional success spent; a caster targeting himself may choose to reduce his body stat to 1 for the purposes of this effect. This effect can not cause the target to relocate to within another object/character.  
+    * (3+) - target object of up to 10X pounds that is not held by a character can be relocated up to X meters. Additional successes can be spent to increase the weight of the object by up to 10lbs each. For each half of the weight (minimum 1 lb) the target object is the range may be extended by 1 meter. This effect can not cause the target to relocate to within another object/character.
+    * (3+) - target character with up to combined body and size attributes of X may be relocated by up to X meters, plus one meter per additional success spent. The target’s combined stats may be reduced for this calculation by one for each additional success spent; a caster targeting himself may choose to reduce his body stat to 1 for the purposes of this effect. This effect can not cause the target to relocate to within another object/character.  
 * Resist Shock - touch, lightning, all mages
     * (1+) - increase the target’s lightning resistance by X plus one per additional success spent. 	
 * Resist Temperature - touch, cold or fire, all mages
@@ -127,6 +136,8 @@ Arcane Power stat meanings:
 * Sense Health - short, healing, all mages
     * Diagnose (4+) - gain X bonus dice to a medical diagnostic skill check on one target character, this check may reveal illnesses, injuries, or conditions otherwise not testable for by a standard examination such as a healed fracture, non-symptomatic carrier of a disease, or weather or not the character is pregnant. Additional successes can be used to find out additional information about the character’s health that was initially found during the diagnostics, for each success used in this way ask the GM one simple question about a diagnosed item (ex: how old is the fracture? How is the disease spread? Is it a boy or girl?) .
     * Monitoring (1+) - allows the mage to monitor the state of one diagnosed item for X minutes + 1 minute per additional success.
+* Sense Magic - medium, arcane, all Mages
+    * (1+) - identify X plus one per additional successes spent difficulty of magic in the area, spend one additional success to find the source of the magic, or one additional success each to identify one arcane theme that went into the magic. Difficulty to identify a mage is 10 minus their rank in arcane aptitude if they've cast a spell in the last hour minus an additional one if they've cast a spell within the last ten minutes and an additional two if they've cast a spell within the last minute. Difficulty to identify a spell cast or essence storing a spell is 10 minus the number of arcane powers that went into creating it. Difficulty to identify essence not currently storing a spell is 12.
 * Sense Water - long, water, all mages
     * (1+) - identify the direction of at least 10,000,000 divided by X liters of water. Each additional success further divides this minimum amount by X.
     * (1+) - identify the patterns in water current in an area of water equal to 100 times X cubic meters, increase this volume by 100 cubic meters for each additional success spent.
@@ -138,6 +149,9 @@ Arcane Power stat meanings:
     * (1+) - target character is slowed, the first success spent reduces their movement by X, the second success decreases their defense by X, the third grants the character half of X, rounded down, penalty dice to all reflex based actions. Additional successes may be spent in order to increase the target’s movement, defense, or bonus dice to reflex based actions by one. The effects of slow last for one round. Slow effects caused by cold have their function as if they had one fewer success in them for each 3 cold resistance the target has not gained from mundane equipment.
 * Speed Recovery - touch, healing, all mages
     * (1+) - target character heals wounds X+1 times as fast as natural for the next X days. Additional successes may be spent to increase the number of days this spell lasts for by one.
+* Suppress magic - short, arcane, all mages
+    * null magic zone (3+) - target 1m hex becomes a null magic zone for X rounds, spells cast in this zone have the number of successes rolled reduced by one + one for each additional success spent (max X). Cantrips can not be cast in this zone.
+    * counter spell (3+) - target spell fizzles if it has less than X, plus one per additional success, successes in it or target character who has gathered energy looses X, plus one per additional success, successes from their gathered energy pool.
 * Throw Spell - spell/effect, free for all mages, all mages
     * (1) - the spell has it's range increased to close.
 * Time Lapse - touch, temporal, all mages
