@@ -93,12 +93,6 @@ Arrows are all made for a specific strength of bow if using an arrow designed fo
 * Blunted - Damage Type: concussive, Damage Modification: + 2d8, APV: set to zero.
 * Leafblade - Damage Type: penetrating, Damage Modification: 1d6, APV: + 1d6.
 
-### Common Bow and Arrow Modifications
-* Craftsmanship(Poor) - Reduce damage and APV by one and all ranges by 20%.
-* Craftsmanship(Masterwork) - Increase damage by one.
-* Material(Composite) - Increase range by 25%.
-* State(worn) - Reduce damage and APV by one and all ranges by 10%.
-
 ###Crossbows
 Like bows, crossbows have a body rating that is used for calculating the rest of their statistics as follows.
 
@@ -123,7 +117,14 @@ Bolts are all made for a specific body rating of crossbow and can not be used in
 * Standard - Damage Type: penetrating, Damage Modification: +1d4, APV: +1d4.
 * Blunted - Damage Type: concussive, Damage Modification: +2d8, APV: set to 0.
 
-### Common Crossbow and Bolt Modifications
+
+### Common Bow and Crossbow Modifications
+* Craftsmanship(Poor) - Reduce damage and APV by one and all ranges by 20%.
+* Craftsmanship(Masterwork) - Increase damage and armor piercing value by one.
+* Material(Composite) - Increase range by 25%, bows only.
+* State(worn) - Reduce damage and APV by one and all ranges by 10%.
+
+### Common Arrow and Quarrel/Bolt Modifications
 * Craftsmanship(Poor) - Reduce damage and APV by one and all ranges by 20%.
 * Craftsmanship(Masterwork) - Increase damage and APV by one and all ranges by 10%.
 * State(worn) - Reduce damage and APV by one and all ranges by 10%.
