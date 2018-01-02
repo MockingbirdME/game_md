@@ -14,11 +14,12 @@
 | Strike | 0 | C | Body + 3 | 0 | Damage | Brawling secondary skill |
 | Thrown | N/A | varies | - | - | Damage or APV | Damage type and range will be listed after attack type |
 | Thrust | - | P | - | - | Damage or APV | 1 1/2 reach for polearms |
-<div style="page-break-after: always;"></div>
+
+<div class="page-break"></div>
+
 ### Common Notes:
 * Hand and a half - Can be wielded one or two handed, when wielding a melee weapon two handed count the character’s body stat as 2 greater than it is.
 * Two handed - Can only be wielded two handed, when wielding a melee weapon two handed count the character’s body stat as 2 greater than it is.
-
 
 ### Common Short Blades
 * Knife - Reach: 1, Difficulty: 1, Parry: 1/-/1, Damage: body -2, APV: 2, Attack-types: cut, thrust, stab, punch Notes: none.
@@ -73,6 +74,7 @@
 * State(worn) - Parry decrease by one.
 * State(blunt) - Damage and APV decrease by one.
 
+<div class="page-break"></div>
 
 # Bows
 Bows have a body rating that is used for calculating the rest of their statistics as follows.
@@ -93,7 +95,7 @@ Arrows are all made for a specific strength of bow if using an arrow designed fo
 * Blunted - Damage Type: concussive, Damage Modification: + 2d8, APV: set to zero.
 * Leafblade - Damage Type: penetrating, Damage Modification: 1d6, APV: + 1d6.
 
-###Crossbows
+### Crossbows
 Like bows, crossbows have a body rating that is used for calculating the rest of their statistics as follows.
 
 
@@ -104,6 +106,8 @@ Reloading crossbows: there are a few different ways to reload a crossbow based o
 * Handloading: crossbows with body less than or equal to twice the character’s, one turn requirement. If the crossbow’s body is less than the character’s they may still take a move action this turn.
 * Goatsfoot Loading: crossbows with body less than or equal to the three times the character’s, two turn requirement. Requires a goatsfoot loading device.
 * Windlass Loading: any crossbow, requires a windlass loading device, not all actions required to complete this loading must be taken on subsequent turns. Turn requirement of one for each 4 body the crossbow has (body 5-8 = 2 rounds, 9-12 = 3, 13-16 = 4 etc.).
+
+<div class="page-break"></div>
 
 ### Common Crossbows
 * Light hunting crossbow - Body: 6, Close Range: 7m, Range Increment: 16m, Max Range: 68m, Range Penalty: 1 die and 1 damage, Damage Type: based on bolt type, Damage: 3 + bolt die, APV: 3 modified by arrow type.
