@@ -12,6 +12,7 @@ Creating characters can be done in a few simple steps. Before any number crunchi
 1. Skills from traits - most character’s will have spent some trait points on the skilled trait. For each trait point spent in skilled the character gains one skill point that can be spent to gain one rank in a secondary skill providing doing so does not conflict with other rules, such as those from an arcane trait. Alternately a number of skill points equal to a basic skills current rank plus one can be spent to increase it by one rank, gaining a rank in a secondary skill in the process if this is the first rank in that base skill.
 1. Gear and spells - work with the GM to determine what gear the character may begin the game in possession of. Characters with arcane traits also will create a spell list and check it with the GM.
 1. The character starts the game with 5 plus their starting power level advancement points.
+<div class="page-break"></div>
 
 ### Power Levels:
 Each power level listed is designed to showcase different levels of adventurer; they list additional attribute and trait points the character gets as well as a list of primary skill ranks to be assigned during step six of character creation.

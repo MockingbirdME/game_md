@@ -5,7 +5,7 @@ Characters expecting combat tend to make sure they are as well protected as they
 
 ##### Armor Statistics:
 Values that detail how the armor protects its wearer.
-* Armor value: used to determine if penetrating damage is blocked and becomes concussive. 
+* Armor value: used to determine if penetrating damage is blocked and becomes concussive.
 * Body value: added to the character’s body stat when determining how much damage is taken from a blow.
 * Reflex value: a number of penalty dice reduced by the sum of the character’s rank in personal defense and the armor secondary skill added to all reflex based skill checks performed with the penalized body location.
 * Damage reduction: types and amount by which damage the character would suffer is reduced.
@@ -17,6 +17,7 @@ When a character is wearing layers armor they gain benefits from each layer as f
 * Body value - the sum of the value of the piece of armor with the highest value plus half the value, rounded down, of each other piece.
 * Reflex value - the sum of the values of each piece of armor plus one for each piece beyond the first.
 * Damage reduction - the sum of the specific damage resistance of each piece of armor.
+<div class="page-break"></div>
 
 ### Weapons:
 Weapons come in two basic types, melee and ranged, with some throwing weapons have statistics for both.

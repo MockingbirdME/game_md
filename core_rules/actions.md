@@ -37,7 +37,6 @@ Most opportunities for a skill check have a difficulty of 0 and some number of r
     * Remove one successes for every penalty die
 * Apply your total successes to the action being taken
 
-
 ### Combat and round based play:
 Sometimes characters find themselves in stressful, potentially life or death, situations where the timing of each action becomes more important; at these times the game transitions from the normal player/GM narrative into round based play. In round based play characters declare and resolve their actions on their turns which happen in initiative order. Once all characters have acted the GM describes the updated scene; if the reason for round based play continues to be present recheck everyones initiative and begin another round.
 
@@ -52,6 +51,8 @@ The first move action a character takes each round has a turn requirement of zer
 * Walk(0) - move half your base movement in meters. rounded up.
 * Dash(1) - move your base movement in meters.
 * Sprint(2) - make a personal movement skill check with primary attribute body and sprint and run as relevant secondary skills. Move your base movement plus one per success rolled and one per rank in the sprint secondary skill meters. Any other skill checks you make this phase gains 2 penalty dice.
+
+<div class="page-break"></div>
 
 ##### Melee Actions:
 Unless stated otherwise, melee actions have a turn requirement of one that can be reduced to zero at the cost of a penalty die added to this skill check and all other skill checks this turn.
@@ -68,6 +69,8 @@ Unless stated otherwise, melee actions have a turn requirement of one that can b
 * Reckless attack(2) - choose to gain between one and three bonus dice to this attack’s skill check, lose defense equal to twice the number of bonus dice you gained; this penalty is reduced by one, to a minimum of one, per rank you have in the reckless attack secondary skill.
 * Stow Weapon(0) - sheath, holster, pocket, or sling one readied, uncontested weapon.
 * Trip(2) - this attack can only be made with a long or hooked weapon or with the attacker’s leg. The target gets a situational bonus to their defense equal to the sum of their ranks in personal movement and agility, as well as the footwork and balance secondary skills. If the attack succeeds the target is knocked prone. If the attack was made with a weapon and fails by at least 5, ten if the weapon is wielded two handed, the weapon is dropped at the target’s feet; if the attack was made with the character’s leg and fails by 5 or more the attacker loses 3 defense, if it failed by 10 or more the attacker becomes prone.
+
+<div class="page-break"></div>
 
 ##### Ranged Actions:
 Ranged actions have a turn requirement of one that can be reduced to zero by adding one penalty die to this skill check and all other skill checks this turn.
@@ -88,6 +91,8 @@ Magic actions have a turn requirement of one and may only be taken by characters
 Recovery actions have a turn requirement of one that may not be reduced.
 * Defensive action(1) - a defense action can not be taken in the same turn as an attack. Make a skill check using reflexes or perception for the primary attribute, personal defense as the base skill, and regain composure as a relevant secondary skill. The character recovers defense equal to their ranks in regain composure +1 for each success.
 * Restoration action(0) - restoration can not be performed in a round where the character spends more stamina than they have ranks in the stamina secondary skill. Make a skill check using body for primary attribute, endurance for primary skill, and stamina as a relevant secondary skill. The character recovers an amount of stamina equal to their ranks in stamina +1 per additional success, the character may reduce the amount of stamina recovered by 3 to lose one stun.
+
+<div class="page-break"></div>
 
 ##### Combat Modifiers:
 Various conditions can affect a combat situation, changing the difficult to hit a target.

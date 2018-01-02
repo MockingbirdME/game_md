@@ -54,9 +54,10 @@ Cold damage is reduced by a character’s body stat plus any cold resistance the
 | --- | --- | ---| ---
 |1 | 1 stamina | 13 | 2 fatigue, 1 wound
 | 3 | 2 stamina | 17 | 3 fatigue, 1 wound
-| 5 | 1 fatigue | 21
-4 fatigue, 2 wounds
+| 5 | 1 fatigue | 21 | 4 fatigue, 2 wounds
 | 8 | 2 fatigue | every additional 3 | +1 fatigue, +1/2 wound
+
+<div class="page-break"></div>
 
 ##### Lightning damage
 Lightning damage is reduced by the character’s body, armor value that is gained from metal armor, and by any lightning resistance they may have. Lightning damage is always inflicted to the body location.

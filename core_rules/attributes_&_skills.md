@@ -20,6 +20,7 @@ These attributes can be depleted, the maximum amount of the resource a character
 * Defense - a measure of how hard a character is to hit. A character’s defense is equal to 7 + reflexes + perception + twice their rank in personal defense - their size.
 * Stamina - a measure of how much energy a character has. A character’s stamina is equal to 10 + body + ranks in Endurance + ranks in the stamina secondary skill.
 * Initiative (optional) - a measure of how quickly the character acts. Initiative is equal to the sum of a character’s current defense and current stamina.
+<div class="page-break"></div>
 
 ### Primary Skills:
 Primary skills are broad categories of learned or trained abilities a character has accumulated.
@@ -47,7 +48,7 @@ Secondary skills individually represent subsets of, or specializations in, a pri
 | Stealth/Obfuscate | Hide Self, Hide object/other, Disguise, Move Quietly, Cover tracks |
 | Survival | Hunt, Track, Forge, Find/build shelter |
 
-
+<div class="page-break"></div>
 
 * Agility: a measure of a character’s balance and flexibility, this skill should be used when a character is performing acrobatics, body contortion, keep one’s balance, or tumbling.
 * Alertness/Awareness: this general perceptual skill relates to noticing things, it should be used for any notice based skill checks.

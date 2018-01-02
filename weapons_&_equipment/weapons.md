@@ -14,7 +14,7 @@
 | Strike | 0 | C | Body + 3 | 0 | Damage | Brawling secondary skill |
 | Thrown | N/A | varies | - | - | Damage or APV | Damage type and range will be listed after attack type |
 | Thrust | - | P | - | - | Damage or APV | 1 1/2 reach for polearms |
-
+<div style="page-break-after: always;"></div>
 ### Common Notes:
 * Hand and a half - Can be wielded one or two handed, when wielding a melee weapon two handed count the character’s body stat as 2 greater than it is.
 * Two handed - Can only be wielded two handed, when wielding a melee weapon two handed count the character’s body stat as 2 greater than it is.

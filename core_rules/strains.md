@@ -13,6 +13,7 @@ Strains are the intelligent species of Flax that, generally, consider themselves
 * ***Build points -*** not all strains are equally powerful, to balance this out during character creation they will apply this modifier to how many build points they have to use during character creation. If the modifier would reduce the total number of available build points to below 10 it is suggested that the strain not be used at that power level for a PC.
 
 ### Primary strains:
+<div class="page-break"></div>
 
 #### Centeen
 So similar to Sapeen that, but for their dusky skin, they would be mistaken for them; they are in fact so similar that they are capable of interbreeding though the offspring produced of these cross strain unions are always mules.
@@ -42,6 +43,8 @@ So similar to Sapeen that, but for their dusky skin, they would be mistaken for 
 * Natural Mage: 10/3
 
 ***Build points:*** +4
+
+<div class="page-break"></div>
 
 #### Denja
 Denja are generally quick witted and conversational, preferring to participate in battles of the mind rather than battles of the sword.  Most people find it hard to dislike a Denja once they become acquainted; it is rare indeed for a lord not to have at least one in his employment to aid in mediation.  When encountered outside of a town or city Denja rarely travel alone, in part because they get lonely easily, and in part because they make easy targets for bandits and highwaymen.
@@ -75,6 +78,7 @@ Denja are generally quick witted and conversational, preferring to participate i
 * Natural Mage: 11/4
 
 ***Build points:*** + 7
+<div class="page-break"></div>
 
 #### Kaazt
 Born to be fierce and competitive tribal warriors Kaazt are truly of two breeds, those who were raised in the Great Jungles and those who were not. Kaazt who grew up as part of the ancient packs that dwell in the oldest jungles are generally xenophobic and hostile to members of other strains; they are considered quite primitive by their more civilized brethren. It has been millennia, however, sense Kaazt first migrated out of the Jungles, in this time they have traveled to all parts of the Great Continent and have found homes in nearly every nation. Kaazt are generally quite friendly with those whom they consider friends but most are somewhat reclusive and uncomfortable around those they do not know.
@@ -106,6 +110,7 @@ Born to be fierce and competitive tribal warriors Kaazt are truly of two breeds,
 * Learned Mage: 14
 
 ***Build points:*** + 4
+<div class="page-break"></div>
 
 #### Rhosk
 Originally natives to the Northern Desert, and though many have migrated south these are the two things that all Rhosk are skilled at: order and war. Rhosk in the north are usually associated with Shiver’s defenses in some capacity those found further south often feel a fealty to the north even when not actively working towards its defense. Rhosk are known to be serious and stoic, though dangerous once angered they often find themselves respected despite their lack of close personal friends. Rhosk rarely possess a sense of humor or irony and are falsely rumored to be unable to smile or laugh. Their stoicism and natural understanding of tactics makes Rhosk natural field commanders for any nations military.
@@ -134,6 +139,7 @@ Originally natives to the Northern Desert, and though many have migrated south t
 * Learned Mage: 14
 
 ***Build points:*** +3
+<div class="page-break"></div>
 
 #### Sapeen
 Most often found living in towns and cities or on lands ruled by one Sapeen are one of the most prevalent strains on flax, can be found in any civilized area and are the most common single strain in most nations. Sapeen are amongst the most ambitious and adaptive of the strains, they are as eager to learn new sciences and trades as they are eager to expand the lands of their mother nation.
@@ -162,6 +168,7 @@ Most often found living in towns and cities or on lands ruled by one Sapeen are 
 * Natural Mage: 10/5
 
 ***Build points:*** +5
+<div class="page-break"></div>
 
 #### Teejee(male)
 The most diverse of strains Teejee females are either breeders or drones; the breeders tend to be largely sedentary commanding their drones and male children to carry out their will while drones, though technically members of a strain, are only slightly more intelligent than a dog. Male Teejee, however, are both intelligent and personable.
@@ -192,6 +199,7 @@ The most diverse of strains Teejee females are either breeders or drones; the br
 * Dependent Mage: 11
 
 ***Build points:*** + 5
+<div class="page-break"></div>
 
 #### Torleni
 Technically a sub-strain of their Pure-Blooded cousins the Torleni that carry the blood of Shimmer in their veins are so much more common a sight throughout Flax it is not uncommon for the less educated not to know this. Teejee can be found in all the lands that once belonged to the Kingdom of Grail that they ruled and still possess most of the positions of power in the lands that once belonged to that, no fractured, kingdom.
