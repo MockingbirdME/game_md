@@ -31,22 +31,22 @@ Secondary skills individually represent subsets of, or specializations in, a pri
 
 | Basic Skill | Example Secondary Skills |
 | --- | --- |
-| Agility |Acrobatics, Balance, Tumbling |
-| Alertness/Awareness | Lookout, Search, Ambush, Sense Motive |
+|** Athletics | Acrobatics, Balance, Tumbling |
+| Awareness | Lookout, Search, Sense Motive |
 | Animal Handling | Drive, Ride, Train, Herd, Joust, Befriend, Command, Subdue, Read Emotions, Animal type, etc. |
-| Craft/Profession/Trade | ex. Smith (black, armor, gold, weapon), Builder (house, stone, bridge, siege weapon) |
-| Discipline/Willpower | Concentrate, Push on, Resist fear, Command, Resist exhaustion |
-| Endurance | Stamina, Elemental(pick one) resistance, Healing, Poison resist, Hold breath, Stay awake |
-| Knowledge/Scholar | Physics, Biology, Nation’s history, National politics, Geography, etc. |
-| Languages | Specific language, Language group, Alphabet |
-| Magical Aptitude | Fire, Cold, Distance/Space, Time, etc. see chapter on magic |
-| Medical | Diagnoses, First Aid, Surgery, Treat Wound, Treat Burn, Treat Poison, Medicine |
-| Melee Combat | Weapon types (Axes, Swords, Spears, etc), Attack types (Flurry of blows, Power attack, etc.) |
+|** Craft/Profession/Trade | ex. Smith (black, armor, gold, weapon), Builder (house, stone, bridge, siege weapon) |
+| Discipline | Concentrate, Resist fear, Command |
+|** Endurance | Stamina, Hold breath, Stay awake |
+|** Knowledge/Scholar | Physics, Biology, Nation’s history, National politics, Geography, etc. |
+|&&&& Languages | Specific language, Language group, Alphabet |
+| Magical Aptitude | Individual Arcane Themes or Powers |
+|* Medical | Diagnoses, First Aid, Surgery, Treat Wound, Treat Burn, Treat Poison, Medicine |
+|** Melee Combat | Weapon types (Axes, Swords, Spears, etc), Attack types (Flurry of blows, Power attack, etc.) |
 | Personal Defense | Armor, Shields, Parry, Dodge, Regain Composure |
-| Personal Movement | Run, Sprint, Swim, Climb, Fly, Footwork, Jump |
-|Ranged Combat | Bows, Crossbows, Throwing, Pistols, Aiming, Reload(weapon type) |
-| Stealth/Obfuscate | Hide Self, Hide object/other, Disguise, Move Quietly, Cover tracks |
-| Survival | Hunt, Track, Forge, Find/build shelter |
+|** Personal Movement | Run, Sprint, Swim, Climb, Fly, Footwork, Jump |
+|** Ranged Combat | Bows, Crossbows, Throwing, Pistols, Spells, Aiming, Reload(weapon type) |
+|* Stealth/Obfuscate | Hide Self, Hide object/other, Disguise, Move Quietly, Cover tracks |
+|* Survival | Hunt, Track, Forge, Find/build shelter |
 
 <div class="page-break"></div>
 
