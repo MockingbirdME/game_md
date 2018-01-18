@@ -2,18 +2,17 @@
 | Attack | Reach Modifier | Damage Type | Damage Modifier | Armor Piercing Value | Additional Successes | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Bash | - | C | x2 | 0 | 2 Damage | - |
-| Cut | - | P | +1 | - | Damage or 1/2 APV | +3 damage when concussive |
-| Hack | 3/4 | P | - | - | 2 Damage | - |
-| Half-Sword | 1/2 | P | -1 | 1 1/2 | 2 APV | - |
+| Cut | - | P | +1 | - | Damage or APV | +3 damage when concussive |
+| Hack | 3/4 | P | - | - | 2 Damage or 1/2 APV | - |
+| Half-Sword | 1/2 | P | -1 | 1 1/2 | 1/2 Damage 2 APV | - |
 | Hammer | - | C | x3 | 0 | 3 Damage | - |
 | Mordstreich | - | C | 2 1/2 | 0 | 2 Damage | Lose parry bonus for one round |
-| Pick | 3/4 | P | - | - | Damage | Increase APV and Damage for power attacks |
+| Pick | 3/4 | P | - | - | Damage or APV | Increase APV and Damage for power attacks |
 | Punch | 0 | C | Body + 1 | 0 | Damage | Brawling secondary skill |
-| Slash | 3/4 | P | - | - | Damage | +1 stun for penetrating damage +1 per wound |
-| Stab | 1/2 | P | - | - | Damage | - |
+| Slash | 3/4 | P | - | - | Damage or APV | +1 stun for penetrating damage +1 per wound |
 | Strike | 0 | C | Body + 3 | 0 | Damage | Brawling secondary skill |
 | Thrown | N/A | varies | - | - | Damage or APV | Damage type and range will be listed after attack type |
-| Thrust | - | P | - | - | Damage or APV | 1 1/2 reach for polearms |
+| Thrust | - | P | - | - | Damage and APV | 1 1/2 reach for polearms |
 
 <div class="page-break"></div>
 
@@ -22,9 +21,9 @@
 * Two handed - Can only be wielded two handed, when wielding a melee weapon two handed count the character’s body stat as 2 greater than it is.
 
 ### Common Short Blades
-* Knife - Reach: 1, Difficulty: 1, Parry: 1/-/1, Damage: body -2, APV: 2, Attack-types: cut, thrust, stab, punch Notes: none.
-* Throwing Knife: Reach: 1, Difficulty: 4, Parry: 0/-/0, Damage: body -2, APV: 3, Attack-types: cut, stab, punch, throw(Close Range: body, Range Increment: 2, Max Range: 2 x body, Range Penalty: 1 die and 1 damage) Notes: none.
-* Dagger - Reach: 2, Difficulty: 2, Parry: 2/-/2, Damage: body -1, APV: 3, Attack-types: cut, thrust, stab, punch Notes: additional successes used to grant APV grain an additional APV.
+* Knife - Reach: 1, Difficulty: 1, Parry: 1/-/1, Damage: body -2, APV: 2, Attack-types: cut, thrust, pick, punch Notes: none.
+* Throwing Knife: Reach: 1, Difficulty: 4, Parry: 0/-/0, Damage: body -2, APV: 3, Attack-types: cut, thrust, punch, throw(Close Range: body, Range Increment: 2, Max Range: 2 x body, Range Penalty: 1 die and 1 damage) Notes: none.
+* Dagger - Reach: 2, Difficulty: 2, Parry: 2/-/2, Damage: body -1, APV: 3, Attack-types: cut, thrust, pick, punch Notes: additional successes used to grant APV grain an additional APV.
 * Centari Saddle Blade - Reach: 3, Difficulty: 3, Parry: 3/-/2, Damage: body, APV: 3, Attack-types: cut, thrust, punch Notes: additional successes used to grant APV grain an additional APV.
 * Kukri:  Reach: 3, Difficulty: 5, Parry: 1/-/1, Damage: body, APV: 3, Attack-types: cut, hack, punch Notes: none.
 

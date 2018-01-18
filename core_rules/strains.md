@@ -56,19 +56,18 @@ Denja are generally quick witted and conversational, preferring to participate i
 ***Size:*** 4
 
 ***Base Attributes:***
-* Body: 2
+* Body: 1
 * Reflexes: 2
 * Perception: 3
 * Mind: 4
 
-***Attribute points:*** 8
+***Attribute points:*** 9
 
 ***Required Traits:***
 * Natural Armor - scales: armor value 1, body value 0
-* Natural Weapon - claws: as brawling but penetrating damage with armor piercing 0 that can not be raised with extra successes.
+* Natural Weapon - claws: as brawling but -2 penetrating damage with armor piercing value 0.
 * Claws + Webbed Feet + Tail - gain 3 bonus dice on all climb and swimming checks.
 * Air Sacks - gain 1 bonus die on all swimming checks and double the amount of time the character can hold their breath.
-* Reduced Attribute - body, the character’s attribute is reduced by one
 
 ***Strain Traits:***
 * Gliding Membrane - cost 2, as a move action costing 2 stamina the character can jump from a height and glide 3 meter per meter fallen. A character already falling may take a full round action to glide the rest of the way down. A gliding character does not suffer falling damage upon landing. Gliding membrane can not be used if the character is wearing clothing or armor that would prevent the membrane from extending, additionally the horizontal distance traveled is reduced by 1m for every 10lbs of equipment after the first 10lbs; if the horizontal glide was 1-2m per meter fallen the character suffers half normal falling damage and if it was 0m per meter fallen the character suffers full falling damage. A gliding character can not fall more than 10m per round plus 2m per 10lbs carried after the first 20lbs.
@@ -93,15 +92,14 @@ Born to be fierce and competitive tribal warriors Kaazt are truly of two breeds,
 * Body: 3
 * Reflexes: 4
 * Perception: 3
-* Mind: 3
+* Mind: 1
 
 ***Attribute points:*** 7
 
 ***Required Traits:***
-* Natural Weapon - claws - as brawling but +2 penetrating damage with armor piercing value of 1.
+* Natural Weapon - claws - as brawling but -1 penetrating damage with armor piercing value of 2.
 * Highly Mobile - when moving on all fours increase the character’s personal movement skill by 4 ranks when determining the distance the character can move; this applies to both the character’s personal movement score and any speed based skill roll they may make.
 * Heightened sense - hearing x1, smell/taste x2
-* Reduced Attribute x2 - mind, the character’s attribute is reduced by two
 
 ***Strain Traits:***
 
@@ -122,12 +120,12 @@ Originally natives to the Northern Desert, and though many have migrated south t
 ***Size:*** 7
 
 ***Base Attributes:***
-* Body: 4
+* Body: 5
 * Reflexes: 3
 * Perception: 3
 * Mind: 3
 
-***Attribute points:*** 7
+***Attribute points:*** 6
 
 ***Required Traits:***
 * Cool Temperament - after allocating build points gain two ranks in the discipline base skill.
@@ -136,7 +134,7 @@ Originally natives to the Northern Desert, and though many have migrated south t
 ***Strain Traits:***
 
 ***Arcane Traits:***
-* Learned Mage: 14
+* Learned Mage: 12
 
 ***Build points:*** +3
 <div class="page-break"></div>
@@ -180,15 +178,15 @@ The most diverse of strains Teejee females are either breeders or drones; the br
 ***Size:*** 4
 
 ***Base Attributes:***
-* Body: 2
-* Reflexes: 3
+* Body: 3
+* Reflexes: 2
 * Perception: 4
 * Mind: 3
 
 ***Attribute points:*** 8
 
 ***Required Traits:***
-* Four Legs - gain + 6 to all balance checks related to the character keeping their footing, also ignore up to two penalty dice to movement checks caused by rough or difficult terrain.
+* Four Legs - gain 3 bonus dice to all balance checks related to the character keeping their footing, also ignore up to two penalty dice to movement checks caused by rough or difficult terrain.
 * Pheromone Communication - can communicate rough ideas with other Teejee within 30m silently.
 * Pheromone Influence - gain 4 bonus dice on all checks to control Teejee drones and 4 penalty dice to avoid being influenced by Teejee breeding females.
 
@@ -196,7 +194,7 @@ The most diverse of strains Teejee females are either breeders or drones; the br
 * Winged - cost 8, gain flying movement equal to 6 plus personal movement(flight) skill with a maneuverability of 1:1(1/6 direction change per meter moved), each round in flight costs 3 * consecutive rounds in flight stamina.
 
 ***Arcane Traits:***
-* Dependent Mage: 11
+* Dependent Mage: 10
 
 ***Build points:*** + 5
 <div class="page-break"></div>
@@ -222,16 +220,16 @@ Torleni were created by Milnot, the mistress of the mountain, in the range domin
 
 ***Required Traits:***
 * Blood of Shimmer - increase two attributes by one point or one attribute by two points. Each month the character may choose to decrease one attribute increased by this trait by one point to gain one reserve point, or loose one reserve point to gain one point in an attribute of their choice. The character may, over a number of months equal to the cost of a positive, non-arcane trait, lose that trait in order to gain that many trait-reserve points, or the character may spend a number of months and spend as many trait-reserve points to gain a new non-arcane trait.
-* Natural Armor - scales - armor value: 3, body value: 2
+* Natural Armor - scales - armor value: 5, body value: 2
 
 ***Strain Traits:***
-* Thickened Scales (1) - Natural Armor + 1 body. Each time this trait is taken increase the cost to take it again by one.
-* Hardened Scales (1) - Natural Armor + 1 armor value. Each time this trait is taken increase the cost to take it again by one.
-* Elemental Scales (1) - distribute 3 points between cold, fire, and lightning and gain resistance in each equal to the number of points allocated. Each time this trait is taken increase the cost to take it again by one.
-* Chameleon Scales (1) - passively others require an additional success to visually notice the you. Each time this trait is taken increase the cost to take it again by one.
-* Natural Weapon - Claws (1) - brawling attacks may deal penetrating damage with armor piercing 0 that can not be raised with extra successes.
-* Natural Weapon - Claws (2) - brawling attacks may deal penetrating damage with armor piercing 1.
-Natural Weapon - Claws (4) - brawling attacks may deal penetrating damage + 1 with armor piercing 4.  
+* Thickened Scales (1) - Natural Armor + 1 body. Each time this trait is taken increase the cost to take it again by one (max cost 3).
+* Hardened Scales (1) - Natural Armor + 1 armor value. Each time this trait is taken increase the cost to take it again by one (max cost 3).
+* Elemental Scales (1) - distribute 3 points between cold, fire, and lightning and gain resistance in each equal to the number of points allocated. Each time this trait is taken increase the cost to take it again by one (max cost 3).
+* Chameleon Scales (1) - passively others require an additional success to visually notice the you. Each time this trait is taken increase the cost to take it again by one (max cost 3).
+* Natural Weapon - Claws (1) - brawling attacks may deal -2 penetrating damage with armor piercing 1.
+* Natural Weapon - Claws (2) - brawling attacks may deal -1 penetrating damage with armor piercing 2.
+* Natural Weapon - Claws (4) - brawling attacks may deal penetrating damage with armor piercing 3.  
 * Natural Weapon - Wings (1) - brawling bash attacks may be made to the character's sides with reach 20, extra successes increase the damage by 2 each for purposes of bash's defense comparison only.
 * Gliding - Wings (3) - as a move action costing 2 stamina the character can jump from a height and glide 3 meter per meter fallen. A character already falling may take a full round action to glide the rest of the way down. A gliding character does not suffer falling damage upon landing. These wings can not be used if the character is wearing clothing or armor that would prevent them from extending, additionally the horizontal distance traveled per meter fallen is reduced by 1m for every 10lbs of equipment after the first 20lbs; if the horizontal glide was 1-2m per meter fallen the character suffers half normal falling damage and if it was 0m per meter fallen the character suffers full falling damage. A gliding character can not fall more than 10m per round plus 2m per 10lbs carried after the first 20lbs.
 * Flying - Wings (8) - gain flying movement equal to 10 plus personal movement(flight) skill with a maneuverability of 1:6(1/6 direction change per 6 meters moved), each round in flight costs 3 + number of consecutive rounds in flight stamina.
