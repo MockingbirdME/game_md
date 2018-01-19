@@ -1,24 +1,29 @@
 # Common Melee Attack Types
-| Attack | Reach Modifier | Damage Type | Damage Modifier | Armor Piercing Value | Additional Successes | Notes |
+| Attack | Damage Type | Additional Success Uses | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Bash | - | C | x2 | 0 | 2 Damage | - |
-| Cut | - | P | +1 | - | Damage or APV | +3 damage when concussive |
-| Hack | 3/4 | P | - | - | 2 Damage or 1/2 APV | - |
-| Half-Sword | 1/2 | P | -1 | 1 1/2 | 1/2 Damage 2 APV | - |
-| Hammer | - | C | x3 | 0 | 3 Damage | - |
-| Mordstreich | - | C | 2 1/2 | 0 | 2 Damage | Lose parry bonus for one round |
-| Pick | 3/4 | P | - | - | Damage or APV | Increase APV and Damage for power attacks |
-| Punch | 0 | C | Body + 1 | 0 | Damage | Brawling secondary skill |
-| Slash | 3/4 | P | - | - | Damage or APV | +1 stun for penetrating damage +1 per wound |
-| Strike | 0 | C | Body + 3 | 0 | Damage | Brawling secondary skill |
-| Thrown | N/A | varies | - | - | Damage or APV | Damage type and range will be listed after attack type |
-| Thrust | - | P | - | - | Damage and APV | 1 1/2 reach for polearms |
+| Bash | C | 2 Damage | Double weapon's damage |
+| Cut | P | Damage or APV | +1 damage, +3 when concussive |
+| Hack | P | 2 Damage or 1/2 APV | 3/4 reach |
+| Half-Sword | P | Damage or 2 APV | 1/2 reach |
+| Hammer | C | 3 Damage | Triple weapon's damage |
+| Melee | C | 2 Damage | - |
+| Mordstreich | C | 3 Damage | Lose parry bonus for one round, double damage |
+| Pick | P | Damage or APV | 3/4 reach, increase APV and Damage for power attacks |
+| Punch | C | 2 Damage | Brawling secondary skill, reach: 0, damage: Body+1 |
+| Slash | P | Damage or APV | 3/4 reach, +1 stun for penetrating damage +1 per wound |
+| Strike | C | 3 Damage | Brawling secondary skill, reach: 0, damage: body+3 |
+| Thrown | varies | Damage or APV | Damage type and range will be listed after attack type |
+| Thrust | P | Damage and APV | 1 1/2 reach for pole arms |
 
 <div class="page-break"></div>
 
 ### Common Notes:
 * Hand and a half - Can be wielded one or two handed, when wielding a melee weapon two handed count the character’s body stat as 2 greater than it is.
 * Two handed - Can only be wielded two handed, when wielding a melee weapon two handed count the character’s body stat as 2 greater than it is.
+
+### Common Brawling options
+* Slap - Reach: 0, Difficulty: 0, Parry: 0/-/-, Damage: body -2, APV: 0, Attack-types: melee, Notes: none.
+* Strike - Reach: 0, Difficulty: 0, Parry: 0/-/-, Damage: body, APV: 0, Attack-types: melee, Notes: none.
 
 ### Common Short Blades
 * Knife - Reach: 1, Difficulty: 1, Parry: 1/-/1, Damage: body -2, APV: 2, Attack-types: cut, thrust, pick, punch Notes: none.
@@ -27,7 +32,7 @@
 * Centari Saddle Blade - Reach: 3, Difficulty: 3, Parry: 3/-/2, Damage: body, APV: 3, Attack-types: cut, thrust, punch Notes: additional successes used to grant APV grain an additional APV.
 * Kukri:  Reach: 3, Difficulty: 5, Parry: 1/-/1, Damage: body, APV: 3, Attack-types: cut, hack, punch Notes: none.
 
-### Common Swords
+### Common Long Blades
 * Askelonian Arming Sword: Reach: 6, Difficulty: 4, Parry: 4/4/1, Damage: body +1, APV: 4, Attack-types: cut, thrust, strike, half-sword, mordstreich Notes: hand and a half.
 * Askelonian Longsword: Reach: 7, Difficulty: 5, Parry: 2/4/-, Damage: body +2, APV: 5, Attack-types: cut, thrust, strike, half-sword, mordstreich Notes: hand and a half.
 * Askelonian Side Sword: Reach: 5, Difficulty: 4, Parry: 4/-/1, Damage: body, APV: 4, Attack-types: cut, thrust, strike, half-sword Notes: none.
@@ -40,7 +45,7 @@
 * Islander’s Short Sword: Reach: 4, Difficulty: 4, Parry: 3/-/1, Damage: body, APV: 4, Attack-types: cut, thrust, strike Notes: none.
 * Boarding Sword: Reach: 4, Difficulty: 4, Parry: 3/-/1, Damage: body -1, APV: 5, Attack-types: cut, slash, strike Notes: none.
 
-### Common Bludgeoning Weapons
+### Common Bludgeons
 * Club: Reach: 3, Difficulty: 0, Parry: 1/0/0, Damage: body, APV: 0, Attack-types: bash Notes: none.
 * Light Mace/Hammer: Reach: 3, Difficulty: 2, Parry: 1/-/0, Damage: body, APV: 0, Attack-types: hammer Notes: none.
 * Heavy Mace/Warhammer: Reach: 4, Difficulty: 4, Parry: 2/1/0, Damage: body, APV: 0, Attack-types: bash, hammer Notes: hand and a half, may have a beak and/or spike granting it pick and thrust attack types respectively.
@@ -53,13 +58,11 @@
 * Battle Axe: Reach: 4, Difficulty: 4, Parry: 2/2/1, Damage: body +1, APV: body, Attack-types: hack, bash, Notes: hand and a half, may have a beak and/or spike granting it pick and thrust attack types respectively.
 * Great Axe: Reach: 6, Difficulty: 6, Parry: 1/3/-, Damage: body +2, APV: body +1, Attack-types: hack, bash, Notes: two-handed, may have a beak, hammer and/or spike granting it pick, hammer, and thrust attack types respectively.
 
-### Common Spears
+### Common Pole Arms
 * Javelin: Reach: 4, Difficulty: 2, Parry: 2/3/1, Damage: body -1, APV: 3, Attack-types: thrust, bash, throw(Close Range: 2 x body, Range Increment: body, Max Range: 5 x body, Range Penalty: 1 die), Notes: none.
 * Skirmisher’s Spear: Reach: 6, Difficulty: 3, Parry: 3/3/-, Damage: body, APV: 4, Attack-types: thrust, bash, throw(Close Range: body, Range Increment: body, Max Range: 3 x body, Range Penalty: 1 die) Notes: hand and a half.
 * Soldier’s Spear: Reach: 8, Difficulty: 4, Parry: 3/3/-, Damage: body +1, APV: 5, Attack-types: thrust, bash Notes: two handed unless wielder’s body is 6 or higher then hand and a half.
 * Horse Lord’s Spear: Reach: 10, Difficulty: 6, Parry: 3/3/-, Damage: body +1, APV: 5, Attack-types: thrust, Notes: two handed unless wielder’s body is 7 or higher then hand and a half.
-
-### Other Common Weapons
 * Pole Axe/Hammer: Reach: 6, Difficulty: 5, Parry: -/3/-, Damage: body, APV: body +1, Attack-types: bash Notes: two-handed, may have a beak, blade, hammer and/or spike granting it pick, hack, hammer, and thrust attack types respectively. Uses the pole axe secondary skill.
 
 ### Common Melee Weapon Modifications

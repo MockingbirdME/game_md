@@ -45,3 +45,26 @@ Like general traits negative traits are available to any character, with GM appr
 * Slow(1) - this trait may be taken any number of times; a character receives -1 to their movement attribute for each time they’ve taken this trait.
 * Reduced Attribute(2) - this trait may be taken any number of times, each time it is taken choose a primary attribute and reduce its score by one.
 * Weak eyes(2) - a character may take this trait up to twice; they suffer 2 penalty dice to all sight based checks for each time they’ve taken this trait.
+
+<div class="page-break"></div>
+### Language Traits
+These are the languages, spoken or written, in which character's can be fluent. The traits listed here are available to any character with GM approval. Each trait will be listed with a name, cost, and description; a character may only take a trait once.
+ 
+* Askelonian() -
+* Centari() -
+* Denja() -
+* Galterainian() -
+* Gargant() -
+* Grailic() -
+* Islander() -
+* Kaazt() -
+* Mablen() -
+* Marshgove() -
+* Old Grailic() -
+* Proto() -
+* Rhosk() -
+* Simmer's Tongue() -
+* Southron() -
+* Tor() -
+* Tor'leni() -
+* Tor'otro() -
