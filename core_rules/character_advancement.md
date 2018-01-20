@@ -5,9 +5,9 @@ At character creation they gain 5, or more, advancement points. Advancement poin
 
 ##### In game uses
 Only one advancement point can be spent by a character at each opportunity. When a character spends an advancement point in one of these ways they add it to the most appropriate primary skill for the situation.
-* A character may spend an advancement point to gain one bonus die to a skill check they are about to make. Add the advancement point to the primary skill.
+* A character may spend an advancement point to gain one bonus die, or ignore one penalty die to a skill check they are about to make. Add the advancement point to the primary skill.
 * Add one success to a skill check that the character just made that met it's difficulty, if any. Add the advancement point to the primary skill used in that skill check.
-* A character may spend an advancement point to grant another character a bonus die to a skill check they are about to make if they can role play how they are doing so. Add the advancement point to the primary skill being used to make the check or most closely related to how they are making helping.
+* A character may spend an advancement point to grant another character a bonus die or allow that character to ignore a penalty die to a skill check they are about to make if they can role play how they are doing so. Add the advancement point to the primary skill being used to make the check or most closely related to how they are making helping.
 * A character may spend an advancement point to increase the difficulty of an action taken by another character by one success or 3 points, this may be declared after the skill check has been made. Add the advancement point to the skill most relevant to how they made the other character's action more difficult.
 * A character may reduce the damage they have just taken by 3, this can not be used to reduce arcane dues. The Advancement point is added to the character's Endurance skill.
 
