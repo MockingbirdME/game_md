@@ -48,23 +48,30 @@ Like general traits negative traits are available to any character, with GM appr
 
 <div class="page-break"></div>
 ### Language Traits
-These are the languages, spoken or written, in which character's can be fluent. The traits listed here are available to any character with GM approval. Each trait will be listed with a name, cost, and description; a character may only take a trait once.
- 
-* Askelonian() -
-* Centari() -
-* Denja() -
-* Galterainian() -
-* Gargant() -
-* Grailic() -
-* Islander() -
-* Kaazt() -
-* Mablen() -
-* Marshgove() -
-* Old Grailic() -
-* Proto() -
-* Rhosk() -
-* Simmer's Tongue() -
-* Southron() -
-* Tor() -
-* Tor'leni() -
-* Tor'otro() -
+These are the languages, spoken or written, in which character's can be fluent. The traits listed here are available to any character with GM approval. Each trait will be listed with a name, cost, and description; a character may only take a trait once. Each trait below allows the character to be fluent in the named language. Many languages are related and as such knowing one may reduce the cost to learn another, see the traits descriptions for details. In the world of Flax Marshgove, Old Grailic, and Tor are dead languages but may be the ancestor of one or more other languages.
+
+##### Spoken Languages
+* Askelonian(3) - reduce this trait's cost by one if you have the Old Grailic trait, and by one if you have any of the either the Grailic or Proto traits.
+* Centari(4) -
+* Denja(5) - reduce this trait's cost by 2 if the character has the Marshgove trait.
+* Galterainian(2) - reduce this trait's cost by one if you have the old Grailic trait.
+* Gargant(7) - reduce this trait's cost by 2 if the character has the Marshgove trait and by 1 if they have the Denja trait.
+* Grailic(3) - reduce this traits cost by one if you have the Old Gralic trait and by one if you have the Askelonian, Galterainian, Islander, Proto, or Southron traits.
+* Islander(4) - reduce this traits cost by one if you have the Old Grailic trait and by one if you have the Grailic trait.
+* Kaazt(4) -
+* Mablen(6) -
+* Marshgove(5) -
+* Old Grailic(4) - reduce this trait's cost by one if you have the Askelonian, Galterainian, Grailic, Islander, Proto, or Southron traits.
+* Proto(3) - reduce this trait's cost by one if you have the Old Grailic trait, and by one if you have any of the either the Askelonian or Grailic traits.
+* Rhosk(4) -
+* Simmer's Tongue(5) - reduce this trait's cost by one if you have the Tor trait and by one if you have the Tor'leni or Tor'otro traits.
+* Southron(4) - reduce this trait's cost by one if you have the Old Grailic trait, and by one if you have any of the either the Galterainian, Grailic, or Islander traits.
+* Tor(6) - reduce this trait's cost by one if you have the Shimmer's Tongue, Tor'leni or Tor'otro traits.
+* Tor'leni(5) - reduce this trait's cost by two if you have the Tor trait and by one if you have the Shimmer's Tongue or Tor'otro traits.
+* Tor'otro(6) - reduce this trait's cost by one if you have the Tor , Shimmer's Tongue, or Tor'leni traits.
+
+##### Written Languages
+* Grailic Alphabet(2) - This alphabet lets the character read and write Askelonian, Galterainian, Grailic, Islander, Old Grailic, Proto, and Southron provided they know those languages.  
+* Centari Alphabet(4) - The alphabet used to read and write Centari, has had some recent influence by the Grailic alphabet, reduce it's cost by one if you have that trait.
+* Tor Symbology(5) - A symbolic alphabet used to read and write in Shimmer's Tongue, Tor, Tor'leni, and Tor'otro.
+* Rhosk Symbology(4) - A symbolic alphabet used by the Rhosk but related more to ideas than that language in particular, many scholars learn Rhosk Symbology without learning the spoken tongue.

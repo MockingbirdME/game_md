@@ -77,9 +77,9 @@ Unless stated otherwise, melee actions have a turn requirement of one that can b
 Ranged actions have a turn requirement of one that can be reduced to zero by adding one penalty die to this skill check and all other skill checks this turn.
 * Aim(0) - select a target, your ranged attacks against that target are aimed, gaining 1 plus ranks in the aim secondary skill bonus dice, until your take any other action. Aim’s turn requirement may not be reduced.
 * Load weapon(varies) - refer to the weapon’s description for details on loading requirements.
-* Loose/shoot/fire(0) - make an attack with a readied, loaded, ranged weapon or spell. This skill check uses perception as its primary attribute and gains a number of bonus dice equal to their rank in the weapon's secondary skill.
+* Loose/shoot/fire(0) - make an attack with a readied, loaded, ranged weapon or spell. This skill check uses perception as its primary attribute and gains a number of bonus dice equal to their rank in the weapon's secondary skill it also gains a bonus die for each size the target is over 5 and a penalty die for each size they are less than 5.
 * Ready weapon/ammo(0) - ready a ranged weapon or one plus ranks in reload pieces of ammunition.
-* Throw(1) - make a ranged attack with a ready throwing weapon. Gain a bonus die for every rank in the throw secondary skill plus an additional bonus die for every two ranks in a relevant melee combat secondary skill for this weapon.
+* Throw(1) - make a ranged attack with a ready throwing weapon. Gain a bonus die for every rank in the throw secondary skill plus an additional bonus die for every two ranks in a relevant melee combat secondary skill for this weapon it also gains a bonus die for each size the target is over 5 and a penalty die for each size they are less than 5.
 
 ##### Magic Actions:
 Magic actions have a turn requirement of one and may only be taken by characters with an arcane trait. Magical skill checks use mind as a primary attribute.

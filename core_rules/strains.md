@@ -30,7 +30,7 @@ So similar to Sapeen that, but for their dusky skin, they would be mistaken for 
 * Perception: 3
 * Mind: 3
 
-***Attribute points:*** 8
+***Attribute points:*** 9
 
 ***Required Traits:***
 * Horse Affinity: gain three skill points that must be spent on animal handling base skill or horse related secondary skill(s)
@@ -42,7 +42,7 @@ So similar to Sapeen that, but for their dusky skin, they would be mistaken for 
 * Learned Mage: 12
 * Natural Mage: 10/3
 
-***Build points:*** +4
+***Build points:*** +14
 
 <div class="page-break"></div>
 
@@ -61,11 +61,11 @@ Denja are generally quick witted and conversational, preferring to participate i
 * Perception: 3
 * Mind: 4
 
-***Attribute points:*** 9
+***Attribute points:*** 10
 
 ***Required Traits:***
-* Natural Armor - scales: armor value 1, body value 0
-* Natural Weapon - claws: as brawling but -2 penetrating damage with armor piercing value 0.
+* Natural Armor - scales: armor value 4, body value 0
+* Natural Weapon - claws: as brawling but -2 penetrating damage with armor piercing value 1.
 * Claws + Webbed Feet + Tail - gain 3 bonus dice on all climb and swimming checks.
 * Air Sacks - gain 1 bonus die on all swimming checks and double the amount of time the character can hold their breath.
 
@@ -76,7 +76,7 @@ Denja are generally quick witted and conversational, preferring to participate i
 * Learned Mage: 10
 * Natural Mage: 11/4
 
-***Build points:*** + 7
+***Build points:*** +18
 <div class="page-break"></div>
 
 #### Kaazt
@@ -94,7 +94,7 @@ Born to be fierce and competitive tribal warriors Kaazt are truly of two breeds,
 * Perception: 3
 * Mind: 1
 
-***Attribute points:*** 7
+***Attribute points:*** 9
 
 ***Required Traits:***
 * Natural Weapon - claws - as brawling but -1 penetrating damage with armor piercing value of 2.
@@ -105,9 +105,9 @@ Born to be fierce and competitive tribal warriors Kaazt are truly of two breeds,
 
 ***Arcane Traits:***
 * Dependent Mage: 10
-* Learned Mage: 14
+* Learned Mage: 12
 
-***Build points:*** + 4
+***Build points:*** +16
 <div class="page-break"></div>
 
 #### Rhosk
@@ -125,10 +125,10 @@ Originally natives to the Northern Desert, and though many have migrated south t
 * Perception: 3
 * Mind: 3
 
-***Attribute points:*** 6
+***Attribute points:*** 8
 
 ***Required Traits:***
-* Cool Temperament - after allocating build points gain two ranks in the discipline base skill.
+* Cool Temperament - gain three skill points that must be spent on the discipline skill or its secondary skills.
 * Used to the cold - gain cold resist 4.
 
 ***Strain Traits:***
@@ -136,7 +136,7 @@ Originally natives to the Northern Desert, and though many have migrated south t
 ***Arcane Traits:***
 * Learned Mage: 12
 
-***Build points:*** +3
+***Build points:*** +10
 <div class="page-break"></div>
 
 #### Sapeen
@@ -154,7 +154,7 @@ Most often found living in towns and cities or on lands ruled by one Sapeen are 
 * Perception: 3
 * Mind: 3
 
-***Attribute points:*** 8
+***Attribute points:*** 9
 
 ***Required Traits:*** none
 
@@ -165,7 +165,7 @@ Most often found living in towns and cities or on lands ruled by one Sapeen are 
 * Learned Mage: 10
 * Natural Mage: 10/5
 
-***Build points:*** +5
+***Build points:*** +15
 <div class="page-break"></div>
 
 #### Teejee(male)
@@ -183,7 +183,7 @@ The most diverse of strains Teejee females are either breeders or drones; the br
 * Perception: 4
 * Mind: 3
 
-***Attribute points:*** 8
+***Attribute points:*** 9
 
 ***Required Traits:***
 * Four Legs - gain 3 bonus dice to all balance checks related to the character keeping their footing, also ignore up to two penalty dice to movement checks caused by rough or difficult terrain.
@@ -196,7 +196,7 @@ The most diverse of strains Teejee females are either breeders or drones; the br
 ***Arcane Traits:***
 * Dependent Mage: 10
 
-***Build points:*** + 5
+***Build points:*** +14
 <div class="page-break"></div>
 
 #### Torleni
@@ -242,4 +242,4 @@ Torleni were created by Milnot, the mistress of the mountain, in the range domin
 ***Arcane Traits:***
 * Learned Mage: 10
 
-***Build points:*** - 2
+***Build points:*** +9
