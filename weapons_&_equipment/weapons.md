@@ -1,22 +1,3 @@
-# Common Melee Attack Types
-| Attack | Damage Type | Additional Success Uses | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| Bash | C | 2 Damage | Double weapon's damage |
-| Cut | P | Damage or APV | +1 damage, +3 when concussive |
-| Hack | P | 2 Damage or 1/2 APV | 3/4 reach |
-| Half-Sword | P | Damage or 2 APV | 1/2 reach |
-| Hammer | C | 3 Damage | Triple weapon's damage |
-| Melee | C | 2 Damage | - |
-| Mordstreich | C | 3 Damage | Lose parry bonus for one round, double damage |
-| Pick | P | Damage or APV | 3/4 reach, increase APV and Damage for power attacks |
-| Punch | C | 2 Damage | Brawling secondary skill, reach: 0, damage: Body+1 |
-| Slash | P | Damage or APV | 3/4 reach, +1 stun for penetrating damage +1 per wound |
-| Strike | C | 3 Damage | Brawling secondary skill, reach: 0, damage: body+3 |
-| Thrown | varies | Damage or APV | Damage type and range will be listed after attack type |
-| Thrust | P | Damage and APV | 1 1/2 reach for pole arms |
-
-<div class="page-break"></div>
-
 ### Common Notes:
 * Hand and a half - Can be wielded one or two handed, when wielding a melee weapon two handed count the character’s body stat as 2 greater than it is.
 * Two handed - Can only be wielded two handed, when wielding a melee weapon two handed count the character’s body stat as 2 greater than it is.

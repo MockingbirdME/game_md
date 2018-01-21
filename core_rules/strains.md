@@ -42,7 +42,7 @@ So similar to Sapeen that, but for their dusky skin, they would be mistaken for 
 * Learned Mage: 12
 * Natural Mage: 10/3
 
-***Build points:*** +14
+***Build points:*** +19
 
 <div class="page-break"></div>
 
@@ -64,10 +64,10 @@ Denja are generally quick witted and conversational, preferring to participate i
 ***Attribute points:*** 10
 
 ***Required Traits:***
-* Natural Armor - scales: armor value 4, body value 0
+* Natural Armor - scales: armor value 4, body value 0, Physical Damage Reduction: 1.
 * Natural Weapon - claws: as brawling but -2 penetrating damage with armor piercing value 1.
-* Claws + Webbed Feet + Tail - gain 3 bonus dice on all climb and swimming checks.
-* Air Sacks - gain 1 bonus die on all swimming checks and double the amount of time the character can hold their breath.
+* Claws + Webbed Feet + Tail - gain 3 ranks to both the climb and swimming secondary skills.
+* Air Sacks - gain 1 rank to the swimming secondary skill and double the amount of time the character can hold their breath.
 
 ***Strain Traits:***
 * Gliding Membrane - cost 2, as a move action costing 2 stamina the character can jump from a height and glide 3 meter per meter fallen. A character already falling may take a full round action to glide the rest of the way down. A gliding character does not suffer falling damage upon landing. Gliding membrane can not be used if the character is wearing clothing or armor that would prevent the membrane from extending, additionally the horizontal distance traveled is reduced by 1m for every 10lbs of equipment after the first 10lbs; if the horizontal glide was 1-2m per meter fallen the character suffers half normal falling damage and if it was 0m per meter fallen the character suffers full falling damage. A gliding character can not fall more than 10m per round plus 2m per 10lbs carried after the first 20lbs.
@@ -76,7 +76,7 @@ Denja are generally quick witted and conversational, preferring to participate i
 * Learned Mage: 10
 * Natural Mage: 11/4
 
-***Build points:*** +18
+***Build points:*** +22
 <div class="page-break"></div>
 
 #### Kaazt
@@ -98,7 +98,8 @@ Born to be fierce and competitive tribal warriors Kaazt are truly of two breeds,
 
 ***Required Traits:***
 * Natural Weapon - claws - as brawling but -1 penetrating damage with armor piercing value of 2.
-* Highly Mobile - when moving on all fours increase the character’s personal movement skill by 4 ranks when determining the distance the character can move; this applies to both the character’s personal movement score and any speed based skill roll they may make.
+* Claws - gain 2 ranks to the climb secondary skill.
+* Highly Mobile - when moving on all fours increase the character’s personal movement skill by 4 ranks when determining the distance the character can move; this bonus only applies to ground movement.
 * Heightened sense - hearing x1, smell/taste x2
 
 ***Strain Traits:***
@@ -107,7 +108,7 @@ Born to be fierce and competitive tribal warriors Kaazt are truly of two breeds,
 * Dependent Mage: 10
 * Learned Mage: 12
 
-***Build points:*** +16
+***Build points:*** +20
 <div class="page-break"></div>
 
 #### Rhosk
@@ -136,7 +137,7 @@ Originally natives to the Northern Desert, and though many have migrated south t
 ***Arcane Traits:***
 * Learned Mage: 12
 
-***Build points:*** +10
+***Build points:*** +15
 <div class="page-break"></div>
 
 #### Sapeen
@@ -165,7 +166,7 @@ Most often found living in towns and cities or on lands ruled by one Sapeen are 
 * Learned Mage: 10
 * Natural Mage: 10/5
 
-***Build points:*** +15
+***Build points:*** +20
 <div class="page-break"></div>
 
 #### Teejee(male)
@@ -186,7 +187,7 @@ The most diverse of strains Teejee females are either breeders or drones; the br
 ***Attribute points:*** 9
 
 ***Required Traits:***
-* Four Legs - gain 3 bonus dice to all balance checks related to the character keeping their footing, also ignore up to two penalty dice to movement checks caused by rough or difficult terrain.
+* Four Legs - gain 3 ranks to the balance secondary skill and ignore up to two penalty dice to movement checks caused by rough or difficult terrain.
 * Pheromone Communication - can communicate rough ideas with other Teejee within 30m silently.
 * Pheromone Influence - gain 4 bonus dice on all checks to control Teejee drones and 4 penalty dice to avoid being influenced by Teejee breeding females.
 
@@ -196,7 +197,7 @@ The most diverse of strains Teejee females are either breeders or drones; the br
 ***Arcane Traits:***
 * Dependent Mage: 10
 
-***Build points:*** +14
+***Build points:*** +19
 <div class="page-break"></div>
 
 #### Torleni
@@ -220,7 +221,7 @@ Torleni were created by Milnot, the mistress of the mountain, in the range domin
 
 ***Required Traits:***
 * Blood of Shimmer - increase two attributes by one point or one attribute by two points. Each month the character may choose to decrease one attribute increased by this trait by one point to gain one reserve point, or loose one reserve point to gain one point in an attribute of their choice. The character may, over a number of months equal to the cost of a positive, non-arcane trait, lose that trait in order to gain that many trait-reserve points, or the character may spend a number of months and spend as many trait-reserve points to gain a new non-arcane trait.
-* Natural Armor - scales - armor value: 5, body value: 2
+* Natural Armor - scales - armor value: 5, body value: 1, Physical/Fire/Lightning/Cold damage reduction: 1.
 
 ***Strain Traits:***
 * Thickened Scales (1) - Natural Armor + 1 body. Each time this trait is taken increase the cost to take it again by one (max cost 3).
@@ -242,4 +243,4 @@ Torleni were created by Milnot, the mistress of the mountain, in the range domin
 ***Arcane Traits:***
 * Learned Mage: 10
 
-***Build points:*** +9
+***Build points:*** +14

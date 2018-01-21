@@ -48,7 +48,7 @@ Each attack type has a few basic stats:
 | Hack | P | 2 Damage or 1/2 APV | 3/4 reach |
 | Half-Sword | P | Damage or 2 APV | 1/2 reach |
 | Hammer | C | 3 Damage | Triple weapon's damage |
-| Melee | C | 2 Damage | - |
+| Melee | C | 2 Damage | character's with natural weapons that deal penetrating damage may use extra successes for 1 APV |
 | Mordstreich | C | 3 Damage | Lose parry bonus for one round, double damage |
 | Pick | P | Damage or APV | 3/4 reach, increase APV and Damage for power attacks |
 | Punch | C | 2 Damage | Brawling secondary skill, reach: 0, damage: Body+1 |
