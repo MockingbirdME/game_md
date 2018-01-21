@@ -17,18 +17,18 @@ Creating characters can be done in a few simple steps. Before any number crunchi
 ### Power Levels:
 Each power level listed is designed to showcase different levels of adventurer; they list additional attribute and trait points the character gets as well as a list of primary skill ranks to be assigned during step six of character creation.
 
-| Power Level | Trait Points | Skill Array
-| --- | ---| --- |
-| -3 | -6 | 2, 2, 1, 1, 1, 1 (10)
-| -2 | -4 | 3, 2, 2, 1, 1, 1 (15)
-| -1 | -2 | 3, 3, 2, 2, 1, 1 (20)
-| 0 |  +0 | 4, 3, 2, 2, 1, 1, 1 (25)
-| 1 |  +5 | 4, 3, 3, 2, 2, 1, 1 (30)
-| 2 |  +10 | 5, 3, 3, 2, 2, 1, 1 (35)
-| 3 |  +15 | 5, 4, 3, 2, 2, 1, 1, 1 (40)
-| 4 |  +15 | 5, 4, 3, 3, 3, 2, 2, 1 (50)
-| 5 |  +15 | 6, 4, 3, 3, 3, 3, 2, 1, 1 (60)
-| 6 |  +15 | 6, 4, 4, 4, 3, 3, 2, 2, 1 (70)
-| 7 |  +15 | 6, 5, 4, 4, 3, 3, 2, 2, 2, 2 (80)
-| 8 |  +15 | 6, 5, 4, 4, 4, 3, 3, 3, 2, 2 (90)
-| 9 |  +15 | 7, 5, 4, 4, 4, 3, 3, 3, 2, 2, 2 (100)
+| Power Level | Trait Points | Skill Array | Advancement Points from Level 0 |
+| --- | ---| --- | --- |
+| -3 | -6 | 2, 2, 1, 1, 1, 1 (10) | -21 |
+| -2 | -4 | 3, 2, 2, 1, 1, 1 (15) | -14 |
+| -1 | -2 | 3, 3, 2, 2, 1, 1 (20) | -7 |
+| 0 |  +0 | 4, 3, 2, 2, 1, 1, 1 (25) | 0 |
+| 1 |  +5 | 4, 3, 3, 2, 2, 1, 1 (30) | 30 |
+| 2 |  +10 | 5, 3, 3, 2, 2, 1, 1 (35) | 60 |
+| 3 |  +15 | 5, 4, 3, 2, 2, 1, 1, 1 (40) | 90 |
+| 4 |  +15 | 5, 4, 3, 3, 3, 2, 2, 1 (50) | 120 |
+| 5 |  +15 | 6, 4, 3, 3, 3, 3, 2, 1, 1 (60) | 150 |
+| 6 |  +15 | 6, 4, 4, 4, 3, 3, 2, 2, 1 (70) | 180 |
+| 7 |  +15 | 6, 5, 4, 4, 3, 3, 2, 2, 2, 2 (80) | 210 |
+| 8 |  +15 | 6, 5, 4, 4, 4, 3, 3, 3, 2, 2 (90) | 240 |
+| 9 |  +15 | 7, 5, 4, 4, 4, 3, 3, 3, 2, 2, 2 (100) | 270 |

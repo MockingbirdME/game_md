@@ -121,3 +121,19 @@ Weapon prices vary wildly by where the item is purchased, they are much cheaper 
 | crafted | 5  | 5 |
 | crafted | 10 | 25 |
 | crafted | 15 | 100+ |
+
+## Animals
+
+| Animal Type | Cost in pennies |
+| --- | --- |
+| Chicken | 5 |
+| Cow | 300 |
+| Donkey | 80 |
+| Elk   | 1500 |
+| Goat   | 30 |
+| Horse   | 5000 |
+| Mule   | 120 |
+| Ox   | 400 |
+| Ostrich   | 1000 |
+| Pig   | 50 |
+| Sheep   | 20 |
