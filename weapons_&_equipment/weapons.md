@@ -3,14 +3,14 @@
 * Two handed - Can only be wielded two handed, when wielding a melee weapon two handed count the character’s body stat as 2 greater than it is.
 
 ### Common Brawling options
-* Slap - Reach: 0, Difficulty: 0, Parry: 0/-/-, Damage: body -2, APV: 0, Attack-types: melee, Notes: none.
-* Strike - Reach: 0, Difficulty: 0, Parry: 0/-/-, Damage: body, APV: 0, Attack-types: melee, Notes: none.
+* Slap - Reach: 0, Difficulty: 1, Parry: 0/-/-, Damage: body -2, APV: 0, Attack-types: melee, Notes: none.
+* Strike - Reach: 0, Difficulty: 2, Parry: 0/-/-, Damage: body, APV: 0, Attack-types: melee, Notes: none.
 
 ### Common Short Blades
-* Knife - Reach: 1, Difficulty: 1, Parry: 1/-/1, Damage: body -3, APV: 2, Attack-types: cut, thrust, pick, punch Notes: none.
+* Knife - Reach: 1, Difficulty: 2, Parry: 1/-/1, Damage: body -3, APV: 2, Attack-types: cut, thrust, pick, punch Notes: none.
 * Throwing Knife: Reach: 1, Difficulty: 4, Parry: 0/-/0, Damage: body -3, APV: 3, Attack-types: cut, thrust, punch, throw(Close Range: body, Range Increment: 2, Max Range: 2 x body, Range Penalty: 1 die and 1 damage) Notes: none.
-* Dagger - Reach: 2, Difficulty: 2, Parry: 2/-/2, Damage: body -2, APV: 3, Attack-types: cut, thrust, pick, punch Notes: additional successes used to grant APV grain an additional APV.
-* Centari Saddle Blade - Reach: 3, Difficulty: 3, Parry: 3/-/2, Damage: body -1, APV: 3, Attack-types: cut, thrust, punch Notes: additional successes used to grant APV grain an additional APV.
+* Dagger - Reach: 2, Difficulty: 3, Parry: 2/-/2, Damage: body -2, APV: 3, Attack-types: cut, thrust, pick, punch Notes: additional successes used to grant APV grain an additional APV.
+* Centari Saddle Blade - Reach: 4, Difficulty: 3, Parry: 3/-/2, Damage: body -1, APV: 3, Attack-types: cut, thrust, punch Notes: additional successes used to grant APV grain an additional APV.
 * Kukri:  Reach: 3, Difficulty: 5, Parry: 1/-/1, Damage: body -1, APV: 3, Attack-types: cut, hack, punch Notes: none.
 
 ### Common Long Blades
@@ -27,11 +27,11 @@
 * Boarding Sword: Reach: 4, Difficulty: 4, Parry: 3/-/1, Damage: body -1, APV: 5, Attack-types: cut, slash, strike Notes: none.
 
 ### Common Bludgeons
-* Club: Reach: 3, Difficulty: 0, Parry: 1/0/0, Damage: body, APV: 0, Attack-types: bash Notes: none.
-* Light Mace/Hammer: Reach: 3, Difficulty: 2, Parry: 1/-/0, Damage: body, APV: 0, Attack-types: hammer Notes: none.
+* Club: Reach: 3, Difficulty: 2, Parry: 1/0/0, Damage: body, APV: 0, Attack-types: bash Notes: none.
+* Light Mace/Hammer: Reach: 3, Difficulty: 3, Parry: 1/-/0, Damage: body, APV: 0, Attack-types: hammer Notes: none.
 * Heavy Mace/Warhammer: Reach: 4, Difficulty: 4, Parry: 2/1/0, Damage: body, APV: 0, Attack-types: bash, hammer Notes: hand and a half, may have a beak and/or spike granting it pick and thrust attack types respectively.
 * Sledge: Reach: 6, Difficulty: 6, Parry: -/1/-, Damage: body+1, APV: 0, Attack-types: hammer, bash, Notes: additional successes spent on hammer grant 1 additional damage when making a power attack.
-* Quarter Stave: Reach: 6, Difficulty: 3, Parry: 1/5/-, Damage: body, APV: 0, Attack-types: bash, Notes: uses bludgeoning weapons or spears secondary skill.
+* Quarter Stave: Reach: 6, Difficulty: 4, Parry: 1/5/-, Damage: body, APV: 0, Attack-types: bash, Notes: uses bludgeoning weapons or spears secondary skill.
 
 ### Common Axes
 * Throwing Axe: Reach: 1, Difficulty: 4, Parry: 0/-/0, Damage: body -2, APV: 2, Attack-types: hack, punch, throw(Close Range: body, Range Increment: 2, Max Range: 2 x body, Range Penalty: 1 die and 1 damage), Notes: none.
@@ -40,8 +40,8 @@
 * Great Axe: Reach: 6, Difficulty: 6, Parry: 1/3/-, Damage: body, APV: body +1, Attack-types: hack, bash, Notes: two-handed, may have a beak, hammer and/or spike granting it pick, hammer, and thrust attack types respectively.
 
 ### Common Pole Arms
-* Javelin: Reach: 4, Difficulty: 2, Parry: 2/3/1, Damage: body -1, APV: 3, Attack-types: thrust, bash, throw(Close Range: 2 x body, Range Increment: body, Max Range: 5 x body, Range Penalty: 1 die), Notes: none.
-* Skirmisher’s Spear: Reach: 6, Difficulty: 3, Parry: 3/3/-, Damage: body -1, APV: 4, Attack-types: thrust, bash, throw(Close Range: body, Range Increment: body, Max Range: 3 x body, Range Penalty: 1 die) Notes: hand and a half.
+* Javelin: Reach: 4, Difficulty: 4, Parry: 2/3/1, Damage: body -1, APV: 3, Attack-types: thrust, bash, throw(Close Range: 2 x body, Range Increment: body, Max Range: 5 x body, Range Penalty: 1 die), Notes: none.
+* Skirmisher’s Spear: Reach: 6, Difficulty: 4, Parry: 3/3/-, Damage: body -1, APV: 4, Attack-types: thrust, bash, throw(Close Range: body, Range Increment: body, Max Range: 3 x body, Range Penalty: 1 die) Notes: hand and a half.
 * Soldier’s Spear: Reach: 8, Difficulty: 4, Parry: 3/3/-, Damage: body, APV: 5, Attack-types: thrust, bash Notes: two handed unless wielder’s body is 6 or higher then hand and a half.
 * Horse Lord’s Spear: Reach: 10, Difficulty: 6, Parry: 3/3/-, Damage: body, APV: 5, Attack-types: thrust, Notes: two handed unless wielder’s body is 7 or higher then hand and a half.
 * Pole Axe/Hammer: Reach: 6, Difficulty: 5, Parry: -/3/-, Damage: body, APV: body +1, Attack-types: bash Notes: two-handed, may have a beak, blade, hammer and/or spike granting it pick, hack, hammer, and thrust attack types respectively. Uses the pole axe secondary skill.
