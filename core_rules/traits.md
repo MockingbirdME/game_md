@@ -4,11 +4,12 @@
 These are background or genetic advantages a character possesses. The traits listed here are available to any character with GM approval. Each trait will be listed with a name, cost, and description; unless stated otherwise in the trait’s description a character may only take a trait once.
 * Cantrip Caster(4) - requires an arcane trait. The character may cast an additional cantrip each round for the standard cost and effects.
 * Danger Sense(4) - When turn based situation arises in which you are been surprised, and otherwise unable to act during the round, roll a d6; on a result of 2-5 you may act during the round at initiative 0, on a 6 you may act at your normal initiative.
+* Enhanced Attribute(X) - increase one primary attribute by one point; the cost of this trait is equal to twice the attribute's new score.  
 * Fast Reflexes(1) - Gain +1 to your initiative. A character may take this trait multiple times
 * Fulled by Pain(3) - Each time you suffer a stun or wound regain 3 stamina.
 * Hardy(1) - Gain 1 point of resistance to illness and poison. A character may take this trait multiple times increasing its cost by 1 each time.
-* Heightened Hearing(2) - Gain 2 bonus dice to all hearing based perception checks and 1 bonus die to perception checks that include but don’t specifically rely on hearing. This trait may be taken multiple times increasing its cost by 1 each time.
-* Heightened Sight(3) - Gain 2 bonus dice to all sight based perception checks and 1 bonus die to perception checks that include but do not specifically rely on sight. This trait may be taken multiple times increasing its cost by 1 each time.
+* Heightened Hearing(1) - Gain 2 bonus dice to all hearing based perception checks and 1 bonus die to perception checks that include but don’t specifically rely on hearing. This trait may be taken multiple times increasing its cost by 1 each time.
+* Heightened Sight(1) - Gain 2 bonus dice to all sight based perception checks and 1 bonus die to perception checks that include but do not specifically rely on sight. This trait may be taken multiple times increasing its cost by 1 each time.
 * Heightened Smell(1) - Gain 2 bonus dice to all smell or taste based perception checks and 1 bonus die to perception checks that include but don’t specifically rely on smell or taste. This trait may be taken multiple times increasing its cost by 1 each time.
 * Large/small Size(2) - Increase or decrease the character’s size by 1. This trait may be taken multiple times increasing its cost by 1 each time.
 * Left Handed(4) - Enemies not used to facing left handers suffer 1 point of parry bonus against your left handed melee attacks. Items specifically designed for right handers and may be more difficult for a left handed character to use.
