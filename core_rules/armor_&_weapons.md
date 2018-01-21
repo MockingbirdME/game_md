@@ -29,7 +29,7 @@ Values that apply to the weapon being used.
 * Parry bonus: listed in three parts, one handed, two handed, and off handed; add this bonus to the character’s melee defense when wielding the weapon in these ways. A character’s total parry bonus can not exceed the sum of their ranks in personal defense, the parry secondary skill, and the weapon’s secondary skill(s). Reduce this bonus by one for each penalty die the character would gain due to the weapon’s difficulty.
 * Cover bonus: a defensive bonus that only applies to attacks originating in the character’s front arc, shields gain additional cover bonus equal to the character's rank in the shields secondary skill.
 * Secondary skill: the specific secondary skill(s) related to the use of this weapon.
-* Damage: the base amount of damage this weapon deals, often listed as body +x where body is equal to the character's body stat, or 1 1/2 body stat (round down) for two handed weapons.
+* Damage: the base amount of damage this weapon deals, often listed as body +x where body is equal to the character's body stat, or body stat +2 for two handed weapons.
 * APV: the weapon's armor piercing value, often listed as body +x where body is equal to the character's body stat, or 1 1/2 body stat (round down) for two handed weapons.
 * Attack-types: a list of the types of attack this weapon can perform; each type varies the effects of the weapon's attack.
 * Notes: any additional information needed for the proper use of the weapon.
