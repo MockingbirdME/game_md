@@ -60,22 +60,22 @@ These are the languages, spoken or written, in which character's can be fluent. 
 
 ##### Spoken Languages
 * Askelonian(3) - reduce this trait's cost by 1 if you have the Old Grailic trait, and by 1 if you have any of the either the Grailic or Proto traits.
-* Centari(4) -
-* Denja(5) - reduce this trait's cost by 1 if the character has the Garjant trait.
+* Centari(2) -
+* Denja(3) - reduce this trait's cost by 1 if the character has the Garjant trait.
 * Galterainian(2) - reduce this trait's cost by 1 if you have the old Grailic trait.
-* Garjant(7) - reduce this trait's cost by 2 if the character has the Denja.
+* Garjant(5) - reduce this trait's cost by 2 if the character has the Denja.
 * Grailic(3) - reduce this traits cost by 1 if you have the Old Gralic trait and by 1 if you have the Askelonian, Galterainian, Islander, Proto, or Southron traits.
-* Islander(4) - reduce this traits cost by 1 if you have the Old Grailic trait and by 1 if you have the Grailic trait.
-* Kaazt(4) -
-* Mablen(6) -
-* Old Grailic(4) - reduce this trait's cost by 1 if you have the Askelonian, Galterainian, Grailic, Islander, Proto, or Southron traits.
+* Islander(3) - reduce this traits cost by 1 if you have the Old Grailic trait and by 1 if you have the Grailic trait.
+* Kaazt(2) -
+* Mablen(3) -
+* Old Grailic(3) - reduce this trait's cost by 1 if you have the Askelonian, Galterainian, Grailic, Islander, Proto, or Southron traits.
 * Proto(3) - reduce this trait's cost by 1 if you have the Old Grailic trait, and by 1 if you have any of the either the Askelonian or Grailic traits.
-* Rhosk(4) -
-* Simmer's Tongue(5) - reduce this trait's cost by 1 if you have the Tor trait and by 1 if you have the Tor'leni or Tor'otro traits.
-* Southron(4) - reduce this trait's cost by 1 if you have the Old Grailic trait, and by 1 if you have any of the either the Galterainian, Grailic, or Islander traits.
-* Tor(6) - reduce this trait's cost by 1 if you have the Shimmer's Tongue, Tor'leni or Tor'otro traits.
-* Tor'leni(5) - reduce this trait's cost by 2 if you have the Tor trait and by 1 if you have the Shimmer's Tongue or Tor'otro traits.
-* Tor'otro(6) - reduce this trait's cost by 1 if you have the Tor , Shimmer's Tongue, or Tor'leni traits.
+* Rhosk(3) -
+* Simmer's Tongue(3) - reduce this trait's cost by 1 if you have the Tor trait and by 1 if you have the Tor'leni or Tor'otro traits.
+* Southron(3) - reduce this trait's cost by 1 if you have the Old Grailic trait, and by 1 if you have any of the either the Galterainian, Grailic, or Islander traits.
+* Tor(3) - reduce this trait's cost by 1 if you have the Shimmer's Tongue, Tor'leni or Tor'otro traits.
+* Tor'leni(3) - reduce this trait's cost by 2 if you have the Tor trait and by 1 if you have the Shimmer's Tongue or Tor'otro traits.
+* Tor'otro(4) - reduce this trait's cost by 1 if you have the Tor , Shimmer's Tongue, or Tor'leni traits.
 
 ##### Written Languages
 * Grailic Alphabet(2) - This alphabet lets the character read and write Askelonian, Galterainian, Grailic, Islander, Old Grailic, Proto, and Southron provided they know those languages.  
