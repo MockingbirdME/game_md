@@ -7,23 +7,23 @@
 * Strike - Reach: 0, Difficulty: 0, Parry: 0/-/-, Damage: body, APV: 0, Attack-types: melee, Notes: none.
 
 ### Common Short Blades
-* Knife - Reach: 1, Difficulty: 1, Parry: 1/-/1, Damage: body -2, APV: 2, Attack-types: cut, thrust, pick, punch Notes: none.
-* Throwing Knife: Reach: 1, Difficulty: 4, Parry: 0/-/0, Damage: body -2, APV: 3, Attack-types: cut, thrust, punch, throw(Close Range: body, Range Increment: 2, Max Range: 2 x body, Range Penalty: 1 die and 1 damage) Notes: none.
-* Dagger - Reach: 2, Difficulty: 2, Parry: 2/-/2, Damage: body -1, APV: 3, Attack-types: cut, thrust, pick, punch Notes: additional successes used to grant APV grain an additional APV.
-* Centari Saddle Blade - Reach: 3, Difficulty: 3, Parry: 3/-/2, Damage: body, APV: 3, Attack-types: cut, thrust, punch Notes: additional successes used to grant APV grain an additional APV.
-* Kukri:  Reach: 3, Difficulty: 5, Parry: 1/-/1, Damage: body, APV: 3, Attack-types: cut, hack, punch Notes: none.
+* Knife - Reach: 1, Difficulty: 1, Parry: 1/-/1, Damage: body -3, APV: 2, Attack-types: cut, thrust, pick, punch Notes: none.
+* Throwing Knife: Reach: 1, Difficulty: 4, Parry: 0/-/0, Damage: body -3, APV: 3, Attack-types: cut, thrust, punch, throw(Close Range: body, Range Increment: 2, Max Range: 2 x body, Range Penalty: 1 die and 1 damage) Notes: none.
+* Dagger - Reach: 2, Difficulty: 2, Parry: 2/-/2, Damage: body -2, APV: 3, Attack-types: cut, thrust, pick, punch Notes: additional successes used to grant APV grain an additional APV.
+* Centari Saddle Blade - Reach: 3, Difficulty: 3, Parry: 3/-/2, Damage: body -1, APV: 3, Attack-types: cut, thrust, punch Notes: additional successes used to grant APV grain an additional APV.
+* Kukri:  Reach: 3, Difficulty: 5, Parry: 1/-/1, Damage: body -1, APV: 3, Attack-types: cut, hack, punch Notes: none.
 
 ### Common Long Blades
-* Askelonian Arming Sword: Reach: 6, Difficulty: 4, Parry: 4/4/1, Damage: body +1, APV: 4, Attack-types: cut, thrust, strike, half-sword, mordstreich Notes: hand and a half.
-* Askelonian Longsword: Reach: 7, Difficulty: 5, Parry: 2/4/-, Damage: body +2, APV: 5, Attack-types: cut, thrust, strike, half-sword, mordstreich Notes: hand and a half.
-* Askelonian Side Sword: Reach: 5, Difficulty: 4, Parry: 4/-/1, Damage: body, APV: 4, Attack-types: cut, thrust, strike, half-sword Notes: none.
-* Askelonian Small Sword: Reach: 4, Difficulty: 4, Parry: 5/-/1, Damage: body -1, APV: 5, Attack-types: thrust, strike Notes: none.
-* Cleaver Falchion: Reach: 4, Difficulty: 4, Parry: 3/-/-, Damage: body +1, APV: 6, Attack-types: hack, slash, strike Notes: none.
-* Grailian Falchion: Reach: 6, Difficulty: 4, Parry: 5/4/1, Damage: body+1, APV: 5, Attack-types: cut, thrust, slash, strike, mordstreich Notes: hand and a half.
-* Grailian Back Sword: Reach: 5, Difficulty: 4, Parry: 4/-/1, Damage: body, APV: 4, Attack-types: cut, thrust, slash, strike Notes: none.
-* Proto Long Blade: Reach: 6, Difficulty: 4, Parry: 4/-/1, Damage: body, APV: 2, Attack-types: cut, thrust, strike Notes: none.
+* Askelonian Arming Sword: Reach: 6, Difficulty: 4, Parry: 4/4/1, Damage: body, APV: 4, Attack-types: cut, thrust, strike, half-sword, mordstreich Notes: hand and a half.
+* Askelonian Longsword: Reach: 7, Difficulty: 5, Parry: 2/4/-, Damage: body, APV: 5, Attack-types: cut, thrust, strike, half-sword, mordstreich Notes: hand and a half.
+* Askelonian Side Sword: Reach: 5, Difficulty: 4, Parry: 4/-/1, Damage: body-1, APV: 4, Attack-types: cut, thrust, strike, half-sword Notes: none.
+* Askelonian Small Sword: Reach: 4, Difficulty: 4, Parry: 5/-/1, Damage: body -2, APV: 5, Attack-types: thrust, strike Notes: none.
+* Cleaver Falchion: Reach: 4, Difficulty: 4, Parry: 3/-/-, Damage: body, APV: 6, Attack-types: hack, slash, strike Notes: none.
+* Grailian Falchion: Reach: 6, Difficulty: 4, Parry: 5/4/1, Damage: body, APV: 5, Attack-types: cut, thrust, slash, strike, mordstreich Notes: hand and a half.
+* Grailian Back Sword: Reach: 5, Difficulty: 4, Parry: 4/-/1, Damage: body-1, APV: 4, Attack-types: cut, thrust, slash, strike Notes: none.
+* Proto Long Blade: Reach: 6, Difficulty: 4, Parry: 4/-/1, Damage: body -1, APV: 2, Attack-types: cut, thrust, strike Notes: none.
 * Proto Short Blade: Reach: 4, Difficulty: 4, Parry: 3/-/1, Damage: body -1, APV: 2, Attack-types: cut, thrust, strike Notes: none.
-* Islander’s Short Sword: Reach: 4, Difficulty: 4, Parry: 3/-/1, Damage: body, APV: 4, Attack-types: cut, thrust, strike Notes: none.
+* Islander’s Short Sword: Reach: 4, Difficulty: 4, Parry: 3/-/1, Damage: body -1, APV: 4, Attack-types: cut, thrust, strike Notes: none.
 * Boarding Sword: Reach: 4, Difficulty: 4, Parry: 3/-/1, Damage: body -1, APV: 5, Attack-types: cut, slash, strike Notes: none.
 
 ### Common Bludgeons
@@ -34,16 +34,16 @@
 * Quarter Stave: Reach: 6, Difficulty: 3, Parry: 1/5/-, Damage: body, APV: 0, Attack-types: bash, Notes: uses bludgeoning weapons or spears secondary skill.
 
 ### Common Axes
-* Throwing Axe: Reach: 1, Difficulty: 4, Parry: 0/-/0, Damage: body -1, APV: 2, Attack-types: hack, punch, throw(Close Range: body, Range Increment: 2, Max Range: 2 x body, Range Penalty: 1 die and 1 damage), Notes: none.
-* Hand Axe: Reach: 2, Difficulty: 3, Parry: 2/-/1, Damage: body, APV: body -1, Attack-types: hack, punch Notes: may have a beak and/or spike granting it pick and thrust attack types respectively..
-* Battle Axe: Reach: 4, Difficulty: 4, Parry: 2/2/1, Damage: body +1, APV: body, Attack-types: hack, bash, Notes: hand and a half, may have a beak and/or spike granting it pick and thrust attack types respectively.
-* Great Axe: Reach: 6, Difficulty: 6, Parry: 1/3/-, Damage: body +2, APV: body +1, Attack-types: hack, bash, Notes: two-handed, may have a beak, hammer and/or spike granting it pick, hammer, and thrust attack types respectively.
+* Throwing Axe: Reach: 1, Difficulty: 4, Parry: 0/-/0, Damage: body -2, APV: 2, Attack-types: hack, punch, throw(Close Range: body, Range Increment: 2, Max Range: 2 x body, Range Penalty: 1 die and 1 damage), Notes: none.
+* Hand Axe: Reach: 2, Difficulty: 3, Parry: 2/-/1, Damage: body -1, APV: body -1, Attack-types: hack, punch Notes: may have a beak and/or spike granting it pick and thrust attack types respectively..
+* Battle Axe: Reach: 4, Difficulty: 4, Parry: 2/2/1, Damage: body, APV: body, Attack-types: hack, bash, Notes: hand and a half, may have a beak and/or spike granting it pick and thrust attack types respectively.
+* Great Axe: Reach: 6, Difficulty: 6, Parry: 1/3/-, Damage: body, APV: body +1, Attack-types: hack, bash, Notes: two-handed, may have a beak, hammer and/or spike granting it pick, hammer, and thrust attack types respectively.
 
 ### Common Pole Arms
 * Javelin: Reach: 4, Difficulty: 2, Parry: 2/3/1, Damage: body -1, APV: 3, Attack-types: thrust, bash, throw(Close Range: 2 x body, Range Increment: body, Max Range: 5 x body, Range Penalty: 1 die), Notes: none.
-* Skirmisher’s Spear: Reach: 6, Difficulty: 3, Parry: 3/3/-, Damage: body, APV: 4, Attack-types: thrust, bash, throw(Close Range: body, Range Increment: body, Max Range: 3 x body, Range Penalty: 1 die) Notes: hand and a half.
-* Soldier’s Spear: Reach: 8, Difficulty: 4, Parry: 3/3/-, Damage: body +1, APV: 5, Attack-types: thrust, bash Notes: two handed unless wielder’s body is 6 or higher then hand and a half.
-* Horse Lord’s Spear: Reach: 10, Difficulty: 6, Parry: 3/3/-, Damage: body +1, APV: 5, Attack-types: thrust, Notes: two handed unless wielder’s body is 7 or higher then hand and a half.
+* Skirmisher’s Spear: Reach: 6, Difficulty: 3, Parry: 3/3/-, Damage: body -1, APV: 4, Attack-types: thrust, bash, throw(Close Range: body, Range Increment: body, Max Range: 3 x body, Range Penalty: 1 die) Notes: hand and a half.
+* Soldier’s Spear: Reach: 8, Difficulty: 4, Parry: 3/3/-, Damage: body, APV: 5, Attack-types: thrust, bash Notes: two handed unless wielder’s body is 6 or higher then hand and a half.
+* Horse Lord’s Spear: Reach: 10, Difficulty: 6, Parry: 3/3/-, Damage: body, APV: 5, Attack-types: thrust, Notes: two handed unless wielder’s body is 7 or higher then hand and a half.
 * Pole Axe/Hammer: Reach: 6, Difficulty: 5, Parry: -/3/-, Damage: body, APV: body +1, Attack-types: bash Notes: two-handed, may have a beak, blade, hammer and/or spike granting it pick, hack, hammer, and thrust attack types respectively. Uses the pole axe secondary skill.
 
 ### Common Melee Weapon Modifications
