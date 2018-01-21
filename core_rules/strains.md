@@ -10,7 +10,7 @@ Strains are the intelligent species of Flax that, generally, consider themselves
 * ***Required Traits -*** these are traits, that may or may not be available to other strains, that every member of the strain possesses.
 * ***Strain Traits -*** some strains have access to, but are not required to take, certain traits that are not available to everyone; they, if available, will be listed here.
 * ***Arcane Traits -*** not all strains have access to every arcane trait; the arcane traits available to the strain, along with their cost will be listed here.
-* ***Build points -*** not all strains are equally powerful, to balance this out during character creation they will apply this modifier to how many build points they have to use during character creation. If the modifier would reduce the total number of available build points to below 10 it is suggested that the strain not be used at that power level for a PC.
+* ***Trait Points -*** not all strains are equally powerful, to balance this out during character creation they will apply this modifier to how many Trait Points they have to use during character creation. If the modifier would reduce the total number of available Trait Points to below 10 it is suggested that the strain not be used at that power level for a PC.
 
 ### Primary strains:
 <div class="page-break"></div>
@@ -42,7 +42,7 @@ So similar to Sapeen that, but for their dusky skin, they would be mistaken for 
 * Learned Mage: 12
 * Natural Mage: 10/3
 
-***Build points:*** +19
+***Trait Points:*** +19
 
 <div class="page-break"></div>
 
@@ -76,7 +76,7 @@ Denja are generally quick witted and conversational, preferring to participate i
 * Learned Mage: 10
 * Natural Mage: 11/4
 
-***Build points:*** +22
+***Trait Points:*** +22
 <div class="page-break"></div>
 
 #### Kaazt
@@ -108,7 +108,7 @@ Born to be fierce and competitive tribal warriors Kaazt are truly of two breeds,
 * Dependent Mage: 10
 * Learned Mage: 12
 
-***Build points:*** +20
+***Trait Points:*** +20
 <div class="page-break"></div>
 
 #### Rhosk
@@ -137,7 +137,7 @@ Originally natives to the Northern Desert, and though many have migrated south t
 ***Arcane Traits:***
 * Learned Mage: 12
 
-***Build points:*** +15
+***Trait Points:*** +15
 <div class="page-break"></div>
 
 #### Sapeen
@@ -166,7 +166,7 @@ Most often found living in towns and cities or on lands ruled by one Sapeen are 
 * Learned Mage: 10
 * Natural Mage: 10/5
 
-***Build points:*** +20
+***Trait Points:*** +20
 <div class="page-break"></div>
 
 #### Teejee(male)
@@ -197,7 +197,7 @@ The most diverse of strains Teejee females are either breeders or drones; the br
 ***Arcane Traits:***
 * Dependent Mage: 10
 
-***Build points:*** +19
+***Trait Points:*** +19
 <div class="page-break"></div>
 
 #### Torleni
@@ -243,4 +243,4 @@ Torleni were created by Milnot, the mistress of the mountain, in the range domin
 ***Arcane Traits:***
 * Learned Mage: 10
 
-***Build points:*** +14
+***Trait Points:*** +14
