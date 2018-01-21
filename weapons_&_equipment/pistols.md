@@ -15,18 +15,18 @@ Since their invention pistols have come a long way, essence packets are often pr
 **Multi Chamber Pistols:** pistols with a single barrel but multiple chambers allow for multiple shots without most of the added bulk of a multi barrel pistol. These pistols have mostly replaced multi barrel pistols as they are cheaper, lighter, and require only one key. Multi chamber pistols generally contain two or three chambers; 4 to eight chamber pistols do exist but require either a much larger cylinder or smaller essence packets, the latter requires the packets be made of higher quality essence making the packets much more expensive.
 
 ### Essence packets and Bullet Options
-The premier Pistol and Packet producer in Galt is Grath Arms, while their standards are not universally adopted they are a good baseline to compare other packets to and most packet producers will have items similar to Grath Arms' most common munitions.
+The premier Pistol and Packet producer in Galt is Grath Armaments, while their standards are not universally adopted they are a good baseline to compare other packets to and most packet producers will have items similar to Grath Armaments most common munitions.
 
-**Standard packet:** Close Range: 4m, Range Increment: 4m, Max Range: 12m, Damage and APV bonus: 4, Range Penalty: 1 penalty die, 1 damage, and 1 APV, Extra Successes: 1 Damage or APV. Cost: 3 pennies.
+**Standard packet:** Close Range: 4m, Range Increment: 4m, Max Range: 12m, Damage and APV bonus: 4, Range Penalty: 1 penalty die, 1 damage, and 1 APV, Extra Successes: 1 Damage or APV.
 
-**Premium packet:** Close Range: 4m, Range Increment: 4m, Max Range: 24m, Damage and APV bonus: 5, Range Penalty: 1 penalty die, 1 damage, and 1 APV, Extra Successes: 1 Damage or APV. Cost: 4 pennies.
+**Premium packet:** Close Range: 4m, Range Increment: 4m, Max Range: 24m, Damage and APV bonus: 5, Range Penalty: 1 penalty die, 1 damage, and 1 APV, Extra Successes: 1 Damage or APV.
 
-**Range packet:** Close Range: 6m, Range Increment: 6m, Max Range: 36m, Damage and APV bonus: , Range Penalty: 1 penalty die, 1 damage, and 1 APV, Extra Successes: 1 Damage or APV. Cost: 5 pennies.
+**Range packet:** Close Range: 6m, Range Increment: 6m, Max Range: 36m, Damage and APV bonus: , Range Penalty: 1 penalty die, 1 damage, and 1 APV, Extra Successes: 1 Damage or APV.
 
 **Casualty packet:** Close Range: 4, Range Increment: 4, Max Range: 12, Damage and APV bonus: 6, Range Penalty: 1 penalty die, 1 damage, and 1 APV, Extra Successes: 1 Damage or APV. Cost: 5 pennies.
 
-**Round bullet:** damage: 2 + packet bonus, APV: 1d4 + packet bonus. Standard round metal, usually bronze or iron, bullets that inflict serious penetrating damage. Cost: 1 penny.
+**Round bullet:** damage: 2 + packet bonus, APV: 1d4 + packet bonus. Standard round metal, usually bronze or iron, bullets that inflict serious penetrating damage.
 
-**Shaped bullet:** damage: 0 + packet bonus, APV: 2d4 + packet bonus. Long narrow bullets better at finding gaps in armor, penetrating gambesons, and bursting chain links than their round counterparts but also more likely to pass through their target inflicting less damage than their round cousins. Cost: 1 penny.
+**Shaped bullet:** damage: 0 + packet bonus, APV: 2d4 + packet bonus. Long narrow bullets better at finding gaps in armor, penetrating gambesons, and bursting chain links than their round counterparts but also more likely to pass through their target inflicting less damage than their round cousins.
 
-**Spell bullets:** damage: 0 + packet bonus, APV: 0 does not get packet bonus. Clay bullets with a wax coating filled with arcane essence that can be filled with a spell that is locked until the clay is exposed, something that happens when the bullet breaks on impact or as it tears into its target. Cost: 3 pennies + spell cost.
+**Spell bullets:** damage: 0 + packet bonus, APV: 0 does not get packet bonus. Clay bullets with a wax coating filled with arcane essence that can be filled with a spell that is locked until the clay is exposed, something that happens when the bullet breaks on impact or as it tears into its target.

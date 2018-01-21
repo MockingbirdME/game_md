@@ -137,3 +137,22 @@ Weapon prices vary wildly by where the item is purchased, they are much cheaper 
 | Ostrich   | 1000 |
 | Pig   | 50 |
 | Sheep   | 20 |
+
+## Grath Armaments
+| Weapon or Modification | Cost in pennies |
+| --- | --- |
+| Standard Pistol   | 1000 |
+| Extra Barrel   | 700 |
+| Two Chamber Cylinder | 500 |
+| Extra Chamber   | 200 |
+| Longer Barrel   | 200 |
+
+| Ammo Packet or bullet type | Cost in pennies |
+| --- | --- |
+| Standard Packet   | 3 |
+| Premium Packet   | 4 |
+| Range Packet   | 5 |
+| Casualty Packet   | 5 |
+| Round Bullet   | 1 |
+| Shaped Bullet   | 1 |
+| Spell Bullet   | 3 + spell cost |
