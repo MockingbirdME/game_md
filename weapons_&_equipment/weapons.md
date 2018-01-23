@@ -15,7 +15,7 @@
 
 ### Common Long Blades
 * Askelonian Arming Sword: Reach: 6, Difficulty: 4, Parry: 4/4/1, Damage: body, APV: 4, Attack-types: cut, thrust, strike, half-sword, mordstreich Notes: hand and a half.
-* Askelonian Longsword: Reach: 7, Difficulty: 5, Parry: 2/4/-, Damage: body, APV: 5, Attack-types: cut, thrust, strike, half-sword, mordstreich Notes: hand and a half.
+* Askelonian Longsword: Reach: 7, Difficulty: 5, Parry: 2/4/-, Damage: body, APV: 5, Attack-types: cut, thrust, strike, half-sword, mordstreich Notes: two handed.
 * Askelonian Side Sword: Reach: 5, Difficulty: 4, Parry: 4/-/1, Damage: body-1, APV: 4, Attack-types: cut, thrust, strike, half-sword Notes: none.
 * Askelonian Small Sword: Reach: 4, Difficulty: 4, Parry: 5/-/1, Damage: body -2, APV: 5, Attack-types: thrust, strike Notes: none.
 * Cleaver Falchion: Reach: 4, Difficulty: 4, Parry: 3/-/-, Damage: body, APV: 6, Attack-types: hack, slash, strike Notes: none.
