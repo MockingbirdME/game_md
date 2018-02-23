@@ -8,6 +8,7 @@ These are background or genetic advantages a character possesses. The traits lis
 * Danger Sense(4) - When turn based situation arises in which you are been surprised, and otherwise unable to act during the round, roll a d6; on a result of 2-5 you may act during the round at initiative 0, on a 6 you may act at your normal initiative.
 * Duelist(3) - each round choose one opponent, that opponent gains one penalty die to each attack against you this round.
 * Enhanced Attribute(X) - increase one primary attribute by one point; the cost of this trait is equal to twice the attribute's new score.  
+* Extended Spell List(2) - increase the number of spells you may know by one. This trait may be taken any number of times. 
 * Fast Reflexes(1) - Gain +1 to your initiative. A character may take this trait multiple times
 * Fulled by Pain(3) - Each time you suffer a stun or wound regain 3 stamina.
 * Hard to kill(4) - increase your max wounds by one and ignore one wound you are suffering from. This trait may be taken multiple times.
@@ -20,10 +21,8 @@ These are background or genetic advantages a character possesses. The traits lis
 * Long Arms(2) - Increase your reach by 1.
 * Mobile Combatant(3) - double your melee defense bonus against free attacks.
 * Push the body(3) - At the beginning of any round or once per scene regain up to 5 stamina and recover from up to 1 stun at the cost of 1 fatigue.
-* Savant(4) - Choose a secondary skill, when making skill checks double the rank of that skill.
-* Sneaky Spell Caster (2) - reduce the number of penalty dice you would normally receive from casting a spell without speaking or moving your hands/arms by one. This trait may be taken a second time.
-* Quick draw (3) - At the beginning of round of combat you may take a ready or stow weapon action with a turn requirement of 0, additionally you may take a ready or stow action during your turn with a turn requirement of 0.
-* Savant(6) - Choose 1 basic skill, when making a skill check treat that skill as if it is 1 rank higher; additionally if the skill’s rank is higher than the score of the associated attribute you may keep a number of dice equal to the skill’s rank (including the +1 from this trait) rather than the attribute’s score.
+* Sneaky Spell Caster(2) - reduce the number of penalty dice you would normally receive from casting a spell without speaking or moving your hands/arms by one. This trait may be taken a second time.
+* Quick draw(3) - At the beginning of round of combat you may take a ready or stow weapon action with a turn requirement of 0, additionally you may take a ready or stow action during your turn with a turn requirement of 0.
 * Skilled(x) - Gain x skill points to use to increase the character’s base skills after initial skills have been assigned.
 * Tough(3) - when suffering damage, other than arcane dues, treat your body score as if it were one higher. This trait may be taken multiple times increasing its cost by 1 each time.
 
