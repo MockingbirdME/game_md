@@ -65,7 +65,7 @@ Denja are generally quick witted and conversational, preferring to participate i
 
 ***Required Traits:***
 * Natural Armor - scales: armor value 4, body value 0, Physical Damage Reduction: 1.
-* Natural Weapon - claws: as brawling but -2 penetrating damage with armor piercing value 1.
+* Natural Weapon - claws: as brawling but -3 penetrating damage with armor piercing value 1.
 * Claws + Webbed Feet + Tail - gain 3 ranks to both the climb and swimming secondary skills.
 * Air Sacks - gain 1 rank to the swimming secondary skill and double the amount of time the character can hold their breath.
 
