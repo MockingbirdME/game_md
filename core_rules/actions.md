@@ -13,24 +13,24 @@ Many times in a game a character may wish to attempt an action where success is 
 ##### Steps for making a skill check:
 * Declare the action the character intends to take
 * Determine if action requires a skill check
-* Determine primary attribute, and primary skill.
+* Determine primary attribute, and primary skill
 * Build die pool
     * add primary attribute’s score d4s
     * add ranks in primary skill d8s
 * Add bonus and penalty dice to the die pool
 * Roll all dice in the die pool
 * For each penalty die one at a time remove the die with the highest score from the die pool
-* From the remaining dice select the x highest where x is the greater of the character’s primary attribute score and primary skill rank; the total of these selected dice is the skill check’s result
+* From the remaining dice select the x highest where x is the character’s primary attribute score, increased by one if their primary skill rank is greater than their ability score; the total of these selected dice is the skill check’s result
 * Compare the result to the action’s difficulty, for every 3 points by which the result exceeded the difficulty the action gains a success
 
 ##### Roll-less skill checks (take standard/take time) *NOTE* these need better terms
-Most opportunities for a skill check have a difficulty of 0 and some number of required successes for the action to be completed, in these situations it is often faster and easier to just take a standard success or, if the character is not rushed take their time. To do so follow these alternate steps:
+Most opportunities for a skill check have a difficulty of 5 and some number of required successes for the action to be completed, in these situations it is often faster and easier to just take a standard success or, if the character is not rushed, take their time. To do so follow these alternate steps:
 * Declare the action the character intends to take
 * Determine if action requires a skill check
 * Determine primary attribute and primary skill
 * Calculate successes:
     * add half the primary attribute(round down for standard, up for taken time) plus one to successes
-    * add the primary skills value to success
+    * add the primary skill's rank to successes
     * add half the number of bonus dice (round down for standard, up for taken time) as successes
     * Remove one successes for every penalty die
 * Apply your total successes to the action being taken
