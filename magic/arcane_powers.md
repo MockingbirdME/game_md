@@ -26,6 +26,10 @@ Arcane Power stat meanings:
     * Target (1+) - add X bonus or penalty dice to the next attack made against the target of this spell within the next round. Additional successes may be spent increase the number of bonus or penalty dice by one or to extend the duration of this effect by one round, alternatively two additional successes can be spent to have this bonus or penalty apply to all attacks of one type (melee, ranged) for the duration of the effect.
 * Affect Mass - touch, matter, all mages
     * (1+) - target one item of up to 10X pounds or one object of up to X cubic meters and increase or decrease its mass by X% for X rounds. Additional successes may be spent to double the mass or volume of the target or increase the mass change by an additional X%. A weapon's damage is reduced by one for every 25% its mass is reduced and attacks made with it gain one penalty die for every 25% by which its mass is increased. Armor's reflex value is increased or decreased by one for every 25% its mass is changed.
+* Arcane Armor - touch, fortification, all mages
+    * Natural Armor (3+) - gain an armor value of X, plus one for each additional success spent. If the target already has natural armor this effect replaces it, if it's APV is greater, or increases the natural value by 1.
+    * Hardened Armor (3) - target item of armor or natural armor has its APV increased by X.
+    * Absorb Damage (3) - target gains X physical damage reduction plus one for every two additional successes spent. 
 * Arcane Surgery - touch, health, all mages
     * Repair (3+) - gain X bonus dice to your next medical skill check to perform some form of surgery and do so without having to open your target. This power requires the character to know what’s going on at the location of their procedure through some effect such as sense health. This power requires one additional success for each material that would normally be needed to perform the surgery (needle, thread, heat, etc.) and must be either combined with some form of duration or recast every X minutes until the procedure is complete.
     * Harm (3+) - inflict up to X penetrating damage to the target plus one per additional success spent, ignoring any armor.
@@ -128,6 +132,9 @@ Arcane Power stat meanings:
 * Relocate - short, space, all mages
     * (3+) - target object of up to 10X pounds that is not held by a character can be relocated up to X meters. Additional successes can be spent to increase the weight of the object by up to 10lbs each. For each half of the weight (minimum 1 lb) the target object is the range may be extended by 1 meter. This effect can not cause the target to relocate to within another object/character.
     * (3+) - target character with up to combined body and size attributes of X may be relocated by up to X meters, plus one meter per additional success spent. The target’s combined stats may be reduced for this calculation by one for each additional success spent; a caster targeting himself may choose to reduce his body stat to 1 for the purposes of this effect. This effect can not cause the target to relocate to within another object/character.  
+* Resist Magic - touch, fortification or arcane, all mages
+    * (1+) - reduce any damage dealt by an arcane effect or spell by X plus one per additional success spent.
+    * (1+) - increase the difficulty of an arcane effect or spell to affect you by X plus one per additional success spent.
 * Resist Shock - touch, lightning, all mages
     * (1+) - increase the target’s lightning resistance by X plus one per additional success spent. 	
 * Resist Temperature - touch, cold or fire, all mages

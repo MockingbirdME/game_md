@@ -18,6 +18,7 @@ One of the most common arcane themes on Flax for all types of mages, it is taugh
 * suppress magic
 * imbue essence
 * detect talent
+* resist magic
 ### Cold  
 Natural mages with this theme are almost exclusive to Flax's colder, northern, reaches. Learned and dependent mages are also more likely to study this theme or its powers in the north but some academy's do teach it further south.
 * control temperature
@@ -38,6 +39,11 @@ One of the most common arcane themes taught in academies, and developed by depen
 * force barrier
 * force push
 * force strike
+### Fortification
+* arcane armor
+* resist magic
+* resist shock
+* resist temperature
 ### Healing
 One of the rarest gifts amongst natural and dependent mages healing arts are taught in most academies.
 * arcane surgery
