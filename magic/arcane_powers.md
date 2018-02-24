@@ -14,7 +14,7 @@ Arcane Power stat meanings:
 * Theme - the arcane theme(s), if any, that this power is associated with.
 * Mage Types allowed - some power's are restricted to certain mage types or mages with certain other traits, these requirements will be listed here.
 
-**Throwing spells** - spells that target another, unwilling, character require an attack roll. This can be a melee(brawling) attack for a touch spell or a ranged combat(throw spell) attack for a spell with range of close or higher. This attack requires a separate action.
+**Throwing spells** - spells that target another, unwilling, character require an attack roll. This can be a melee(brawling) attack for a touch spell or a ranged combat(throw spell) attack for a spell with range of short or higher. This attack requires a separate action.
 
 * Name - Range, Theme, Mage Types allowed   
     * (cost in successes) - power description option one
@@ -29,7 +29,7 @@ Arcane Power stat meanings:
 * Arcane Armor - touch, fortification, all mages
     * Natural Armor (3+) - gain an armor value of X, plus one for each additional success spent. If the target already has natural armor this effect replaces it, if it's APV is greater, or increases the natural value by 1.
     * Hardened Armor (3) - target item of armor or natural armor has its APV increased by X.
-    * Absorb Damage (3) - target gains X physical damage reduction plus one for every two additional successes spent. 
+    * Absorb Damage (3) - target gains X physical damage reduction plus one for every two additional successes spent.
 * Arcane Surgery - touch, health, all mages
     * Repair (3+) - gain X bonus dice to your next medical skill check to perform some form of surgery and do so without having to open your target. This power requires the character to know what’s going on at the location of their procedure through some effect such as sense health. This power requires one additional success for each material that would normally be needed to perform the surgery (needle, thread, heat, etc.) and must be either combined with some form of duration or recast every X minutes until the procedure is complete.
     * Harm (3+) - inflict up to X penetrating damage to the target plus one per additional success spent, ignoring any armor.
@@ -128,7 +128,7 @@ Arcane Power stat meanings:
 * Purify Water - short, water, all mages
     * (1+) - purify X liters of water plus one for each additional success spent. Additional successes may be spent to change water based liquids to pure water: wine cost 2 successes, liquor 3, 4 for ink, etc.  
 * Reduce Cost - spell, all learned mages, learned mages only
-    * (+) - reduce the arcane dues suffered by the casting of the spell by the number of successes spent on this power for each success spent on it. This reduction can never reduce the arcane dues below 3. All instances of this power in a spell must be before any gate.
+    * (+) - reduce the arcane dues suffered by the casting of the spell by 3 per success spent on this power. This reduction can never reduce the arcane dues below 3. All instances of this power in a spell must be before any gate.
 * Relocate - short, space, all mages
     * (3+) - target object of up to 10X pounds that is not held by a character can be relocated up to X meters. Additional successes can be spent to increase the weight of the object by up to 10lbs each. For each half of the weight (minimum 1 lb) the target object is the range may be extended by 1 meter. This effect can not cause the target to relocate to within another object/character.
     * (3+) - target character with up to combined body and size attributes of X may be relocated by up to X meters, plus one meter per additional success spent. The target’s combined stats may be reduced for this calculation by one for each additional success spent; a caster targeting himself may choose to reduce his body stat to 1 for the purposes of this effect. This effect can not cause the target to relocate to within another object/character.  
@@ -161,7 +161,7 @@ Arcane Power stat meanings:
     * null magic zone (3+) - target 1m hex becomes a null magic zone for X rounds, spells cast in this zone have one penalty die added to their skill check + 1 per additional success spent, max(X). Cantrips can not be cast in this zone.
     * counter spell (3+) - target spell fizzles if it has less than X, plus one per additional success, successes in it or target character who has gathered energy looses X, plus one per additional success, successes from their gathered energy pool.
 * Throw Spell - spell/effect, free for all mages, all mages
-    * (1) - the spell has it's range increased to close.
+    * (1) - the spell has it's range increased to short.
 * Time Lapse - touch, temporal, all mages
     * (+) - speed up or slow down a multi round action or event by adding or subtracting one round or minute to the number needed to complete the action or event. The caster may not spend more than X successes on this power. This power can not be used to reduce the amount of time needed below one round or minute.
     * (+) - speed up or slow down an action or event that requires multiple successes by increasing or decreasing the number of successes needed to complete the action or event. The caster may not spend more than X successes on this power. This power can not be used to reduce the number of successes needed below 5.
