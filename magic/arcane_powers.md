@@ -6,11 +6,13 @@ Arcane Power stat meanings:
 * Name - The name of the arcane power being described.
 * Range - Arcane powers have six basic ranges, a spell.or effect utilizing powers with multiple ranges, other than spell/effect, has the lowest range amongst the powers used:
   * spell/effect - this power can not be cast by itself, it affects the rest of the spell or effect it is included in.
+  * spell - as spell/effect but can only affect spells.
   * self - this power is used to affect the caster.
   * touch - this power affects a target that is touched or the caster.
   * short - this power can be thrown with a close range of the caster's mind stat, a range increment of the caster's mind stat, and a max range of three times the caster's mind stat.
   * medium - this power can be thrown with a close range of twice the caster's mind stat, a range increment of twice the caster's mind stat, and a max range of six times the caster's mind stat.
   * long - this power can be thrown with a close range of three times the caster's mind stat, a range increment of three times the caster's mind stat, and a max range of ten times the caster's mind stat.
+* Duration - many effects last only for an instant as the spell is triggered others last for some period of time, generally either one round or some number of minutes; if duration is listed as "X" it means the specifics of the spell's duration are listed in the description. 
 * Theme - the arcane theme(s), if any, that this power is associated with.
 * Mage Types allowed - some power's are restricted to certain mage types or mages with certain other traits, these requirements will be listed here.
 
@@ -26,8 +28,8 @@ Arcane Power stat meanings:
     * Target (1+) - add X bonus or penalty dice to the next attack made against the target of this spell within the next round. Additional successes may be spent increase the number of bonus or penalty dice by one or to extend the duration of this effect by one round, alternatively two additional successes can be spent to have this bonus or penalty apply to all attacks of one type (melee, ranged) for the duration of the effect.
 * Affect Mass - touch, matter, all mages
     * (1+) - target one item of up to 10X pounds or one object of up to X cubic meters and increase or decrease its mass by X% for X rounds. Additional successes may be spent to double the mass or volume of the target or increase the mass change by an additional X%. A weapon's damage is reduced by one for every 25% its mass is reduced and attacks made with it gain one penalty die for every 25% by which its mass is increased. Armor's reflex value is increased or decreased by one for every 25% its mass is changed.
-* Arcane Armor - touch, fortification, all mages
-    * Natural Armor (3+) - gain an armor value of X, plus one for each additional success spent. If the target already has natural armor this effect replaces it, if it's APV is greater, or increases the natural value by 1.
+* Arcane Armor - short, fortification, all mages
+    * Natural Armor (3+) - target character gains an armor value of X, plus one for each additional success spent. If the target already has natural armor this effect replaces it, if it's APV is greater, or increases the natural value by 1.
     * Hardened Armor (3) - target item of armor or natural armor has its APV increased by X.
     * Absorb Damage (3) - target gains X physical damage reduction plus one for every two additional successes spent.
 * Arcane Surgery - touch, health, all mages
@@ -59,8 +61,8 @@ Arcane Power stat meanings:
     * (1+) - the difficulty to force the air to release its water is determined by how much it holds, up to 20 for desert conditions and as little as 5 for when a storm is ready to break; the character can make a difficulty of up to X plus one per additional success spent. If the total difficulty the caster reaches exceeds the needs of the weather it begins to rain or the strength of the rain increases, alternatively if the total difficulty the caster reaches fails to meet that needed but exceeds half of it reduce the difficulty to call rain in the area by one for X minutes.
 * Control Temperature - spell/effect or short, fire or cold, all mages
     * (+) - for each success spent the caster may add* or subtract up to X damage from a heat based damage source; the temperature of the damage source is adjusted accordingly. * if this power is gained from a arcane theme secondary skill damage may only be increased if it is of the appropriate type (eg. the fire theme allows the mage to increase the damage of an attack that deals fire damage but not one that deals cold damage).
-* Detect Talent - short, arcane, all mages
-    * (1+) - identify a character as a mage or member of a bloodline or house with difficulty X, plus one per additional success spent on this power. Difficulty to identify a natural mage is 5, a learned mage is 10, and a dependent mage is 15 each of these is reduced by one for each rank the character has in arcane aptitude, difficulty to identify a member of a house or bloodline is 10. To identify which type of mage or member the character is cost an additional three successes. The difficulty to identify a character can be reduced by 5 if the caster chooses a single mage type, bloodline, or house to be searching for membership in when using this power.
+* Detect Talent - medium, arcane, all mages
+    * (1+) - identify a characters within range as a mages or members of bloodlines or houses with difficulty X, plus one per additional success spent on this power. Difficulty to identify a natural mage is 5, a learned or dependent mage is 10 each of these is reduced by one for each rank the character has in arcane aptitude and increased by one for each range increment the character is in beyond close range, difficulty to identify a member of a house or bloodline is 10. To identify which type of mage or member the character is cost an additional three successes. The difficulty to identify a character can be reduced by 5 if the caster chooses a single mage type, bloodline, or house to be searching for membership in when using this power the difficulty can be further reduced by 5 by targeting a single character rather than the area around the caster.
 * Direct Heat - effect/spell or short, fire, all mages
     * (1 +) - for each success spent choose up to a quadrant of an spell/effect you cast/shaped or of another heat source that inflicts no more than Xd6 damage to not radiate heat. Additional Successes can be spent to increase the maximum size of the affected heat source by 1d6.
 * Draw Water - short, water, all mages
@@ -77,7 +79,7 @@ Arcane Power stat meanings:
     * (1+) - for each success choose close range, range increment, or max range to increase that statistic by its base value.
 * Enhance Spell's Range, true - spell/effect, space, all mages
     * (1+) - multiply the spell's close range, range increment, and max range each by X+1. Each additional success spent in this power doubles either the spell's close range, range increment, or max range.
-* Enhance Weapon's Range - touch, space, all mages
+* Enhance Weapon's Range - short, space, all mages
     * (1+) - target ranged weapon or piece of ammunition has it's close range, range increment, and max range increased by 10X% for it's next attack within X rounds. One success can be spent to have this affect all attacks made with that weapon for X rounds, affect X weapons or pieces of ammunition, additional successes may also be spent to increase X by 1 for all parts of this power's effect.
 * Enhance Metal - touch, metal, house of smiths
     * Maintenance (3) - Target metal item, weapon, or piece/suit of armor is shinned, sharpened, buffed, and oiled removing any negative effects it was suffering due to wear or age.
@@ -96,7 +98,7 @@ Arcane Power stat meanings:
 * Freeze - short, cold, all mages
     * (+) - the caster instantly freezes up to X ounces of water per success spent. Additional successes may be spent to freeze other liquids (+1 for beer, +2 for wine or ink, etc.). The flash freezing creates ice nearly as hard as steel and for one additional success may be shaped as a temporary weapon (see alternate armor and weapon materials).
     * (3) - the caster chills their target inflicting Xd4 cold damage.
-* Haste - touch, movement or temporal, all mages
+* Haste - short, movement or temporal, all mages
     * (1+) - target character is speed up, the first success spent increases their movement by X, the second success increases their defense by X, the third grants the character half of X, rounded down, bonus dice to all reflex based actions. Additional successes may be spent in order to increase the target’s movement, defense, or bonus dice to reflex based actions by one. The effects of haste last for one round.   
 * Ignite - short, fire, all mages
     * (1+) reduce a target’s fire resistance by X plus one for each additional success spent. If a target’s body + fire resistance every equals zero they catch alight suffering X fire damage plus 3 for each point below zero the total is reduced. The effects of ignite last for one round.
@@ -121,11 +123,11 @@ Arcane Power stat meanings:
     * Displace (1+) - move up to 10 times X cubic meters of air up to X meters, increase total volume of air by up to 10 cubic meters or total distance by up to 1 meter, the air continues moving losing one meter of distance each round.
     * Area (1+) - an area of up to X cubic meters of air moves erratically causing all ranged attacks passing through it to suffer -X to their skill check results, modified by projectile size, for X rounds. Additional successes can be spent to increase the cubic meters, skill check penalty, or duration by one.
     * Speed (1+) - the wind in an area of no more than ten times X cubic meters has its speed increased or decreased by up to 150 times X meters per minute. Additional successes may be spent to increase the volume by 10 cubic meters or the speed by 150 meters per minute.
-* Obfuscate - short, perception, all mages
+* Obfuscate - touch, perception, all mages
     * (3+) - one object/character is more difficult to see/hear/smell/etc. Target one object and choose one sense all characters get X penalty dice to perceive that character/object with the chosen sense. The mage may spend additional successes to add an additional sense or penalty die to the effect.
 * Quick Cast - spell, free for all mages, all mages
     * (1) - reduce the turn requirement to cast this spell to zero, all other actions taken this round receive one penalty die.
-* Purify Water - short, water, all mages
+* Purify Water - touch, water, all mages
     * (1+) - purify X liters of water plus one for each additional success spent. Additional successes may be spent to change water based liquids to pure water: wine cost 2 successes, liquor 3, 4 for ink, etc.  
 * Reduce Cost - spell, all learned mages, learned mages only
     * (+) - reduce the arcane dues suffered by the casting of the spell by 3 per success spent on this power. This reduction can never reduce the arcane dues below 3. All instances of this power in a spell must be before any gate.
@@ -141,7 +143,7 @@ Arcane Power stat meanings:
     * (1+) - increase the target’s cold or fire resistance by X plus one per additional success spent.
 * Selective Perception - short, mind or perception, all mages
     * (1+) - target a character, the difficulty to affect them is equal to 1+ their mind or perception stat depending on which arcane theme the character gets this power from or his choice if he has the power by itself. The targeted character suffers X penalty dice to perception checks  with one sense against one item (character, specific smell, bag of gold, etc.) this may cause the character to make checks when they would not normally be needed. Additional successes may be spent to add an additional sense or penalty die to this effect.
-* Sense Health - short, healing, all mages
+* Sense Health - medium, healing, all mages
     * Diagnose (4+) - gain X bonus dice to a medical diagnostic skill check on one target character, this check may reveal illnesses, injuries, or conditions otherwise not testable for by a standard examination such as a healed fracture, non-symptomatic carrier of a disease, or weather or not the character is pregnant. Additional successes can be used to find out additional information about the character’s health that was initially found during the diagnostics, for each success used in this way ask the GM one simple question about a diagnosed item (ex: how old is the fracture? How is the disease spread? Is it a boy or girl?) .
     * Monitoring (1+) - allows the mage to monitor the state of one diagnosed item for X minutes + 1 minute per additional success.
 * Sense Magic - medium, arcane, all Mages
