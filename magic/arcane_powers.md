@@ -12,7 +12,6 @@ Arcane Power stat meanings:
   * short - this power can be thrown with a close range of the caster's mind stat, a range increment of the caster's mind stat, and a max range of three times the caster's mind stat.
   * medium - this power can be thrown with a close range of twice the caster's mind stat, a range increment of twice the caster's mind stat, and a max range of six times the caster's mind stat.
   * long - this power can be thrown with a close range of three times the caster's mind stat, a range increment of three times the caster's mind stat, and a max range of ten times the caster's mind stat.
-* Duration - many effects last only for an instant as the spell is triggered others last for some period of time, generally either one round or some number of minutes; if duration is listed as "X" it means the specifics of the spell's duration are listed in the description. 
 * Theme - the arcane theme(s), if any, that this power is associated with.
 * Mage Types allowed - some power's are restricted to certain mage types or mages with certain other traits, these requirements will be listed here.
 
@@ -29,11 +28,11 @@ Arcane Power stat meanings:
 * Affect Mass - touch, matter, all mages
     * (1+) - target one item of up to 10X pounds or one object of up to X cubic meters and increase or decrease its mass by X% for X rounds. Additional successes may be spent to double the mass or volume of the target or increase the mass change by an additional X%. A weapon's damage is reduced by one for every 25% its mass is reduced and attacks made with it gain one penalty die for every 25% by which its mass is increased. Armor's reflex value is increased or decreased by one for every 25% its mass is changed.
 * Arcane Armor - short, fortification, all mages
-    * Natural Armor (3+) - target character gains an armor value of X, plus one for each additional success spent. If the target already has natural armor this effect replaces it, if it's APV is greater, or increases the natural value by 1.
-    * Hardened Armor (3) - target item of armor or natural armor has its APV increased by X.
-    * Absorb Damage (3) - target gains X physical damage reduction plus one for every two additional successes spent.
+    * Natural Armor (3+) - target character gains an armor value of X, plus one for each additional success spent for X rounds. If the target already has natural armor this effect replaces it, if it's APV is greater, or increases the natural value by 1.
+    * Hardened Armor (3) - target item of armor or natural armor has its APV increased by X for X rounds.
+    * Absorb Damage (3) - target gains X physical damage reduction plus one for every two additional successes spent for one round.
 * Arcane Surgery - touch, health, all mages
-    * Repair (3+) - gain X bonus dice to your next medical skill check to perform some form of surgery and do so without having to open your target. This power requires the character to know what’s going on at the location of their procedure through some effect such as sense health. This power requires one additional success for each material that would normally be needed to perform the surgery (needle, thread, heat, etc.) and must be either combined with some form of duration or recast every X minutes until the procedure is complete.
+    * Repair (3+) - gain X bonus dice to your next medical skill check, within 10 minutes, to perform some form of surgery and do so without having to open your target. This power requires the character to know what’s going on at the location of their procedure through some effect such as sense health. This power requires one additional success for each material that would normally be needed to perform the surgery (needle, thread, heat, etc.) and must be either combined with some form of duration or recast every X minutes until the procedure is complete.
     * Harm (3+) - inflict up to X penetrating damage to the target plus one per additional success spent, ignoring any armor.
 * Area of Effect - spell/effect, space, all mages
     * Burst (1+) - the spell or effect affects an area centered on it’s target, this area has a diameter equal to X+1 meters. This diameter can be increased by one for each additional success spent to do so. When the effect has a range of self the caster may increase the diameter by one while having it ignore the hex they are standing on.
@@ -44,23 +43,23 @@ Arcane Power stat meanings:
 * Arcane Targeting - spell/effect, targeting, all mages
     * (1+) - added to a spell with a range other than touch or self the spell may be thrown using the magical aptitude skill as it’s primary skill and add this power’s secondary skill as a relevant secondary skill. Additional successes may be spent to add X to the throw’s skill check total.
 * Augment Body - short, force or matter, all mages
-    * (1+) - target gains +X bonus, plus one per additional success spent, to all skill check results where body is the primary attribute.
-    * (4++) - target gains X to their body stat, plus one per two additional successes spent, this bonus does not apply to the character’s body for purposes of calculating arcane dues.
+    * (1+) - target gains +X bonus, plus one per additional success spent, to all skill check results where body is the primary attribute for X rounds.
+    * (4++) - target gains X to their body stat, plus one per two additional successes spent, this bonus does not apply to the character’s body for purposes of calculating arcane dues; the effect lasts for X rounds.
 * Augment Mind - short, mind, all mages
-    * (1+) - target gains +X bonus, plus one per additional success spent, to all non-arcane aptitude skill check results where mind is the primary attribute.
-    * (4++) - target gains X to their mind stat, plus one per two additional successes spent, this bonus does not apply to the character’s mind for purposes of arcane aptitude skill checks.
+    * (1+) - target gains +X bonus, plus one per additional success spent, to all non-arcane aptitude skill check results where mind is the primary attribute for X rounds.
+    * (4++) - target gains X to their mind stat, plus one per two additional successes spent, this bonus does not apply to the character’s mind for purposes of arcane aptitude skill checks; the effect lasts for X rounds.
 * Augment Perception - short, perception, all mages
-    * (1+) - target gains +X bonus, plus one per additional success spent, to all skill check results where perception is the primary attribute.
-    * (4++) - target gains X to their perception stat, plus one per two additional successes spent.
+    * (1+) - target gains +X bonus, plus one per additional success spent, to all skill check results where perception is the primary attribute for X rounds.
+    * (4++) - target gains X to their perception stat, plus one per two additional successes spent; the effect lasts for X rounds.
 * Augment Reflexes - short, movement, all mages
-    * (1+) - target gains +X bonus, plus one per additional success spent, to all skill check results where reflexes is the primary attribute.
-    * (4++) - target gains X to their reflexes stat, plus one per two additional successes spent.
+    * (1+) - target gains +X bonus, plus one per additional success spent, to all skill check results where reflexes is the primary attribute for X rounds.
+    * (4++) - target gains X to their reflexes stat, plus one per two additional successes spent; the effect lasts for X rounds.
 * Augment Speed - short, lightning or movement or wind, all mages
-    * (3++) - target gains X to their movement stat or meters moved, for non ground movement maneuvers, plus one per two additional success spent.
+    * (3++) - target gains X to their movement stat or meters moved, for non ground movement maneuvers, plus one per two additional success spent; the effect lasts for X rounds.
 * Call  Rain - long, water, all mages
     * (1+) - the difficulty to force the air to release its water is determined by how much it holds, up to 20 for desert conditions and as little as 5 for when a storm is ready to break; the character can make a difficulty of up to X plus one per additional success spent. If the total difficulty the caster reaches exceeds the needs of the weather it begins to rain or the strength of the rain increases, alternatively if the total difficulty the caster reaches fails to meet that needed but exceeds half of it reduce the difficulty to call rain in the area by one for X minutes.
 * Control Temperature - spell/effect or short, fire or cold, all mages
-    * (+) - for each success spent the caster may add* or subtract up to X damage from a heat based damage source; the temperature of the damage source is adjusted accordingly. * if this power is gained from a arcane theme secondary skill damage may only be increased if it is of the appropriate type (eg. the fire theme allows the mage to increase the damage of an attack that deals fire damage but not one that deals cold damage).
+    * (+) - for each success spent the caster may add or subtract up to X damage from a heat based damage source; the temperature of the damage source is adjusted accordingly. If this power is gained from a arcane theme secondary skill damage may only be increased if it is of the appropriate type (eg. the fire theme allows the mage to increase the damage of an attack that deals fire damage but not one that deals cold damage). The effect of this power lasts for the duration of the spell if it affects one or for X rounds if affecting another head based damage source. 
 * Detect Talent - medium, arcane, all mages
     * (1+) - identify a characters within range as a mages or members of bloodlines or houses with difficulty X, plus one per additional success spent on this power. Difficulty to identify a natural mage is 5, a learned or dependent mage is 10 each of these is reduced by one for each rank the character has in arcane aptitude and increased by one for each range increment the character is in beyond close range, difficulty to identify a member of a house or bloodline is 10. To identify which type of mage or member the character is cost an additional three successes. The difficulty to identify a character can be reduced by 5 if the caster chooses a single mage type, bloodline, or house to be searching for membership in when using this power the difficulty can be further reduced by 5 by targeting a single character rather than the area around the caster.
 * Direct Heat - effect/spell or short, fire, all mages
