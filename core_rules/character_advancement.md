@@ -5,9 +5,9 @@ At character creation they gain 5, or more, advancement points. Advancement poin
 
 ##### In game uses
 * Gain +5 to the result of a skill check that did not meet its difficulty. Add the advancement point to the primary skill. Limit one per skill check.
-* Add one success to a skill check that the character just made that met it's difficulty, if any. Add the advancement point to the primary skill used in that skill check. Limit one per skill check.
+* Add one success to a skill check that the character just made that met it's difficulty. Add the advancement point to the primary skill used in that skill check. Limit one per skill check.
 * Reduce the damage they have just taken by 3, this can not be used to reduce arcane dues. The advancement point is added to either the character's endurance skill or body attribute, player's choice.
-* Ignore all penalty dice for one skill check. Add the advancement point the primary skill used in the skill check.
+* Ignore all penalty dice for one skill check. Add the advancement point the endurance skill or the primary skill used in the skill check.
 * Take one action, with a turn requirement of zero and that has had all prerequisites met, outside of your turn. Add the advancement point to the primary skill being used. Limit once per round.
 
 ##### Out of game uses
