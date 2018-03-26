@@ -7,6 +7,15 @@ Most attacks are made as a melee or ranged combat skill check compared to the op
 * Hit: an attack result that equals or exceeds the target’s modified defense hits. The target loses two defense and suffers the effects of the attack.
 * Additional successes: for every three points an attack’s result exceeded the target’s defense it gains an additional success that may be spent for melee attacks to choose a hit location (1 for body, 2 for arm or legs, 3 for head) or for any attack to gain the bonus effects from the weapon or attack type used.
 
+### Targeting objects or hexes:
+When making an attack there are times that the target is not another character but an object or map hex.
+* Targeting a stationary object: a stationary object has a effective defense value of 12 - it's size.
+* Targeting a carried object: targeting an object that is carried or worn by another character requires a successful hit against the character with enough extra successes to target the body location that is carrying/wearing the item plus 1-3 additional successes depending on the size of the object. If the role is enough to hit the character but not the aimed for body location the attack misses, if the attack is enough to hit the location but not the object the attack damages the location as if it was the target with no extra successes to the damage.
+* Targeting an hex on the map: to successfully hit a single hex on the map with a melee weapon has a difficulty of 5, targeting a hex with a ranged weapon has a difficulty of 10 for close range +5 for each range increment. Targeting a hex with a character in it increases the difficulty by 5. Missing a melee attack simply misses, missing a range attack results in a hit in a randomized direction X meters away where X is equal to the amount by which the attack fell short divided by 3 plus 1.
+
+### Areas of Effect
+Many items, spells, and abilities cause everything in an area to be effected. These effects generally originate from a hex though sometimes from a character. Any character's aware of the AOE may accept two penalty dice to all actions on their next turn to move a number of meters equal to the greater of their ranks in personal defense or personal movement or spend a advancement point to move a number of meters equal to the sum of their ranks in those skills; add that advancement point to either their personal defense or personal movement skill.  
+
 ### Hit locations:
 Unless the hit location is already determined roll a d10 to determine it: 1-2 legs, 3 right arm, 4 left arm, 5-9 body and 10 for head. Area effects generally damage the target’s body location and do not require a roll.
 
