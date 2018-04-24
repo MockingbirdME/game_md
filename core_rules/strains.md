@@ -79,37 +79,7 @@ Denja are generally quick witted and conversational, preferring to participate i
 ***Trait Points:*** +22
 <div class="page-break"></div>
 
-#### Kaazt
-Born to be fierce and competitive tribal warriors Kaazt are truly of two breeds, those who were raised in the Great Jungles and those who were not. Kaazt who grew up as part of the ancient packs that dwell in the oldest jungles are generally xenophobic and hostile to members of other strains; they are considered quite primitive by their more civilized brethren. It has been millennia, however, sense Kaazt first migrated out of the Jungles, in this time they have traveled to all parts of the Great Continent and have found homes in nearly every nation. Kaazt are generally quite friendly with those whom they consider friends but most are somewhat reclusive and uncomfortable around those they do not know.
 
-***Physical Appearance:*** These semi-bipedal felines stand between four and a half and five and a half feet tall are lightly built and covered with fur. A Kaazt’s fur can come in many colors and patterns with the length and thickness increasing, for males, around the head and shoulders. Kaazt sport five phalanges on their hands and feet, each one, save the thumb, ending in a razor sharp, retractable, claw that Kaazt use for climbing or combat.
-
-***Origin:*** The youngest of the strains, Kaazt were created by the Vine Queen, Ancon. Ancon was fearful that her great jungles would be invaded by the various strains wondering the face of Flax and, as the last act of The Second Days, breathed life into the Kaazt tasking them to protect her domain from invaders.
-
-***Size:*** 5
-
-***Base Attributes:***
-* Body: 3
-* Reflexes: 4
-* Perception: 3
-* Mind: 1
-
-***Attribute points:*** 9
-
-***Required Traits:***
-* Natural Weapon - claws - as brawling but -1 penetrating damage with armor piercing value of 2.
-* Claws - gain 2 ranks to the climb secondary skill.
-* Highly Mobile - when moving on all fours increase the character’s personal movement skill by 4 ranks when determining the distance the character can move; this bonus only applies to ground movement.
-* Heightened sense - hearing x1, smell/taste x2
-
-***Strain Traits:***
-
-***Arcane Traits:***
-* Dependent Mage: 10
-* Learned Mage: 12
-
-***Trait Points:*** +20
-<div class="page-break"></div>
 
 #### Rhosk
 Originally natives to the Northern Desert, and though many have migrated south these are the two things that all Rhosk are skilled at: order and war. Rhosk in the north are usually associated with Shiver’s defenses in some capacity those found further south often feel a fealty to the north even when not actively working towards its defense. Rhosk are known to be serious and stoic, though dangerous once angered they often find themselves respected despite their lack of close personal friends. Rhosk rarely possess a sense of humor or irony and are falsely rumored to be unable to smile or laugh. Their stoicism and natural understanding of tactics makes Rhosk natural field commanders for any nations military.
@@ -244,3 +214,37 @@ Torleni were created by Milnot, the mistress of the mountain, in the range domin
 * Learned Mage: 10
 
 ***Trait Points:*** +14
+
+### Secondary strains
+
+#### Kaazt
+Born to be fierce and competitive tribal warriors Kaazt are truly of two breeds, those who were raised in the Great Jungles and those who were not. Kaazt who grew up as part of the ancient packs that dwell in the oldest jungles are generally xenophobic and hostile to members of other strains; they are considered quite primitive by their more civilized brethren. It has been millennia, however, sense Kaazt first migrated out of the Jungles, in this time they have traveled to all parts of the Great Continent and have found homes in nearly every nation. Kaazt are generally quite friendly with those whom they consider friends but most are somewhat reclusive and uncomfortable around those they do not know.
+
+***Physical Appearance:*** These semi-bipedal felines stand between four and a half and five and a half feet tall are lightly built and covered with fur. A Kaazt’s fur can come in many colors and patterns with the length and thickness increasing, for males, around the head and shoulders. Kaazt sport five phalanges on their hands and feet, each one, save the thumb, ending in a razor sharp, retractable, claw that Kaazt use for climbing or combat.
+
+***Origin:*** The youngest of the strains, Kaazt were created by the Vine Queen, Ancon. Ancon was fearful that her great jungles would be invaded by the various strains wondering the face of Flax and, as the last act of The Second Days, breathed life into the Kaazt tasking them to protect her domain from invaders.
+
+***Size:*** 5
+
+***Base Attributes:***
+* Body: 3
+* Reflexes: 4
+* Perception: 3
+* Mind: 1
+
+***Attribute points:*** 9
+
+***Required Traits:***
+* Natural Weapon - claws - as brawling but -1 penetrating damage with armor piercing value of 2.
+* Claws - gain 2 ranks to the climb secondary skill.
+* Highly Mobile - when moving on all fours increase the character’s personal movement skill by 4 ranks when determining the distance the character can move; this bonus only applies to ground movement.
+* Heightened sense - hearing x1, smell/taste x2
+
+***Strain Traits:***
+
+***Arcane Traits:***
+* Dependent Mage: 10
+* Learned Mage: 12
+
+***Trait Points:*** +20
+<div class="page-break"></div>
