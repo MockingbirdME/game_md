@@ -139,7 +139,7 @@ Most often found living in towns and cities or on lands ruled by one Sapeen are 
 ***Trait Points:*** +20
 <div class="page-break"></div>
 
-#### Teejee(male)
+#### Teejee(worker)
 The most diverse of strains Teejee females are either breeders or drones; the breeders tend to be largely sedentary commanding their drones and male children to carry out their will while drones, though technically members of a strain, are only slightly more intelligent than a dog. Male Teejee, however, are both intelligent and personable.
 
 ***Physical Appearance:*** Male Teejee are four legged, two armed, insectoids that stand around five feet tall. They are dark grey in color with round heads and faces that sport large eyes, no nose, and round mouths with short, pincer like, mandibles to either side. They are covered with small black and brown hairs all over their bodies. Their three fingered hands are excellent at grasping and manipulating objects but their feet are toeless and largely oval.
