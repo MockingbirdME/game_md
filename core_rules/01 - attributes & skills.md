@@ -1,13 +1,13 @@
-# Attributes & Skills
+# Attributes
 
-### Primary Attributes:
+## Primary Attributes:
 Character’s have four primary attributes that describe their physical and mental talents. Primary attributes play a key role in determining a character’s potential for success in various actions.
 * **Body** - a character’s strength, stamina, and toughness.
 * **Reflexes** - how quickly a character moves or reacts.
 * **Perception** - how well tuned the character’s senses are.
 * **Mind** - a character’s learning and mental discipline.
 
-### Secondary Attributes:
+## Secondary Attributes:
 These statistics and resources are derived from the character’s strain, primary attributes, and skills.
 * **Size** - determined by a character’s strain and traits.
 * **Reach** - equal to the character’s size.
@@ -15,17 +15,20 @@ These statistics and resources are derived from the character’s strain, primar
 * **Ranged defense bonus** - added to a character’s defense against ranged attacks they are aware of. This bonus is equal to the sum of a character’s ranks in alertness and the dodge secondary skill.
 * **Max. Wounds** - a character with this many wounds will soon die without medical attention. Max wounds is equal to the average(round up) of the character’s body stat and size.
 * **Movement** - equal to 3 + the character’s size + their ranks in personal movement.
-##### Resources:
+### Resources:
 These attributes can be depleted, the maximum amount of the resource a character can have is the listed stat.
 * **Defense** - a measure of how hard a character is to hit. A character’s defense is equal to 10 + reflexes + perception + twice their rank in personal defense - their size.
 * **Stamina** - a measure of how much energy a character has. A character’s stamina is equal to 10 + body + ranks in Endurance + ranks in the stamina secondary skill.
 * **Initiative** (optional) - a measure of how quickly the character acts. Initiative is equal to the sum of a character’s current defense and current stamina.
 <div class="page-break"></div>
-### Primary Skills:
-Primary skills are broad categories of learned or trained abilities a character has accumulated.
 
-### Secondary Skills:
-Secondary skills individually represent subsets of, or specializations in, a primary skill it is associated with.
+# Skills
+
+## Primary Skills:
+Primary skills are broad categories of learned or trained abilities a character has accumulated. The number of ranks a character has in a primary skill is used to add dice or successes to a skill check, some secondary attributes are also affected by the number of ranks a character possesses in certain primary skills.
+
+## Secondary Skills:
+Secondary skills individually represent subsets of, or specializations in, a primary skill it is associated with. Ranks in secondary skills have not static effect but are referenced in many other areas to add bonus dice to skill rolls, increase secondary attributes, and otherwise enhance the results of an action.
 
 | Basic Skill | Example Secondary Skills |
 | --- | --- |
@@ -42,7 +45,8 @@ Secondary skills individually represent subsets of, or specializations in, a pri
 | Ranged Combat | Aim, Bows, Crossbows, Pistols, Reload(weapon type), Spells, Throw |
 | Stealth | Cover tracks, Disguise, Hide Self, Hide object/other, Move Quietly |
 | Survival | Find/build shelter, Forge, Hunt, Specific environment, Track |
-<div class="page-break"></div>
+
+### Skill Descriptions
 * **Awareness:** the quintessential perception skill, should be used whenever the character is checking to see if he notices something.
 * **Animal Handling:** how familiar is the character with animals, particularly domestic ones. This skill should be used when dealing with an animal that has a chance of being controlled or calmed.
 * **Craft/Profession:** Not one skill but a collection of them that few character’s are likely to have more than one of. A basic skill should be a broad grouping and should have at least three options for secondary skills. Some examples include:

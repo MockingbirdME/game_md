@@ -26,16 +26,13 @@ These are background or genetic advantages a character possesses. The traits lis
 * **Skilled(x)** - Gain x skill points to use to increase the character’s base skills after initial skills have been assigned.
 * **Tough(3)** - when suffering damage, other than arcane dues, treat your body score as if it were one higher. This trait may be taken multiple times increasing its cost by 1 each time.
 
-<div class="page-break"></div>
-
-### Arcane Traits:
+## Arcane Traits:
 Any character may study magic but only those few who possess an arcane trait can shape and wield it. Arcane traits allow the character to craft magical effects and cast spells. A character may take only those arcane traits allowed by their strain, at the cost listed in the strain’s description.
 * **Dependent Mage** - dependent mages have less arcane potential than other magic users and are unable to shape magic without consuming the alchemical substance, commonly known as, arcane essence. Dependent mages may not learn arcane theme secondary skills. Dependent mages may not spend skill or advancement points to gain new or increased ranks in arcane aptitude secondary skills but when they increase their rank in arcane aptitude they gain a number of bonus secondary skill ranks equal to their new rank in the base skill. Dependent mages may absorb more arcane essence than other characters; their bodies may absorb and store up to a number of doses equal to their body stat. A dependent mage may burn 1 dose of arcane essence in their system to reduce the effects of arcane dues by 1 wound, 3 fatigue, or 9 stamina; if the dose spent was the final dose in the mages system they suffer the normal effects of essence wearing off.
 * **Learned Mage** - these mages have spent years studying, training, and enduring all manner of physical and mental trials in order to unlock their arcane potential. A learned mage must spend twice as many skill or advancement points to increase their rank in any arcane aptitude secondary skill. They may learn any arcane theme secondary skill that they have a teacher for and meet the theme's requirements.
 * **Natural Mage** - natural mages do not require training or arcane essence in order to unlock their magical talents; the power is in the mage’s blood and is as natural to them as language or movement. Natural mages select a single arcane theme secondary skill when they take their first p**oint in arcane aptitude, the mage must use their free secondary skill rank gained for their first rank in the base skill on this arcane theme. Natural mages may spend build or advancement points to learn magical effect secondary skills but may never increase their rank beyond 1. Natural mages when determining arcane dues increase their body score by an amount equal to their rank in arcane aptitude when casting spells. A character may take this trait additional times in order to gain a second, or third etc., arcane theme secondary skill; if done the second arcane theme will gain its first rank when arcane aptitude increases to rank 2, a third theme would gain its first rank when arcane aptitude is increased to rank three, etc.; each arcane theme that the character has at least 1 rank in will gain a rank each time the base skill is leveled up thereafter. Strains that have access to this will have 2 costs listed, the first is the cost of the first time this trait is taken and the second is the price for gaining additional arcane themes.
-<div class="page-break"></div>
 
-### Negative Traits:
+## Negative Traits:
 Like general traits negative traits are available to any character, with GM approval. These traits bestow some penalty onto the character. Negative traits cost nothing and instead grant their price as additional trait points during character creation. It is recommended that GMs restrict the number of points worth of negative traits to 5.
 
 * **Age(1)** - a character with this trait must choose to be too young or too old, either way the character will be treated differently than character’s in their prime.
@@ -53,11 +50,10 @@ Like general traits negative traits are available to any character, with GM appr
 * **Reduced Attribute(2)** - this trait may be taken any number of times, each time it is taken choose a primary attribute and reduce its score by 1.
 * **Weak eyes(2)** - a character may take this trait up to twice; they suffer 2 penalty dice to all sight based checks for each time they’ve taken this trait.
 
-<div class="page-break"></div>
-### Language Traits
+## Language Traits
 These are the languages, spoken or written, in which character's can be fluent. The traits listed here are available to any character with GM approval. Each trait will be listed with a name, cost, and description; a character may only take a trait once. Each trait below allows the character to be fluent in the named language. Many languages are related and as such knowing one may reduce the cost to learn another, see the traits descriptions for details. In the world of Flax Marshgove, Old Grailic, and Tor are dead languages but may be the ancestor of one or more other languages.
 
-##### Spoken Languages
+### Spoken Languages
 * **Askelonian(3)** - reduce this trait's cost by 1 if you have the Old Grailic trait, and by 1 if you have any of the either the Grailic or Proto traits.
 * **Centari(2)** -
 * **Denja(3)** - reduce this trait's cost by 1 if the character has the Garjant trait.
@@ -76,7 +72,7 @@ These are the languages, spoken or written, in which character's can be fluent. 
 * **Tor'leni(3)** - reduce this trait's cost by 2 if you have the Tor trait and by 1 if you have the Shimmer's Tongue or Tor'otro traits.
 * **Tor'otro(4)** - reduce this trait's cost by 1 if you have the Tor , Shimmer's Tongue, or Tor'leni traits.
 
-##### Written Languages
+### Written Languages
 * **Grailic Alphabet(2)** - This alphabet lets the character read and write Askelonian, Galterainian, Grailic, Islander, Old Grailic, Proto, and Southron provided they know those languages.  
 * **Centari Alphabet(4)** - The alphabet used to read and write Centari, has had some recent influence by the Grailic alphabet, reduce it's cost by 1 if you have that trait.
 * **Tor Symbology(5)** - A symbolic alphabet used to read and write in Shimmer's Tongue, Tor, and Tor'leni.

@@ -1,0 +1,117 @@
+h1, h2, h3, h4 {
+  font-family: "Palatino Linotype", Palatino, serif;
+  margin: 5px 0 ;
+  padding: 0;
+  border: none;
+}
+
+h1 {
+  font-size: 22px;
+  border-bottom: 1px solid #EEE;
+  padding-bottom: 2px;
+  margin: 0 0 12px;
+}
+
+
+h2 {
+  font-size: 17px;
+}
+
+h3	{
+  font-size: 14px;
+}
+
+
+h4	{
+  font-size: 13px;
+  font-weight: bold;
+  color: #666;
+}
+
+p, li {
+  font-family: "Times New Roman";
+  font-size: 12px;
+}
+
+ul {
+
+}
+
+li {
+  /* display: list-item; */
+}
+
+
+/*  Table Styling */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: #FFF;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #DDD;
+    font-family: "Times New Roman";
+    font-size: 10px;
+}
+
+table div {
+    page-break-inside: avoid;
+}
+
+th, td {
+    text-align: left;
+}
+
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td {
+    padding: 4px 7px;
+    vertical-align: top;
+    border-top: 1px solid #DDD;
+}
+
+table > caption + thead > tr:first-child > th,
+table > colgroup + thead > tr:first-child > th,
+table > thead:first-child > tr:first-child > th,
+table > caption + thead > tr:first-child > td,
+table > colgroup + thead > tr:first-child > td,
+table > thead:first-child > tr:first-child > td {
+    border-top: 0;
+}
+
+table > tbody + tbody {
+    border-top: 2px solid #DDD;
+}
+
+table table {
+    background-color: #FFF;
+}
+
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td {
+    border: 1px solid #DDD;
+}
+
+table > thead > tr > th,
+table > thead > tr > td {
+    border-bottom-width: 2px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 90%;
+}
+
+table > tbody > tr:nth-of-type(odd) {
+    background-color: #F9F9F9;
+}

@@ -1,9 +1,9 @@
 # Armor & Weapons
 
-### Armor:
+## Armor:
 Characters expecting combat tend to make sure they are as well protected as they can afford to be.
 
-##### Armor Statistics:
+#### Armor Statistics:
 Values that detail how the armor protects its wearer.
 * Armor value: used to determine if penetrating damage is blocked and becomes concussive.
 * Body value: added to the character’s body stat when determining how much damage is taken from a blow.
@@ -11,30 +11,29 @@ Values that detail how the armor protects its wearer.
 * Damage reduction: types and amount by which damage the character would suffer is reduced.
 * Body locations: locations covered by the armor.
 
-##### Layered armor:
+#### Layered armor:
 When a character is wearing layers armor they gain benefits from each layer as follows:
 * Armor value - the sum of the value of the piece of armor with the highest armor value, half the value, rounded down, of the of piece with the second highest value, plus one for each additional piece with an armor value.
 * Body value - the sum of the value of the piece of armor with the highest value plus half the value, rounded down, of each other piece.
 * Reflex value - the sum of the values of each piece of armor plus one for each piece beyond the first.
 * Damage reduction - the sum of the specific damage resistance of each piece of armor.
-<div class="page-break"></div>
 
-### Weapons:
+## Weapons:
 Weapons come in two basic types, melee and ranged, with some throwing weapons have statistics for both.
 
-##### Melee weapon statistics:
+#### Melee weapon statistics:
 Values that apply to the weapon being used.
 * Reach: the default reach of the weapon.
 * Difficulty: attack skill checks made with the weapon receive this many penalty dice reduced by the sum of the character’s ranks in melee combat and the weapon’s secondary skill.
 * Parry bonus: listed in three parts, one handed, two handed, and off handed; add this bonus to the character’s melee defense when wielding the weapon in these ways. A character’s total parry bonus can not exceed the sum of their ranks in personal defense, the parry secondary skill, and the weapon’s secondary skill(s). Reduce this bonus by one for each penalty die the character would gain due to the weapon’s difficulty.
 * Cover bonus: a defensive bonus that only applies to attacks originating in the character’s front arc, shields gain additional cover bonus equal to the character's rank in the shields secondary skill.
 * Secondary skill: the specific secondary skill(s) related to the use of this weapon.
-* Damage: the base amount of damage this weapon deals, often listed as body +x where body is equal to the character's body stat, or body stat +2 for two handed weapons.
-* APV: the weapon's armor piercing value, often listed as body +x where body is equal to the character's body stat, or 1 1/2 body stat (round down) for two handed weapons.
+* Damage: the base amount of damage this weapon deals, often listed as body +x where body is equal to the character's body stat, or their body stat +2 when wielding a melee weapon two-handed.
+* APV: the weapon's armor piercing value, often listed as body +x where body is equal to the character's body stat, or their body stat +2 when wielding a melee weapon two-handed.
 * Attack-types: a list of the types of attack this weapon can perform; each type varies the effects of the weapon's attack.
 * Notes: any additional information needed for the proper use of the weapon.
 
-##### Attack Types:
+#### Attack Types:
 Each attack type has a few basic stats:
 * Attack: the name of the attack type.
 * Damage Type: piercing(p) or concussive(c).
@@ -57,8 +56,7 @@ Each attack type has a few basic stats:
 | Thrown | varies | Damage or APV | Damage type and range will be listed after attack type |
 | Thrust | P | Damage and APV | 1 1/2 reach for pole arms
 
-
-##### Ranged weapon statistics:
+#### Ranged weapon statistics:
 * Body: the body stat of the weapon. This relates to usage penalties for bows, and reloading for crossbows. Thrown weapons have a body stat equal to the character's.
 * Close Range: the maximum distance this weapon can be used at without suffering a range penalty.
 * Range Increment: a range used to determine how many times the range penalty is applied. Take the range to the target, subtract weapon's close range and, if the total is currently greater than zero, divide by the weapon's range increment; the result, rounded up, is the number of times the range penalty will be applied to the attack.  
