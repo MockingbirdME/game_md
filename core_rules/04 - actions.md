@@ -19,7 +19,7 @@ When a character may wishes to attempt an action where success is not certain an
 * Add bonus and penalty dice to the die pool
 * Roll all dice in the die pool
 * For each penalty die, one at a time, remove the die with the highest score from the die pool
-* From the remaining dice select the x highest where x is the character’s primary attribute score, increased by one if their rank in the primary skill is greater than their primary attribute score; the total of these selected dice is the skill check’s result
+* From the remaining dice select the 5 dice of your choice (generally those with the greatest results); the total of these selected dice is the skill check’s result
 * Compare the result to the action’s difficulty, for every 3 points by which the result exceeded the difficulty the action gains a success
 
 #### Roll-less skill checks (take standard/take time) *NOTE* these need better terms
@@ -55,7 +55,7 @@ The first move action a character takes each round has a turn requirement of zer
 #### Melee Actions:
 Unless stated otherwise, melee actions have a turn requirement of one that can be reduced to zero at the cost of a penalty die added to this skill check and all other skill checks this turn.
 * **Basic attack(1)** - make an attack with the character’s body or readied melee weapon. A melee attack skill check use reflexes as its primary attribute and gains the character's rank in the weapon's type secondary skill in bonus dice if he is proficient with it.
-* **Bash(2)** - using a bash, strike, or hammer attack make a melee attack designed to send the target to the ground. The attack’s skill check gains a penalty die. If the attack hits compare its damage, before reductions, to the target’s defense, if the damage fails to exceed the target’s melee defense but is greater than their defense the target must move back one meter, if the damage exceeds the target’s melee defense they are knocked to their knees, if it exceeds it by 5 or more the target is knocked prone.
+* **Bash(2)** - using a bash, strike, or hammer attack make a melee attack designed to send the target to the ground. The attack’s skill check gains a penalty die unless it is being performed with a shield. If the attack hits compare its damage, before reductions, to the target’s defense, if the damage fails to exceed the target’s melee defense but is greater than their defense the target must move back one meter, if the damage exceeds the target’s melee defense they are knocked to their knees, if it exceeds it by 5 or more the target is knocked prone.
 * **Disarm(2)** - make a basic attack with two penalty dice added to the skill check. If the skill check succeeds the weapon is knocked to the ground, for each additional success on this attack the weapon may be moved one meter in a direction of the attacker's choice. If this attack is made with an open hand and fails the attacker suffers damage to the arm used to make the attack as if they were struck by the weapon they attempted to disarm, if the skill check succeed with at least one additional success the attacker may ready the disarmed weapon.
 * **Distracting attack(2)** - make a basic attack with one penalty die added to the skill check; if the skill check fails by less than 5 the target loses one additional point of defense, if the skill check succeeds the target loses 3 additional defense plus one for each additional success.
 * **Flurry of blows(2)** - make a basic attack with one bonus die + one bonus die for each additional stamina the attacker spends(max 3); if the skill check succeeds resolve it as a single attack with no additional successes.
@@ -91,7 +91,7 @@ Recovery actions have a turn requirement of one that may not be reduced.
 #### Combat Modifiers:
 Various conditions can affect a combat situation, changing the difficult to hit a target.
 * **Kneeling or prone** - kneeling characters gain +2 ranged defense and -3 melee defense and lose 3 meters distance when making a movement action. Prone characters triple these effects.
-* **Behind cover** - a +1 to +9 defense bonus against attacks made from the other side of the cover. Attacks missing due to this bonus damage the cover.
+* **Behind cover** - a +1 to +9 defense bonus against attacks made from the other side of the cover. Attacks missing due to this bonus damage the cover. If a character is gaining cover from more than one source such as being partially hidden behind a low wall and they are wielding a shield, they gain the cover bonus of whichever is greater plus one for each additional piece of cover up to a maximum of +9 after which the character is completely covered and can not be attacked.
 * **Concealed** - like cover, concealment grants a variable defense bonus based on completeness of it.
 * **Flanking** - if a character has multiple opponents in melee range and at least one is outside their front arc they suffer a -1 penalty to their melee defense for each opponent contributing to the situation.
 * **Wind** - depending on the strength and regularity of the wind, ranged attack skill checks receive up to five penalty dice, heavier or smaller projectiles should receive lesser penalties and massless ranged magical effects do not suffer ranged penalties from wind.
