@@ -16,4 +16,6 @@ function averageChart() {
 
 
 // console.log(averageChart());
+console.log( dieRoller.skillCheck(4,1), dieRoller.skillCheck(4, 3), dieRoller.skillCheck(4, 5) );
 console.log( dieRoller.skillCheck(5,1), dieRoller.skillCheck(5, 3), dieRoller.skillCheck(5, 5) );
+console.log( dieRoller.skillCheck(6,1), dieRoller.skillCheck(6, 3), dieRoller.skillCheck(6, 5) );

@@ -8,7 +8,7 @@ These are background or genetic advantages a character possesses. The traits lis
 * **Danger Sense(4)** - When turn based situation arises in which you are been surprised, and otherwise unable to act during the round, roll a d6; on a result of 2-5 you may act during the round at initiative 0, on a 6 you may act at your normal initiative.
 * **Duelist(3)** - each round choose one opponent, that opponent gains one penalty die to each attack against you this round.
 * **Enhanced Attribute(X)** - increase one primary attribute by one point; the cost of this trait is equal to twice the attribute's new score.  
-* **Extended Spell List(2)** - increase the number of spells you may know by one. This trait may be taken any number of times.
+* **Extended Spell List(4)** - increase the number of spells you may know by one. This trait may be taken any number of times increasing it's cost by one each time.
 * **Fast Reflexes(1)** - Gain +1 to your initiative. A character may take this trait multiple times
 * **Fulled by Pain(3)** - Each time you suffer a stun or wound regain 3 stamina.
 * **Hard to kill(4)** - increase your max wounds by one and ignore one wound you are suffering from. This trait may be taken multiple times.

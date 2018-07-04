@@ -28,9 +28,9 @@ function handlePenaltyDice(numberOfDice) {
   }
 }
 
-function calcSkillCheckTotal() {
+function calcSkillCheckTotal(primaryAttribute) {
   let total = 0;
-  for (let i = 5; i > 0; i--) total += useHighestDie();
+  for (let i = primaryAttribute; i > 0; i--) total += useHighestDie();
   return total;
 }
 
@@ -53,7 +53,7 @@ function skillCheck(primaryAttribute, primarySkill, bonusDice, penaltyDice) {
   rollXofY(primarySkill, 8);
   rollXofY(bonusDice + penaltyDice, 6);
   if (penaltyDice) handlePenaltyDice(penaltyDice);
-  return calcSkillCheckTotal();
+  return calcSkillCheckTotal(primaryAttribute);
 }
 
 function averageSkillCheck(primaryAttribute, primarySkill, bonusDice, penaltyDice, x) {

@@ -19,7 +19,7 @@ When a character may wishes to attempt an action where success is not certain an
 * Add bonus and penalty dice to the die pool
 * Roll all dice in the die pool
 * For each penalty die, one at a time, remove the die with the highest score from the die pool
-* From the remaining dice select the 5 dice of your choice (generally those with the greatest results); the total of these selected dice is the skill check’s result
+* From the remaining dice select a number of dice of your choice (generally those with the greatest results) equal to the primary attribute score; the total of these selected dice is the skill check’s result
 * Compare the result to the action’s difficulty, for every 3 points by which the result exceeded the difficulty the action gains a success
 
 #### Roll-less skill checks (take standard/take time) *NOTE* these need better terms
@@ -28,11 +28,11 @@ When a player wishes to not risk a poor roll during a skill check they may take 
 * Determine if action requires a skill check
 * Determine primary attribute and primary skill
 * Calculate successes:
-    * add half the primary attribute(round down for standard, up for taken time) plus one to successes
+    * add the primary attribute, halved for standard, plus one to successes
     * add the primary skill's rank to successes
-    * add half the number of bonus dice (round down for standard, up for taken time) as successes
-    * Remove one successes for every penalty die
-* Apply your total successes to the action being taken
+    * add half the number of bonus dice as successes
+    * Remove one successes for every penalty die, halved for time taken.
+* Apply your total successes, ignoring any partial success, to the action being taken
 
 ## Combat and round based play:
 Sometimes characters find themselves in stressful, potentially life or death, situations where the timing of each action becomes more important; at these times the game transitions from the normal player/GM narrative into round based play. In round based play characters declare and resolve their actions on their turns which happen in initiative order. Once all characters have acted the GM describes the updated scene; if the reason for round based play continues to be present recheck everyones initiative and begin another round.
