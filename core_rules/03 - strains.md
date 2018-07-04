@@ -14,12 +14,12 @@ Strains are the intelligent species of Flax that, generally, consider themselves
 
 ## Primary strains:
 
-#### Centeen
+#### Centari
 So similar to Sapeen that, but for their dusky skin, they would be mistaken for them; they are in fact so similar that they are capable of interbreeding though the offspring produced of these cross strain unions are always mules.
 
-**Physical Appearance:** Centeen have dusky skin and tightly curled sandy to dark brown hair atop their heads, though they sport little body or facial hair. Females average five and a half feet with males being slightly taller and broader. Most Centeen have green or hazel eyes, though blue and orange are not unheard of, and many have faces dotted with tiny freckles.
+**Physical Appearance:** Centari have dusky skin and tightly curled sandy to dark brown hair atop their heads, though they sport little body or facial hair. Females average five and a half feet with males being slightly taller and broader. Most Centari have green or hazel eyes, though blue and orange are not unheard of, and many have faces dotted with tiny freckles.
 
-**Origin:** The Centeen’s oral history goes back millennia yet they have only existed on Flax for a handful of generations. They appeared through an arcane portal the scale of which had never been seen before, and has never been seen since. The Centeen claim to be the only remnants of a once great network of tribes that roamed a great plain thousands of miles across. Their nation was besieged by some kind of demon that arrived with iron and flame, they lost battle after battle for a dozen years as their civilization was reduced to ruin. Fearing for the survival of their species the remaining Centeen tribes banded together; their mages lead by the great sorcerer Yiru, known as The Sacrifice, worked together, and gave their lives, to summon forth the arcane power used to produce the portal that brought the Centeen to Flax.
+**Origin:** The Centari’s oral history goes back millennia yet they have only existed on Flax for a handful of generations. They appeared through an arcane portal the scale of which had never been seen before, and has never been seen since. The Centari claim to be the only remnants of a once great network of tribes that roamed a great plain thousands of miles across. Their nation was besieged by some kind of demon that arrived with iron and flame, they lost battle after battle for a dozen years as their civilization was reduced to ruin. Fearing for the survival of their species the remaining Centari tribes banded together; their mages lead by the great sorcerer Yiru, known as The Sacrifice, worked together, and gave their lives, to summon forth the arcane power used to produce the portal that brought the Centari to Flax.
 
 **Size:** 5
 
