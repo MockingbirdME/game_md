@@ -15,11 +15,19 @@ Strains are the intelligent species of Flax that, generally, consider themselves
 ## Primary strains:
 
 #### Centari
-So similar to Sapeen that, but for their dusky skin, they would be mistaken for them; they are in fact so similar that they are capable of interbreeding though the offspring produced of these cross strain unions are always mules.
+So similar to Sapeen that, but for their dusky skin, they could be mistaken for them; they are in fact so similar that they are capable of interbreeding though the offspring produced of these cross strain unions are always mules.
 
-**Physical Appearance:** Centari have dusky skin and tightly curled sandy to dark brown hair atop their heads, though they sport little body or facial hair. Females average five and a half feet with males being slightly taller and broader. Most Centari have green or hazel eyes, though blue and orange are not unheard of, and many have faces dotted with tiny freckles.
+**Physical Appearance:** Centari have dusky skin and tightly curled sandy to dark brown or black hair atop their heads, though they sport little body or facial hair. Males and females are of about the same height averaging a little over 5 1/2 feet tall though males are generally broader and more thickly built. Centari eyes are brightly colored blues, greens, purples, and yellows and appeared to sparkle in the light like polished gemstones. Many Centari have bodies and faces dotted with tiny freckles.
 
-**Origin:** The Centari’s oral history goes back millennia yet they have only existed on Flax for a handful of generations. They appeared through an arcane portal the scale of which had never been seen before, and has never been seen since. The Centari claim to be the only remnants of a once great network of tribes that roamed a great plain thousands of miles across. Their nation was besieged by some kind of demon that arrived with iron and flame, they lost battle after battle for a dozen years as their civilization was reduced to ruin. Fearing for the survival of their species the remaining Centari tribes banded together; their mages lead by the great sorcerer Yiru, known as The Sacrifice, worked together, and gave their lives, to summon forth the arcane power used to produce the portal that brought the Centari to Flax.
+**Origin:** The Centari’s oral history goes back millennia yet they have only existed on Flax for a handful of generations. They appeared through an arcane portal the scale of which had never been seen before or since. The Centari claim to be the only remnants of a once great network of tribes that roamed a great plain thousands of miles across. Their nation was besieged by some kind of demon that arrived with iron and flame, they lost battle after battle for a dozen years as their civilization was reduced to ruin. Fearing for the survival of their species the remaining Centari tribes banded together; their mages led by the great sorcerer Yiru, known as The Sacrifice, worked together, and gave their lives, to summon forth the arcane power used to produce the portal that brought the Centari to Flax. The Centari had no concept of gods before they arrived on Flax and generally consider their worship silly and foolish.
+
+**Family/Social Structure** Centari live, mostly, in tribes that migrate throughout the year. These tribes are made up of several hundred, or thousand, Centari all of whom share a tribal name. It's not uncommon for two, or more, members of the same tribe, and same sex, to share their lives together but Centari spouses of the opposite sex only occur between members of different tribes at which point the male will leave their tribe to live with their new spouse. All children in a tribe live with their mothers, and their mother's partners, but spend the day being raised by the tribal elders and not their parents.
+
+**Breeding** Centari females become fertile during adolescence but are not considered to be of breeding age until their 25th year. A Centari female of breeding age may invite a male from another tribe to their bed; this act is not considered a breach of any spousal bonds either party may have. Centari almost always produce two offspring, called foals, at a time.
+
+**Place in Society** Centari are uncommon outside of The Tribelands but when they do choose to leave they are generally welcome elsewhere, especially if they bring breedable horses with them.
+
+**Naming Conventions** Centari children are given two honorary names, one dictating how many times their mother has foaled and one the season they are named in, a proper name, and their tribe's name on the first season's eve after their birth. Birth order names starting with the name given to a mother's first foal(s) are: Pharri, Sareesh, Teya, Furan, Urna, Inego, Romi, and Le for any children born after their mother's seventh foaling. Season names are Nue for spring, Var for summer, Si for autumn, and Dis for winter.
 
 **Size:** 5
 
@@ -39,9 +47,17 @@ So similar to Sapeen that, but for their dusky skin, they would be mistaken for 
 #### Denja
 Denja are generally quick witted and conversational, preferring to participate in battles of the mind rather than battles of the sword.  Most people find it hard to dislike a Denja once they become acquainted; it is rare indeed for a lord not to have at least one in his employment to aid in mediation.  When encountered outside of a town or city Denja rarely travel alone, in part because they get lonely easily, and in part because they make easy targets for bandits and highwaymen.
 
-**Physical Appearance:** Denja are short and reptilian in appearance.  Rarely growing over four feet tall Denja are covered with small flexible scales that are usually green or blue in color with red and brown being less common, albinos also exist though they seem to only be born in the Bredth Bogs. Denja have three fingers hands and feet adorn with small claws, their feet but not their hands are webbed. Some Denja possess a thin skin flap that can fill the space in between their arms and legs; the skin displays a pair of vibrant eye patterns, but it can also serve as a method of transportation if a Denja launches themselves from a tall platform or tree.
+**Physical Appearance:** Denja are short and reptilian in appearance.  Rarely growing over four feet tall Denja are covered with small flexible scales that are usually green or blue in color with red and brown being less common, albinos also exist though they seem to only be born in the Bredth Bogs.  Denja have three fingered hands and feet that have small claws, their toes but not their fingers are webbed.  Some Denja possess a thin skin flap that can fill the space in between their arms and legs; the skin displays a pair of vibrant eye patterns, but it also serve as a method of transportation if a Denja launches themselves from a tall platform or tree.
 
-**Origin:** Denja are amongst the elder strains having been created by The Wood Mistress, Eightoo, in The First Days. They were created alongside the Garjins of the bogs and still consider those behemoths family. The Denja were the first of the strains to leave their ancestral homelands and be found by the Mablen; together they created the first set of laws and the origins of what became the common tongue.
+**Origin:** Denja are amongst the elder strains having been created by The Wood Mistress, Eightoo, in The First Days. They were created alongside the Garjants of the Bredth Bogs and still consider those behemoths family. The Denja were the first of the strains to leave their ancestral homelands and be found by the Mablen; together they created the first set of laws and the origins of what became the common tongue.
+
+**Family/Social Structure** Denja are social creatures and as such tend to live in family groups consisting of many adults and any children they may have but the members of this _family_ are likely to change overtime and it is not generally a major event in their lives to have one member leave the household at any given time. Denja children are thought to belong to a household and not a parent(s) but are rather raised collectively by the adults with whom they live and do not leave the household just because their biological parents do.
+
+**Breeding** Every decade or so beginning at adulthood a Denja female will lay a clutch of 3-8 eggs. If she's a member of a household the eggs will be fertilized collectively by the males in the household, a process that to outsiders looks like the males belch a thin mist over the eggs. If the female is not part of a household she will likely either leave her eggs wither or give them to a household she deems worthy, very rarely a lone female may have her eggs fertilized by one or more males and raise them herself.
+
+**Place in Society** Denja can be found in just about any town in Flax, they are social, well liked, and friendly. Denja are rarely ambitious and as such it is uncommon to find them in positions of power unless they have been appointed to them by a member, or members, of another strain.
+
+**Naming Conventions** Denja children are not given names by their parents, or households, instead they are referred to by descriptions or pet names until they reach adulthood and leave the households they were born to. When they do venture out from their household they select a name for themselves. A Denja's chosen name is often a description they wish to strive for, to those who do not speak Denja a shortened version, or simplified translation, if often used.
 
 **Size:** 4
 
@@ -63,11 +79,19 @@ Denja are generally quick witted and conversational, preferring to participate i
 **Trait Points:** +22
 
 #### Rhosk
-Originally natives to the Northern Desert, and though many have migrated south these are the two things that all Rhosk are skilled at: order and war. Rhosk in the north are usually associated with Shiver’s defenses in some capacity those found further south often feel a fealty to the north even when not actively working towards its defense. Rhosk are known to be serious and stoic, though dangerous once angered they often find themselves respected despite their lack of close personal friends. Rhosk rarely possess a sense of humor or irony and are falsely rumored to be unable to smile or laugh. Their stoicism and natural understanding of tactics makes Rhosk natural field commanders for any nations military.
+Originally natives to the Northern Desert, and though many have migrated south there are the two things that all Rhosk are skilled at: order and war. Rhosk in the north are usually associated with Shiver’s defenses in some capacity those found further south often feel a fealty to the north even when not actively working towards its benefit. Rhosk are known to be serious and stoic, though dangerous once angered, they often find themselves respected despite their lack of close personal friends. Rhosk rarely possess a sense of humor or irony and are falsely rumored to be unable to smile or laugh. Their stoicism and natural understanding of tactics makes Rhosk natural field commanders for any nations military.
 
-**Physical Appearance:** Ranging from seven to eight feet in height Rhosk look down on most other Strains, they stand straight and have broad shoulders and long arms. Their bodies are covered with down except for their shoulders and spine which sport much longer and darker, shaggy looking, feathers. Rhosk have slightly flat faces that tend to be lighter in color than their body feathers, which range in color from a deep brown to a russet to a pale light blue; their heads are crowned with tall, slightly pointed, ears that resemble those of a wolf.  
+**Physical Appearance:** Ranging from seven to eight feet in height Rhosk look down on most other Strains, they stand straight and have broad shoulders and long arms. Their bodies are covered with downy feathers except for their shoulders, crown, and spine which sport much longer and darker, shaggy looking, feathers. Rhosk have slightly flat faces that tend to be lighter in color than their body down, which range in color from a deep brown to a russet to a pale light blue; their heads are crowned with tall, erect, ears that resemble those of a wolf.  
 
 **Origin:** Numbering amongst the younger strains of Flax the first Rhosk were carved from great blocks of ice by Shiver, the Northern Wind. Shiver created the Rhosk for the single purpose of guarding her domain from being settled or warred upon by the older strains; she taught them the secrets of stone and ice and as such the Rhosk became the first great builders on Flax.
+
+**Family/Social Structure** Rhosk leave their family homes earlier than most other strain's children do and carve out a life for themselves living alone when able. Most Rhosk eventually find a mate and when they do stay with them for life, and do not take another should their first mate perish.
+
+**Breeding** Mated Rhosk will lay, a single egg and once hatched nurture only that child until it is old enough to leave the household at which point they will often lay another egg and repeat this process. Unlike some strains Rhosk, once reaching maturity, can continue to breed for the rest of their lives.
+
+**Place in Society** Rhosk are rare outside of the northern mountains and steeps but tend to be considered valuable additions to southern towns due to their size, strength, and perceived ability to defend the town from harm. In larger towns and cities Rhosk tend to gather together, preferring each other's company to that of most other strains.
+
+**Naming Conventions** Rhosk children are given a single name by their parents shortly after they've hatched. Rhosk names do not have specific meanings but tend to be composed of short syllables with hard consonants.
 
 **Size:** 7
 
@@ -90,7 +114,15 @@ Most often found living in towns and cities or on lands ruled by one Sapeen are 
 
 **Physical Appearance:** Sapeen are bipedal, mostly hairless, creatures that range from five to six feet in height. Their skin is generally a tan or pink color with some families skin tone reaching almost a milk white. Sapeen hair ranges in color from black to white and brown to yellow to orange.
 
-**Origin:** The eldest of the strains created in the Second Days, Sapeen were created by Clursus, the Cleanser, who recognized the limitations of the elder strains and wished to create a more adaptive species rule on Flax. With the help of the Mablen Sapeen developed tribal societies that quickly spread to all inhabited corners of Flax.
+**Origin:** The eldest of the strains created in the Second Days, Sapeen were created by Clursus, the Cleanser, who recognized the limitations of the elder strains and wished to create a more adaptive species to rule on Flax. With the help of the Mablen, Sapeen developed tribal societies that quickly spread to all inhabited corners of Flax.
+
+**Family/Social Structure**
+
+**Breeding**
+
+**Place in Society**
+
+**Naming Conventions**
 
 **Size:** 5
 
@@ -112,6 +144,14 @@ The most diverse of strains Teejee females are either breeders or drones; the br
 **Physical Appearance:** Male Teejee are four legged, two armed, insectoids that stand around five feet tall. They are dark grey in color with round heads and faces that sport large eyes, no nose, and round mouths with short, pincer like, mandibles to either side. They are covered with small black and brown hairs all over their bodies. Their three fingered hands are excellent at grasping and manipulating objects but their feet are toeless and largely oval.
 
 **Origin:** Youngest of the Ancient strains the Teejee had not one but three creators: Tern, the soil, Free, the Jokester, and Free's Sibling, Bodeen, the Laborer. They are the only strain to spend most of their time under ground and had already created massive subterranean complexes by the time the younger strains were taking their first steps on Flax.
+
+**Family/Social Structure**
+
+**Breeding**
+
+**Place in Society**
+
+**Naming Conventions**
 
 **Size:** 4
 
@@ -139,6 +179,14 @@ Two arms, two legs, and covered in scales is about the extent of how you can gen
 
 **Origin:**
 Torleni were created by Milnot, the mistress of the mountain, in the range dominated by Mount Milomb. In the first days Milnot was not the only Ohma to dwell amongst her children however; Shimmer, the changeling, unable to create a strain of his own, resided with the Torleni and mixed his blood with theirs until nearly all of Milnot's children were decedents of Shimmer as well. Some say that Shimmer still resides on Mount Milomb teaching and guiding the Torleni who reside in their ancestral birthplace.
+
+**Family/Social Structure**
+
+**Breeding**
+
+**Place in Society**
+
+**Naming Conventions**
 
 **Size:** 6
 
