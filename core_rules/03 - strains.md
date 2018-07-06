@@ -4,6 +4,10 @@
 Strains are the intelligent species of Flax that, generally, consider themselves persons. Not all strains are treated equally in all societies or by each other. The strains listed as primary strains can be found in all nations of Flax and, generally, recognize each other as persons, while those listed as secondary are either less common, considered inferior by other strains, or both. Each strain has a series of stats as described below:
 * **Physical Appearance -** a brief physical description of the strain.
 * **Origin -** many strains trace their origins back to the Ohma who created them.
+* **Family/Social Structure -** common family and species specific customs.
+* **Breeding -** how the strain reproduces and commonly raises their young.
+* **Place in Society -** how members of the strain typically fit into society as a whole, specifically in the mixed strain towns and cities.
+* **Naming Conventions -** the traditional naming conventions of the strain, not noted here is the cultural influence of each nation.
 * **Size -** the starting size attribute (before traits) for members of this strain.
 * **Base Attributes -** the starting value of each of the four primary attributes before they are increased during character creation.
 * **Attribute points -** the number of points members of this strain have to spend on increasing their attributes during character creation. Increasing a base attribute by one point cost one attribute point providing that attribute has a score of less than twice its base value; once an attribute's value is double its base value it costs two attribute points to increase further.
@@ -17,7 +21,7 @@ Strains are the intelligent species of Flax that, generally, consider themselves
 #### Centari
 So similar to Sapeen that, but for their dusky skin, they could be mistaken for them; they are in fact so similar that they are capable of interbreeding though the offspring produced of these cross strain unions are always mules.
 
-**Physical Appearance:** Centari have dusky skin and tightly curled sandy to dark brown or black hair atop their heads, though they sport little body or facial hair. Males and females are of about the same height averaging a little over 5 1/2 feet tall though males are generally broader and more thickly built. Centari eyes are brightly colored blues, greens, purples, and yellows and appeared to sparkle in the light like polished gemstones. Many Centari have bodies and faces dotted with tiny freckles.
+**Physical Appearance:** Centari have blue skin of such a dark hue it often appears black and springy, tightly curled, sandy to dark brown or black hair atop their heads, though they sport little body or facial hair. Males and females are of about the same height averaging a little over 5 1/2 feet tall though males are generally broader and more thickly built. Centari eyes are brightly colored blues, greens, purples, and yellows and appeared to sparkle in the light like polished gemstones. Many Centari have bodies and faces dotted with tiny freckles.
 
 **Origin:** The Centari’s oral history goes back millennia yet they have only existed on Flax for a handful of generations. They appeared through an arcane portal the scale of which had never been seen before or since. The Centari claim to be the only remnants of a once great network of tribes that roamed a great plain thousands of miles across. Their nation was besieged by some kind of demon that arrived with iron and flame, they lost battle after battle for a dozen years as their civilization was reduced to ruin. Fearing for the survival of their species the remaining Centari tribes banded together; their mages led by the great sorcerer Yiru, known as The Sacrifice, worked together, and gave their lives, to summon forth the arcane power used to produce the portal that brought the Centari to Flax. The Centari had no concept of gods before they arrived on Flax and generally consider their worship silly and foolish.
 
@@ -116,13 +120,13 @@ Most often found living in towns and cities or on lands ruled by one Sapeen are 
 
 **Origin:** The eldest of the strains created in the Second Days, Sapeen were created by Clursus, the Cleanser, who recognized the limitations of the elder strains and wished to create a more adaptive species to rule on Flax. With the help of the Mablen, Sapeen developed tribal societies that quickly spread to all inhabited corners of Flax.
 
-**Family/Social Structure**
+**Family/Social Structure** Sapeen families are very culture dependent, in Askelon it's common for a group of adults to cohabitate and raise any children collectively with children moving out only when they join another household as an adult, in Proto adults tend to pair off as a couple and live together with children leaving the home to live on their own when they reach adulthood, in the Grailic states the Sapeen families with money or influence tend to emulate the Torleni of the area while poorer families live in groups.
 
-**Breeding**
+**Breeding** Sapeen females are able to reproduce from a young age though it is generally not considered socially acceptable until their twenties. Like Centari they carry their children inside them for close to three seasons before giving life birth, usually to a single child though twins are considered a blessing as one of them will always be a natural mage.
 
-**Place in Society**
+**Place in Society** Clursus may have created Sapeen to be adaptable so that they may rule but he made them so adaptable they ended up filling all niches of society. Sapeen are common in nearly all nations and rarely looked upon poorly.
 
-**Naming Conventions**
+**Naming Conventions** In Sapeen ruled nations they tend to have a given name followed by son/daughter of their father or descendent of their most noteworthy direct female ancestor (mother, mother's mother, etc.) some tracing their heritage back to great hero's of myth and legend. Outside of the Sapeen ruled nations (Askelon, Proto, The Free Isles, etc.) they tend to adopt the naming conventions of the upper class of wherever they live. 
 
 **Size:** 5
 
@@ -139,19 +143,19 @@ Most often found living in towns and cities or on lands ruled by one Sapeen are 
 **Trait Points:** +20
 
 #### Teejee(worker)
-The most diverse of strains Teejee females are either breeders or drones; the breeders tend to be largely sedentary commanding their drones and male children to carry out their will while drones, though technically members of a strain, are only slightly more intelligent than a dog. Male Teejee, however, are both intelligent and personable.
+The most diverse of strains Teejee females are either breeders or drones; the breeders tend to be largely sedentary commanding their drones and male children to carry out their will while drones, though technically members of a strain, are only slightly more intelligent than animals. Male Teejee, however, are both intelligent and personable.
 
-**Physical Appearance:** Male Teejee are four legged, two armed, insectoids that stand around five feet tall. They are dark grey in color with round heads and faces that sport large eyes, no nose, and round mouths with short, pincer like, mandibles to either side. They are covered with small black and brown hairs all over their bodies. Their three fingered hands are excellent at grasping and manipulating objects but their feet are toeless and largely oval.
+**Physical Appearance:** Teejee workers are four legged, two armed, insectoids that stand around five feet tall. They are dark grey in color with round heads and faces that sport large eyes, no nose, and round mouths with short, pincer like, mandibles to either side. They are covered with small black and brown hairs all over their bodies. Their three fingered hands are excellent at grasping and manipulating objects but their feet are toeless and largely oval.
 
 **Origin:** Youngest of the Ancient strains the Teejee had not one but three creators: Tern, the soil, Free, the Jokester, and Free's Sibling, Bodeen, the Laborer. They are the only strain to spend most of their time under ground and had already created massive subterranean complexes by the time the younger strains were taking their first steps on Flax.
 
-**Family/Social Structure**
+**Family/Social Structure** Teejee workers are all born to a breeding female and raised as a group by their colony's chosen caregivers. Once old enough to not need constant care Teejee workers are strictly controlled by their colony's breeder and chosen leaders. Only those lucky enough to be away from the colony when their breeder parishes that no other breeders are able to exert control over them are ever truly free. These free Teejee tend to live in groups with little concept of personal space or privacy for the rest of their days, these groups are generally happy to accept new members and aid them through the difficult transition to freedom.
 
-**Breeding**
+**Breeding** Teejee breeders rule over their children and the children of their deceased peers completely by dominating their minds with specialized pheromones, they have thousands of children each year delegating the raising of them to their breeding female children who are not yet allowed to produce young. There is no concept of family among Teejee colonies only of the controllers and the controlled.
 
-**Place in Society**
+**Place in Society** Free Teejee workers are generally welcome in any societies as they are known to be good workers with limited concept of currency and will therefor work for less than most other strains. A new Teejee entering a town, outside of Askelon who has a unique relationship with the local Teejee colonies, will often be viewed with suspicion until they can show they are not being controlled by their colony.
 
-**Naming Conventions**
+**Naming Conventions** Teejee do speak to one another but don't use names in their own language instead releasing unique pheromone signatures for themselves and those they are discussing, as such once free and entering common society they will often choose names for themselves based on those typical of the area they find themselves free in.
 
 **Size:** 4
 
@@ -172,7 +176,7 @@ The most diverse of strains Teejee females are either breeders or drones; the br
 **Trait Points:** +19
 
 #### Torleni
-Technically a sub-strain of their Pure-Blooded cousins the Torleni that carry the blood of Shimmer in their veins are so much more common a sight throughout Flax it is not uncommon for the less educated not to know this. Teejee can be found in all the lands that once belonged to the Kingdom of Grail that they ruled and still possess most of the positions of power in the lands that once belonged to that, no fractured, kingdom.
+Technically a sub-strain of their "Pure-Blooded" cousins, the Torleni that carry the blood of Shimmer in their veins are so much more common a sight throughout Flax it is not uncommon for the less educated not to know this. Teejee can be found in all the lands that once belonged to the Kingdom of Grail that they ruled and still possess most of the positions of power in the lands that once belonged to that, no fractured, kingdom.
 
 **Physical Appearance:**
 Two arms, two legs, and covered in scales is about the extent of how you can generalize a Torleni for the blood of Shimmer flows in their veins and they may alter their appearances individually to their will. Each Torleni shapes themselves as they see fit, gaining or loosing mass, growing claws or wings, spitting acid or fire, changing the color and pattern of their scales, and even the shape of their faces and sound of their voice. Torleni are truly the most diverse of strains in appearances.
@@ -180,13 +184,13 @@ Two arms, two legs, and covered in scales is about the extent of how you can gen
 **Origin:**
 Torleni were created by Milnot, the mistress of the mountain, in the range dominated by Mount Milomb. In the first days Milnot was not the only Ohma to dwell amongst her children however; Shimmer, the changeling, unable to create a strain of his own, resided with the Torleni and mixed his blood with theirs until nearly all of Milnot's children were decedents of Shimmer as well. Some say that Shimmer still resides on Mount Milomb teaching and guiding the Torleni who reside in their ancestral birthplace.
 
-**Family/Social Structure**
+**Family/Social Structure** In their ancestral homeland, the Trail of Eyes, Torleni tend to live alone though in proximity to their neighbors and have a central area in each settled area where all young are raised together. In the Grailic states Torleni tend to live in households where one of them is in charge and some number of other, with lower social standing, taking care of their household and the young; these subservient Torleni are generally not permitted to breed until they've gone out and become the heads of their own households.
 
-**Breeding**
+**Breeding** Torleni are unique among the strains in that they do not require a partner to breed; they lay a clutch of 3-5, already fertilized eggs as often as they choose and generally raise the young themselves in in cooperation with others in their households.
 
-**Place in Society**
+**Place in Society** Toleni are rare outside of The Trail of Eyes, which is populated almost exclusively by them and those members of other strains they've taken as slaves or the Grailic states where they are almost entirely members of the ruling class. Torleni elsewhere are generally mistrusted and feared due to their reputation as slavers and tyrants.
 
-**Naming Conventions**
+**Naming Conventions** In the Trail of Eyes Torleni tend to have a single given name and occasionally a title or description, in the Grailic states they have a given name, the name of their parent, occasionally a title or description, and a house affiliation and rank.
 
 **Size:** 6
 
