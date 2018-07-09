@@ -14,7 +14,7 @@ These statistics and resources are derived from the character’s strain, primar
 * **Melee defense bonus** - added to a character’s defense against melee attacks they are aware of. This bonus is equal to a character’s ranks in melee combat.
 * **Ranged defense bonus** - added to a character’s defense against ranged attacks they are aware of. This bonus is equal to the sum of a character’s ranks in alertness and the dodge secondary skill.
 * **Max. Wounds** - a character with this many wounds will soon die without medical attention. Max wounds is equal to the average(round up) of the character’s body stat and size.
-* **Movement** - equal to 3 + the character’s size + their ranks in personal movement.
+* **Movement** - equal to the character’s size + their ranks in personal movement.
 ### Resources:
 These attributes can be depleted, the maximum amount of the resource a character can have is the listed stat.
 * **Defense** - a measure of how hard a character is to hit. A character’s defense is equal to 10 + reflexes + perception + twice their rank in personal defense - their size.

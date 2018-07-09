@@ -45,9 +45,9 @@ Actions are are detailed with a name followed by it’s stamina cost in parenthe
 
 #### Move actions:
 The first move action a character takes each round has a turn requirement of zero, subsequent move actions have a turn requirement of one.
-* **Walk(0)** - move half your base movement in meters. rounded up.
-* **Dash(1)** - move your base movement in meters.
-* **Sprint(2)** - make a personal movement skill check with primary attribute body and a bonus die for every rank they have in the run secondary skill. Move your base movement plus one meter per success rolled and plus one meter per rank in the run secondary skill. Any other non movement skill checks you make this round gains two penalty dice.
+* **Walk(0)** - move your base movement in meters.
+* **Dash(2)** - move up to twice your base movement in meters.
+* **Sprint(3)** - make a personal movement skill check with primary attribute body. Move twice your base movement plus X meters per success rolled plus two times your rank in the run secondary skill meters. Any other non movement skill checks you make this round gains two penalty dice.
 * **Swim(2)** - make a personal movement skill check using body as the primary attribute and gaining bonus dice equal the character's rank in the swim secondary skill. Move through water up to 1 meter per rank in the swim secondary skill plus 1 meter per success in the skill check.
 * **Climb(2)** - make a personal movement skill check using body as the primary attribute and gaining bonus dice equal the character's rank in the climb secondary skill. Transverse across a surface up to 1 meter per rank in the climb secondary skill plus 1 meter per success in the skill check minus X meters based on the difficulty of the climb, if traveling a negative number of meters the character falls. Difficulties range from 0 to 20 with a vertical surface without good hand holds being difficulty 10.
 * **Jump(2)** -  make a personal movement skill check using body as the primary attribute and gaining bonus dice equal the character's rank in the jump secondary skill. Jump forward 1 meter per two ranks in the jump secondary skill plus 1 meter for every three successes in the skill check, and by 1 meter for every 5 meters already traveled this turn.

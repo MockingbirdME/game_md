@@ -11,7 +11,7 @@ These are background or genetic advantages a character possesses. The traits lis
 * **Extended Spell List(4)** - increase the number of spells you may know by one. This trait may be taken any number of times increasing it's cost by one each time.
 * **Fast Reflexes(1)** - Gain +1 to your initiative. A character may take this trait multiple times
 * **Fulled by Pain(3)** - Each time you suffer a stun or wound regain 3 stamina.
-* **Hard to kill(4)** - increase your max wounds by one and ignore one wound you are suffering from. This trait may be taken multiple times.
+* **Hard to kill(4)** - increase your max wounds by one and ignore one wound you are suffering from. This trait may be taken multiple times increasing its cost by one each time.
 * **Hardy(1)** - Gain 1 point of resistance to illness and poison. A character may take this trait multiple times increasing its cost by 1 each time.
 * **Heightened Hearing(1)** - Gain 2 bonus dice to all hearing based perception checks and 1 bonus die to perception checks that include but don’t specifically rely on hearing. This trait may be taken multiple times increasing its cost by 1 each time.
 * **Heightened Sight(1)** - Gain 2 bonus dice to all sight based perception checks and 1 bonus die to perception checks that include but do not specifically rely on sight. This trait may be taken multiple times increasing its cost by 1 each time.
