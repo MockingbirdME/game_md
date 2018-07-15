@@ -14,7 +14,7 @@ These statistics and resources are derived from the character’s strain, primar
 * **Melee defense bonus** - added to a character’s defense against melee attacks they are aware of. This bonus is equal to a character’s ranks in melee combat.
 * **Ranged defense bonus** - added to a character’s defense against ranged attacks they are aware of. This bonus is equal to the sum of a character’s ranks in alertness and the dodge secondary skill.
 * **Max. Wounds** - a character with this many wounds will soon die without medical attention. Max wounds is equal to the average(round up) of the character’s body stat and size.
-* **Movement** - equal to the character’s size + their ranks in personal movement.
+* **Movement** - equal to 3 + the character’s size + their ranks in personal movement.
 ### Resources:
 These attributes can be depleted, the maximum amount of the resource a character can have is the listed stat.
 * **Defense** - a measure of how hard a character is to hit. A character’s defense is equal to 10 + reflexes + perception + twice their rank in personal defense - their size.
@@ -67,7 +67,7 @@ Secondary skills individually represent subsets of, or specializations in, a pri
 * **Magical Aptitude:** how attuned and well trained at magic a character is. Characters with an arcane trait will use this skill for crafting magical effects and casting spells.
 * **Melee Combat:** how well a character fights with a sword, axe, or fists. Melee combat skill is most often used when fighting in close quarters but also has a place in many sporting activities.
 * **Personal Defense:** how apt a character is at avoiding getting hit or keeping themselves from harm. This skill affects the character’s defense.
-* **Personal Movement:** a character’s speed and competency during their natural movements. Used whenever a character’s speed and footing comes into question.
+* **Personal Movement:** a character’s speed and competency during their natural movements. Used whenever a character’s speed and footing comes into question.d
 * **Ranged combat:** many characters have need to hit a target from a distance for combat, hunting, or sport.
 * **Stealth:** how well a character conceals themselves or something/someone else as well as how well they may disguise themselves or move in such a way as to avoid notice.
 * **Survival:** how well a character can keep themselves alive and healthy outside of civilization or when in the less comfortable parts of it.
