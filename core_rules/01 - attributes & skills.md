@@ -9,7 +9,7 @@ Character’s have four primary attributes that describe their physical and ment
 
 ## Secondary Attributes:
 These statistics and resources are derived from the character’s strain, primary attributes, and skills.
-* **Size** - determined by a character’s strain and traits.
+* **Size** - determined by a character’s strain.
 * **Reach** - equal to the character’s size.
 * **Melee defense bonus** - added to a character’s defense against melee attacks they are aware of. This bonus is equal to a character’s ranks in melee combat.
 * **Ranged defense bonus** - added to a character’s defense against ranged attacks they are aware of. This bonus is equal to the sum of a character’s ranks in alertness and the dodge secondary skill.
