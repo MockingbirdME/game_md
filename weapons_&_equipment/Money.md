@@ -1,19 +1,18 @@
 # Currency in flax
 
 ## The dominance of silver
+
 Grail used copper and silver as its standard of currency for hundreds of years before its fall, a standard that has been adopted by all nations of Flax. While each nation mints its own coins coper, silver, and more recently iron, can be traded universally.
 
-By weight an ounce of iron is worth 10 ounces of silver and an ounce of silver is worth 10 ounces of copper.
-
 ## Common currency
-tenth - these coper coins are worth 1/10th of a penny.
-penny - coper coins used in everyday trade, worth 1/10th of a ounce of coper each.
-talent -  silver coins worth 10 pennies, or 1/10th an ounce of silver, each.
-bar - iron coins worth 10 talents, or one ounce of silver, each.
+penny - coper coins used in everyday trade.
+silver - small silver coins worth 10 pennies.
+talent -  silver coins worth 5 silver or an ounce of silver each.
+bar - iron coins worth 20 talents.
 
 ## Common Wages
 
-| Profession | Daily wage in pennies | Yearly wage in pennies |
+| Profession | Daily wage in silver | Yearly wage in silver |
 | --- | --- | --- |
 | Laborer, unskilled | 2-4 | 500-1000 |
 | Laborer, skilled | 3-10 | 750-2500 |
@@ -23,27 +22,27 @@ bar - iron coins worth 10 talents, or one ounce of silver, each.
 
 | Inn Stay  | per Night |
 | --- | --- |
-| Poor   |  5 tenths |
-| Modest   | 1 penny  |
-| Comfortable   | 3 pennies  |
-| Wealthy  | 1 talent  |
+| Poor   |  5 pennies |
+| Modest   | 1 silver  |
+| Comfortable   | 3 silver  |
+| Wealthy  | 2 talents  |
 
 | Meals  | per Day |
 | --- | --- |
-| Poor   |  5 tenths |
-| Modest   | 1 penny  |
-| Comfortable   | 3 pennies  |
-| Wealthy  | 1 talent  |
+| Poor   |  5 pennies |
+| Modest   | 1 silver  |
+| Comfortable   | 3 silver  |
+| Wealthy  | 2 talents  |
 
 | Clothing  | per set |
 | --- | --- |
-| Common   |  5 pennies |
-| Fine   | 5 talents  |
+| Common   |  5 silver |
+| Fine   | 10 talents  |
 | Noble   | 5 bar  |
 
 ## Adventuring gear
 
-| Item | cost in pennies |
+| Item | cost in silver |
 | --- | --- |
 | Backpack   | 10  |
 | Bedroll   | 5 |
@@ -72,7 +71,7 @@ bar - iron coins worth 10 talents, or one ounce of silver, each.
 ## Common Weapons
 Weapon prices vary wildly by where the item is purchased, they are much cheaper in larger towns and cities where a blacksmith is likely to have a steady supply of steel and the skill to create arms. Pricing for metal items is listed assuming they're made of steel, bronze weapons are half the price, iron weapons 10% less in cities and 30% less in smaller settlements, crude wooden or stone weapons are sometimes wielded outside of civilized areas but are generally not available for purchase within them. Not all weapons are available in all areas, while knives and arrows can be found just about anywhere many weapons, especially swords, are regional and smaller towns are likely to have much more limited inventory.
 
-| Weapon | cost in pennies |
+| Weapon | cost in silver |
 | --- | --- |
 | Knifes   | 50-100 |
 | Short Blades | 100-300 |
@@ -92,7 +91,7 @@ Weapon prices vary wildly by where the item is purchased, they are much cheaper 
 
 ## Common Armor
 
-| Armor type | cost in pennies |
+| Armor type | cost in silver |
 | --- | --- |
 | Gambeson, body   | 50-200 |
 | Gambeson, accessory   | 20-100 |
@@ -104,13 +103,11 @@ Weapon prices vary wildly by where the item is purchased, they are much cheaper 
 
 ## Arcane Essence
 
-| Essence Type | success capacity | cost in pennies |
+| Essence Type | cost in silver |
 | --- | --- | --- |
-| Consumption | 1 | 2 |
-| Cantrip | 5  | 3 |
-| Spell, basic | 8 | 10 |
-| Spell, refined | 12 | 25 |
-| True | 20 | 100 |
+| Consumption  | 2 / dose |
+| Standard   | 1 / success |
+| True  | 25 / success |
 
 | effect being imbued into essence | max successes | cost per success|
 | --- | --- | --- |
@@ -124,7 +121,7 @@ Weapon prices vary wildly by where the item is purchased, they are much cheaper 
 
 ## Animals
 
-| Animal Type | Cost in pennies |
+| Animal Type | Cost in silver |
 | --- | --- |
 | Chicken | 5 |
 | Cow | 300 |
@@ -139,7 +136,7 @@ Weapon prices vary wildly by where the item is purchased, they are much cheaper 
 | Sheep   | 20 |
 
 ## Grath Armaments
-| Weapon or Modification | Cost in pennies |
+| Weapon or Modification | Cost in silver |
 | --- | --- |
 | Standard Pistol   | 1000 |
 | Extra Barrel   | 700 |
@@ -147,7 +144,7 @@ Weapon prices vary wildly by where the item is purchased, they are much cheaper 
 | Extra Chamber   | 200 |
 | Longer Barrel   | 200 |
 
-| Ammo Packet or bullet type | Cost in pennies |
+| Ammo Packet or bullet type | Cost in silver |
 | --- | --- |
 | Standard Packet   | 3 |
 | Premium Packet   | 4 |
