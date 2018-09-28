@@ -106,6 +106,7 @@ Various conditions can affect a combat situation, changing the difficult to hit 
 * **Reach** - against a character with greater reach than your melee attack’s add one penalty die plus one for every five points by which their reach exceeds yours to the attack’s skill check or grant your opponent a free strike against you. This penalty is incurred the first time you attack this target since engaging or their last defensive action.
 
 ### Reactions
-Reactions are special actions that are taken outside of the character's turn. If the character
+Reactions are special actions that are taken outside of the character's turn. A character can make only one reaction between each of their turns. Reactions have no turn requirement even if they specify taking an action that normally would.
 
-* **Free attack** - once per round when an opponent moves through a hex the character threatens the character may immediately make a basic attack against that opponent with zero turn requirement.
+* **Free attack(*)** - when an opponent moves through a hex the character threatens the character may immediately make a basic attack action, off handed attack action, loose/shoot/fire action, or a throw action with a ready, loaded when applicable, weapon or spell against that opponent. This reaction's stamina cost is that of the action taken.
+* **Take cover(2)** - 
