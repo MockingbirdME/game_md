@@ -5,8 +5,8 @@
 Grail used copper and silver as its standard of currency for hundreds of years before its fall, a standard that has been adopted by all nations of Flax. While each nation mints its own coins coper, silver, and more recently iron, can be traded universally.
 
 ## Common currency
-penny - coper coins used in everyday trade.
-silver - small silver coins worth 10 pennies.
+penny (coper)- coper coins used in everyday trade.
+shield (silver) - small silver coins worth 20 pennies.
 talent -  silver coins worth 5 silver or an ounce of silver each.
 bar - iron coins worth 20 talents.
 
@@ -22,14 +22,14 @@ bar - iron coins worth 20 talents.
 
 | Inn Stay  | per Night |
 | --- | --- |
-| Poor   |  5 pennies |
+| Poor   |  10 pennies |
 | Modest   | 1 silver  |
 | Comfortable   | 3 silver  |
 | Wealthy  | 2 talents  |
 
 | Meals  | per Day |
 | --- | --- |
-| Poor   |  5 pennies |
+| Poor   |  10 pennies |
 | Modest   | 1 silver  |
 | Comfortable   | 3 silver  |
 | Wealthy  | 2 talents  |
