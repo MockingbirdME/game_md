@@ -28,33 +28,16 @@ Values that apply to the weapon being used.
 * Parry bonus: listed in three parts, one handed, two handed, and off handed; add this bonus to the character’s melee defense when wielding the weapon in these ways. A character’s total parry bonus can not exceed the sum of their ranks in personal defense, the parry secondary skill, and the weapon’s secondary skill(s). Reduce this bonus by one for each penalty die the character would gain due to the weapon’s difficulty.
 * Cover bonus: a defensive bonus that only applies to attacks originating in the character’s front arc, shields gain additional cover bonus equal to the character's rank in the shields secondary skill.
 * Secondary skill: the specific secondary skill(s) related to the use of this weapon.
-* Damage: the base amount of damage this weapon deals, often listed as body +x where body is equal to the character's body stat, or their body stat +2 when wielding a melee weapon two-handed.
-* APV: the weapon's armor piercing value, often listed as body +x where body is equal to the character's body stat, or their body stat +2 when wielding a melee weapon two-handed.
-* Attack-types: a list of the types of attack this weapon can perform; each type varies the effects of the weapon's attack.
-* Notes: any additional information needed for the proper use of the weapon.
+* Notes: any additional information needed for the proper use of the weapon including any brawling or ranged attacks that can be made with it.
+* Attacks: each weapon will have one or more attacks that it can perform.
 
-#### Attack Types:
-Each attack type has a few basic stats:
-* Attack: the name of the attack type.
-* Damage Type: piercing(p) or concussive(c).
-* Additional Success Uses: additional options the character has to use their additional successes on.
-* Notes: other details regarding this attack, often modifying or reseting certain weapon properties.
 
-| Attack | Damage Type | Additional Success Uses | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| Bash | C | 2 Damage | Double weapon's damage |
-| Cut | P | Damage or APV | +1 damage, +3 when concussive |
-| Hack | P | 2 Damage or 1/2 APV | 3/4 reach |
-| Half-Sword | P | Damage or 2 APV | 1/2 reach |
-| Hammer | C | 3 Damage | Triple weapon's damage |
-| Melee | C | 2 Damage | character's with natural weapons that deal penetrating damage may use extra successes for 1 APV |
-| Mordstreich | C | 3 Damage | Lose parry bonus for one round, double damage |
-| Pick | P | Damage or APV | 3/4 reach, increase APV and Damage for power attacks |
-| Punch | C | 2 Damage | Brawling secondary skill, reach: 0, damage: Body+1 |
-| Slash | P | Damage or APV | 3/4 reach, +1 stun for penetrating damage +1 per wound |
-| Strike | C | 3 Damage | Brawling secondary skill, reach: 0, damage: body+3 |
-| Thrown | varies | Damage or APV | Damage type and range will be listed after attack type |
-| Thrust | P | Damage and APV | 1 1/2 reach for pole arms
+#### Melee weapon attack statistics:
+* Damage Type: what type of damage this attack deals.
+* Damage: how much damage this attack deals.
+* APV: the armor piercing value of this attack.
+* Additional Success Uses: one or more advantages that can be gained per additional success rolled on this attack.
+* Notes: any additional notes related to this attack.
 
 #### Ranged weapon statistics:
 * Body: the body stat of the weapon. This relates to usage penalties for bows, and reloading for crossbows. Thrown weapons have a body stat equal to the character's.

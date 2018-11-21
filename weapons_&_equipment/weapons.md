@@ -7,49 +7,101 @@
 * Strike - Reach: 0, Difficulty: 2, Parry: 0/-/-, Damage: body, APV: 0, Attack-types: melee, Notes: none.
 
 ### Common Short Blades
-* Knife - Reach: 1, Difficulty: 2, Parry: 1/-/1, Damage: body -3, APV: 2, Attack-types: cut, thrust, pick, punch Notes: none.
-* Throwing Knife: Reach: 1, Difficulty: 4, Parry: 0/-/0, Damage: body -3, APV: 3, Attack-types: cut, thrust, punch, throw(Close Range: body, Range Increment: 2, Max Range: 2 x body, Range Penalty: 1 die and 1 damage) Notes: none.
-* Dagger - Reach: 2, Difficulty: 3, Parry: 2/-/2, Damage: body -2, APV: 3, Attack-types: cut, thrust, pick, punch Notes: additional successes used to grant APV grain an additional APV.
-* Centari Saddle Blade - Reach: 4, Difficulty: 3, Parry: 3/-/2, Damage: body -1, APV: 3, Attack-types: cut, thrust, punch Notes: additional successes used to grant APV grain an additional APV.
-* Kukri:  Reach: 3, Difficulty: 5, Parry: 1/-/1, Damage: body -1, APV: 3, Attack-types: cut, hack, punch Notes: none.
+* Knife - Reach: 1, Difficulty: 2, Parry: 1/-/1, Notes: none.
+  - Damage Type: P, Damage: Body -3, APV: 2, Additional Successes: 1 damage or 1 APV, Notes: none.
+* Throwing Knife: Reach: 1, Difficulty: 4, Parry: 0/-/0, Notes: none.
+  - Damage Type: P, Damage: Body -3, APV: 3, Additional Successes: 1 damage or 1 APV, Notes: none.
+  - throw(Close Range: body, Range Increment: 2, Max Range: 2 x body, Range Penalty: 1 die and 1 damage)
+* Dagger - Reach: 2, Difficulty: 3, Parry: 2/-/2, Notes: none.
+  - Damage Type: P, Damage: Body -2, APV: 3, Additional Successes: 1 damage or 2 APV, Notes: none.
+* Centari Saddle Blade - Reach: 4, Difficulty: 3, Parry: 3/-/2, Notes: none.
+  - Damage Type: P, Damage: Body -1, APV: 3, Additional Successes: 1 damage and 1 APV or 2 APV, Notes: loose off hand parry bonus if this attack is made off-handed.
+* Kukri:  Reach: 3, Difficulty: 5, Parry: 2/-/1, Notes: none.
+  - Damage Type: P, Damage: Body -1, APV: 3, Additional Successes: 2 damage or 1 APV, Notes: none.
 
 ### Common Long Blades
-* Askelonian Arming Sword: Reach: 6, Difficulty: 4, Parry: 4/4/1, Damage: body, APV: 4, Attack-types: cut, thrust, strike, half-sword, mordstreich Notes: hand and a half.
-* Askelonian Longsword: Reach: 7, Difficulty: 5, Parry: 2/4/-, Damage: body, APV: 5, Attack-types: cut, thrust, strike, half-sword, mordstreich Notes: two handed.
-* Askelonian Side Sword: Reach: 5, Difficulty: 4, Parry: 4/-/1, Damage: body-1, APV: 4, Attack-types: cut, thrust, strike, half-sword Notes: none.
-* Askelonian Small Sword: Reach: 4, Difficulty: 4, Parry: 5/-/1, Damage: body -2, APV: 5, Attack-types: thrust, strike Notes: none.
-* Cleaver Falchion: Reach: 4, Difficulty: 4, Parry: 3/-/-, Damage: body, APV: 6, Attack-types: hack, slash, strike Notes: none.
-* Grailian Falchion: Reach: 6, Difficulty: 4, Parry: 5/4/1, Damage: body, APV: 5, Attack-types: cut, thrust, slash, strike, mordstreich Notes: hand and a half.
-* Grailian Back Sword: Reach: 5, Difficulty: 4, Parry: 4/-/1, Damage: body-1, APV: 4, Attack-types: cut, thrust, slash, strike Notes: none.
-* Proto Long Blade: Reach: 6, Difficulty: 4, Parry: 4/-/1, Damage: body -1, APV: 2, Attack-types: cut, thrust, strike Notes: none.
-* Proto Short Blade: Reach: 4, Difficulty: 4, Parry: 3/-/1, Damage: body -1, APV: 2, Attack-types: cut, thrust, strike Notes: none.
-* Islander’s Short Sword: Reach: 4, Difficulty: 4, Parry: 3/-/1, Damage: body -1, APV: 4, Attack-types: cut, thrust, strike Notes: none.
-* Boarding Sword: Reach: 4, Difficulty: 4, Parry: 3/-/1, Damage: body -1, APV: 5, Attack-types: cut, slash, strike Notes: none.
+* Askelonian Arming Sword: Reach: 6, Difficulty: 4, Parry: 4/4/1, Notes: hand and a half.
+  - Damage Type: P, Damage: Body, APV: 4, Additional Successes: 1 damage and 1 APV, Notes: none.
+  - Damage Type: C, Damage: 2xBody, APV: -, Additional Successes: 3 damage, Notes: two-handed, weapon looses its parry bonus until the character's next turn.
+* Askelonian Longsword: Reach: 7, Difficulty: 5, Parry: 2/4/-, Notes: two handed.
+  - Damage Type: P, Damage: Body, APV: 5, Additional Successes: 1 damage and 1 APV, Notes: none.
+  - Damage Type: C, Damage: 2xBody, APV: -, Additional Successes: 3 damage, Notes: two-handed, weapon looses its parry bonus until the character's next turn.
+* Askelonian Side Sword: Reach: 5, Difficulty: 4, Parry: 4/-/1, Notes: none.
+  - Damage Type: P, Damage: Body-1, APV: 4, Additional Successes: 1 damage and 1 APV, Notes: none.
+* Askelonian Small Sword: Reach: 4, Difficulty: 4, Parry: 5/-/1, Notes: none.
+  - Damage Type: P, Damage: Body-2, APV: 5, Additional Successes: 1 damage and 1 APV or 2 APV, Notes: none.
+* Cleaver Falchion: Reach: 4, Difficulty: 4, Parry: 3/-/-, Notes: none.
+  - Damage Type: P, Damage: Body, APV: 6, Additional Successes: 2 damage or 1 APV, Notes: none.
+* Grailian Falchion: Reach: 6, Difficulty: 4, Parry: 5/4/1, Notes: hand and a half.
+  - Damage Type: P, Damage: Body, APV: 5, Additional Successes: 1 damage and 1 APV, Notes: none.
+  - Damage Type: C, Damage: 2xBody, APV: -, Additional Successes: 3 damage, Notes: two-handed, weapon looses its parry bonus until the character's next turn.
+* Grailian Back Sword: Reach: 5, Difficulty: 4, Parry: 4/-/1, Notes: none.
+  - Damage Type: P, Damage: Body-1, APV: 4, Additional Successes: 1 damage and 1 APV, Notes: none.
+* Proto Long Blade: Reach: 6, Difficulty: 4, Parry: 4/-/1, Notes: none.
+  - Damage Type: P, Damage: Body-1, APV: 2, Additional Successes: 1 damage and 1 APV, Notes: Bronze.
+* Proto Short Blade: Reach: 4, Difficulty: 4, Parry: 3/-/1, Notes: none.
+  - Damage Type: P, Damage: Body-1, APV: 2, Additional Successes: 1 damage and 1 APV, Notes: Bronze.
+* Islander’s Short Sword: Reach: 4, Difficulty: 4, Parry: 3/-/1, Notes: none.
+  - Damage Type: P, Damage: Body-1, APV: 4, Additional Successes: 1 damage and 1 APV, Notes: none.
+* Boarding Sword: Reach: 4, Difficulty: 4, Parry: 3/-/1, Notes: none.
+  - Damage Type: P, Damage: Body-1, APV: 5, Additional Successes: 1 damage and 1 APV, Notes: none.
 
 ### Common Bludgeons
-* Club: Reach: 3, Difficulty: 2, Parry: 1/0/0, Damage: body, APV: 0, Attack-types: bash Notes: none.
-* Light Mace/Hammer: Reach: 3, Difficulty: 3, Parry: 1/-/0, Damage: body, APV: 0, Attack-types: hammer Notes: none.
-* Heavy Mace/Warhammer: Reach: 4, Difficulty: 4, Parry: 2/1/0, Damage: body, APV: 0, Attack-types: bash, hammer Notes: hand and a half, may have a beak and/or spike granting it pick and thrust attack types respectively.
-* Sledge: Reach: 6, Difficulty: 6, Parry: -/1/-, Damage: body+1, APV: 0, Attack-types: hammer, bash, Notes: additional successes spent on hammer grant 1 additional damage when making a power attack.
-* Quarter Stave: Reach: 6, Difficulty: 4, Parry: 1/5/-, Damage: body, APV: 0, Attack-types: bash, Notes: uses bludgeoning weapons or spears secondary skill.
+* Club: Reach: 3, Difficulty: 2, Parry: 1/0/0, Notes: none.
+  - Damage Type: C, Damage: 2xBody, APV: -, Additional Successes: 2 damage, Notes: none.
+* Light Mace/Hammer: Reach: 3, Difficulty: 3, Parry: 1/-/0, Notes: none.
+  - Damage Type: C, Damage: 3xBody, APV: -, Additional Successes: 3 damage, Notes: none.
+* Heavy Mace/Warhammer: Reach: 4, Difficulty: 4, Parry: 2/1/0, Notes: hand and a half, may have a beak granting it an additional attack option.
+  - Damage Type: C, Damage: 3xBody, APV: -, Additional Successes: 3 damage, Notes: none.
+  - Damage Type: P, Damage: Body-1, APV: 4, Additional Successes: 1 damage and 1 APV, Notes: only if it has a beak, gain APV equal to damage when performing a power attack, may use pick secondary skill.
+* Sledge: Reach: 6, Difficulty: 6, Parry: -/1/-, Notes: two-handed, body is treated as one higher than it is, all attacks with this weapon incur an additional penalty die.
+  - Damage Type: C, Damage: 3xBody, APV: -, Additional Successes: 3 damage, Notes: gain an additional damage per extra success on power attacks.
+* Quarter Stave: Reach: 6, Difficulty: 4, Parry: 1/5/-, Notes: two-handed, uses bludgeoning weapons or spears secondary skill, can be used to trip.
+  - Damage Type: C, Damage: 2xBody, APV: -, Additional Successes: 2 damage, Notes: when wielded two-handed can be treated as both a two-handed weapon and off-handed weapon, can be iron capped increasing the base damage to 3xBody.
 
 ### Common Axes
-* Throwing Axe: Reach: 1, Difficulty: 4, Parry: 0/-/0, Damage: body -2, APV: 2, Attack-types: hack, punch, throw(Close Range: body, Range Increment: 2, Max Range: 2 x body, Range Penalty: 1 die and 1 damage), Notes: none.
-* Hand Axe: Reach: 2, Difficulty: 3, Parry: 2/-/1, Damage: body -1, APV: body -1, Attack-types: hack, punch Notes: may have a beak and/or spike granting it pick and thrust attack types respectively.
-* Battle Axe: Reach: 4, Difficulty: 4, Parry: 2/2/1, Damage: body, APV: body, Attack-types: hack, bash, Notes: hand and a half, may have a beak and/or spike granting it pick and thrust attack types respectively.
-* Great Axe: Reach: 6, Difficulty: 6, Parry: 1/3/-, Damage: body, APV: body +1, Attack-types: hack, bash, Notes: two-handed, may have a beak, hammer and/or spike granting it pick, hammer, and thrust attack types respectively.
+* Throwing Axe: Reach: 1, Difficulty: 4, Parry: 0/-/0, Notes: none.
+  - Damage Type: P, Damage: Body-2, APV: 2, Additional Successes: 2 damage or 1 APV, Notes: none.
+  - throw(Close Range: body, Range Increment: 2, Max Range: 2 x body, Range Penalty: 1 die and 1 damage), Notes: none.
+* Hand Axe: Reach: 2, Difficulty: 3, Parry: 2/-/1, Notes: may have a beak granting it an additional attack option.
+  - Damage Type: P, Damage: Body-1, APV: Body-2, Additional Successes: 2 damage or 1 APV, Notes: none.
+  - Damage Type: P, Damage: Body-1, APV: 4, Additional Successes: 1 damage and 1 APV, Notes: only if it has a beak, gain APV equal to damage when performing a power attack, add one penalty die to this attack, may use pick secondary skill.
+* Battle Axe: Reach: 4, Difficulty: 4, Parry: 2/2/1, Notes: hand and a half, may have a beak granting it an additional attack option.
+  - Damage Type: P, Damage: Body, APV: Body, Additional Successes: 2 damage or 1 APV, Notes: none.
+  - Damage Type: P, Damage: Body, APV: 4, Additional Successes: 1 damage and 1 APV, Notes: only if it has a beak, gain APV equal to damage when performing a power attack, add one penalty die to this attack, may use pick secondary skill.
+* Great Axe: Reach: 6, Difficulty: 6, Parry: 1/3/-, Notes: two handed, may have a beak granting it an additional attack option.
+  - Damage Type: P, Damage: Body, APV: Body+1, Additional Successes: 2 damage or 1 APV, Notes: none.
+  - Damage Type: P, Damage: Body, APV: 4, Additional Successes: 1 damage and 1 APV, Notes: only if it has a beak, gain APV equal to damage when performing a power attack, add one penalty die to this attack, may use pick secondary skill.
 
 ### Common Pole Arms
-* Javelin: Reach: 4, Difficulty: 4, Parry: 2/3/1, Damage: body -1, APV: 3, Attack-types: thrust, bash, throw(Close Range: 2 x body, Range Increment: body, Max Range: 5 x body, Range Penalty: 1 die), Notes: none.
-* Skirmisher’s Spear: Reach: 6, Difficulty: 4, Parry: 3/3/-, Damage: body -1, APV: 4, Attack-types: thrust, bash, throw(Close Range: body, Range Increment: body, Max Range: 3 x body, Range Penalty: 1 die), Notes: hand and a half.
-* Soldier’s Spear: Reach: 8, Difficulty: 4, Parry: 3/3/-, Damage: body, APV: 5, Attack-types: thrust, bash, Notes: two handed unless wielder’s body is 6 or higher then hand and a half.
-* Horse Lord’s Spear: Reach: 10, Difficulty: 6, Parry: 3/3/-, Damage: body, APV: 5, Attack-types: thrust, Notes: two handed unless wielder’s body is 7 or higher then hand and a half.
-* Pole Axe/Hammer: Reach: 6, Difficulty: 5, Parry: -/3/-, Damage: body, APV: body +1, Attack-types: bash Notes: two-handed, may have a beak, blade, hammer and/or spike granting it pick, hack, hammer, and thrust attack types respectively. Uses the pole axe secondary skill.
+* Javelin: Reach: 4, Difficulty: 4, Parry: 2/3/1, Notes: none.
+  - Damage Type: P, Damage: Body-1, APV: 3, Additional Successes: 1 damage and 1 APV, Notes: none.
+  - Damage Type: C, Damage: Body +2, APV: -, Additional Successes: 2 damage, Notes: none.
+  - throw(Close Range: 2 x body, Range Increment: body, Max Range: 5 x body, Range Penalty: 1 die), Notes: none.
+* Skirmisher’s Spear: Reach: 6, Difficulty: 4, Parry: 3/3/-, Notes: hand and a half.
+  - Damage Type: P, Damage: Body-1, APV: 4, Additional Successes: 1 damage and 1 APV, Notes: none.
+  - Damage Type: C, Damage: 2Body, APV: -, Additional Successes: 2 damage, Notes: none.
+  - throw(Close Range: body, Range Increment: body, Max Range: 3 x body, Range Penalty: 1 die), Notes: none.
+* Soldier’s Spear: Reach: 8, Difficulty: 4, Parry: 3/3/-, Notes: two handed unless wielder’s body is 6 or higher, then hand and a half.
+  - Damage Type: P, Damage: Body, APV: 5, Additional Successes: 1 damage and 1 APV, Notes: none.
+  - Damage Type: C, Damage: 2Body, APV: -, Additional Successes: 2 damage, Notes: none.
+* Horse Lord’s Spear: Reach: 10, Difficulty: 6, Parry: 3/3/-, Notes: two handed unless wielder’s body is 7 or higher, then hand and a half.
+  - Damage Type: P, Damage: Body, APV: 5, Additional Successes: 1 damage and 1 APV, Notes: none.
+  - Damage Type: C, Damage: 2Body, APV: -, Additional Successes: 2 damage, Notes: none.
+* Pole Axe/Hammer: Reach: 6, Difficulty: 5, Parry: -/3/-, Notes: two-handed, may have a beak, blade, hammer and/or spike granting it additional attack options; any attack option may use the pole-axe secondary skill.
+  - Damage Type: C, Damage: 2Body, APV: -, Additional Successes: 2 damage, Notes: may use spears or bludgeoning weapons secondary skill.
+  - Damage Type: P, Damage: Body, APV: Body +1, Additional Successes: 1 damage and 1 APV, Notes: Only if the weapon has a spike, may use spears secondary skill.
+  - Damage Type: P, Damage: Body -1, APV: Body -1, Additional Successes: 1 damage and 1 APV, Notes: Only if it has a beak, gain APV equal to damage when performing a power attack, may use pick secondary skill.
+  - Damage Type: P, Damage: Body, APV: Body -1, Additional Successes: 2 damage or 1 APV, Notes: Only if the weapon has a blade, may use axes secondary skill.
+  - Damage Type: C, Damage: 3Body, APV: -, Additional Successes: 3 damage, Notes: Only if the weapon has a hammer, may use bludgeoning weapons secondary skill.
 
 ### Common Shields
-* Buckler: Reach: 0, Difficulty: 2, Parry: 0/-/2, Cover: 1, Damage: body-3, APV: 0, Attack-types: punch, Notes: a spike or blades can be added granting the thrust and slash attack types respectively, if a character wielding this weapon chooses not to make an attack with it they may gain one bonus die to the first attack they make with a weapon in their other hand this round.
-* Round/Heater Shield: Reach: 3, Difficulty: 3, Parry: 0/-/1, Cover: 3, Damage: body-1, APV: 0, Attack-types: bash, punch, Notes: a spike or blades can be added granting the thrust and slash attack types respectively, if a character wielding this weapon chooses not to make an attack with it they may instead increase they're melee defense bonus by their ranks in the shield secondary skill for one round.
-* Kite Shield: Reach: 0, Difficulty: 5, Parry: 0/-/2, Cover: 6, Damage: body, APV: 0, Attack-types: bash, Notes: this weapon may not be used to perform the off handed attack action.
+* Buckler: Reach: 0, Difficulty: 2, Parry: 0/-/2, Cover: 1, Notes: if a character wielding this weapon chooses not to make an attack with it they may gain one bonus die to the first attack they make with a weapon in their other hand this round.
+  - Damage Type: C, Damage: Body+1, APV: -, Additional Successes: 2 damage, Notes: may use the brawling secondary skill.
+* Round/Heater Shield: Reach: 3, Difficulty: 3, Parry: 0/-/1, Cover: 3, Notes: if a character wielding this weapon chooses not to make an attack with it they may instead increase they're melee defense bonus by their rank in the shield secondary skill for one round.
+  - Damage Type: C, Damage: Body +2, APV: -, Additional Successes: 2 damage, Notes: none.
+* Kite Shield: Reach: 0, Difficulty: 5, Parry: 0/-/2, Cover: 6, Notes: this weapon may not be used to perform the off handed attack action.
+  - Damage Type: C, Damage: 2Body, APV: -, Additional Successes: 2 damage, Notes: none.
 
 ### Common Melee Weapon Modifications
 * Craftsmanship(Poor) - Reduce damage and all parry bonus, increase difficulty by one.
@@ -78,10 +130,10 @@ Close Range: body, Range Increment: 3 x body, Max Range: 12 x body, Range Penalt
 ### Common Arrow Types
 Arrows are all made for a specific strength of bow if using an arrow designed for a bow strength greater than one off from the bow it’s being loosed from modify the range, damage, and APV down by the difference in bow to arrow body rating.
 
-* Broadhead - Damage Type: penetrating, Damage Modification: 1d8, APV: +1d4.
+* Broad-head - Damage Type: penetrating, Damage Modification: 1d8, APV: +1d4.
 * Bodkin - Damage Type: penetrating, Damage Modification: 1d4, APV: +1d8.
 * Blunted - Damage Type: concussive, Damage Modification: + 2d8, APV: set to zero.
-* Leafblade - Damage Type: penetrating, Damage Modification: 1d6, APV: + 1d6.
+* Leaf-blade - Damage Type: penetrating, Damage Modification: 1d6, APV: + 1d6.
 
 ### Crossbows
 Like bows, crossbows have a body rating that is used for calculating the rest of their statistics as follows.
@@ -91,8 +143,8 @@ Close Range: 7m, Range Increment: body + 10m, Max Range: 3 x body + 50m, Range P
 
 
 Reloading crossbows: there are a few different ways to reload a crossbow based on the actions below. All actions to reload a crossbow cost 0 stamina. Any reload action that has a turn requirement of greater than one must have the reload performed over subsequent turns or they must start over. A character can not take a move action on the same turn they take a reload action.
-* Handloading: crossbows with body less than or equal to twice the character’s, one turn requirement. If the crossbow’s body is less than the character’s they may still take a move action this turn.
-* Goatsfoot Loading: crossbows with body less than or equal to the three times the character’s, two turn requirement. Requires a goatsfoot loading device.
+* Hand loading: crossbows with body less than or equal to twice the character’s, one turn requirement. If the crossbow’s body is less than the character’s they may still take a move action this turn.
+* Goats foot Loading: crossbows with body less than or equal to the three times the character’s, two turn requirement. Requires a goats foot loading device.
 * Windlass Loading: any crossbow, requires a windlass loading device, not all actions required to complete this loading must be taken on subsequent turns. Turn requirement of one for each 4 body the crossbow has (body 5-8 = 2 rounds, 9-12 = 3, 13-16 = 4 etc.).
 
 <div class="page-break"></div>
@@ -114,9 +166,9 @@ Bolts are all made for a specific body rating of crossbow and can not be used in
 * Craftsmanship(Poor) - Reduce damage and APV by one and all ranges by 20%.
 * Craftsmanship(Masterwork) - Increase damage and armor piercing value by one.
 * Material(Composite) - Increase range by 25%, bows only.
-* State(worn) - Reduce damage and APV by one and all ranges by 10%.
+* State(worn) - Reduce damage and APV by one, and all ranges by 10%.
 
 ### Common Arrow and Quarrel/Bolt Modifications
 * Craftsmanship(Poor) - Reduce damage and APV by one and all ranges by 20%.
 * Craftsmanship(Masterwork) - Increase damage and APV by one and all ranges by 10%.
-* State(worn) - Reduce damage and APV by one and all ranges by 10%.
+* State(worn) - Reduce damage and APV by one, and all ranges by 10%.
