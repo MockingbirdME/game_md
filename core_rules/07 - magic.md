@@ -1,13 +1,13 @@
 # Magic
 
 ## Creating Magical Effects
-Mages craft magic by gathering energy and shaping it to the effect they desire; crafting can be dangerous as the amount of power summoned is unpredictable. Alternatively mages can cast prepared, practiced, effects called spells. A cast spell can be made safer by have its power restricted, called gating the spell.
+Mages craft magic by gathering energy and shaping it to the effect they desire; crafting can be dangerous as the amount of power summoned is unpredictable. Alternatively mages can cast prepared, practiced, effects called spells. A cast spell can be made safer by have its power restricted, a practice called gating the spell.
 
 #### Crafting magic
-The mage may take an action to summon forth magic to shape on subsequent turns. The character must either continue to gather power or shape the power they have already gathered on their next turn, if in turn based combat, or before they do anything else, if out of combat. When the character shapes the power they have gathered they may spend each success on magical powers they know. Once the character has assigned each gathered success to some effect they suffer arcane dues equal to the total number of successes worth of gathered power in the effect plus one per round used to gather the power and the effect as they detailed is successfully created.
+Mages gather arcane power into themselves before shaping it once they've gathered the desired amount of power. Crafting magic allows a mage to create any effect for which they can imagine from the powers they they have access to but doing so is can be both time consuming and dangerous.  
 
 #### Casting a spell
-Spells are like crafted magic but they have been well rehearsed with their effects being pre determined; spells are, generally, much safer for the mage than crafting magic is. When casting a spell the mage will select one spell from their spell list, choose whether or not to gate it, then make a skill check using mind, arcane aptitude, and no relevant secondary skills, if the skill results in at least as many successes as needed to cast the spell at its gated level the effects as listed, including arcane dues, happen. A character wishing to cast a spell with more power than normal may choose to cast it ungated. Casting a spell ungated has the same requirements as casting the spell gated but the caster suffers arcane dues equal to the number of success rolled and for each additional success rolled, past the first, the caster may add one effect from the spells pool to the overall effect.
+Spells are like crafted magic but they have been well rehearsed with their effects being pre determined; spells are, generally, much safer for the mage than crafting magic is. Spells can be cast with very exact specification is gated or with a more power and variation if cast ungated.
 
 #### Casting spells and Crafting magic over time
 Spells and crafted effects do not need to be cast quickly, by taking extra time in the ritual the caster's body stat is treated as being higher than it naturally is, this bonus is plus 1 for taking a minute, plus 2 for taking half an hour, and plus 3 for taking four full hours and plus 4 for taking a full day. After the arcane dues are applied for a ritually cast spell or effect the caster suffers additional fatigue equal to the bonus gained to their body stat squared.
@@ -26,7 +26,7 @@ steps in designing spells -
 5. list a number of additional success uses equal to the character’s rank in arcane aptitude, these can be any arcane success use the character has access to.
 6. list the chosen success uses with the free ones first and the rest in the order of importance to the spell the mage is looking to make.
 7. determine at which points in this list of successes the spell meets the desires of the mage and place its gate there.
-8. record the spell’s name, number of successes to cast at the gate, cost gated (the total number of successes in the spell, including free ones), free successes (generally as a +X in parentheses after the cost to make it easy to know how many arcane dues to add to the total successes rolled for an ungated spell), the secondary skills relevant to the spell, and the summation of all effects up to the gate listed as the spell effect and all remaining successes, those after the gate, listed in no particular order as the spells pool.
+8. record the spell’s name, number of successes to cast at the gate, cost gated (the total number of successes in the spell, including free ones), cost modifier (recorded as a +X in parentheses after the cost) which is equal to the number of free successes in the spell, the secondary skills relevant to the spell, and the summation of all effects up to the gate listed as the spell effect and all remaining successes, those after the gate, listed in no particular order as the spells pool.
 
 
 *Example spell design - the beginner learned mage Rodrick Leesen has 3 ranks in arcane aptitude, 2 ranks in the fire arcane theme, 1 rank in the space arcane theme, and one rank in the water arcane theme.*
@@ -45,9 +45,9 @@ steps in designing spells -
   Damage - 2d4 fire damage.
   Pool: enhance range, burst AOE.*
 
-  *When Rodrick casts the spell gated he needs only to roll 4 successes (12) to get the basic effects of his spell, if he casts it ungated he gets all successes rolled; if he rolls 4 or 5 successes the spell happens as if it were gated, though he takes arcane dues equal to the total successes rolled plus the free successes in the spell, if he rolls six successes he can choose to add either an enhance range or a burst AOE success to the effect and if he rolls seven successes he can add both. Rodrick's player understands when casting his spell ungated he needs to be careful when picking which dice to keep from his skill check to avoid getting more than seven successes because they add to the cost but not the effect.*
+  *When Rodrick casts the spell gated he needs only to roll 4 successes (12) to get the basic effects of his spell, if he casts it ungated he gets all successes rolled; if he rolls 4 or 5 successes the spell happens as if it were gated, though he takes arcane dues equal to the total successes rolled plus the free successes in the spell, if he rolls six successes he can choose to add either an enhance range or a burst AOE success to the effect and if he rolls seven or more successes he can an enhanced range or a burst AOE effect for each success mixing and matching as he chooses.*
 
-  **Note -** *Many lower level mages choose to gat their spells after the last successes they could assign to it, never casting it ungated; this gives them the most power for the lowest difficulty. Higher level mages often gate their spells quite low so that they can have more variety with the spell's effects when they cast it ungated.
+  **Note -** *Many lower level mages choose to gate their spells after the last successes they could assign to it, never casting it ungated; this gives them the most power for the lowest difficulty. Higher level mages often gate their spells quite low so that they can have more variety with the spell's effects when they cast it ungated.
 
 #### Cantrips
 Mages, in addition to their spells, know a number of cantrips. Mages start knowing three cantrips but may spend 5 advancement points to gain an additional cantrip slot. In between adventures a mage my change what cantrips they know.
