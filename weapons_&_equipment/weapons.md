@@ -54,7 +54,7 @@
   - Damage Type: C, Damage: 3xBody, APV: -, Additional Successes: 3 damage, Notes: none.
 * Heavy Mace/Warhammer: Reach: 4, Difficulty: 4, Parry: 2/1/0, Notes: _Bash_ hand and a half, may have a beak granting it an additional attack option.
   - Damage Type: C, Damage: 3xBody, APV: -, Additional Successes: 3 damage, Notes: none.
-  - Damage Type: P, Damage: Body-1, APV: 4, Additional Successes: 1 damage and 1 APV, Notes: only if it has a beak, gain APV equal to damage when performing a power attack, may use pick secondary skill.
+  - Damage Type: P, Damage: Body-1, APV: 4, Additional Successes: 1 damage and 1 APV, Notes: _Pick_ only if it has a beak, may use pick secondary skill.
 * Sledge: Reach: 6, Difficulty: 6, Parry: -/1/-, Notes: _Bash_ two-handed, body is treated as one higher than it is, all attacks with this weapon incur an additional penalty die.
   - Damage Type: C, Damage: 3xBody, APV: -, Additional Successes: 3 damage, Notes: gain an additional damage per extra success on power attacks.
 * Quarter Stave: Reach: 6, Difficulty: 4, Parry: 1/5/-, Notes: _Bash_ _Thrust_ _trip_ two-handed, uses bludgeoning weapons or spears secondary skill, can be used to trip.
@@ -66,13 +66,13 @@
   - throw(Close Range: body, Range Increment: 2, Max Range: 2 x body, Range Penalty: 1 die and 1 damage), Notes: none.
 * Hand Axe: Reach: 2, Difficulty: 3, Parry: 2/-/1, Notes: may have a beak granting it an additional attack option.
   - Damage Type: P, Damage: Body-1, APV: Body-2, Additional Successes: 2 damage or 1 APV, Notes: none.
-  - Damage Type: P, Damage: Body-1, APV: 4, Additional Successes: 1 damage and 1 APV, Notes: only if it has a beak, gain APV equal to damage when performing a power attack, add one penalty die to this attack, may use pick secondary skill.
+  - Damage Type: P, Damage: Body-1, APV: 4, Additional Successes: 1 damage and 1 APV, Notes: _Pick_ only if it has a beak, may use pick secondary skill.
 * Battle Axe: Reach: 4, Difficulty: 4, Parry: 2/2/1, Notes: hand and a half, may have a beak granting it an additional attack option.
   - Damage Type: P, Damage: Body, APV: Body, Additional Successes: 2 damage or 1 APV, Notes: none.
-  - Damage Type: P, Damage: Body, APV: 4, Additional Successes: 1 damage and 1 APV, Notes: only if it has a beak, gain APV equal to damage when performing a power attack, add one penalty die to this attack, may use pick secondary skill.
+  - Damage Type: P, Damage: Body, APV: 4, Additional Successes: 1 damage and 1 APV, Notes: _Pick_ only if it has a beak, may use pick secondary skill.
 * Great Axe: Reach: 6, Difficulty: 6, Parry: 1/3/-, Notes: two handed, may have a beak granting it an additional attack option.
   - Damage Type: P, Damage: Body, APV: Body+1, Additional Successes: 2 damage or 1 APV, Notes: none.
-  - Damage Type: P, Damage: Body, APV: 4, Additional Successes: 1 damage and 1 APV, Notes: only if it has a beak, gain APV equal to damage when performing a power attack, add one penalty die to this attack, may use pick secondary skill.
+  - Damage Type: P, Damage: Body, APV: 4, Additional Successes: 1 damage and 1 APV, Notes: _Pick_ only if it has a beak, may use pick secondary skill.
 
 ### Common Pole Arms
 * Javelin: Reach: 4, Difficulty: 4, Parry: 2/3/1, Notes: _Thrust_ _trip_.
@@ -92,7 +92,7 @@
 * Pole Axe/Hammer: Reach: 6, Difficulty: 5, Parry: -/3/-, Notes: _trip_ two-handed, may have a beak, blade, hammer and/or spike granting it additional attack options; any attack option may use the pole-axe secondary skill.
   - Damage Type: C, Damage: 2Body, APV: -, Additional Successes: 2 damage, Notes: _Bash_ may use spears or bludgeoning weapons secondary skill.
   - Damage Type: P, Damage: Body, APV: Body +1, Additional Successes: 1 damage and 1 APV, Notes: _Thrust_ Only if the weapon has a spike, may use spears secondary skill.
-  - Damage Type: P, Damage: Body -1, APV: Body -1, Additional Successes: 1 damage and 1 APV, Notes: Only if it has a beak, gain APV equal to damage when performing a power attack, may use pick secondary skill.
+  - Damage Type: P, Damage: Body -1, APV: Body -1, Additional Successes: 1 damage and 1 APV, Notes: _Pick_ only if it has a beak, may use pick secondary skill.
   - Damage Type: P, Damage: Body, APV: Body -1, Additional Successes: 2 damage or 1 APV, Notes: Only if the weapon has a blade, may use axes secondary skill.
   - Damage Type: C, Damage: 3Body, APV: -, Additional Successes: 3 damage, Notes: _Bash_   Only if the weapon has a hammer, may use bludgeoning weapons secondary skill.
 
