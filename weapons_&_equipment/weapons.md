@@ -7,7 +7,7 @@
 * Slap - Reach: 0, Difficulty: 1, Parry: 0/-/-, Notes: none.
   - Damage Type: C, Damage: Body -2, APV: -, Additional Successes: 1 damage, Notes: none.
 * Strike - Reach: 0, Difficulty: 2, Parry: 0/-/-, Notes: none.
-  - Damage Type: C, Damage: Body, APV: -, Additional Successes: 1 damage, Notes: increase damage by one plus one per additional success if holding a hard item such as a weapon in the hand used to strike with.
+  - Damage Type: C, Damage: Body, APV: -, Additional Successes: 1 damage, Notes: increase damage by one plus one per additional success if holding a hard item such as knuckledusters or a weapon in the hand used to strike with.
 * Kick - Reach: 1, Difficulty: 3, Parry: 0/-/-, Notes: _Trip_.
   - Damage Type: C, Damage: Body, APV: -, Additional Successes: 1 damage, Notes: lose one defense.
 * Pommel/Guard Strike - Reach: 0, Difficulty: 3, Parry: 0/-/-, Notes: _Bash_ requires a weapon with a solid pommel or guard to strike with.
