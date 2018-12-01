@@ -133,7 +133,8 @@ All bows have a body statistic much like a character does, many of the bow's sta
 * Damage: ¾ body plus die based on arrow type
 * APV: ½ body modified by arrow type
 * Additional Successes: one APV per success or d4 damage per two successes
-* Notes: bows require two hands to use, if a character’s body stat plus ranks in the bows secondary skill does not equal or exceed the bow’s body rating they suffer one penalty die for each point they are short, Reload: notching a readied arrow to a readied bow costs no stamina and has no turn requirement.
+* Notes: bows require two hands to use, if a character’s body stat plus ranks in the bows secondary skill does not equal or exceed the bow’s body rating they suffer one penalty die for each point they are short, bows can not be used with the aim action.
+* Reload: notching a readied arrow to a readied bow costs no stamina and has no turn requirement.
 
 ### Arrows
 Bows require arrows in order to be worth much. Arrows determine the damage type of the attack and grant a APV and Damage modification to the bow's attack, this modification is some dice that are added to the APV and Damage on an a per attack basis.
