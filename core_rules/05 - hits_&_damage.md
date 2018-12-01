@@ -28,7 +28,7 @@ Unless the hit location is already determined roll a d10 to determine it: 1-2 le
 ### Dying and permanent injuries
 
 #### Dying
-A dying character may not act and becomes unconscious at the end of the round, if not already. A character who is dying must receive medical attention within X rounds where X is one plus their rank in the Endurance primary skill or they suffer an additional wound caused by blood loss and internal injury, suffering this effect additional times adds additional level one injuries. A character who receives proper medical attention does not continue dying but does remain unconscious until they have healed at least one wound. A character suffering more wounds than their max wounds attribute can not recover stamina or remove stuns or fatigue.
+A dying character may not act and becomes unconscious at the end of the round, if not already. A character who is dying must receive medical attention within X rounds where X is one plus their rank in the Endurance primary skill or they suffer an additional wound caused by blood loss and internal injury, suffering this effect additional times adds additional level one injuries. A character who receives proper medical attention does not continue dying but does remain unconscious, or unable to perform most actions, until they have healed at least one wound. A character suffering more wounds than their max wounds attribute can not recover stamina or remove stuns or fatigue.
 
 #### Permanent Injuries(optional) TBA
 
@@ -37,18 +37,18 @@ A dying character may not act and becomes unconscious at the end of the round, i
 #### Recovering from minor injuries
 * Stamina - a character can regain stamina during combat by taking a recovery action, outside of combat a character's stamina is reset to their max stamina after a minute of relaxing inactivity or five minutes of un-strenuous activity.
 * Stun - a character can remove stuns during combat by taking a recovery action, outside of combat a character looses one stun for every minute of rest or 5 minutes of un-strenuous activity.
-* Fatigue - recovering from fatigue requires rest, a character spending a full hour at rest looses one fatigue, a character looses twice as much fatigue for time spent sleeping.
+* Fatigue - recovering from fatigue requires rest, a character spending a full hour at rest looses one fatigue, a character looses twice as much fatigue for time spent sleeping. At the GM's discretion fatigue caused by specific conditions may recover faster if the opposite condition is met (ex. fatigue caused by prolonged exposure to cold may recover faster while sitting at a warm hearth while fatigue caused by dehydration and sun exposure may recover faster while resting in the shade with a pitcher of fruit juice).
 
 #### Recovering from wounds
-Recovering from wounds is a slow process. Each day a character spends mostly at rest and with no strenuous activity, or week not resting properly, they may make a recovery check. A recovery check is like a skill check with a die pool contain xd6 where x is equal to the character's body stat and a number of penalty dice equal to the total number of wounds the character is suffering from; bonus dice may be added to this check by certain traits and by medical assistance. Compare the result to the chart below to find the effects of the recovery check.
+Recovering from wounds is a slow process. Each day a character spends mostly at rest and with no strenuous activity, or each week they spend not resting properly, they may make a recovery check. A recovery check is like a skill check with a die pool containing xd4 where x is equal to the character's body stat and a number of penalty dice equal to the total number of wounds the character is suffering from; bonus dice may be added to this check by certain traits and by medical assistance. Compare the result to the chart below to find the effects of the recovery check.
 | Recovery check total | Effect |
 | --- | --- |
-| 0-4  | The character is not healing properly, their wounds become infected and they develop sepsis. Each injury the character is suffering from has its severity increased by one, the character gains one wound for each injury they are recovering from  |
-| 5-9  | The character's wounds are getting infected. The worse injury the character is suffering from has it's severity increased by one, that character gains one additional wound.  |
-| 10-14  | The character is stable but recovering slowly. No effect.  |
-| 15-19  | The character is healing well, remove one of the character's level one injuries and remove one wound.  |
-| 20-24  | The character is healing quickly, remove one of the character's level one injuries or, if they have none, reduce a higher level injury by one level and remove one wound. |
-| 25+  | The character is healing at a miraculous rate, remove all of the character's level one injuries or, if they have none, reduce each higher level injury by one level and remove one wound fore each injury removed or reduced.  |
+| 0-5  | The character is not healing properly, their wounds become infected and they develop sepsis. Each injury the character is suffering from has its severity increased by one, the character gains one wound for each injury they are recovering from  |
+| 6-9  | The character's wounds are getting infected. The worst injury the character is suffering from has its severity increased by one, that character gains one additional wound.  |
+| 10-12  | The character is stable but recovering slowly. No effect.  |
+| 13-16  | The character is healing well, reduce the character's lest sever wound by one level.  |
+| 17-20  | The character is healing quickly, reduce the character's two least sever wounds by one level each. |
+| 21+  | The character is healing at a miraculous rate, reduce all of the character's injuries by one wound level. |
 
 ## Damage Types
 #### Concussive damage
