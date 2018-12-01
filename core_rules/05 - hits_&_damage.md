@@ -1,5 +1,5 @@
 # Hits & Damage
-
+<!-- TODO update wording throughout to use hex and add disclaimer that if not using a battle map the term hex correlates to roughly one square meter in theater of the mind -->
 ## Hitting and getting hit:
 Most attacks are made as a melee or ranged combat skill check where the total is compared to the opponent’s defense in order to determine the result of the attack.
 * Miss: if the attack result is less than the defender’s current defense the attack simply misses with has no effect.
@@ -14,16 +14,16 @@ When making an attack there are times that the target is not another character b
 * Targeting an area: to successfully hit a single hex on the map, if using a battle map, or roughly a square meter area if not using one with a melee weapon has a difficulty of 5, targeting the same area with a ranged weapon has a difficulty of 10 for close range +5 for each range increment. Targeting a hex with a character in it increases the difficulty by 5.
 
 ## Areas of Effect
-Many items, spells, and abilities cause everything in an area to be affected. These effects generally originate from a hex though sometimes from a character. Any character's aware of the AOE may accept two penalty dice to all actions on their next turn to move a number of meters equal to the greater of their ranks in personal defense or personal movement or spend a advancement point to move a number of meters equal to the sum of their ranks in those skills; add that advancement point to either their personal defense or personal movement skill.  
+Many items, spells, and abilities cause everything in an area to be affected. These effects originate from a hex or character. Once per round a character aware of an AOE they will end up in may accept two penalty dice to all actions on their next turn to move a number of meters equal to the greater of their ranks in personal defense and personal movement or spend a advancement point to move a number of meters equal to the sum of their ranks in those skills; add that advancement point to either their personal defense or personal movement skill.
 
 ## Hit locations:
 Unless the hit location is already determined roll a d10 to determine it: 1-2 legs, 3 right arm, 4 left arm, 5-9 body and 10 for head. Area effects generally damage the target’s body location and do not require a roll.
 
 ## Forms of damage
 * Stamina - for every point of stamina damage dealt the victim loses one stamina.
-* Stun - when a character suffers a stun they lose one stamina and gain a stun; each stun reduces a character’s max stamina by one. If a character gained a stun last round they suffer a -1 penalty for each stun they have to every skill check they make. If a character has as many stuns as their max stamina they are rendered unconscious with any future stuns suffered are treated instead as wounds.
-* Fatigue - for each fatigue suffered lose one stamina and gain a point of fatigue; each point of fatigue reduces a character’s max stamina by one. If a character's max stamina is reduced to zero they are rendered unconscious  with any future fatigue suffered are treated instead as wounds.
-* Wound - for each wound suffered lose 2 stamina and gain a wound to the hit location. Skill checks gain a penalty die for each wound the character has on the used location and a -1 penalty for each other wound. A character with at least as many wounds as his Max Wound attribute is dying and rendered unable to act. A character that suffers a single hit/effect which inflicts at least as many wounds as their Max Wound attribute, or a character with a total number of wounds exceeding double their max wound attribute, dies immediately. When a character suffers more than one wound from a single attack mark it as an "x Wound" this denotes the severity of the injury and is used to determine how quickly the character heals and any long term damage they may suffer.
+* Stun - when a character suffers a stun they lose one stamina and gain a stun; each stun reduces a character’s max stamina by one. If a character gained a stun last round they suffer a -1 penalty for each stun they have to every skill check they make. If a character's max stamina is reduced to zero they are rendered unconscious and any future stuns suffered are treated instead as wounds.
+* Fatigue - when a character suffers a point of fatigue they lose one stamina and gain a point of fatigue; each point of fatigue reduces a character’s max stamina by one. If a character's max stamina is reduced to zero they are rendered unconscious and any future points of fatigue suffered are treated instead as wounds.
+* Wound - when a character suffers a wound they lose two stamina and gain a wound to the damaged location. Skill checks gain a penalty die for each wound the character has on the used location and a flat penalty equal to the total number of wounds the character is suffering from. A character with at least as many wounds as his Max Wound attribute is dying and rendered unable to act. A character that suffers a single hit/effect which inflicts at least as many wounds as their Max Wound attribute, or a character with a total number of wounds exceeding double their max wound attribute, dies immediately. When a character suffers more than one wound from a single attack mark it as an "x Wound" this denotes the severity of the injury and is used to determine how quickly the character heals and any long term damage they may suffer.
 
 ### Dying and permanent injuries
 
