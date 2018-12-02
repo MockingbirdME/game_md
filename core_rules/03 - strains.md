@@ -25,13 +25,13 @@ So similar to Sapeen that, but for their dusky skin, they could be mistaken for 
 
 **Origin:** The Centari’s oral history goes back millennia yet they have only existed on Flax for a handful of generations. They appeared through an arcane portal the scale of which had never been seen before or since. The Centari claim to be the only remnants of a once great network of tribes that roamed a great plain thousands of miles across. Their nation was besieged by some kind of demon that arrived with iron and flame, they lost battle after battle for a dozen years as their civilization was reduced to ruin. Fearing for the survival of their species the remaining Centari tribes banded together; their mages led by the great sorcerer Yiru, known as The Sacrifice, worked together, and gave their lives, to summon forth the arcane power used to produce the portal that brought the Centari to Flax. The Centari had no concept of gods before they arrived on Flax and generally consider their worship silly and foolish.
 
-**Family/Social Structure** Centari live, mostly, in tribes that migrate throughout the year. These tribes are made up of several hundred, or thousand, Centari all of whom share a tribal name. It's not uncommon for two, or more, members of the same tribe, and same sex, to share their lives together but Centari spouses of the opposite sex only occur between members of different tribes at which point the male will leave their tribe to live with their new spouse. All children in a tribe live with their mothers, and their mother's partners, but spend the day being raised by the tribal elders and not their parents.
+**Family/Social Structure** Centari live, mostly, in tribes that migrate throughout the year. These tribes are made up of several hundred, or thousand, Centari all of whom share a tribal name. It's not uncommon for two, or more, members of the same tribe, and same sex, to share their lives together. All children in a tribe live with their mothers, and their mother's partners, but spend the day being raised by the tribal elders and not their parents.
 
-**Breeding** Centari females become fertile during adolescence but are not considered to be of breeding age until their 25th year. A Centari female of breeding age may invite a male from another tribe to their bed; this act is not considered a breach of any spousal bonds either party may have. Centari almost always produce two offspring, called foals, at a time.
+**Breeding:** Centari females may become fertile during adolescence but are not considered to be of breed-able age by the tribal elders until their 25th year. A Centari female of breeding age may be instructed by the tribal elders to mate with a specific male in an attempt to breed strong children into the next generation. Centari almost always produce two offspring, called foals, at a time.
 
-**Place in Society** Centari are uncommon outside of The Tribelands but when they do choose to leave they are generally welcome elsewhere, especially if they bring breedable horses with them.
+**Place in Society:** Centari are uncommon outside of The Tribelands but when they do choose to leave they are generally welcome elsewhere, especially if they bring breed-able horses with them.
 
-**Naming Conventions** Centari children are given two honorary names, one dictating how many times their mother has foaled and one the season they are named in, a proper name, and their tribe's name on the first season's eve after their birth. Birth order names starting with the name given to a mother's first foal(s) are: Pharri, Sareesh, Teya, Furan, Urna, Inego, Romi, and Le for any children born after their mother's seventh foaling. Season names are Nue for spring, Var for summer, Si for autumn, and Dis for winter.
+**Naming Conventions:** Centari children are given two honorary names, one dictating how many times their mother has foaled and one the season they are named in, a proper name, and their tribe's name on the first season's eve after their birth. Birth order names starting with the name given to a mother's first foal(s) are: Pharri, Sareesh, Teya, Furan, Urna, Inego, Romi, and Le for any children born after their mother's seventh foaling. Season names are Nue for spring, Var for summer, Si for autumn, and Dis for winter.
 
 **Size:** 5
 
@@ -57,11 +57,11 @@ Denja are generally quick witted and conversational, preferring to participate i
 
 **Family/Social Structure** Denja are social creatures and as such tend to live in family groups consisting of many adults and any children they may have but the members of this _family_ are likely to change overtime and it is not generally a major event in their lives to have one member leave the household at any given time. Denja children are thought to belong to a household and not a parent(s) but are rather raised collectively by the adults with whom they live and do not leave the household just because their biological parents do.
 
-**Breeding** Every decade or so beginning at adulthood a Denja female will lay a clutch of 3-8 eggs. If she's a member of a household the eggs will be fertilized collectively by the males in the household, a process that to outsiders looks like the males belch a thin mist over the eggs. If the female is not part of a household she will likely either leave her eggs wither or give them to a household she deems worthy, very rarely a lone female may have her eggs fertilized by one or more males and raise them herself.
+**Breeding:** Every decade or so beginning at adulthood a Denja female will lay a clutch of 3-8 eggs. If she's a member of a household the eggs will be fertilized collectively by the males in the household, a process that to outsiders looks like the males belch a thin mist over the eggs. If the female is not part of a household she will likely either leave her eggs wither or give them to a household she deems worthy, very rarely a lone female may have her eggs fertilized by one or more males and raise them herself.
 
-**Place in Society** Denja can be found in just about any town in Flax, they are social, well liked, and friendly. Denja are rarely ambitious and as such it is uncommon to find them in positions of power unless they have been appointed to them by a member, or members, of another strain.
+**Place in Society:** Denja can be found in just about any town in Flax, they are social, well liked, and friendly. Denja are rarely ambitious and as such it is uncommon to find them in positions of power unless they have been appointed to them by a member, or members, of another strain.
 
-**Naming Conventions** Denja children are not given names by their parents, or households, instead they are referred to by descriptions or pet names until they reach adulthood and leave the households they were born to. When they do venture out from their household they select a name for themselves. A Denja's chosen name is often a description they wish to strive for, to those who do not speak Denja a shortened version, or simplified translation, if often used.
+**Naming Conventions:** Denja children are not given names by their parents, or households, instead they are referred to by descriptions or pet names until they reach adulthood and leave the households they were born to. When they do venture out from their household they select a name for themselves. A Denja's chosen name is often a description they wish to strive for, to those who do not speak Denja a shortened version, or simplified translation, if often used.
 
 **Size:** 4
 
@@ -91,11 +91,11 @@ Originally natives to the Northern Desert, and though many have migrated south t
 
 **Family/Social Structure** Rhosk leave their family homes earlier than most other strain's children do and carve out a life for themselves living alone when able. Most Rhosk eventually find a mate and when they do stay with them for life, and do not take another should their first mate perish.
 
-**Breeding** Mated Rhosk will lay, a single egg and once hatched nurture only that child until it is old enough to leave the household at which point they will often lay another egg and repeat this process. Unlike some strains Rhosk, once reaching maturity, can continue to breed for the rest of their lives.
+**Breeding:** Mated Rhosk will lay, a single egg and once hatched nurture only that child until it is old enough to leave the household at which point they will often lay another egg and repeat this process. Unlike some strains Rhosk, once reaching maturity, can continue to breed for the rest of their lives.
 
-**Place in Society** Rhosk are rare outside of the northern mountains and steeps but tend to be considered valuable additions to southern towns due to their size, strength, and perceived ability to defend the town from harm. In larger towns and cities Rhosk tend to gather together, preferring each other's company to that of most other strains.
+**Place in Society:** Rhosk are rare outside of the northern mountains and steeps but tend to be considered valuable additions to southern towns due to their size, strength, and perceived ability to defend the town from harm. In larger towns and cities Rhosk tend to gather together, preferring each other's company to that of most other strains.
 
-**Naming Conventions** Rhosk children are given a single name by their parents shortly after they've hatched. Rhosk names do not have specific meanings but tend to be composed of short syllables with hard consonants.
+**Naming Conventions:** Rhosk children are given a single name by their parents shortly after they've hatched. Rhosk names do not have specific meanings but tend to be composed of short syllables with hard consonants.
 
 **Size:** 7
 
@@ -122,11 +122,11 @@ Most often found living in towns and cities or on lands ruled by one Sapeen are 
 
 **Family/Social Structure** Sapeen families are very culture dependent, in Askelon it's common for a group of adults to cohabitate and raise any children collectively with children moving out only when they join another household as an adult, in Proto adults tend to pair off as a couple and live together with children leaving the home to live on their own when they reach adulthood, in the Grailic states the Sapeen families with money or influence tend to emulate the Torleni of the area while poorer families live in groups.
 
-**Breeding** Sapeen females are able to reproduce from a young age though it is generally not considered socially acceptable until their twenties. Like Centari they carry their children inside them for close to three seasons before giving life birth, usually to a single child though twins are considered a blessing as one of them will always be a natural mage.
+**Breeding:** Sapeen females are able to reproduce from a young age though it is generally not considered socially acceptable until their twenties. Like Centari they carry their children inside them for close to three seasons before giving life birth, usually to a single child though twins are considered a blessing as one of them will always be a natural mage.
 
-**Place in Society** Clursus may have created Sapeen to be adaptable so that they may rule but he made them so adaptable they ended up filling all niches of society. Sapeen are common in nearly all nations and rarely looked upon poorly.
+**Place in Society:** Clursus may have created Sapeen to be adaptable so that they may rule but he made them so adaptable they ended up filling all niches of society. Sapeen are common in nearly all nations and rarely looked upon poorly.
 
-**Naming Conventions** In Sapeen ruled nations they tend to have a given name followed by son/daughter of their father or descendent of their most noteworthy direct female ancestor (mother, mother's mother, etc.) some tracing their heritage back to great hero's of myth and legend. Outside of the Sapeen ruled nations (Askelon, Proto, The Free Isles, etc.) they tend to adopt the naming conventions of the upper class of wherever they live. 
+**Naming Conventions:** In Sapeen ruled nations they tend to have a given name followed by son/daughter of their father or descendent of their most noteworthy direct female ancestor (mother, mother's mother, etc.) some tracing their heritage back to great hero's of myth and legend. Outside of the Sapeen ruled nations (Askelon, Proto, The Free Isles, etc.) they tend to adopt the naming conventions of the upper class of wherever they live.
 
 **Size:** 5
 
@@ -151,11 +151,11 @@ The most diverse of strains Teejee females are either breeders or drones; the br
 
 **Family/Social Structure** Teejee workers are all born to a breeding female and raised as a group by their colony's chosen caregivers. Once old enough to not need constant care Teejee workers are strictly controlled by their colony's breeder and chosen leaders. Only those lucky enough to be away from the colony when their breeder parishes that no other breeders are able to exert control over them are ever truly free. These free Teejee tend to live in groups with little concept of personal space or privacy for the rest of their days, these groups are generally happy to accept new members and aid them through the difficult transition to freedom.
 
-**Breeding** Teejee breeders rule over their children and the children of their deceased peers completely by dominating their minds with specialized pheromones, they have thousands of children each year delegating the raising of them to their breeding female children who are not yet allowed to produce young. There is no concept of family among Teejee colonies only of the controllers and the controlled.
+**Breeding:** Teejee breeders rule over their children and the children of their deceased peers completely by dominating their minds with specialized pheromones, they have thousands of children each year delegating the raising of them to their breeding female children who are not yet allowed to produce young. There is no concept of family among Teejee colonies only of the controllers and the controlled.
 
-**Place in Society** Free Teejee workers are generally welcome in any societies as they are known to be good workers with limited concept of currency and will therefor work for less than most other strains. A new Teejee entering a town, outside of Askelon who has a unique relationship with the local Teejee colonies, will often be viewed with suspicion until they can show they are not being controlled by their colony.
+**Place in Society:** Free Teejee workers are generally welcome in any societies as they are known to be good workers with limited concept of currency and will therefor work for less than most other strains. A new Teejee entering a town, outside of Askelon who has a unique relationship with the local Teejee colonies, will often be viewed with suspicion until they can show they are not being controlled by their colony.
 
-**Naming Conventions** Teejee do speak to one another but don't use names in their own language instead releasing unique pheromone signatures for themselves and those they are discussing, as such once free and entering common society they will often choose names for themselves based on those typical of the area they find themselves free in.
+**Naming Conventions:** Teejee do speak to one another but don't use names in their own language instead releasing unique pheromone signatures for themselves and those they are discussing, as such once free and entering common society they will often choose names for themselves based on those typical of the area they find themselves free in.
 
 **Size:** 4
 
@@ -186,11 +186,11 @@ Torleni were created by Milnot, the mistress of the mountain, in the range domin
 
 **Family/Social Structure** In their ancestral homeland, the Trail of Eyes, Torleni tend to live alone though in proximity to their neighbors and have a central area in each settled area where all young are raised together. In the Grailic states Torleni tend to live in households where one of them is in charge and some number of other, with lower social standing, taking care of their household and the young; these subservient Torleni are generally not permitted to breed until they've gone out and become the heads of their own households.
 
-**Breeding** Torleni are unique among the strains in that they do not require a partner to breed; they lay a clutch of 3-5, already fertilized eggs as often as they choose and generally raise the young themselves in in cooperation with others in their households.
+**Breeding:** Torleni are unique among the strains in that they do not require a partner to breed; they lay a clutch of 3-5, already fertilized eggs as often as they choose and generally raise the young themselves in in cooperation with others in their households.
 
-**Place in Society** Toleni are rare outside of The Trail of Eyes, which is populated almost exclusively by them and those members of other strains they've taken as slaves or the Grailic states where they are almost entirely members of the ruling class. Torleni elsewhere are generally mistrusted and feared due to their reputation as slavers and tyrants.
+**Place in Society:** Toleni are rare outside of The Trail of Eyes, which is populated almost exclusively by them and those members of other strains they've taken as slaves or the Grailic states where they are almost entirely members of the ruling class. Torleni elsewhere are generally mistrusted and feared due to their reputation as slavers and tyrants.
 
-**Naming Conventions** In the Trail of Eyes Torleni tend to have a single given name and occasionally a title or description, in the Grailic states they have a given name, the name of their parent, occasionally a title or description, and a house affiliation and rank.
+**Naming Conventions:** In the Trail of Eyes Torleni tend to have a single given name and occasionally a title or description, in the Grailic states they have a given name, the name of their parent, occasionally a title or description, and a house affiliation and rank.
 
 **Size:** 6
 
