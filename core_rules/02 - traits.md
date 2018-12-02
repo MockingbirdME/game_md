@@ -8,10 +8,10 @@ These are background or genetic advantages a character possesses. The traits lis
 * **Danger Sense(4)** - When turn based situation arises in which you are been surprised, and otherwise unable to act during the round, roll a d6; on a result of 2-5 you may act during the round at initiative 0, on a 6 you may act at your normal initiative.
 * **Duelist(3)** - each round choose one opponent, that opponent gains one penalty die to each attack against you this round.
 * **Enhanced Attribute(X)** - increase one primary attribute by one point; the cost of this trait is equal to twice the attribute's new score.  
-* **Extended Spell List(4)** - increase the number of spells you may know by one. This trait may be taken any number of times increasing it's cost by one each time.
+* **Extended Spell List(4)** - increase the number of spells you may know by one. This trait may be taken any number of times increasing its cost by one each time.
 * **Fast Reflexes(1)** - Gain +1 to your initiative. A character may take this trait multiple times
 * **Fulled by Pain(3)** - Each time you suffer a stun or wound regain 3 stamina.
-* **Hard to kill(4)** - increase your max wounds by one and ignore one wound you are suffering from. This trait may be taken multiple times increasing its cost by one each time.
+* **Hard to kill(4)** - increase your max wounds stat by one and ignore the effects of one wound you are suffering from. This trait may be taken multiple times increasing its cost by one each time.
 * **Hardy(1)** - Gain 1 point of resistance to illness and poison. A character may take this trait multiple times increasing its cost by 1 each time.
 * **Heightened Hearing(1)** - Gain 2 bonus dice to all hearing based perception checks and 1 bonus die to perception checks that include but don’t specifically rely on hearing. This trait may be taken multiple times increasing its cost by 1 each time.
 * **Heightened Sight(1)** - Gain 2 bonus dice to all sight based perception checks and 1 bonus die to perception checks that include but do not specifically rely on sight. This trait may be taken multiple times increasing its cost by 1 each time.
@@ -29,7 +29,7 @@ These are background or genetic advantages a character possesses. The traits lis
 ## Arcane Traits:
 Any character may study magic but only those few who possess an arcane trait can shape and wield it. Arcane traits allow the character to craft magical effects and cast spells. A character may take only those arcane traits allowed by their strain, at the cost listed in the strain’s description.
 * **Dependent Mage** - dependent mages have less arcane potential than other magic users and are unable to shape magic without consuming the alchemical substance, commonly known as, arcane essence. Dependent mages may not learn arcane theme secondary skills. Dependent mages must spend triple the number of advancement points to gain new arcane aptitude secondary skill. When a dependent mage increases their rank in arcane aptitude they gain gain rank one in a new arcane aptitude secondary skill and may then increase any arcane secondary skill they already have at least one rank in by one rank. Dependent mages may absorb and store more arcane essence than other characters; they can store up to a number of doses equal to their body stat. A dependent mage may burn 1 dose of arcane essence in their system to reduce the effects of arcane dues by 1 wound or 3 fatigue; if the dose spent was the final dose in the mages system they suffer the normal effects of essence wearing off.
-* **Learned Mage** - these mages have spent years studying, training, and enduring all manner of physical and mental trials in order to unlock their arcane potential. A learned mage must spend twice as many skill or advancement points to increase their rank in any arcane aptitude secondary skill. They may learn any arcane theme secondary skill that they have a teacher for and meet the theme's requirements. When a learned mage gains there first rank in the arcane aptitude primary skill the secondary skill they would normally get one rank in for free gains 4 ranks instead, this arcane theme is the mages primary theme.
+* **Learned Mage** - these mages have spent years studying, training, and enduring all manner of physical and mental trials in order to unlock their arcane potential. A learned mage must spend twice as many skill or advancement points to increase their rank in any arcane aptitude secondary skill. They may learn any arcane theme secondary skill that they have a teacher for and meet the theme's requirements. When a learned mage gains their first rank in the arcane aptitude primary skill the secondary skill they would normally get one rank in for free gains 4 ranks instead, this arcane theme is the mages primary theme.
 * **Natural Mage** - natural mages do not require training or arcane essence in order to unlock their magical talents; the power is in their blood and is as natural to them as walking. Natural mages select a single arcane theme secondary skill when they take their first point in arcane aptitude, the mage must use their free secondary skill rank gained for their first rank in the base skill on this arcane theme. Natural mages may spend build or advancement points to learn magical effect secondary skills but may never increase their rank beyond 1. Natural mages when determining arcane dues increase their body score by an amount equal to their rank in arcane aptitude when casting spells. A character may take this trait additional times in order to gain a second, or third etc., arcane theme secondary skill; if done the second arcane theme will gain its first rank when arcane aptitude increases to rank 2, a third theme would gain its first rank when arcane aptitude is increased to rank three, etc.; each arcane theme that the character has at least 1 rank in will gain a rank each time the base skill is leveled up thereafter. Strains that have access to this will have 2 costs listed, the first is the cost of the first time this trait is taken and the second is the price for gaining additional arcane themes.
 
 ## Negative Traits:
@@ -59,21 +59,21 @@ These are the languages, spoken or written, in which character's can be fluent. 
 * **Denja(3)** - reduce this trait's cost by 1 if the character has the Garjant trait.
 * **Galterainian(2)** - reduce this trait's cost by 1 if you have the old Grailic trait.
 * **Garjant(5)** - reduce this trait's cost by 2 if the character has the Denja.
-* **Grailic(3)** - reduce this traits cost by 1 if you have the Old Gralic trait and by 1 if you have the Askelonian, Galterainian, Islander, Proto, or Southron traits.
+* **Grailic(3)** - reduce this traits cost by 1 if you have the Old Gralic trait, and by 1 if you have the Askelonian, Galterainian, Islander, Proto, or Southron traits.
 * **Islander(3)** - reduce this traits cost by 1 if you have the Old Grailic trait and by 1 if you have the Grailic trait.
 * **Kaazt(2)** -
 * **Mablen(3)** -
 * **Old Grailic(3)** - reduce this trait's cost by 1 if you have the Askelonian, Galterainian, Grailic, Islander, Proto, or Southron traits.
 * **Proto(3)** - reduce this trait's cost by 1 if you have the Old Grailic trait, and by 1 if you have any of the either the Askelonian or Grailic traits.
 * **Rhosk(3)** -
-* **Simmer's Tongue(3)** - reduce this trait's cost by 1 if you have the Tor trait and by 1 if you have the Tor'leni or Tor'otro traits.
+* **Simmer's Tongue(3)** - reduce this trait's cost by 1 if you have the Tor trait, and by 1 if you have the Tor'leni or Tor'otro traits.
 * **Southron(3)** - reduce this trait's cost by 1 if you have the Old Grailic trait, and by 1 if you have any of the either the Galterainian, Grailic, or Islander traits.
 * **Tor(3)** - reduce this trait's cost by 1 if you have the Shimmer's Tongue, Tor'leni or Tor'otro traits.
-* **Tor'leni(3)** - reduce this trait's cost by 2 if you have the Tor trait and by 1 if you have the Shimmer's Tongue or Tor'otro traits.
+* **Tor'leni(3)** - reduce this trait's cost by 2 if you have the Tor trait, and by 1 if you have the Shimmer's Tongue or Tor'otro traits.
 * **Tor'otro(4)** - reduce this trait's cost by 1 if you have the Tor , Shimmer's Tongue, or Tor'leni traits.
 
 ### Written Languages
 * **Grailic Alphabet(2)** - This alphabet lets the character read and write Askelonian, Galterainian, Grailic, Islander, Old Grailic, Proto, and Southron provided they know those languages.  
-* **Centari Alphabet(4)** - The alphabet used to read and write Centari, has had some recent influence by the Grailic alphabet, reduce it's cost by 1 if you have that trait.
+* **Centari Alphabet(4)** - The alphabet used to read and write Centari; it has had some recent influence by the Grailic alphabet and has its cost reduce by 1 if you have that trait.
 * **Tor Symbology(5)** - A symbolic alphabet used to read and write in Shimmer's Tongue, Tor, and Tor'leni.
 * **Rhosk Symbology(4)** - A symbolic alphabet used by the Rhosk but related more to ideas than that language in particular, many scholars learn Rhosk Symbology without learning the spoken tongue.
