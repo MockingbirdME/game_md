@@ -1,34 +1,34 @@
 # Hits & Damage
-
+<!-- TODO update wording throughout to use hex and add disclaimer that if not using a battle map the term hex correlates to roughly one square meter in theater of the mind -->
 ## Hitting and getting hit:
 Most attacks are made as a melee or ranged combat skill check where the total is compared to the opponent’s defense in order to determine the result of the attack.
 * Miss: if the attack result is less than the defender’s current defense the attack simply misses with has no effect.
-* Blocked/parried/dodged: if the attack result is at least equal to the opponent's current defense before but not after their melee/ranged defense bonus the attack is avoided but the defender loses one defense.
-* Hit: an attack result that equals or exceeds the target’s defense plus melee/ranged defense bonus hits. The defender loses two defense and suffers the effects of the attack.
-* Additional successes: for every three points an attack’s skill check result exceeded the target’s defense it gains an additional success that may be spent for melee attacks to choose a hit location (1 for body, 2 for arm or legs, 3 for head) or for any attack to gain the bonus effects from the weapon or attack type used.
+* Blocked/parried/dodged (_melee only_): if the attack result is at least equal to the opponent's current defense before but not after their melee defense bonus the attack is avoided but the defender loses one defense.
+* Hit: an attack result that equals or exceeds the target’s defense with melee/ranged defense bonus hits. The defender loses two defense and suffers the effects of the attack.
+* Additional successes: for every three points an attack’s skill check result exceeded the target’s defense it gains an additional success that may be spent to choose a hit location (1 for body, 2 for arm or legs, 3 for head) or for any attack to gain the bonus effects from the weapon or attack type used. <!-- Consider having locations need to be called for ranged attacks. -->
 
 ## Targeting objects or hexes:
-When making an attack there are times that the target is not another character but an object or map hex.
-* Targeting a stationary object: a stationary object has a effective defense value of 12 - it's size.
-* Targeting a carried object: targeting an object that is carried or worn by another character requires a successful hit against the character with enough extra successes to target the body location that is carrying/wearing the item plus 1-3 additional successes depending on the size of the object. If the role is enough to hit the character but not the aimed for body location the attack misses, if the attack is enough to hit the location but not the object the attack damages the location as if it was the target with no extra successes to the damage.
-* Targeting an hex on the map: to successfully hit a single hex on the map with a melee weapon has a difficulty of 5, targeting a hex with a ranged weapon has a difficulty of 10 for close range +5 for each range increment. Targeting a hex with a character in it increases the difficulty by 5. Missing a melee attack simply misses, missing a range attack results in a hit in a randomized direction X meters away where X is equal to the amount by which the attack fell short divided by 3 plus 1.
+When making an attack there are times that the target is not another character but an object or an area (like a hex on the battle map if using miniatures).
+* Targeting a stationary object: a stationary object has a defense value equal to 12 minus its size.
+* Targeting a carried object: targeting an object that is carried or worn by another character requires a successful hit against the character with enough extra successes to target the body location where the item is being carried or worn plus 1-3 additional successes depending on the size of the object (GM's discretion is used to determine how many additional successes are needed to hit the specified location but this information should be made available if a player asks for it before attempting the attack).
+* Targeting an area: to successfully hit a single hex on the map, if using a battle map, or roughly a square meter area if not using one with a melee weapon has a difficulty of 5, targeting the same area with a ranged weapon has a difficulty of 10 for close range +5 for each range increment. Targeting a hex with a character in it increases the difficulty by 5.
 
 ## Areas of Effect
-Many items, spells, and abilities cause everything in an area to be effected. These effects generally originate from a hex though sometimes from a character. Any character's aware of the AOE may accept two penalty dice to all actions on their next turn to move a number of meters equal to the greater of their ranks in personal defense or personal movement or spend a advancement point to move a number of meters equal to the sum of their ranks in those skills; add that advancement point to either their personal defense or personal movement skill.  
+Many items, spells, and abilities cause everything in an area to be affected. These effects originate from a hex or character. Once per round a character aware of an AOE they will end up in may accept two penalty dice to all actions on their next turn to move a number of meters equal to the greater of their ranks in personal defense and personal movement or spend a advancement point to move a number of meters equal to the sum of their ranks in those skills; add that advancement point to either their personal defense or personal movement skill.
 
 ## Hit locations:
 Unless the hit location is already determined roll a d10 to determine it: 1-2 legs, 3 right arm, 4 left arm, 5-9 body and 10 for head. Area effects generally damage the target’s body location and do not require a roll.
 
 ## Forms of damage
 * Stamina - for every point of stamina damage dealt the victim loses one stamina.
-* Stun - when a character suffers a stun they lose one stamina and gain a stun; each stun reduces a character’s max stamina by one. If a character gained a stun last round they suffer a -1 penalty for each stun they have to every skill check they make. If a character has as many stuns as their max stamina they are rendered unconscious with any future stuns suffered are treated instead as wounds.
-* Fatigue - for each fatigue suffered lose one stamina and gain a point of fatigue; each point of fatigue reduces a character’s max stamina by one. If a character's max stamina is reduced to zero they are rendered unconscious  with any future fatigue suffered are treated instead as wounds.
-* Wound - for each wound suffered lose 2 stamina and gain a wound to the hit location. Skill checks gain a penalty die for each wound the character has on the used location and a -1 penalty for each other wound. A character with at least as many wounds as his Max Wound attribute is dying and rendered unable to act. A character that suffers a single hit/effect which inflicts at least as many wounds as their Max Wound attribute, or a character with a total number of wounds exceeding double their max wound attribute, dies immediately. When a character suffers more than one wound from a single attack mark it as an "x Wound" this denotes the severity of the injury and is used to determine how quickly the character heals and any long term damage they may suffer.
+* Stun - when a character suffers a stun they lose one stamina and gain a stun; each stun reduces a character’s max stamina by one. If a character gained a stun last round they suffer a -1 penalty for each stun they have to every skill check they make. If a character's max stamina is reduced to zero they are rendered unconscious and any future stuns suffered are treated instead as wounds.
+* Fatigue - when a character suffers a point of fatigue they lose one stamina and gain a point of fatigue; each point of fatigue reduces a character’s max stamina by one. If a character's max stamina is reduced to zero they are rendered unconscious and any future points of fatigue suffered are treated instead as wounds.
+* Wound - when a character suffers a wound they lose two stamina and gain a wound to the damaged location. Skill checks gain a penalty die for each wound the character has on the used location and a flat penalty equal to the total number of wounds the character is suffering from. A character with at least as many wounds as his Max Wound attribute is dying and rendered unable to act. A character that suffers a single hit/effect which inflicts at least as many wounds as their Max Wound attribute, or a character with a total number of wounds exceeding double their max wound attribute, dies immediately. When a character suffers more than one wound from a single attack mark it as an "x Wound" this denotes the severity of the injury and is used to determine how quickly the character heals and any long term damage they may suffer.
 
 ### Dying and permanent injuries
 
 #### Dying
-A dying character may not act and becomes unconscious at the end of the round, if not already. A character who is dying must receive medical attention within X rounds where X is one plus their rank in the Endurance primary skill or they suffer an additional wound caused by blood loss and internal injury, suffering this effect additional times adds additional level one injuries. A character who receives proper medical attention does not continue dying but does remain unconscious until they have healed at least one wound. A character suffering more wounds than their max wounds attribute can not recover stamina or remove stuns or fatigue.
+A dying character may not act and becomes unconscious at the end of the round, if not already. A character who is dying must receive medical attention within X rounds where X is one plus their rank in the Endurance primary skill or they suffer an additional wound caused by blood loss and internal injury, suffering this effect additional times adds additional level one injuries. A character who receives proper medical attention does not continue dying but does remain unconscious, or unable to perform most actions, until they have healed at least one wound. A character suffering more wounds than their max wounds attribute can not recover stamina or remove stuns or fatigue.
 
 #### Permanent Injuries(optional) TBA
 
@@ -37,18 +37,18 @@ A dying character may not act and becomes unconscious at the end of the round, i
 #### Recovering from minor injuries
 * Stamina - a character can regain stamina during combat by taking a recovery action, outside of combat a character's stamina is reset to their max stamina after a minute of relaxing inactivity or five minutes of un-strenuous activity.
 * Stun - a character can remove stuns during combat by taking a recovery action, outside of combat a character looses one stun for every minute of rest or 5 minutes of un-strenuous activity.
-* Fatigue - recovering from fatigue requires rest, a character spending a full hour at rest looses one fatigue, a character looses twice as much fatigue for time spent sleeping.
+* Fatigue - recovering from fatigue requires rest, a character spending a full hour at rest looses one fatigue, a character looses twice as much fatigue for time spent sleeping. At the GM's discretion fatigue caused by specific conditions may recover faster if the opposite condition is met (ex. fatigue caused by prolonged exposure to cold may recover faster while sitting at a warm hearth while fatigue caused by dehydration and sun exposure may recover faster while resting in the shade with a pitcher of fruit juice).
 
 #### Recovering from wounds
-Recovering from wounds is a slow process. Each day a character spends mostly at rest and with no strenuous activity, or week not resting properly, they may make a recovery check. A recovery check is like a skill check with a die pool contain xd6 where x is equal to the character's body stat and a number of penalty dice equal to the total number of wounds the character is suffering from; bonus dice may be added to this check by certain traits and by medical assistance. Compare the result to the chart below to find the effects of the recovery check.
+Recovering from wounds is a slow process. Each day a character spends mostly at rest and with no strenuous activity, or each week they spend not resting properly, they may make a recovery check. A recovery check is like a skill check with a die pool containing xd4 where x is equal to the character's body stat and a number of penalty dice equal to the total number of wounds the character is suffering from; bonus dice may be added to this check by certain traits and by medical assistance. Compare the result to the chart below to find the effects of the recovery check.
 | Recovery check total | Effect |
 | --- | --- |
-| 0-4  | The character is not healing properly, their wounds become infected and they develop sepsis. Each injury the character is suffering from has its severity increased by one, the character gains one wound for each injury they are recovering from  |
-| 5-9  | The character's wounds are getting infected. The worse injury the character is suffering from has it's severity increased by one, that character gains one additional wound.  |
-| 10-14  | The character is stable but recovering slowly. No effect.  |
-| 15-19  | The character is healing well, remove one of the character's level one injuries and remove one wound.  |
-| 20-24  | The character is healing quickly, remove one of the character's level one injuries or, if they have none, reduce a higher level injury by one level and remove one wound. |
-| 25+  | The character is healing at a miraculous rate, remove all of the character's level one injuries or, if they have none, reduce each higher level injury by one level and remove one wound fore each injury removed or reduced.  |
+| 0-5  | The character is not healing properly, their wounds become infected and they develop sepsis. Each injury the character is suffering from has its severity increased by one, the character gains one wound for each injury they are recovering from  |
+| 6-9  | The character's wounds are getting infected. The worst injury the character is suffering from has its severity increased by one, that character gains one additional wound.  |
+| 10-12  | The character is stable but recovering slowly. No effect.  |
+| 13-16  | The character is healing well, reduce the character's lest sever wound by one level.  |
+| 17-20  | The character is healing quickly, reduce the character's two least sever wounds by one level each. |
+| 21+  | The character is healing at a miraculous rate, reduce all of the character's injuries by one wound level. |
 
 ## Damage Types
 #### Concussive damage

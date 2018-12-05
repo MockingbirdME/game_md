@@ -9,7 +9,7 @@ Character’s have four primary attributes that describe their physical and ment
 
 ## Secondary Attributes:
 These statistics and resources are derived from the character’s strain, primary attributes, and skills.
-* **Size** - determined by a character’s strain.
+* **Size** - set by a character’s strain.
 * **Reach** - equal to the character’s size.
 * **Melee defense bonus** - added to a character’s defense against melee attacks they are aware of. This bonus is equal to a character’s ranks in melee combat.
 * **Ranged defense bonus** - added to a character’s defense against ranged attacks they are aware of. This bonus is equal to the sum of a character’s ranks in alertness and the dodge secondary skill.
@@ -28,7 +28,7 @@ These attributes can be depleted, the maximum amount of the resource a character
 Primary skills are broad categories of learned or trained abilities a character has accumulated. The number of ranks a character has in a primary skill is used to add dice or successes to a skill check, some secondary attributes are also affected by the number of ranks a character possesses in certain primary skills.
 
 ## Secondary Skills:
-Secondary skills individually represent subsets of, or specializations in, a primary skill it is associated with. Ranks in secondary skills have not static effect but are referenced in many other areas to add bonus dice to skill rolls, increase secondary attributes, and otherwise enhance the results of an action.
+Secondary skills represent subsets of or specializations in, the primary skill it is associated with. Ranks in secondary skills have no static effect but are referenced in many other areas to add bonus dice to skill rolls, increase secondary attributes, and otherwise enhance the results of an action.
 
 | Basic Skill | Example Secondary Skills |
 | --- | --- |
@@ -61,10 +61,10 @@ Secondary skills individually represent subsets of, or specializations in, a pri
     * Smith (Black, White, Weapon, Armor)
     * Thief (Pick pockets, Cut purse, Pick lock)
     * Woodworker (Bower, Furniture maker, Whittler, Carpenter)
-* **Discipline/Willpower:** a measure of a character’s self control. This skill should be used when a character has to act against his base desire or when otherwise compelled to do something he’s trying not to.
+* **Discipline/Willpower:** a measure of a character’s self control. This skill should be used when a character has to act against their desires or when otherwise compelled to do something they're trying not to.
 * **Endurance:** a measure of a character’s resistance to exhaustion. The skill should be used when a character is avoiding or resisting an effect such as fatigue or poison as well as when recovering from injury or illness.
 * **Knowledge:** formal education is rare but for families powerful or wealthy enough to afford it there are many fields of study. This skill is for determining if a character knows something that is not common knowledge.
-* **Magical Aptitude:** how attuned and well trained at magic a character is. Characters with an arcane trait will use this skill for crafting magical effects and casting spells.
+* **Magical Aptitude:** how well trained in magic a character is. Characters with an arcane trait will use this skill for crafting magical effects and casting spells.
 * **Melee Combat:** how well a character fights with a sword, axe, or fists. Melee combat skill is most often used when fighting in close quarters but also has a place in many sporting activities.
 * **Personal Defense:** how apt a character is at avoiding getting hit or keeping themselves from harm. This skill affects the character’s defense.
 * **Personal Movement:** a character’s speed and competency during their natural movements. Used whenever a character’s speed and footing comes into question.d

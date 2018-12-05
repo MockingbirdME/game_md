@@ -9,14 +9,14 @@ Values that detail how the armor protects its wearer.
 * Body value: added to the character’s body stat when determining how much damage is taken from a blow.
 * Reflex value: a number of penalty dice reduced by the sum of the character’s rank in personal defense and the armor secondary skill added to all reflex based skill checks performed with the penalized body location.
 * Damage reduction: types and amount by which damage the character would suffer is reduced.
-* Body locations: locations covered by the armor.
+* Body locations: location(s) covered by the armor.
 
 #### Layered armor:
-When a character is wearing layers armor they gain benefits from each layer as follows:
-* Armor value - the sum of the value of the piece of armor with the highest armor value, half the value, rounded down, of the of piece with the second highest value, plus one for each additional piece with an armor value.
-* Body value - the sum of the value of the piece of armor with the highest value plus half the value, rounded down, of each other piece.
-* Reflex value - the sum of the values of each piece of armor plus one for each piece beyond the first.
-* Damage reduction - the sum of the specific damage resistance of each piece of armor.
+When a character is wearing multiple layers of armor they gain cumulative benefits from each layer as follows:
+* Armor value - the total armor value a character gets is equal to the highest armor value of all the layers they are wearing plus half, rounded down, the value of the second highest armor value plus one for each additional layer that has an armor value above zero.
+* Body value - the total body value a character gets is equal to the highest body value of all the layers they are wearing plus half, rounded down, the value of each other layer.
+* Reflex value - the sum of the values of each piece of armor plus one for each layer beyond the first.
+* Damage reduction - while damage reduction does not stack the character wearing multiple layers of armor may use the highest value of each type of damage reduction from amongst all layers.
 
 ## Weapons:
 Weapons come in two basic types, melee and ranged, with some throwing weapons have statistics for both.
@@ -36,7 +36,7 @@ Values that apply to the weapon being used.
 * Damage Type: what type of damage this attack deals.
 * Damage: how much damage this attack deals.
 * APV: the armor piercing value of this attack.
-* Additional Success Uses: one or more advantages that can be gained per additional success rolled on this attack.
+* Additional Success Uses: one or more advantages that can be gained by spending additional success rolled on this attack's skill check.
 * Notes: any additional notes related to this attack.
 
 #### Ranged weapon statistics:

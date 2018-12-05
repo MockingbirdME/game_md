@@ -123,33 +123,49 @@
 
 <div class="page-break"></div>
 
-# Bows
-Bows have a body rating that is used for calculating the rest of their statistics as follows.
+## Bows
+All bows have a body statistic much like a character does, many of the bow's stats are derived from this body stat. Bows stats are as follows:
+* Close Range: body
+* Range Increment: 3 x body
+* Max Range: 12 x body
+* Range Penalty: 1 die and 1 APV
+* Damage Type: based on arrow type
+* Damage: ¾ body plus die based on arrow type
+* APV: ½ body modified by arrow type
+* Additional Successes: one APV per success or d4 damage per two successes
+* Notes: bows require two hands to use, if a character’s body stat plus ranks in the bows secondary skill does not equal or exceed the bow’s body rating they suffer one penalty die for each point they are short, bows can not be used with the aim action.
+* Reload: notching a readied arrow to a readied bow costs no stamina and has no turn requirement.
 
+### Arrows
+Bows require arrows in order to be worth much. Arrows determine the damage type of the attack and grant a APV and Damage modification to the bow's attack, this modification is some dice that are added to the APV and Damage on an a per attack basis.
 
-Close Range: body, Range Increment: 3 x body, Max Range: 12 x body, Range Penalty: 1 die and 1 APV, Damage Type: based on arrow type, Damage: ¾ body plus die based on arrow type, APV: ½ body modified by arrow type, Additional Successes: one APV per success or d4 damage per two successes, Notes: bows require two hands to use, if a character’s body stat plus ranks in the bows secondary skill does not equal or exceed the bow’s body rating they suffer one penalty die for each point they are short, Reload: notching a readied arrow to a readied bow costs no stamina and has no turn requirement.
-
-### Common Bows
+### Example Bows
 * Hunter’s Bow - Body: 7, Close Range: 7m, Range Increment: 21m, Max Range: 84m, Range Penalty: 1 die and 1 APV, Damage Type: based on arrow type, Damage: 5 + arrow die, APV: 4 modified by arrow type.
 * Soldier’s Shortbow - Body: 8, Close Range: 8m, Range Increment: 24m, Max Range: 96m, Range Penalty: 1 die and 1 APV, Damage Type: based on arrow type, Damage: 6 + arrow die, APV: 4 modified by arrow type.
 * War Bow - Body: 10, Close Range: 10m, Range Increment: 30m, Max Range: 120m, Range Penalty: 1 die and 1 APV, Damage Type: based on arrow type, Damage: 7 + arrow die, APV: 5 modified by arrow type.
 
 ### Common Arrow Types
-Arrows are all made for a specific strength of bow if using an arrow designed for a bow strength greater than one off from the bow it’s being loosed from modify the range, damage, and APV down by the difference in bow to arrow body rating.
-
 * Broad-head - Damage Type: penetrating, Damage Modification: 1d8, APV: +1d4.
 * Bodkin - Damage Type: penetrating, Damage Modification: 1d4, APV: +1d8.
 * Blunted - Damage Type: concussive, Damage Modification: + 2d8, APV: set to zero.
 * Leaf-blade - Damage Type: penetrating, Damage Modification: 1d6, APV: + 1d6.
 
-### Crossbows
+## Crossbows
 Like bows, crossbows have a body rating that is used for calculating the rest of their statistics as follows.
+* Close Range: 7m
+* Range Increment: body + 10m
+* Max Range: 3 x body + 50m
+* Range Penalty: 1 die 1 damage and 1 APVsed on arrow type
+* Damage: ½ body plus die based on arrow type
+* APV: ½ body modified by arrow type
+* Additional Successes: one damage
+* Notes: crossbows require two hands to use, the turn requirement of a reload action cannot be reduced, a character can not move in the same turn they reload a crossbow.
 
+### Bolts
+Crossbows require bolts as bows require arrows. Bolts determine the damage type of the attack and grant a APV and Damage modification to the crossbow's attack, this modification is some dice that are added to the APV and Damage on an a per attack basis.
 
-Close Range: 7m, Range Increment: body + 10m, Max Range: 3 x body + 50m, Range Penalty: 1 die and 1 APV, Damage Type: based on arrow type, Damage: ½ body plus die based on arrow type, APV: ½ body modified by arrow type, Additional Successes: one damage, Notes: crossbows require two hands to use, the turn requirement of a reload action cannot be reduced, a character can not move in the same turn they reload a crossbow.
-
-
-Reloading crossbows: there are a few different ways to reload a crossbow based on the actions below. All actions to reload a crossbow cost 0 stamina. Any reload action that has a turn requirement of greater than one must have the reload performed over subsequent turns or they must start over. A character can not take a move action on the same turn they take a reload action.
+### Reloading crossbows
+there are a few different ways to reload a crossbow based on the actions below. All actions to reload a crossbow cost 0 stamina. Any reload action that has a turn requirement of greater than one must have the reload performed over subsequent turns or they must start over. A character can not take a move action on the same turn they take a reload action.
 * Hand loading: crossbows with body less than or equal to twice the character’s, one turn requirement. If the crossbow’s body is less than the character’s they may still take a move action this turn.
 * Goats foot Loading: crossbows with body less than or equal to the three times the character’s, two turn requirement. Requires a goats foot loading device.
 * Windlass Loading: any crossbow, requires a windlass loading device, not all actions required to complete this loading must be taken on subsequent turns. Turn requirement of one for each 4 body the crossbow has (body 5-8 = 2 rounds, 9-12 = 3, 13-16 = 4 etc.).
@@ -157,17 +173,14 @@ Reloading crossbows: there are a few different ways to reload a crossbow based o
 <div class="page-break"></div>
 
 ### Common Crossbows
-* Light hunting crossbow - Body: 6, Close Range: 7m, Range Increment: 16m, Max Range: 68m, Range Penalty: 1 die and 1 damage, Damage Type: based on bolt type, Damage: 3 + bolt die, APV: 3 modified by arrow type.
-* Hunting crossbow - Body: 12, Close Range: 7m, Range Increment: 22m, Max Range: 86m, Range Penalty: 1 die and 1 damage, Damage Type: based on bolt type, Damage: 6 + bolt die, APV: 6 modified by arrow type.
-* Light war crossbow - Body: 18, Close Range: 7m, Range Increment: 28m, Max Range: 104m, Range Penalty: 1 die and 1 damage, Damage Type: based on bolt type, Damage: 9 + bolt die, APV: 9 modified by arrow type.
-* Heavy war crossbow - Body: 24, Close Range: 7m, Range Increment: 34m, Max Range: 122m, Range Penalty: 1 die and 1 damage, Damage Type: based on bolt type, Damage: 12 + bolt die, APV: 12 modified by arrow type.
+* Light hunting crossbow - Body: 6, Close Range: 7m, Range Increment: 16m, Max Range: 68m, Range Penalty: 1 die 1 damage and 1 APV, Damage Type: based on bolt type, Damage: 3 + bolt die, APV: 3 modified by arrow type.
+* Hunting crossbow - Body: 12, Close Range: 7m, Range Increment: 22m, Max Range: 86m, Range Penalty: 1 die 1 damage and 1 APV, Damage Type: based on bolt type, Damage: 6 + bolt die, APV: 6 modified by arrow type.
+* Light war crossbow - Body: 18, Close Range: 7m, Range Increment: 28m, Max Range: 104m, Range Penalty: 1 die 1 damage and 1 APV, Damage Type: based on bolt type, Damage: 9 + bolt die, APV: 9 modified by arrow type.
+* Heavy war crossbow - Body: 24, Close Range: 7m, Range Increment: 34m, Max Range: 122m, Range Penalty: 1 die 1 damage and 1 APV, Damage Type: based on bolt type, Damage: 12 + bolt die, APV: 12 modified by arrow type.
 
 ### Common Bolt Types
-Bolts are all made for a specific body rating of crossbow and can not be used in a crossbow with a body rating 3 or more off from that.
-
 * Standard - Damage Type: penetrating, Damage Modification: +1d4, APV: +1d4.
 * Blunted - Damage Type: concussive, Damage Modification: +2d8, APV: set to 0.
-
 
 ### Common Bow and Crossbow Modifications
 * Craftsmanship(Poor) - Reduce damage and APV by one and all ranges by 20%.
