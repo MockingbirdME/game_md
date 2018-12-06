@@ -54,9 +54,9 @@
   - Damage Type: P, Damage: Body-1, APV: 5, Additional Successes: 1 damage and 1 APV, Notes: none.
 
 ### Common Bludgeons
-* Club: Reach: 3, Difficulty: 2, Parry: 1/0/0, Notes: _Bash_, _Small_.
+* Club: Reach: 3, Difficulty: 2, Parry: 1/-/1, Notes: _Bash_, _Small_.
   - Damage Type: C, Damage: 2xBody, APV: -, Additional Successes: 2 damage, Notes: none.
-* Light Mace/Hammer: Reach: 3, Difficulty: 3, Parry: 1/-/0, Notes: _Bash_, _Small_.
+* Light Mace/Hammer: Reach: 3, Difficulty: 3, Parry: 1/1/1, Notes: _Bash_, _Small_.
   - Damage Type: C, Damage: 3xBody, APV: -, Additional Successes: 3 damage, Notes: none.
 * Heavy Mace/Warhammer: Reach: 4, Difficulty: 4, Parry: 2/1/0, Notes: _Bash_, may have a beak granting it an additional attack option.
   - Damage Type: C, Damage: 3xBody, APV: -, Additional Successes: 3 damage, Notes: none.
