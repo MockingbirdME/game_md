@@ -63,7 +63,7 @@
   - Damage Type: P, Damage: Body-1, APV: 4, Additional Successes: 1 damage and 1 APV, Notes: _Pick_ only if it has a beak, may use pick secondary skill.
 * Sledge: Reach: 6, Difficulty: 6, Parry: -/1/-, Notes: _Bash_ _Two-handed_, body is treated as one higher than it is, all attacks with this weapon incur an additional penalty die.
   - Damage Type: C, Damage: 3xBody, APV: -, Additional Successes: 3 damage, Notes: gain an additional damage per extra success on power attacks.
-* Quarter Stave: Reach: 6, Difficulty: 4, Parry: 1/5/-, Notes: _Bash_ _Thrust_ _trip_ _Two-handed_, uses bludgeoning weapons or spears secondary skill, can be used to trip.
+* Quarter Stave: Reach: 6, Difficulty: 4, Parry: 1/5/-, Notes: _Bash_ _Thrust_ _trip_ _Two-handed_, uses bludgeoning weapons or spears secondary skill.
   - Damage Type: C, Damage: 2xBody, APV: -, Additional Successes: 2 damage, Notes: when wielded _Two-handed_ can be treated as both a _Two-handed_ weapon and off-handed weapon, can be iron capped increasing the base damage to 3xBody.
 
 ### Common Axes
