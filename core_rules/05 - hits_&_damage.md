@@ -23,7 +23,12 @@ Unless the hit location is already determined roll a d10 to determine it: 1-2 le
 * Stamina - for every point of stamina damage dealt the victim loses one stamina.
 * Stun - when a character suffers a stun they lose one stamina and gain a stun; each stun reduces a character’s max stamina by one. If a character gained a stun last round they suffer a -1 penalty for each stun they have to every skill check they make. If a character's max stamina is reduced to zero they are rendered unconscious and any future stuns suffered are treated instead as wounds.
 * Fatigue - when a character suffers a point of fatigue they lose one stamina and gain a point of fatigue; each point of fatigue reduces a character’s max stamina by one. If a character's max stamina is reduced to zero they are rendered unconscious and any future points of fatigue suffered are treated instead as wounds.
-* Wound - when a character suffers a wound they lose two stamina and gain a wound to the damaged location. Skill checks gain a penalty die for each wound the character has on the used location and a flat penalty equal to the total number of wounds the character is suffering from. A character with at least as many wounds as his Max Wound attribute is dying and rendered unable to act. A character that suffers a single hit/effect which inflicts at least as many wounds as their Max Wound attribute, or a character with a total number of wounds exceeding double their max wound attribute, dies immediately. When a character suffers more than one wound from a single attack mark it as an "x Wound" this denotes the severity of the injury and is used to determine how quickly the character heals and any long term damage they may suffer.
+* Wound - when a character suffers a wound they lose two stamina, gains a wound, and suffers a location specific effect (see below). All skill checks a wounded character makes gain a penalty die for each wound the character suffering from. A character with at least as many wounds as his Max Wound attribute is dying and rendered unable to act. A character that suffers a single hit/effect which inflicts at least as many wounds as their Max Wound attribute, or a character with a total number of wounds exceeding double their max wound attribute, dies immediately.
+    * Head wounds - when a character suffers one or more wounds to the head they loose three additional defense per wound suffered and can not reduce any action's turn requirement until the end of their next turn.
+    * Arm wounds - when a character suffers any number of wounds to an arm they can not use that arm for actions on their next turn and loose any bonuses gained from equipment carried by those arms (parry, shield, etc.) until the end of their next turn if they suffer two, or more, wounds at once they drop whatever they're holding in the associated hand and if they suffer three, or more, wounds at once the arm is rendered unusable until their wounds heal.
+    * Leg wounds - when a character suffers wounds to their legs they can not spend stamina on move actions during their next turn and their base move is reduced by one per wound suffered to the legs until they are healed, if they suffer two wounds at once they are knocked prone, if they suffer three, or more, wounds they have one,  they can not take any move actions other than to walk and can only make one move action per turn until the wounds heal.
+    * Body wounds - a character suffering wounds to the body suffer no additional penalties beyond those granted by having the wound(s).
+
 
 ### Dying and permanent injuries
 
@@ -40,15 +45,15 @@ A dying character may not act and becomes unconscious at the end of the round, i
 * Fatigue - recovering from fatigue requires rest, a character spending a full hour at rest looses one fatigue, a character looses twice as much fatigue for time spent sleeping. At the GM's discretion fatigue caused by specific conditions may recover faster if the opposite condition is met (ex. fatigue caused by prolonged exposure to cold may recover faster while sitting at a warm hearth while fatigue caused by dehydration and sun exposure may recover faster while resting in the shade with a pitcher of fruit juice).
 
 #### Recovering from wounds
-Recovering from wounds is a slow process. Each day a character spends mostly at rest and with no strenuous activity, or each week they spend not resting properly, they may make a recovery check. A recovery check is like a skill check with a die pool containing xd4 where x is equal to the character's body stat and a number of penalty dice equal to the total number of wounds the character is suffering from; bonus dice may be added to this check by certain traits and by medical assistance. Compare the result to the chart below to find the effects of the recovery check.
+Recovering from wounds is a slow process. Each day a character spends mostly at rest and with no strenuous activity, or each week they spend not resting properly, they may make a recovery check. A recovery check a skill check with a primary attribute of body, no primary skill, with a number of penalty dice equal to the total number of wounds the character is suffering from; bonus dice may be added to this check by certain traits and by medical assistance. Compare the result to the chart below to find the effects of the recovery check.
 | Recovery check total | Effect |
 | --- | --- |
-| 0-5  | The character is not healing properly, their wounds become infected and they develop sepsis. Each injury the character is suffering from has its severity increased by one, the character gains one wound for each injury they are recovering from  |
-| 6-9  | The character's wounds are getting infected. The worst injury the character is suffering from has its severity increased by one, that character gains one additional wound.  |
-| 10-12  | The character is stable but recovering slowly. No effect.  |
-| 13-16  | The character is healing well, reduce the character's lest sever wound by one level.  |
-| 17-20  | The character is healing quickly, reduce the character's two least sever wounds by one level each. |
-| 21+  | The character is healing at a miraculous rate, reduce all of the character's injuries by one wound level. |
+| 0-5  | The character is not healing properly, their wounds become infected and they develop sepsis, they gain an additional wound and suffers a penalty die to their next recovery check.  |
+| 6-9  | The character's wounds are getting infected, they gain one additional wound.  |
+| 10-12  | The character is stable, they neither gain or recover any wounds.  |
+| 13-16  | The character is healing well, they recover one wound.  |
+| 17-20  | The character is healing quickly, they recover one wound and gain a bonus die to all recovery rolls until suffering any additional wounds. |
+| 21+  | The character is healing at a miraculous rate, they recover two wounds and gain a bonus die to all recovery rolls until they suffer any additional wounds. |
 
 ## Damage Types
 #### Concussive damage
