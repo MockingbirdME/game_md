@@ -65,7 +65,7 @@ Concussive damage is reduced by the character’s body stat and physical damage 
 | 2 | 2 stamina | 13 | 2 wounds
 | 3 | 1 stun | 17 | 3 wounds
 | 5 | 2 stuns | 21 | 4 wounds
-| 7 | 1 wound | every additional 3 | +1 stamina, 1 stun, 1 wound
+| 7 | 1 wound | every additional 4 | +1 stamina, 1 stun, 1 wound
 
 #### Penetrating damage
 Penetrating damage with armor piercing value less than the target’s armor value becomes concussive. Penetrating damage is reduced by the character’s physical damage resistance.
