@@ -46,12 +46,12 @@ Actions are detailed with its name followed by its stamina cost in parentheses a
 
 #### Move actions:
 The first move action a character takes each round has a turn requirement of zero, subsequent move actions have a turn requirement of one.
-* **Walk(0)** - move your size in meters.
+* **Walk(0)** - move half your base movement in meters, round down.
 * **Dash(2)** - move up to your base movement in meters.
 * **Sprint(3)** - TBA.
 * **Swim(2)** - make a skill check using body as the primary attribute, personal movement as the primary skill, and a difficulty of 10-30(depending on conditions), if the check succeeds move through water up to 1 meter per rank in the swim secondary skill plus 1 meter per additional success in the skill check.
 * **Climb(2)** - make a skill check using body as the primary attribute, personal movement as the primary skill, and a difficulty of 10-30(depending on conditions), on a success transverse across a surface up to 1 meter per rank in the climb secondary skill plus 1 meter per success in the skill check, if the skill check fails the character loses his grip and falls.
-* **Jump(2)** -  make a skill check using body as the primary attribute, personal movement as the primary skill, and a difficulty of 10, on a success jump horizontally a number or meters equal to your rank in the jump secondary skill plus 1 meter per two additional success, or half that distance vertically, increase the total distance by 50% if you've taken a dash or sprint action already this turn. 
+* **Jump(2)** -  make a skill check using body as the primary attribute, personal movement as the primary skill, and a difficulty of 10, on a success jump horizontally a number or meters equal to your rank in the jump secondary skill plus 1 meter per two additional success, or half that distance vertically, increase the total distance by 50% if you've taken a dash or sprint action already this turn.
 
 #### Melee Actions:
 Unless stated otherwise, melee actions have a turn requirement of one.
