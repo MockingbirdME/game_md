@@ -2,10 +2,10 @@
 <!-- TODO update wording throughout to use hex and add disclaimer that if not using a battle map the term hex correlates to roughly one square meter in theater of the mind -->
 ## Hitting and getting hit:
 Most attacks are made as a melee or ranged combat skill check where the total is compared to the opponent’s defense in order to determine the result of the attack.
-* Miss: if the attack result is less than the defender’s current defense the attack simply misses with has no effect.
-* Blocked/parried/dodged (_melee only_): if the attack result is at least equal to the opponent's current defense before but not after their melee defense bonus the attack is avoided but the defender loses one defense.
+* Miss: if the attack result is less than the defender’s current defense with all bonuses the attack simply misses with has no effect.
+* Near miss: (_melee only_): if the attack result is at least equal to the opponent's current defense before but not after their melee defense and parry bonuses the attack is avoided but the defender loses one defense.
 * Hit: an attack result that equals or exceeds the target’s defense with melee/ranged defense bonus hits. The defender loses two defense and suffers the effects of the attack.
-* Additional successes: for every three points an attack’s skill check result exceeded the target’s defense it gains an additional success that may be spent to choose a hit location (1 for body, 2 for arm or legs, 3 for head) or for any attack to gain the bonus effects from the weapon or attack type used. <!-- Consider having locations need to be called for ranged attacks. -->
+* Additional successes: for every three points an attack’s skill check result exceeded the target’s defense it gains an additional success that may be spent to choose a hit location (0 for body, 1 for arm or legs, 2 for head) or for any attack to gain the bonus effects from the weapon or attack type used. <!-- Consider having locations need to be called for ranged attacks. -->
 
 ## Targeting objects or hexes:
 When making an attack there are times that the target is not another character but an object or an area (like a hex on the battle map if using miniatures).
@@ -17,16 +17,16 @@ When making an attack there are times that the target is not another character b
 Many items, spells, and abilities cause everything in an area to be affected. These effects originate from a hex or character. Once per round a character aware of an AOE they will end up in may accept two penalty dice to all actions on their next turn to move a number of meters equal to the greater of their ranks in personal defense and personal movement or spend a advancement point to move a number of meters equal to the sum of their ranks in those skills; add that advancement point to either their personal defense or personal movement skill.
 
 ## Hit locations:
-Unless the hit location is already determined roll a d10 to determine it: 1-2 legs, 3 right arm, 4 left arm, 5-9 body and 10 for head. Area effects generally damage the target’s body location and do not require a roll.
+Unless the hit location is already determined the attack is considered to have struck the character's body. Area effects generally damage the target’s body location and do not require a roll.
 
 ## Forms of damage
 * Stamina - for every point of stamina damage dealt the victim loses one stamina.
-* Stun - when a character suffers a stun they lose one stamina and gain a stun; each stun reduces a character’s max stamina by one. If a character gained a stun last round they suffer a -1 penalty for each stun they have to every skill check they make. If a character's max stamina is reduced to zero they are rendered unconscious and any future stuns suffered are treated instead as wounds.
-* Fatigue - when a character suffers a point of fatigue they lose one stamina and gain a point of fatigue; each point of fatigue reduces a character’s max stamina by one. If a character's max stamina is reduced to zero they are rendered unconscious and any future points of fatigue suffered are treated instead as wounds.
-* Wound - when a character suffers a wound they lose two stamina, gains a wound, and suffers a location specific effect (see below). All skill checks a wounded character makes gain a penalty die for each wound the character suffering from. A character with at least as many wounds as his Max Wound attribute is dying and rendered unable to act. A character that suffers a single hit/effect which inflicts at least as many wounds as their Max Wound attribute, or a character with a total number of wounds exceeding double their max wound attribute, dies immediately.
+* Stun - when a character suffers a stun they lose one stamina and gain a stun. If a character gained a stun last round they suffer a -1 penalty for each stun they have to every skill check they make. A character with a number of stuns equal to or greater than their max stamina is rendered unconscious and doesn't count their body attribute when reducing concussive damage.
+* Fatigue - when a character suffers a point of fatigue they lose one stamina, and gain a point of fatigue; a point of fatigue is a special type of stun that can not be recovered with a restoration action and takes much longer to heal naturally.
+* Wound - when a character suffers a wound they lose a stamina, gain a stun, gain a wound, and suffers a location specific effect (see below). All skill checks a wounded character makes gain a penalty die for each wound the character suffering from. A character with at least as many wounds as their max wound attribute is dying and rendered unable to act. A character that suffers a single hit/effect which inflicts at least as many wounds as their max wound attribute, or a character with a total number of wounds exceeding double their max wound attribute, dies immediately.
     * Head wounds - when a character suffers one or more wounds to the head they loose three additional defense per wound suffered and can not reduce any action's turn requirement until the end of their next turn.
-    * Arm wounds - when a character suffers any number of wounds to an arm they can not use that arm for actions on their next turn and loose any bonuses gained from equipment carried by those arms (parry, shield, etc.) until the end of their next turn if they suffer two, or more, wounds at once they drop whatever they're holding in the associated hand and if they suffer three, or more, wounds at once the arm is rendered unusable until their wounds heal.
-    * Leg wounds - when a character suffers wounds to their legs they can not spend stamina on move actions during their next turn and their base move is reduced by one per wound suffered to the legs until they are healed, if they suffer two wounds at once they are knocked prone, if they suffer three, or more, wounds at once  they can not take any move actions other than to walk and can only make one move action per turn until the wounds heal.
+    * Arm wounds - when a character suffers any number of wounds to an arm they can not use that arm for actions on their next turn and loose any bonuses gained from equipment carried by that arm (parry, shield, etc.) until the end of their next turn, if they suffer two, or more, wounds at once they drop whatever they're holding in the associated hand and if they suffer three, or more, wounds at once the arm is rendered unusable until their wounds heal.
+    * Leg wounds - when a character suffers wounds to their legs they can not spend stamina on move actions during their next turn and their base move is reduced by three per wound suffered (minimum 1) until the wounds are healed, if they suffer two, or more, wounds at once they are knocked prone, if they suffer three, or more, wounds at once they can not take any move actions other than to walk and their first move action each turn no longer has its turn requirement reduced until the wounds heal.
     * Body wounds - a character suffering wounds to the body suffer no additional penalties beyond those granted by having the wound(s).
 
 
@@ -61,11 +61,11 @@ Concussive damage is reduced by the character’s body stat and physical damage 
 
 | Damage | stamina/stun/wound | Damage | stamina/stun/wound
 | --- | --- | ---| ---
-| 1 | 1 stamina | 10 | 1 wound + 1 stun
-| 2 | 2 stamina | 13 | 2 wounds
-| 3 | 1 stun | 17 | 3 wounds
+| 1 | 1 stamina | 10 | 1 wound + 2 stun
+| 2 | 2 stamina | 13 | 2 wounds + 1 stun
+| 3 | 1 stun + 1 stamina | 17 | 3 wounds
 | 5 | 2 stuns | 21 | 4 wounds
-| 7 | 1 wound | every additional 4 | +1 stamina, 1 stun, 1 wound
+| 7 | 3 stuns| every additional 4 | +1 wound, +1 stun
 
 #### Penetrating damage
 Penetrating damage with armor piercing value less than the target’s armor value becomes concussive. Penetrating damage is reduced by the character’s physical damage resistance.
@@ -75,7 +75,7 @@ Penetrating damage with armor piercing value less than the target’s armor valu
 | 0 | 1 stamina | 7 | 2 wounds |
 | 1 | 1 stun | 10 | 3 wounds |
 | 2 | 2 stuns | 13 | 5 wounds |
-| 4 | 1 wound | every additional | +1 wound |
+| 4 | 1 wound, 1 stun | every additional | +1 wound |
 
 #### Fire damage
 Fire damage is reduced by any fire resistance the character may have. Fire damage causes burning; the character suffers the same damage -1 next round to the burning body location, if this damage was itself caused by burning randomly determined one adjacent body location to also suffer this damage next round; if a body location would suffer multiple instances of burning only resolve the most severe one. Any character with one hand free within one meter of a burning character may take an action, with a one turn requirement, to reduce all burning damage they would suffer next round by 3, this reduction is increased to 5 if the burning character is prone; a character with two free hands may double this reduction.
