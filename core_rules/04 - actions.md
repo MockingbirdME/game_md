@@ -46,12 +46,12 @@ Actions are detailed with its name followed by its stamina cost in parentheses a
 
 #### Move actions:
 The first move action a character takes each round has a turn requirement of zero, subsequent move actions have a turn requirement of one.
-* **Walk(0)** - move your base movement in meters.
-* **Dash(2)** - move up to twice your base movement in meters.
-* **Sprint(3)** - make a personal movement skill check with primary attribute body. Move twice your base movement plus X meters per success rolled plus two times your rank in the run secondary skill meters. Any other non-movement skill checks the character makes before the beginning of their next turn gains two penalty dice.
-* **Swim(2)** - make a personal movement skill check using body as the primary attribute. Move through water up to 1 meter per rank in the swim secondary skill plus 1 meter per success in the skill check.
-* **Climb(2)** - make a personal movement skill check using body as the primary attribute. Transverse across a surface up to 1 meter per rank in the climb secondary skill plus 1 meter per success in the skill check minus X meters based on the difficulty of the climb, if traveling a negative number of meters the character falls. Difficulties range from 0 to 20 with a vertical surface without good hand holds being difficulty 10.
-* **Jump(2)** -  make a personal movement skill check using body as the primary attribute. Jump forward 1 meter per two ranks in the jump secondary skill plus 1 meter for every three successes in the skill check, increase the total distance by 50% if you've taken a dash or sprint action already this turn. The jump action can have its turn requirement reduced to zero by adding 1 penalty die to all further skill checks made before your next turn.
+* **Walk(0)** - move your size in meters.
+* **Dash(2)** - move up to your base movement in meters.
+* **Sprint(3)** - TBA.
+* **Swim(2)** - make a skill check using body as the primary attribute, personal movement as the primary skill, and a difficulty of 10-30(depending on conditions), if the check succeeds move through water up to 1 meter per rank in the swim secondary skill plus 1 meter per additional success in the skill check.
+* **Climb(2)** - make a skill check using body as the primary attribute, personal movement as the primary skill, and a difficulty of 10-30(depending on conditions), on a success transverse across a surface up to 1 meter per rank in the climb secondary skill plus 1 meter per success in the skill check, if the skill check fails the character loses his grip and falls.
+* **Jump(2)** -  make a skill check using body as the primary attribute, personal movement as the primary skill, and a difficulty of 10, on a success jump horizontally a number or meters equal to your rank in the jump secondary skill plus 1 meter per two additional success, or half that distance vertically, increase the total distance by 50% if you've taken a dash or sprint action already this turn. 
 
 #### Melee Actions:
 Unless stated otherwise, melee actions have a turn requirement of one.
