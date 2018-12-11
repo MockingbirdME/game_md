@@ -4,6 +4,7 @@
   "description": "The website for the game",
   "main": "index.js",
   "scripts": {
+    "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +22,8 @@
     "http-errors": "^1.7.1",
     "markdown-toc": "^1.2.0",
     "marked": "^0.5.2",
-    "pug": "^2.0.3"
+    "morgan": "^1.9.1",
+    "pug": "^2.0.3",
+    "serve-favicon": "^2.5.0"
   }
 }
