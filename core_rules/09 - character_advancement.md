@@ -12,7 +12,7 @@ At character creation they gain 5, or more, advancement points. Advancement poin
 #### Out of game uses
 When not actively playing a character may spend advancement points to increase their ranks in skills and attributes or gain traits. Doing so requires that the character has an appropriate amount of time to do so, as a general rule no more than 1 advancement point should be spent per span spent training without an instructor or half span with one but tailor this to your story. It is perfectly acceptable to break up this training, spending a few advancement points at a time and increasing the character's rank in a skill/attribute or gaining a trait once the appropriate number of points have been spent.
 * Increasing an Attribute - Increasing an attribute costs 6 times its new rank advancement points.
-* Increasing a Primary Skill - Increasing a primary skill costs 3 times its new rank advancement points. When a primary skill is increased to rank 1 also gain rank 1 in one of its associated secondary skills.
+* Increasing a Primary Skill - Increasing a primary skill costs 3 times its new rank in advancement points. When a primary skill is increased to rank 1 also gain rank 1 in one of its associated secondary skills.
 * Increasing a Secondary Skill - Increasing a secondary skill costs 1 plus its new rank advancement points.
 * Gaining a Trait - Gaining a new trait requires GM approval and costs 3 times its trait point cost in advancement points.
 
