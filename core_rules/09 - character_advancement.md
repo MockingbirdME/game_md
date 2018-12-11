@@ -4,11 +4,9 @@
 At character creation they gain 5, or more, advancement points. Advancement points are spent to grant the character in game advantages and to increase their skill and attribute ranks over time.
 
 #### In game uses
-* Gain +5 to the result of a skill check that did not meet its difficulty. Add the advancement point to the primary skill. Limit one per skill check.
-* Add one success to a skill check that the character just made that met its difficulty. Add the advancement point to the primary skill used in that skill check. Limit one per skill check.
-* Reduce the damage they have just taken to one wound, this can not be used to reduce arcane dues. The advancement point is added to either the character's endurance skill, personal defense skill, or body attribute, player's choice.
+* Add one d8 to a skill check, this may be done after the skill check is rolled but before the skill total is finalized. Add the advancement point to the primary skill used in that skill check. Limit one per skill check.
+* Reduce the damage suffered from a single source to one wound, this can not be used to reduce arcane dues. The advancement point is added to either the character's endurance skill, personal defense skill, or body attribute, player's choice.
 * Ignore all penalty dice for one skill check. Add the advancement point to the endurance skill or the primary skill used in the skill check.
-* Take one action, with a turn requirement of zero and that has had all prerequisites met, outside of your turn. Add the advancement point to the primary skill being used. Limit once per round.
 * Move the sum of the character's rank in personal movement and personal defense, rather than the higher of the two, when reacting to an AOE effect.
 
 #### Out of game uses
