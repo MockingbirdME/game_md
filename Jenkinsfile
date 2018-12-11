@@ -26,7 +26,7 @@ pipeline {
                         sshTransfer(sourceFiles: '**', execCommand: 'docker-compose up --build -d')
                     ]
                 }
-                sshPublisher(publishers: [sshPublisherDesc(configName: 'Flax', transfers: transfers)])
+                sshPublisher(failOnError: true, publishers: [sshPublisherDesc(configName: 'Flax', transfers: transfers)])
                 slackSend channel: '#flax', color: 'good', message: 'Successfully built <https://devon.tanndev.com|website>.'
             }
         }
