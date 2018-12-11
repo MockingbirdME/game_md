@@ -13,7 +13,7 @@ Values that detail how the armor protects its wearer.
 
 #### Layered armor:
 When a character is wearing multiple layers of armor they gain cumulative benefits from each layer as follows:
-* Armor value - the total armor value a character gets is equal to the highest armor value of all the layers they are wearing plus half, rounded down, the value of the second highest armor value plus one for each additional layer that has an armor value above zero.
+* Armor value - the total armor value a character gets is equal to the highest armor value of all the layers they are wearing plus one for each additional layer that has an armor value above zero.
 * Body value - the total body value a character gets is equal to the highest body value of all the layers they are wearing plus half, rounded down, the value of each other layer.
 * Reflex value - the sum of the values of each piece of armor plus one for each layer beyond the first.
 * Damage reduction - while damage reduction does not stack the character wearing multiple layers of armor may use the highest value of each type of damage reduction from amongst all layers.
