@@ -17,9 +17,26 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 
+// Load documentation and provide locals.
+const documentation = require('./loadDocumentation');
+app.use((req, res, next) => {
+    res.locals.availableDocumentation = Object.keys(documentation).sort();
+    next();
+});
+
 // Serve homepage.
 app.get('/', (req, res) => {
     res.render('home');
+});
+
+// Serve documentation.
+app.get('/documentation/:document', (req, res, next) => {
+    let documentName = req.params.document;
+    let document = documentation[documentName];
+    if (document) {
+        res.locals.documentationHtml = document;
+        res.render('documentation', {filename: documentName, cache: true});
+    } else next();
 });
 
 // Catch 404 and forward to error handler
