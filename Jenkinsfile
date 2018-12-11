@@ -26,7 +26,7 @@ pipeline {
                         sshTransfer(sourceFiles: '**', execCommand: 'docker-compose up --build -d')
                     ]
                 }
-                sshPublisher(publishers: [sshPublisherDesc(configName: 'Devon', transfers: transfers)])
+                sshPublisher(publishers: [sshPublisherDesc(configName: 'Flax', transfers: transfers)])
             }
         }
     }
