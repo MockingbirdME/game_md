@@ -33,9 +33,9 @@ Values that apply to the weapon being used.
 
 
 #### Melee weapon attack statistics:
-* Damage Type: what type of damage this attack deals.
-* Damage: how much damage this attack deals.
+* Damage Type: what type of damage this attack deals, either piercing (P) or concussive (C).
 * APV: the armor piercing value of this attack.
+* Damage: how much damage this attack deals.
 * Additional Success Uses: one or more advantages that can be gained by spending additional success rolled on this attack's skill check.
 * Notes: any additional notes related to this attack.
 
@@ -45,6 +45,8 @@ Values that apply to the weapon being used.
 * Range Increment: a range used to determine how many times the range penalty is applied. Take the range to the target, subtract weapon's close range and, if the total is currently greater than zero, divide by the weapon's range increment; the result, rounded up, is the number of times the range penalty will be applied to the attack.  
 * Max Range: the max range the weapon can hit a target at.
 * Range Penalty: listed as dice, damage, and APV. Dice is the number of penalty dice added to the attack's skill check, damage and APV is the amount by which those attributes are lowered for this attack. This penalty will be applied a number of times, based on the weapon's range increment, for all attacks made beyond close range.
-* Damage Type: piercing(p) or concussive(c).
+* Damage Type: what type of damage this attack deals, either piercing (P) or concussive (C).
 * Damage: the base amount of damage this weapon deals, often listed as X + ammo die; this means the damage is a flat amount modified by some number or variable based on the ammo used.
 * APV: the base APV of this weapon's attacks, often listed as X + ammo die; this means the damage is a flat amount modified by some number or variable based on the ammo used.
+* Additional Success Uses: one or more advantages that can be gained by spending additional success rolled on this attack's skill check.
+* Notes: any additional notes related to this attack.
