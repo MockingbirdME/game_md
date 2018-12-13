@@ -29,7 +29,7 @@ pipeline {
                     sh 'ssh docker.tanndev.com docker-compose -f flax-compose.yml pull app'
                     sh 'ssh docker.tanndev.com docker-compose -f flax-compose.yml up -d'
                 }
-                slackSend channel: '#flax', color: 'good', message: 'Successfully published <https://maelstrom.tanndev.com|Flax Website>.'
+                slackSend channel: '#flax', color: 'good', message: 'Successfully published <https://flax.tanndev.com|Flax Website>.'
             }
         }
     }
