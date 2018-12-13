@@ -24,10 +24,11 @@ pipeline {
                     docker.withRegistry('https://registry.hub.docker.com', 'docker-hub-credentials') {
                         image.push('latest')
                     }
-                    sh 'ssh docker.tanndev.com rm -f flax-compose.yml'
-                    sh 'scp docker-compose.yml docker.tanndev.com:flax-compose.yml'
-                    sh 'ssh docker.tanndev.com docker-compose -f flax-compose.yml pull app'
-                    sh 'ssh docker.tanndev.com docker-compose -f flax-compose.yml up -d'
+                    sh 'ssh docker.tanndev.com rm -rf flax'
+                    sh 'ssh docker.tanndev.com mkdir flax'
+                    sh 'scp docker-compose.yml docker.tanndev.com:flax/'
+                    sh 'ssh docker.tanndev.com "cd flax && docker-compose pull app"'
+                    sh 'ssh docker.tanndev.com "cd flax && docker-compose up -d"'
                 }
                 slackSend channel: '#flax', color: 'good', message: 'Successfully published <https://flax.tanndev.com|Flax Website>.'
             }
