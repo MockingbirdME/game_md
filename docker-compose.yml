@@ -2,8 +2,8 @@ version: '3'
 
 services:
   app:
-    build: .
-    container_name: devon-game
+    image: jftanner/flax
+    container_name: flax
     ports:
     - 8081:8081
     environment:
