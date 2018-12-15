@@ -27,6 +27,7 @@ main {
 .banner a{
     color:inherit;
     text-decoration: none;
+    font-family: 'Syncopate';
 }
 
 .content {
