@@ -17,9 +17,9 @@ main {
 }
 
 .banner {
-    background: linear-gradient(45deg, #580007, #1010d6);
+    background: linear-gradient(45deg, #660066,  #9900CB, #660066);
     color: white;
-    padding-left: 0.7rem;
+    padding-left: 3rem;
     margin-top: 0;
 }
 
