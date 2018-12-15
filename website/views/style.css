@@ -11,7 +11,7 @@ body {
 
 main {
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
     background-repeat: no-repeat;
     background-image: url(../static/parchment-background.jpg);
     background-size: cover;
@@ -33,7 +33,7 @@ main {
   flex: 1 0 auto;
   margin-left: 2rem;
   width: 800px;
-  margin: auto;
+  margin: 3rem auto;
   padding-bottom: 3rem;
 }
 
