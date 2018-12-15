@@ -8,6 +8,7 @@ const DOCUMENTATION_DIRECTORY = path.resolve(__dirname, '..', 'core_rules');
 const DOCUMENTATION_EXTENSION = '.md';
 const documentation = {};
 
+
 fs.readdir(DOCUMENTATION_DIRECTORY, "utf8", (error, files) => {
     if (error) console.error(error);
     else files.forEach(file => {
@@ -18,16 +19,17 @@ fs.readdir(DOCUMENTATION_DIRECTORY, "utf8", (error, files) => {
                 // noinspection JSUnusedGlobalSymbols
                 let markdown = toc.insert(contents, {
                     maxdepth: 5,
-                    slugify: (header) => header.toLowerCase().replace(/[^\w]+/g, '-')
-                });
+                    slugify: (header) =>
+                       header.toLowerCase().replace(/[^\w]+/g, '-')}
+                );
                 documentation[generatePageName(file)] = Marked(markdown);
             }
-        })
-    })
+        });
+    });
 });
 
 function generatePageName(filename) {
-    return filename.replace(/\.md$|[^a-z0-9& -]/gi,'').toLowerCase();
+    return filename.replace(/_/gi,' ').replace(/\.md$|[^a-z0-9& -]/gi,'').toLowerCase();
 }
 
 module.exports = documentation;
