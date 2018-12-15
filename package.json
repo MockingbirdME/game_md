@@ -2,6 +2,7 @@
   "name": "devon-game-website",
   "version": "0.0.1",
   "description": "The website for the game",
+  "homepage": "https://flax.tanndev.com/",
   "main": "website/index.js",
   "scripts": {
     "start": "node .",
@@ -12,11 +13,11 @@
     "url": "git+https://github.com/MockingbirdME/game_md.git"
   },
   "author": "Devon Henegar <devon.henegar@gmail.com>",
+  "contributors": ["James Tanner <james.tanner@tanndev.com>"],
   "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/MockingbirdME/game_md/issues"
   },
-  "homepage": "https://github.com/MockingbirdME/game_md#readme",
   "dependencies": {
     "express": "^4.16.4",
     "http-errors": "^1.7.1",
