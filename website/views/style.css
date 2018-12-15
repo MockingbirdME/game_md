@@ -13,6 +13,7 @@ main {
     flex: 1 0 auto;
     margin-left: 2rem;
     max-width: 800px;
+    margin: auto;
 }
 
 .banner {
