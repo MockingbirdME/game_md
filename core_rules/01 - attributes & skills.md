@@ -30,7 +30,7 @@ Primary skills are broad categories of learned or trained abilities a character 
 ## Secondary Skills:
 Secondary skills represent subsets of or specializations in, the primary skill it is associated with. Ranks in secondary skills have no static effect but are referenced in many other areas to add bonus dice to skill rolls, increase secondary attributes, and otherwise enhance the results of an action.
 
-| Basic Skill | Example Secondary Skills |
+| Primary Skill | Example Secondary Skills |
 | --- | --- |
 | Awareness | Alertness, Investigate, Search, Sense Motive |
 | Animal Handling | Animal type, Befriend, Command, Drive, Herd, Joust, Read Emotions, Ride, Subdue, Train |
@@ -49,7 +49,7 @@ Secondary skills represent subsets of or specializations in, the primary skill i
 ### Skill Descriptions
 * **Awareness:** the quintessential perception skill, should be used whenever the character is checking to see if he notices something.
 * **Animal Handling:** how familiar is the character with animals, particularly domestic ones. This skill should be used when dealing with an animal that has a chance of being controlled or calmed.
-* **Craft/Profession:** Not one skill but a collection of them that few character’s are likely to have more than one of. A basic skill should be a broad grouping and should have at least three options for secondary skills. Some examples include:
+* **Craft/Profession:** Not one skill but a collection of them that few character’s are likely to have more than one of. A primary skill should be a broad grouping and should have at least three options for secondary skills. Some examples include:
     * Alchemy (Poisons, Medicine, Arcane Essence)
     * Architect (Houses, Walls, Steeples, Towers, Bridges)
     * Artist (Sculptor, Painter, Drafter)
