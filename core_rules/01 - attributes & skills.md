@@ -44,7 +44,7 @@ Secondary skills represent subsets of or specializations in, the primary skill i
 | Personal Movement | Balance, Climb, Fly, Jump, Run, Swim, Tumbling |
 | Ranged Combat | Aim, Bows, Crossbows, Pistols, Reload(weapon type), Spells, Throw |
 | Stealth | Cover tracks, Disguise, Hide Self, Hide object/other, Move Quietly |
-| Survival | Find/build shelter, Forge, Hunt, Specific environment, Track |
+| Survival | Find/build shelter, Forage, Hunt, Specific environment, Track |
 
 ### Skill Descriptions
 * **Awareness:** the quintessential perception skill, should be used whenever the character is checking to see if he notices something.
