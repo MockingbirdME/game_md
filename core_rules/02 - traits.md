@@ -10,8 +10,8 @@ These are background or genetic advantages a character possesses. The traits lis
 * **Enhanced Attribute(X)** - increase one primary attribute by one point; the cost of this trait is equal to twice the attribute's new score.  
 * **Extended Spell List(4)** - increase the number of spells you may know by one. This trait may be taken any number of times increasing its cost by one each time.
 * **Fast Reflexes(1)** - Gain +1 to your initiative. A character may take this trait multiple times
-* **Fulled by Pain(3)** - Each time you suffer a stun or wound regain 3 stamina.
-* **Hard to kill(4)** - increase your max wounds stat by one and ignore the effects of one wound you are suffering from. This trait may be taken multiple times increasing its cost by one each time.
+* **Fueled by Pain(3)** - Each time you suffer a stun or wound regain 3 stamina.
+* **Hard to Kill(4)** - increase your max wounds stat by one and ignore the effects of one wound you are suffering from. This trait may be taken multiple times increasing its cost by one each time.
 * **Hardy(1)** - Gain 1 point of resistance to illness and poison. A character may take this trait multiple times increasing its cost by 1 each time.
 * **Heightened Hearing(1)** - Gain 2 bonus dice to all hearing based perception checks and 1 bonus die to perception checks that include but don’t specifically rely on hearing. This trait may be taken multiple times increasing its cost by 1 each time.
 * **Heightened Sight(1)** - Gain 2 bonus dice to all sight based perception checks and 1 bonus die to perception checks that include but do not specifically rely on sight. This trait may be taken multiple times increasing its cost by 1 each time.
@@ -20,9 +20,9 @@ These are background or genetic advantages a character possesses. The traits lis
 * **Left Handed(4)** - Enemies not used to facing left handers suffer 1 point of parry bonus against your left handed melee attacks. Items specifically designed for right handers and may be more difficult for a left handed character to use.
 * **Long Arms(2)** - Increase your reach by 1.
 * **Mobile Combatant(3)** - double your melee defense bonus against free attacks.
-* **Push the body(3)** - At the beginning of any round or once per scene regain up to 5 stamina and recover from up to 1 stun at the cost of 1 fatigue.
+* **Push the Body(3)** - At the beginning of any round or once per scene regain up to 5 stamina and recover from up to 1 stun at the cost of 1 fatigue.
 * **Sneaky Spell Caster(2)** - reduce the number of penalty dice you would normally receive from casting a spell without speaking or moving your hands/arms by one. This trait may be taken a second time.
-* **Quick draw(3)** - At the beginning of round of combat you may take a ready or stow weapon action with a turn requirement of 0, additionally you may take a ready or stow action during your turn with a turn requirement of 0.
+* **Quick Draw(3)** - At the beginning of round of combat you may take a ready or stow weapon action with a turn requirement of 0, additionally you may take a ready or stow action during your turn with a turn requirement of 0.
 * **Skilled(x)** - Gain x skill points to use to increase the character’s base skills after initial skills have been assigned.
 * **Tough(3)** - when suffering damage, other than arcane dues, treat your body score as if it were one higher. This trait may be taken multiple times increasing its cost by 1 each time.
 
