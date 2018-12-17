@@ -29,7 +29,7 @@ fs.readdir(DOCUMENTATION_DIRECTORY, "utf8", (error, files) => {
 });
 
 function generatePageName(filename) {
-    return filename.replace(/_/gi,' ').replace(/\.md$|[^a-z0-9& -]/gi,'').toLowerCase();
+    return filename.replace(/_/gi, ' ').replace(/\.md$|[^a-z0-9& -]/gi, '').toLowerCase();
 }
 
 module.exports = documentation;
