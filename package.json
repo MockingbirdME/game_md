@@ -13,7 +13,9 @@
     "url": "git+https://github.com/MockingbirdME/game_md.git"
   },
   "author": "Devon Henegar <devon.henegar@gmail.com>",
-  "contributors": ["James Tanner <james.tanner@tanndev.com>"],
+  "contributors": [
+    "James Tanner <james.tanner@tanndev.com>"
+  ],
   "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/MockingbirdME/game_md/issues"
