@@ -33,27 +33,18 @@ app.get('/', (req, res) => {
 
 // Serve documentation.
 app.get('/document/*', (req, res, next) => {
-    console.log("req.params:", req.params);
     let params = req.params[0].split('/');
     let documentationPath = documentation;
     params.forEach(extension => {
-        console.log(extension);
-
         if (!extension) return;
         extension = extension.replace(/_/gi, ' ');
         documentationPath = documentationPath[extension];
     });
-    console.log('after');
-    console.log("path:", documentationPath);
     let documentName = req.params.document;
-    console.log(1);
 
     let document = documentationPath.text;
-    // Object.keys(documentation[documentName]).sort().forEach(key => document += documentation[documentName][key]);
-    console.log(1);
 
     if (document) {
-        console.log('was doc');
         res.locals.documentationHtml = document;
         res.render('documentation', {filename: documentName, cache: true});
     } else next();
