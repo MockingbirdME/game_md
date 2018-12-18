@@ -21,8 +21,7 @@ app.use(express.urlencoded({extended: false}));
 const documentation = require('./loadDocumentation');
 app.use((req, res, next) => {
     console.log('\n\n\nbeing usd\n');
-    // console.log(JSON.stringify(documentation));
-    console.log('\n\n\n\n^^^^^^\n\n');
+    
     // res.locals.availableDocumentation = Object.keys(documentation).sort();
     next();
 });
