@@ -13,7 +13,7 @@ const documentation = {};
 //     console.log('done generating content');
 // });
 
-documentation.core_rules = {};
+documentation["core rules"] = {};
 generateContent("core_rules");
 
 function generateContent (directoryName) {
@@ -26,14 +26,13 @@ function generateContent (directoryName) {
 
             let contents = fs.readFileSync(path.join(directory, file), 'utf8');
 
-            console.log(file);
             // Turn contents into MD
             let markdown = toc.insert(contents, {
                 maxdepth: 5,
                 slugify: (header) =>
                 header.toLowerCase().replace(/[^\w]+/g, '-')}
             );
-            generateMD(markdown, [directoryName]);
+            generateMD(markdown, [generatePageName(directoryName)]);
 
             });
         });
@@ -45,7 +44,7 @@ function generateMD(markdown, depthArray) {
     let linkMD = "[documentation](/document)/";
     depthArray.forEach(item => {
         documentationPath = documentationPath[item];
-        latestLink += `${item}/`;
+        latestLink += `${generatePageName(item).replace(/ /g, "%20")}/`;
         linkMD += `[${item}](${latestLink})/`;
     });
     if (depthArray.length === 1) {
@@ -72,11 +71,15 @@ function generateMD(markdown, depthArray) {
         for (let i = 0; i < depthArray.length; i++) sectionMD += "#";
         sectionMD += ` ${item}`;
         documentationPath[generatePageName(title)] = {
-            "text": marked(sectionMD),
+            "text": marked(sectionMD.replace(/(#+ )(.+)/g, (match, hashes, text) => {
+                return `${hashes}[${text}](/document/${generatePageName(text).replace(/ /g, "%20")}/)`;
+            })),
             "title": title
         };
         documentation[generatePageName(title)] = {
-            "text": marked(sectionMD),
+            "text": marked(sectionMD.replace(/(#+ )(.+)/g, (match, hashes, text) => {
+                return `${hashes}[${text}](/document/${generatePageName(text).replace(/ /g, "%20")}/)`;
+            })),
             "title": title,
             "path": documentationPath
         };

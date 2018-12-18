@@ -39,9 +39,8 @@ app.get('/document/*', (req, res, next) => {
     let documentationPath = documentation;
     params.forEach(extension => {
         if (!extension) return;
-        console.log("extension:", extension);
+        extension = extension.replace(/_/gi, ' ');
         documentationPath = documentationPath[extension];
-        console.log("keys:", Object.keys(documentationPath));
     });
     let documentName = req.params.document;
 
