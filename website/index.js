@@ -20,7 +20,6 @@ app.use(express.urlencoded({extended: false}));
 // Load documentation and provide locals.
 const documentation = require('./loadDocumentation');
 app.use((req, res, next) => {
-    console.log('\n\n\nbeing usd\n');
     // console.log(Object.keys(documentation));
     // res.locals.availableDocumentation = Object.keys(documentation).sort();
     next();
@@ -43,8 +42,6 @@ app.get('/document/', (req, res, next) => {
     } else next();
 });
 app.get('/document/*?', (req, res, next) => {
-    console.log("in serve");
-    console.log("params:", req.params);
     let params = req.params[0].split('/');
     let documentationPath = documentation;
     params.forEach(extension => {

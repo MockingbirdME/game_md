@@ -16,8 +16,6 @@ DOCUMENTATION_DIRECTORIES.forEach(directoryName => {
     generateContent(directoryName);
 });
 
-console.log("after build");
-console.log(documentation.text);
 documentation.text = marked(documentation.text);
 // documentation["core rules"] = {};
 // generateContent("core_rules");
