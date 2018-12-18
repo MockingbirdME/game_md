@@ -21,7 +21,7 @@ app.use(express.urlencoded({extended: false}));
 const documentation = require('./loadDocumentation');
 app.use((req, res, next) => {
     console.log('\n\n\nbeing usd\n');
-    
+    // console.log(Object.keys(documentation));
     // res.locals.availableDocumentation = Object.keys(documentation).sort();
     next();
 });
@@ -37,16 +37,23 @@ app.get('/document/*', (req, res, next) => {
     let params = req.params[0].split('/');
     let documentationPath = documentation;
     params.forEach(extension => {
+        console.log(extension);
+
         if (!extension) return;
         extension = extension.replace(/_/gi, ' ');
         documentationPath = documentationPath[extension];
     });
+    console.log('after');
+    console.log("path:", documentationPath);
     let documentName = req.params.document;
+    console.log(1);
 
     let document = documentationPath.text;
     // Object.keys(documentation[documentName]).sort().forEach(key => document += documentation[documentName][key]);
+    console.log(1);
 
     if (document) {
+        console.log('was doc');
         res.locals.documentationHtml = document;
         res.render('documentation', {filename: documentName, cache: true});
     } else next();

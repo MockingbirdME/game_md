@@ -4,17 +4,16 @@ const path = require('path');
 const toc = require('markdown-toc');
 
 const DOCUMENTATION_EXTENSION = '.md';
-// const DOCUMENTATION_DIRECTORIES = ["core_rules", "weapons_&_equipment", "magic"];
+const DOCUMENTATION_DIRECTORIES = ["core_rules", "weapons_&_equipment", "arcane_powers_&_themes"];
 const documentation = {};
 
-// DOCUMENTATION_DIRECTORIES.forEach(directoryName => {
-//     documentation[directoryName] = new Map();
-//     generateContent(directoryName);
-//     console.log('done generating content');
-// });
+DOCUMENTATION_DIRECTORIES.forEach(directoryName => {
+    documentation[generatePageName(directoryName)] = {"topLevelDirectory": true};
+    generateContent(directoryName);
+});
 
-documentation["core rules"] = {};
-generateContent("core_rules");
+// documentation["core rules"] = {};
+// generateContent("core_rules");
 
 function generateContent (directoryName) {
     let directory = path.resolve(__dirname, '..', directoryName);
@@ -55,10 +54,15 @@ function generateMD(markdown, depthArray) {
             return `${hashes}[${text}](/document/${generatePageName(text).replace(/ /g, "%20")}/)`;
         }));
     }
-    let regex = new RegExp(`(^|\n) *#{${depthArray.length}}\\s`, 'g');
+    let headerSize = depthArray.length;
+    let regex = new RegExp(`(^|\n) *#{${headerSize}}\\s`, 'g');
+    let split;
+    while ((!split || split.length <= 1) && headerSize <= 6) {
+        split = markdown.split(regex);
+        if (split.length === 1) headerSize++;
+    }
+    if (!split) return;
 
-    let split = markdown.split(regex);
-    if (split.length === 1) return;
     split = split.filter(item => item.trim());
     split.forEach(item => {
         item = item.trim();
@@ -67,7 +71,7 @@ function generateMD(markdown, depthArray) {
         }
         let title = generatePageName(item.match(/^.*/)[0].trim());
         let sectionMD = linkMD + `[${title}]()\n\n`;
-
+        console.log(title, generatePageName(title));
         for (let i = 0; i < depthArray.length; i++) sectionMD += "#";
         sectionMD += ` ${item}`;
         documentationPath[generatePageName(title)] = {
