@@ -5,13 +5,20 @@ const toc = require('markdown-toc');
 
 const DOCUMENTATION_EXTENSION = '.md';
 const DOCUMENTATION_DIRECTORIES = ["core_rules", "weapons_&_equipment", "arcane_powers_&_themes"];
-const documentation = {};
+const documentation = {
+    "text": "# Table of Contents"
+};
 
 DOCUMENTATION_DIRECTORIES.forEach(directoryName => {
-    documentation[generatePageName(directoryName)] = {"topLevelDirectory": true};
+    let safeDirectoryName = generatePageName(directoryName);
+    documentation[safeDirectoryName] = {"topLevelDirectory": true};
+    documentation.text += `\n## [${safeDirectoryName.split(" ").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ")}](/${safeDirectoryName.replace(/ /g, "%20")}/)`;
     generateContent(directoryName);
 });
 
+console.log("after build");
+console.log(documentation.text);
+documentation.text = marked(documentation.text);
 // documentation["core rules"] = {};
 // generateContent("core_rules");
 
@@ -71,7 +78,6 @@ function generateMD(markdown, depthArray) {
         }
         let title = generatePageName(item.match(/^.*/)[0].trim());
         let sectionMD = linkMD + `[${title}]()\n\n`;
-        console.log(title, generatePageName(title));
         for (let i = 0; i < depthArray.length; i++) sectionMD += "#";
         sectionMD += ` ${item}`;
         documentationPath[generatePageName(title)] = {

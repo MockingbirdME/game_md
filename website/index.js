@@ -32,7 +32,17 @@ app.get('/', (req, res) => {
 });
 
 // Serve documentation.
-app.get('/document/*', (req, res, next) => {
+app.get('/document/', (req, res, next) => {
+    let document = documentation.text;
+
+    if (document) {
+        res.locals.documentationHtml = document;
+        res.render('documentation', {cache: true});
+    } else next();
+});
+app.get('/document/*?', (req, res, next) => {
+    console.log("in serve");
+    console.log("params:", req.params);
     let params = req.params[0].split('/');
     let documentationPath = documentation;
     params.forEach(extension => {
@@ -40,13 +50,11 @@ app.get('/document/*', (req, res, next) => {
         extension = extension.replace(/_/gi, ' ');
         documentationPath = documentationPath[extension];
     });
-    let documentName = req.params.document;
-
     let document = documentationPath.text;
 
     if (document) {
         res.locals.documentationHtml = document;
-        res.render('documentation', {filename: documentName, cache: true});
+        res.render('documentation', {cache: true});
     } else next();
 });
 
