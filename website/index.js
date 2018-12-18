@@ -21,7 +21,7 @@ app.use(express.urlencoded({extended: false}));
 const documentation = require('./loadDocumentation');
 app.use((req, res, next) => {
     console.log('\n\n\nbeing usd\n');
-    console.log(JSON.stringify(documentation));
+    // console.log(JSON.stringify(documentation));
     console.log('\n\n\n\n^^^^^^\n\n');
     // res.locals.availableDocumentation = Object.keys(documentation).sort();
     next();
@@ -34,11 +34,11 @@ app.get('/', (req, res) => {
 
 // Serve documentation.
 app.get('/document/*', (req, res, next) => {
-    console.log(req.params);
+    // console.log(req.params);
     let params = req.params[0].split('/');
     let documentationPath = documentation;
     params.forEach(extension => {
-        console.log(extension);
+        // console.log(extension);
         documentationPath = documentationPath[extension];
         console.log(Object.keys(documentationPath));
     });
@@ -46,25 +46,6 @@ app.get('/document/*', (req, res, next) => {
 
     let document = documentationPath.text;
     // Object.keys(documentation[documentName]).sort().forEach(key => document += documentation[documentName][key]);
-
-    if (document) {
-        res.locals.documentationHtml = document;
-        res.render('documentation', {filename: documentName, cache: true});
-    } else next();
-});
-
-// Serve documentation.
-app.get('/:group/:document', (req, res, next) => {
-    console.log("serving");
-    console.log(req.params);
-    let groupName = req.params.group.toLowerCase();
-    let documentName = req.params.document.toLowerCase();
-    console.log(groupName);
-    console.log(documentName);
-    console.log(Object.keys(documentation));
-    console.log(Object.keys(documentation[groupName]));
-    console.log(Object.keys(documentation[groupName][documentName]));
-    let document = documentation[groupName][documentName].text;
 
     if (document) {
         res.locals.documentationHtml = document;
