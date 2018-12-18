@@ -28,7 +28,9 @@ app.use((req, res, next) => {
 
 // Serve homepage.
 app.get('/', (req, res) => {
-    res.render('home');
+    // res.render('home');
+    res.redirect('/document');
+
 });
 
 // Serve documentation.
