@@ -12,7 +12,7 @@ const documentation = {
 DOCUMENTATION_DIRECTORIES.forEach(directoryName => {
     let safeDirectoryName = generatePageName(directoryName);
     documentation[safeDirectoryName] = {"topLevelDirectory": true};
-    documentation.text += `\n## [${safeDirectoryName.split(" ").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ")}](/${safeDirectoryName.replace(/ /g, "%20")}/)`;
+    documentation.text += `\n## [${safeDirectoryName.split(" ").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ")}](/document/${safeDirectoryName.replace(/ /g, "%20")}/)`;
     generateContent(directoryName);
 });
 
