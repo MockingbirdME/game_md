@@ -24,24 +24,22 @@ function generateContent (directoryName) {
             if (path.extname(file) !== DOCUMENTATION_EXTENSION) return;
             // else if(file !== "02 - traits.md") return;
 
-            fs.readFile(path.join(directory, file), 'utf8', (error, contents) => {
-                if (error) console.error(error);
-                else {
-                    // Turn contents into MD
-                    let markdown = toc.insert(contents, {
-                        maxdepth: 5,
-                        slugify: (header) =>
-                        header.toLowerCase().replace(/[^\w]+/g, '-')}
-                    );
-                    generateMD(markdown, [directoryName]);
-                }
+            let contents = fs.readFileSync(path.join(directory, file), 'utf8');
+
+            console.log(file);
+            // Turn contents into MD
+            let markdown = toc.insert(contents, {
+                maxdepth: 5,
+                slugify: (header) =>
+                header.toLowerCase().replace(/[^\w]+/g, '-')}
+            );
+            generateMD(markdown, [directoryName]);
+
             });
         });
-    });
 }
 
 function generateMD(markdown, depthArray) {
-
     let documentationPath = documentation;
     let latestLink = "/document/";
     let linkMD = "[documentation](/document)/";
@@ -50,7 +48,14 @@ function generateMD(markdown, depthArray) {
         latestLink += `${item}/`;
         linkMD += `[${item}](${latestLink})/`;
     });
+    if (depthArray.length === 1) {
+        let firstLevelCatigory = documentation[depthArray[0]];
+        if (!firstLevelCatigory.text) firstLevelCatigory.text = "";
 
+        firstLevelCatigory.text += marked(markdown.replace(/(#+ )(.+)/g, (match, hashes, text) => {
+            return `${hashes}[${text}](/document/${generatePageName(text).replace(/ /g, "%20")}/)`;
+        }));
+    }
     let regex = new RegExp(`(^|\n) *#{${depthArray.length}}\\s`, 'g');
 
     let split = markdown.split(regex);
@@ -66,7 +71,6 @@ function generateMD(markdown, depthArray) {
 
         for (let i = 0; i < depthArray.length; i++) sectionMD += "#";
         sectionMD += ` ${item}`;
-
         documentationPath[generatePageName(title)] = {
             "text": marked(sectionMD),
             "title": title
