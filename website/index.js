@@ -20,22 +20,40 @@ app.use(express.urlencoded({extended: false}));
 // Load documentation and provide locals.
 const documentation = require('./loadDocumentation');
 app.use((req, res, next) => {
-    res.locals.availableDocumentation = Object.keys(documentation).sort();
+    // console.log(Object.keys(documentation));
+    // res.locals.availableDocumentation = Object.keys(documentation).sort();
     next();
 });
 
 // Serve homepage.
 app.get('/', (req, res) => {
-    res.render('home');
+    // res.render('home');
+    res.redirect('/document');
+
 });
 
 // Serve documentation.
-app.get('/documentation/:document', (req, res, next) => {
-    let documentName = req.params.document;
-    let document = documentation[documentName];
+app.get('/document/', (req, res, next) => {
+    let document = documentation.text;
+
     if (document) {
         res.locals.documentationHtml = document;
-        res.render('documentation', {filename: documentName, cache: true});
+        res.render('documentation', {cache: true});
+    } else next();
+});
+app.get('/document/*?', (req, res, next) => {
+    let params = req.params[0].split('/');
+    let documentationPath = documentation;
+    params.forEach(extension => {
+        if (!extension) return;
+        extension = extension.replace(/_/gi, ' ');
+        documentationPath = documentationPath[extension];
+    });
+    let document = documentationPath.text;
+
+    if (document) {
+        res.locals.documentationHtml = document;
+        res.render('documentation', {cache: true});
     } else next();
 });
 
