@@ -34,13 +34,14 @@ app.get('/', (req, res) => {
 
 // Serve documentation.
 app.get('/document/*', (req, res, next) => {
-    // console.log(req.params);
+    console.log("req.params:", req.params);
     let params = req.params[0].split('/');
     let documentationPath = documentation;
     params.forEach(extension => {
-        // console.log(extension);
+        if (!extension) return;
+        console.log("extension:", extension);
         documentationPath = documentationPath[extension];
-        console.log(Object.keys(documentationPath));
+        console.log("keys:", Object.keys(documentationPath));
     });
     let documentName = req.params.document;
 

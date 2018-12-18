@@ -21,7 +21,6 @@ function generateContent (directoryName) {
     fs.readdir(directory, "utf8", (error, files) => {
         if (error) console.error(error);
         else files.forEach(file => {
-            // console.log(file);
             if (path.extname(file) !== DOCUMENTATION_EXTENSION) return;
             // else if(file !== "02 - traits.md") return;
 
@@ -42,30 +41,29 @@ function generateContent (directoryName) {
 }
 
 function generateMD(markdown, depthArray) {
-    // console.log("\narray:", depthArray, "\n");
-    // let contentTitle = depthArray.pop();
-    // console.log(contentTitle);
 
     let documentationPath = documentation;
-    depthArray.forEach(item => documentationPath = documentationPath[item]);
+    let latestLink = "/document/";
+    let linkMD = "[documentation](/document)/";
+    depthArray.forEach(item => {
+        documentationPath = documentationPath[item];
+        latestLink += `${item}/`;
+        linkMD += `[${item}](${latestLink})/`;
+    });
 
-    // console.log(markdown);
     let regex = new RegExp(`(^|\n) *#{${depthArray.length}}\\s`, 'g');
 
     let split = markdown.split(regex);
     if (split.length === 1) return;
     split = split.filter(item => item.trim());
-    // console.log(split.length);
-    // console.log(split);
     split.forEach(item => {
         item = item.trim();
         if (!item) {
             return;
         }
-        // console.log("item:\n", item.trim());
         let title = generatePageName(item.match(/^.*/)[0].trim());
-        // console.log("title:", title, "\n\n");
-        let sectionMD = "";
+        let sectionMD = linkMD + `[${title}]()\n\n`;
+
         for (let i = 0; i < depthArray.length; i++) sectionMD += "#";
         sectionMD += ` ${item}`;
 
@@ -78,8 +76,6 @@ function generateMD(markdown, depthArray) {
             "title": title,
             "path": documentationPath
         };
-        // console.log(documentationPath[generatePageName(title)]);
-        // console.log(sectionMD);
         let newDepthArray = depthArray.slice();
         newDepthArray.push(title);
         // if (depthArray.length > 3) return;
