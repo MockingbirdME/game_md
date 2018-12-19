@@ -21,22 +21,20 @@ documentation.text = marked(documentation.text);
 function generateContent (directoryName) {
     let directory = path.resolve(__dirname, '..', directoryName);
     let files = fs.readdirSync(directory, "utf8");
-        if (!files) console.error(`No files found in ${directoryName}.`);
-        files.forEach(file => {
-            if (path.extname(file) !== DOCUMENTATION_EXTENSION) return;
-            // else if(file !== "02 - traits.md") return;
+    if (!files) console.error(`No files found in ${directoryName}.`);
+    files.forEach(file => {
+        if (path.extname(file) !== DOCUMENTATION_EXTENSION) return;
+        let contents = fs.readFileSync(path.join(directory, file), 'utf8');
 
-            let contents = fs.readFileSync(path.join(directory, file), 'utf8');
+        // Turn contents into MD
+        let markdown = toc.insert(contents, {
+            maxdepth: 5,
+            slugify: (header) =>
+            header.toLowerCase().replace(/[^\w]+/g, '-')}
+        );
+        generateMD(markdown, [generatePageName(directoryName)]);
 
-            // Turn contents into MD
-            let markdown = toc.insert(contents, {
-                maxdepth: 5,
-                slugify: (header) =>
-                header.toLowerCase().replace(/[^\w]+/g, '-')}
-            );
-            generateMD(markdown, [generatePageName(directoryName)]);
-
-            });
+    });
 }
 
 function generateMD(markdown, depthArray) {
