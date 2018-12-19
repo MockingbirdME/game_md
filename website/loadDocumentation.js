@@ -52,9 +52,7 @@ function generateMD(markdown, depthArray) {
         let firstLevelCatigory = documentation[depthArray[0].simpleName];
         if (!firstLevelCatigory.text) firstLevelCatigory.text = "";
 
-        firstLevelCatigory.text += marked(markdown.replace(/(#+ )(.+)/g, (match, hashes, text) => {
-            return `${hashes}[${text}](/document/${generateName(text).url}/)`;
-        }));
+        firstLevelCatigory.text += generateLinkedMD(markdown);
     }
     let headerSize = depthArray.length;
     let split;
@@ -79,15 +77,13 @@ function generateMD(markdown, depthArray) {
         sectionMD += ` ${item}`;
 
         let finishedSection = {
-            "text": marked(sectionMD.replace(/(#+ )(.+)/g, (match, hashes, text) => {
-                return `${hashes}[${text}](/document/${generateName(text).url}/)`;
-            })),
+            "text": generateLinkedMD(sectionMD),
             "title": title.title,
             "path": documentationPath
         };
         documentationPath[title.simpleName] = finishedSection;
         documentation[title.simpleName] = documentationPath[title.simpleName];
-        
+
         let newDepthArray = depthArray.slice();
         newDepthArray.push(title);
         generateMD(sectionMD.replace(/^.*/, ""), newDepthArray);
@@ -95,12 +91,34 @@ function generateMD(markdown, depthArray) {
 }
 
 function generateName(name) {
+    // Generate a formattedName Object that contains a simple name with no file extensions, word characters, extra whitespace, or capitals.
     let formattedName = {
-        simpleName: name.replace(/_/gi, ' ').replace(/\.md$|[^a-z0-9& -]/gi, '').trim().toLowerCase()
+        simpleName: name
+            .replace(/_/gi, ' ')
+            .replace(/\.md$|[^a-z0-9& -]/gi, '')
+            .trim()
+            .toLowerCase()
     };
-    formattedName.url = formattedName.simpleName.replace(/ /g, "%20");
-    formattedName.title = formattedName.simpleName.split(" ").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
+    // Add a websafe url converting the spaces in the simple name to percent syntax.
+    formattedName.url = formattedName.simpleName
+        .replace(/ /g, "%20");
+
+    // Add a display title with capitalized words.
+    formattedName.title = formattedName.simpleName
+        .split(" ")
+        .map(word => word
+            .charAt(0)
+            .toUpperCase()
+            + word.slice(1)
+        ).join(" ");
     return formattedName;
+}
+
+function generateLinkedMD(markdown) {
+    // Convert all headers to be links to their content. 
+    return marked(markdown.replace(/(#+ )(.+)/g, (match, hashes, text) => {
+        return `${hashes}[${text}](/document/${generateName(text).url}/)`;
+    }));
 }
 
 module.exports = documentation;
