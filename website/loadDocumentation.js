@@ -12,7 +12,7 @@ const documentation = {
 DOCUMENTATION_DIRECTORIES.forEach(directoryName => {
     let safeDirectoryName = generateName(directoryName);
     documentation[safeDirectoryName.simpleName] = {"topLevelDirectory": true};
-    documentation.text += `\n<h2 class="chapterTitles"><a href="${safeDirectoryName.url}"> ${safeDirectoryName.title}</a></h2>`;
+    documentation.text += `\n<h2 class="chapterTitles"><a href="document/${safeDirectoryName.url}"> ${safeDirectoryName.title}</a></h2>`;
     generateContent(directoryName);
 });
 
@@ -77,19 +77,17 @@ function generateMD(markdown, depthArray) {
         let sectionMD = linkMD + `[${title.simpleName}]()\n\n`;
         for (let i = 0; i < depthArray.length; i++) sectionMD += "#";
         sectionMD += ` ${item}`;
-        documentationPath[title.simpleName] = {
-            "text": marked(sectionMD.replace(/(#+ )(.+)/g, (match, hashes, text) => {
-                return `${hashes}[${text}](/document/${generateName(text).url}/)`;
-            })),
-            "title": title.title
-        };
-        documentation[title.simpleName] = {
+
+        let finishedSection = {
             "text": marked(sectionMD.replace(/(#+ )(.+)/g, (match, hashes, text) => {
                 return `${hashes}[${text}](/document/${generateName(text).url}/)`;
             })),
             "title": title.title,
             "path": documentationPath
         };
+        documentationPath[title.simpleName] = finishedSection;
+        documentation[title.simpleName] = documentationPath[title.simpleName];
+        
         let newDepthArray = depthArray.slice();
         newDepthArray.push(title);
         generateMD(sectionMD.replace(/^.*/, ""), newDepthArray);
