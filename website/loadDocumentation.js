@@ -101,8 +101,8 @@ function generateMD(markdown, depthArray) {
     });
 }
 
-function generateName(filename) {
-    return filename.replace(/_/gi, ' ').replace(/\.md$|[^a-z0-9& -]/gi, '').trim().toLowerCase();
+function generateName(name) {
+    return name.replace(/_/gi, ' ').replace(/\.md$|[^a-z0-9& -]/gi, '').trim().toLowerCase();
 }
 
 module.exports = documentation;
