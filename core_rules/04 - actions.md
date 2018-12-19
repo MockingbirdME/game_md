@@ -45,7 +45,7 @@ Each character on their turn may take actions to move, attack, etc. All actions 
 Actions are detailed with its name followed by its stamina cost in parentheses and a description.
 
 #### Move actions:
-The first move action a character takes each round has a turn requirement of zero, subsequent move actions have a turn requirement of one.
+The first move action a character takes each round has a turn requirement of zero, subsequent move actions have a turn requirement of one. When outside of turn based combat there is no need to specifically track stamina spent on movement, if moving at a regular pace (up to five times your base movement per minute) arrive at your destination with full stamina if moving at a quick pace (up to 10 times your base movement per minute) you arrive at any destination with only half your max stamina.
 * **Walk(0)** - move half your base movement in meters, round down.
 * **Dash(2)** - move up to your base movement in meters.
 * **Sprint(3)** - TBA.
