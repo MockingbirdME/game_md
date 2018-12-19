@@ -12,7 +12,7 @@ const documentation = {
 DOCUMENTATION_DIRECTORIES.forEach(directoryName => {
     let safeDirectoryName = generateName(directoryName);
     documentation[safeDirectoryName.simpleName] = {"topLevelDirectory": true};
-    documentation.text += `\n<h2><a href="${safeDirectoryName.url}"> ${safeDirectoryName.title}</a></h2>`;
+    documentation.text += `\n<h2 class="chapterTitles"><a href="${safeDirectoryName.url}"> ${safeDirectoryName.title}</a></h2>`;
     generateContent(directoryName);
 });
 
