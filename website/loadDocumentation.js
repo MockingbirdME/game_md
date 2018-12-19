@@ -12,19 +12,17 @@ const documentation = {
 DOCUMENTATION_DIRECTORIES.forEach(directoryName => {
     let safeDirectoryName = generatePageName(directoryName);
     documentation[safeDirectoryName] = {"topLevelDirectory": true};
-    documentation.text += `\n## [${safeDirectoryName.split(" ").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ")}](/document/${safeDirectoryName.replace(/ /g, "%20")}/)`;
+    documentation.text += `\n<h2><a href="${safeDirectoryName.replace(/ /g, "%20")}"> ${safeDirectoryName.split(" ").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ")}</a></h2>`;
     generateContent(directoryName);
 });
 
 documentation.text = marked(documentation.text);
-// documentation["core rules"] = {};
-// generateContent("core_rules");
 
 function generateContent (directoryName) {
     let directory = path.resolve(__dirname, '..', directoryName);
-    fs.readdir(directory, "utf8", (error, files) => {
-        if (error) console.error(error);
-        else files.forEach(file => {
+    let files = fs.readdirSync(directory, "utf8");
+        if (!files) console.error(`No files found in ${directoryName}.`);
+        files.forEach(file => {
             if (path.extname(file) !== DOCUMENTATION_EXTENSION) return;
             // else if(file !== "02 - traits.md") return;
 
@@ -39,7 +37,6 @@ function generateContent (directoryName) {
             generateMD(markdown, [generatePageName(directoryName)]);
 
             });
-        });
 }
 
 function generateMD(markdown, depthArray) {
@@ -66,15 +63,23 @@ function generateMD(markdown, depthArray) {
         split = markdown.split(regex);
         if (split.length === 1) headerSize++;
     }
-    if (!split) return;
+    if (!split || split.length === 1) return;
 
     split = split.filter(item => item.trim());
     split.forEach(item => {
         item = item.trim();
-        if (!item) {
+        if (!item || item.match(/^\s*#.+/)) {
             return;
         }
         let title = generatePageName(item.match(/^.*/)[0].trim());
+        console.log(`\nTITLE:${title}, DEPTH: ${depthArray.length}`);
+
+        let displayTitle = title.trim().split(" ").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
+        let urlSafeTitle = title.replace(/ /g, "%20");
+        if (depthArray.length === 1) documentation.text += `\n<h4 class="chapterTitles">- <a href="/document/${urlSafeTitle}/">${displayTitle}</a></h4>`;
+
+
+
         let sectionMD = linkMD + `[${title}]()\n\n`;
         for (let i = 0; i < depthArray.length; i++) sectionMD += "#";
         sectionMD += ` ${item}`;
@@ -96,11 +101,10 @@ function generateMD(markdown, depthArray) {
         // if (depthArray.length > 3) return;
         generateMD(sectionMD.replace(/^.*/, ""), newDepthArray);
     });
-
 }
 
 function generatePageName(filename) {
-    return filename.replace(/_/gi, ' ').replace(/\.md$|[^a-z0-9& -]/gi, '').toLowerCase();
+    return filename.replace(/_/gi, ' ').replace(/\.md$|[^a-z0-9& -]/gi, '').trim().toLowerCase();
 }
 
 module.exports = documentation;

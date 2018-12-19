@@ -18,6 +18,10 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+.chapterTitles {
+    margin-left: 1rem;
+}
+
 .banner {
     background: linear-gradient(45deg, #660066,  #9900CB, #660066);
     color: white;
