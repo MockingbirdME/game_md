@@ -11,8 +11,8 @@ const documentation = {
 
 DOCUMENTATION_DIRECTORIES.forEach(directoryName => {
     let safeDirectoryName = generateName(directoryName);
-    documentation[safeDirectoryName] = {"topLevelDirectory": true};
-    documentation.text += `\n<h2><a href="${safeDirectoryName.replace(/ /g, "%20")}"> ${safeDirectoryName.split(" ").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ")}</a></h2>`;
+    documentation[safeDirectoryName.simpleName] = {"topLevelDirectory": true};
+    documentation.text += `\n<h2><a href="${safeDirectoryName.url}"> ${safeDirectoryName.title}</a></h2>`;
     generateContent(directoryName);
 });
 
@@ -41,23 +41,25 @@ function generateMD(markdown, depthArray) {
     let documentationPath = documentation;
     let latestLink = "/document/";
     let linkMD = "[documentation](/document)/";
+
     depthArray.forEach(item => {
-        documentationPath = documentationPath[item];
-        latestLink += `${generateName(item).replace(/ /g, "%20")}/`;
-        linkMD += `[${item}](${latestLink})/`;
+        documentationPath = documentationPath[item.simpleName];
+        latestLink += `${item.url}/`;
+        linkMD += `[${item.simpleName}](${latestLink})/`;
     });
+
     if (depthArray.length === 1) {
-        let firstLevelCatigory = documentation[depthArray[0]];
+        let firstLevelCatigory = documentation[depthArray[0].simpleName];
         if (!firstLevelCatigory.text) firstLevelCatigory.text = "";
 
         firstLevelCatigory.text += marked(markdown.replace(/(#+ )(.+)/g, (match, hashes, text) => {
-            return `${hashes}[${text}](/document/${generateName(text).replace(/ /g, "%20")}/)`;
+            return `${hashes}[${text}](/document/${generateName(text).url}/)`;
         }));
     }
     let headerSize = depthArray.length;
-    let regex = new RegExp(`(^|\n) *#{${headerSize}}\\s`, 'g');
     let split;
     while ((!split || split.length <= 1) && headerSize <= 6) {
+        let regex = new RegExp(`(^|\n) *#{${headerSize}}\\s`, 'g');
         split = markdown.split(regex);
         if (split.length === 1) headerSize++;
     }
@@ -70,39 +72,37 @@ function generateMD(markdown, depthArray) {
             return;
         }
         let title = generateName(item.match(/^.*/)[0].trim());
-        console.log(`\nTITLE:${title}, DEPTH: ${depthArray.length}`);
+        if (depthArray.length === 1) documentation.text += `\n<h4 class="chapterTitles">- <a href="/document/${title.url}/">${title.title}</a></h4>`;
 
-        let displayTitle = title.trim().split(" ").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
-        let urlSafeTitle = title.replace(/ /g, "%20");
-        if (depthArray.length === 1) documentation.text += `\n<h4 class="chapterTitles">- <a href="/document/${urlSafeTitle}/">${displayTitle}</a></h4>`;
-
-
-
-        let sectionMD = linkMD + `[${title}]()\n\n`;
+        let sectionMD = linkMD + `[${title.simpleName}]()\n\n`;
         for (let i = 0; i < depthArray.length; i++) sectionMD += "#";
         sectionMD += ` ${item}`;
-        documentationPath[generateName(title)] = {
+        documentationPath[title.simpleName] = {
             "text": marked(sectionMD.replace(/(#+ )(.+)/g, (match, hashes, text) => {
-                return `${hashes}[${text}](/document/${generateName(text).replace(/ /g, "%20")}/)`;
+                return `${hashes}[${text}](/document/${generateName(text).url}/)`;
             })),
-            "title": title
+            "title": title.title
         };
-        documentation[generateName(title)] = {
+        documentation[title.simpleName] = {
             "text": marked(sectionMD.replace(/(#+ )(.+)/g, (match, hashes, text) => {
-                return `${hashes}[${text}](/document/${generateName(text).replace(/ /g, "%20")}/)`;
+                return `${hashes}[${text}](/document/${generateName(text).url}/)`;
             })),
-            "title": title,
+            "title": title.title,
             "path": documentationPath
         };
         let newDepthArray = depthArray.slice();
         newDepthArray.push(title);
-        // if (depthArray.length > 3) return;
         generateMD(sectionMD.replace(/^.*/, ""), newDepthArray);
     });
 }
 
 function generateName(name) {
-    return name.replace(/_/gi, ' ').replace(/\.md$|[^a-z0-9& -]/gi, '').trim().toLowerCase();
+    let formattedName = {
+        simpleName: name.replace(/_/gi, ' ').replace(/\.md$|[^a-z0-9& -]/gi, '').trim().toLowerCase()
+    };
+    formattedName.url = formattedName.simpleName.replace(/ /g, "%20");
+    formattedName.title = formattedName.simpleName.split(" ").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
+    return formattedName;
 }
 
 module.exports = documentation;
