@@ -1,3 +1,4 @@
+# Essence Items
 ## Alchemists and Artificers
 There are two basic classes of people that create magical items. Alchemists are not necessarily mages but have studied arcane essence and are able to prepare it in such a way as to mimic the imbue essence arcane power, Artificers are mages with access to the sense magic, suppress magic, imbue essence, duration true, and arcane targeting arcane powers as well as extensive training in crafting runes. While Alchemy can effectively be done quickly by a mage with the imbue essence arcane power but essence bound in such a way rarely lasts as long as those bound by a trained alchemist and extracts a price in arcane dues that the alchemist need not pay; artificery, on the other hand, always requires magic be used when crafting runes and as such can take a toll on the artificer.
 
