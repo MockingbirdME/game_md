@@ -64,17 +64,18 @@ Secondary skills represent subsets of or specializations in, the primary skill i
  how familiar is the character with animals, particularly domestic ones. This skill should be used when dealing with an animal that has a chance of being controlled or calmed.
 #### Craft/Profession:
  Not one skill but a collection of them that few character’s are likely to have more than one of. A primary skill should be a broad grouping and should have at least three options for secondary skills. Some examples include:
-    * Alchemy (Poisons, Medicine, Arcane Essence)
-    * Architect (Houses, Walls, Steeples, Towers, Bridges)
-    * Artist (Sculptor, Painter, Drafter)
-    * Cook (Chef, Army cooking, Limited ingredients)
-    * Mason (Stoneworker, Bricklayer, Stonecutter, Road Worker)
-    * Medical (Diagnoses, First Aid, Surgery, Treat Wound, Treat Burn, Medicine)
-    * Musician (Lute, Flute, Harp, Violin, Composer)
-    * Performer (Orator, Actor, Singer)
-    * Smith (Black, White, Weapon, Armor)
-    * Thief (Pick pockets, Cut purse, Pick lock)
-    * Woodworker (Bower, Furniture maker, Whittler, Carpenter)
+- Alchemy (Poisons, Medicine, Arcane Essence)
+- Architect (Houses, Walls, Steeples, Towers, Bridges)
+- Artist (Sculptor, Painter, Drafter)
+- Cook (Chef, Army cooking, Limited ingredients)
+- Mason (Stoneworker, Bricklayer, Stonecutter, Road Worker)
+- Medical (Diagnoses, First Aid, Surgery, Treat Wound, Treat Burn, Medicine)
+- Musician (Lute, Flute, Harp, Violin, Composer)
+- Performer (Orator, Actor, Singer)
+- Smith (Black, White, Weapon, Armor)
+- Thief (Pick pockets, Cut purse, Pick lock)
+- Woodworker (Bower, Furniture maker, Whittler, Carpenter)
+
 #### Discipline/Willpower:
  a measure of a character’s self control. This skill should be used when a character has to act against their desires or when otherwise compelled to do something they're trying not to.
 #### Endurance:
