@@ -1,4 +1,5 @@
-# Gambesons
+# Armor
+## Gambesons
 by far the most common form of worn armor amongst the denizens of Flax. Gambesons are made of layers of cloth, most commonly linen or wool, that has been quilted to provide extra durability. Gambeson is worn as body armor, sleeves, leggings, and even hoods or hats.
 
 ### Common Gambeson Armor
@@ -18,7 +19,7 @@ by far the most common form of worn armor amongst the denizens of Flax. Gambeson
 
 <div class="page-break"></div>
 
-# Mail
+## Mail
 the best armor most could ever hope to afford, its made of thousands of interlocked steel rings that are riveted shut providing fantastic coverage and protection against piercing or cutting weapons. Mail is expensive due to the 20-40lbs of steel required to make it as well as the great amount of time they take to create, once purchased however they are fairly simple to repair and upkeep and are often handed down from soldier to soldier or parent to child. Some mail has small plates replacing sections of interwoven links, this increases the protective nature against powerful piercing attacks that can burst links. Mail is almost always worn with, either over or under, a gambeson or other padded armor.
 
 ### Common Mail Armor
@@ -44,7 +45,7 @@ the best armor most could ever hope to afford, its made of thousands of interloc
 
 <div class="page-break"></div>
 
-# Plate
+## Plate
 the strongest armor to be found anywhere on Flax. Due to its price most soldiers will never own plate armor beyond their helm, if they can afford even that. Lords and wealthy soldiers may be able to afford a brigandine, a cloth doublet with scores of small plates sewn into the inside in an overlapping pattern. The wealthiest Lords of Askelone  equip their loyal knights in full plate harnesses making them nearly invulnerable to mundane weapons on the fields of war, less steel-rich nations may augment the armor of their most elite warriors with pieces of plate but are unlikely to be able to afford a full plate harness and even less likely to have access to smithies capable of their creation.
 
 ### Common Plate Armor

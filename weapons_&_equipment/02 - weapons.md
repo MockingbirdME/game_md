@@ -1,3 +1,5 @@
+# Weapons
+## Melee Weapons
 ### Common Notes:
 * One Handed Weapons - most weapons require only one hand to wield, but can be wielded two-handed, unless they are brawling weapons or have the _Small_ trait, doing so allows the character to treat their body stat as one greater than normal.
 * Hand and a half - when wielding a weapon with the _Hand and a half_ weapon two-handed count the character’s body stat as 2 greater than normal.
@@ -28,31 +30,24 @@
   - throw(Close Range: body, Range Increment: 2, Max Range: 2 x body, Range Penalty: 1 die and 1 damage)
 
 ### Common Long Blades
-* Askelonian Arming Sword: Reach: 6, Difficulty: 4, Parry: 4/4/1, Notes: _Hand and a half_.
-  - Damage Type: P, Damage: Body, APV: 4, Additional Successes: 1 damage and 1 APV, Notes: _Thrust_.
-  - Damage Type: C, Damage: 2xBody, APV: -, Additional Successes: 3 damage, Notes: _Bash_, _Two-handed_, weapon looses its parry bonus until the character's next turn.
-* Askelonian Longsword: Reach: 7, Difficulty: 5, Parry: 2/4/-, Notes: _Two-handed_.
-  - Damage Type: P, Damage: Body, APV: 5, Additional Successes: 1 damage and 1 APV, Notes: _Thrust_.
-  - Damage Type: C, Damage: 2xBody, APV: -, Additional Successes: 3 damage, Notes: _Bash_, _Two-handed_, weapon looses its parry bonus until the character's next turn.
-* Askelonian Side Sword: Reach: 5, Difficulty: 4, Parry: 4/-/1, Notes: _Small_, _Thrust_.
-  - Damage Type: P, Damage: Body-1, APV: 4, Additional Successes: 1 damage and 1 APV, Notes: none.
-* Askelonian Small Sword: Reach: 4, Difficulty: 4, Parry: 5/-/1, Notes: _Small_, _Thrust_.
+* Short/Small Sword: Reach: 4, Difficulty: 4, Parry: 4/-/1, Notes: _Small_ can be used with either the short or long blades secondary skills.
   - Damage Type: P, Damage: Body-2, APV: 5, Additional Successes: 1 damage and 1 APV or 2 APV, Notes: none.
-* Cleaver Falchion: Reach: 4, Difficulty: 4, Parry: 3/-/-, Notes: none.
-  - Damage Type: P, Damage: Body, APV: 6, Additional Successes: 2 damage or 1 APV, Notes: none.
-* Grailian Falchion: Reach: 6, Difficulty: 4, Parry: 5/4/1, Notes: _Hand and a half_.
+* One-Handed Sword: Reach: 5, Difficulty: 4, Parry: 4/-/1, Notes: none.
+  - Damage Type: P, Damage: Body-1, APV: 4, Additional Successes: 1 damage and 1 APV, Notes: none.
+* Hand-and-a-Half Sword: Reach: 6, Difficulty: 4, Parry: 4/4/1, Notes: _Hand and a half_.
+  - Damage Type: P, Damage: Body, APV: 4, Additional Successes: 1 damage and 1 APV, Notes: none.
+  - Damage Type: C, Damage: 2xBody, APV: -, Additional Successes: 3 damage, Notes: _Bash_, _Two-handed_, weapon looses its parry bonus until the character's next turn.
+* Two-Handed Sword: Reach: 7, Difficulty: 5, Parry: 2/4/-, Notes: _Two-Handed_.
   - Damage Type: P, Damage: Body, APV: 5, Additional Successes: 1 damage and 1 APV, Notes: none.
   - Damage Type: C, Damage: 2xBody, APV: -, Additional Successes: 3 damage, Notes: _Bash_, _Two-handed_, weapon looses its parry bonus until the character's next turn.
-* Grailian Back Sword: Reach: 5, Difficulty: 4, Parry: 4/-/1, Notes: none.
-  - Damage Type: P, Damage: Body-1, APV: 4, Additional Successes: 1 damage and 1 APV, Notes: none.
-* Proto Long Blade: Reach: 6, Difficulty: 4, Parry: 4/-/1, Notes: none.
-  - Damage Type: P, Damage: Body-1, APV: 2, Additional Successes: 1 damage and 1 APV, Notes: Bronze.
-* Proto Short Blade: Reach: 4, Difficulty: 4, Parry: 3/-/1, Notes: _Small_.
-  - Damage Type: P, Damage: Body-1, APV: 2, Additional Successes: 1 damage and 1 APV, Notes: Bronze.
-* Islander’s Short Sword: Reach: 4, Difficulty: 4, Parry: 3/-/1, Notes: _Small_.
-  - Damage Type: P, Damage: Body-1, APV: 4, Additional Successes: 1 damage and 1 APV, Notes: none.
-* Boarding Sword: Reach: 4, Difficulty: 4, Parry: 3/-/1, Notes: none.
-  - Damage Type: P, Damage: Body-1, APV: 5, Additional Successes: 1 damage and 1 APV, Notes: none.
+
+#### Sword Styles:
+There is so much variety in swords throughout flax that a short list doesn't adequately cover all varieties of long blades. A long blade may be simple, having the stats listed above or may be customized having the added benefits of one of the below options.
+  - Askelonian Blades - straight, doubled edged, blades that come to deadly reinforced points and designed to be used traditionally or half-sworded. These blades gain the _thrust_ trait on their penetrating attacks.
+  - Grailic Blades - straight backed swords with a slightly curved single edged blade, Grailic swords are designed and balanced to slice through lighter armor and parry any blow. These blades increase their primary handed parry and APV values by one.
+  - Desert Blades - deeply curved blades traditionally wielded by the southern desert dwellers but also famously popular with sailors and others who are unlikely to encounter metal armors. These blades lose any concussive attacks while their penetrating attacks gain two APV and have their additional successes changed from "1 damage and 1 APV" to "2 damage or 1 APV."
+  - Heavy Blades - these swords are much heavier than their traditional counterparts, they are common amongst the Men of the Isles who favor spears as their primary weapons and use these heavier half sword/half club as a back up only. These blades decrease all levels of parry and APV by one but increase the damage by one and double the penetrating damage when it's converted to concussive.
+
 
 ### Common Bludgeons
 * Light Mace/Club: Reach: 2, Difficulty: 2, Parry: 1/1/1, Notes: _Bash_, _Small_.
