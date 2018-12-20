@@ -52,7 +52,7 @@ function generateMD(markdown, depthArray) {
         let firstLevelCatigory = documentation[depthArray[0].simpleName];
         if (!firstLevelCatigory.text) firstLevelCatigory.text = "";
 
-        firstLevelCatigory.text += generateLinkedMD(markdown);
+        firstLevelCatigory.text += generateLinkedMD(`${linkMD}\n ${markdown}`);
     }
     let headerSize = depthArray.length;
     let split;
@@ -115,7 +115,7 @@ function generateName(name) {
 }
 
 function generateLinkedMD(markdown) {
-    // Convert all headers to be links to their content. 
+    // Convert all headers to be links to their content.
     return marked(markdown.replace(/(#+ )(.+)/g, (match, hashes, text) => {
         return `${hashes}[${text}](/document/${generateName(text).url}/)`;
     }));
