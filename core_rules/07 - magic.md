@@ -3,19 +3,19 @@
 ## Creating Magical Effects
 Mages craft magic by gathering energy and shaping it to the effect they desire; crafting can be dangerous as the amount of power summoned is unpredictable. Alternatively mages can cast prepared, practiced, effects called spells. A cast spell can be made safer by have its power restricted, a practice called gating the spell.
 
-#### Crafting magic
+### Crafting magic
 Mages gather arcane power into themselves before shaping it once they've gathered the desired amount of power. Crafting magic allows a mage to create any effect for which they can imagine from the powers they they have access to but doing so is can be both time consuming and dangerous.  
 
-#### Casting a spell
+### Casting a spell
 Spells are like crafted magic but they have been well rehearsed with their effects being pre determined; spells are, generally, much safer for the mage than crafting magic is. Spells can be cast with very exact specification is gated or with a more power and variation if cast ungated.
 
-#### Casting spells and Crafting magic over time
+### Casting spells and Crafting magic over time
 Spells and crafted effects do not need to be cast quickly, by taking extra time in the ritual the caster's body stat is treated as being higher than it naturally is, this bonus is plus 1 for taking a minute, plus 2 for taking half an hour, and plus 3 for taking four full hours and plus 4 for taking a full day. After the arcane dues are applied for a ritually cast spell or effect the caster suffers additional fatigue equal to the bonus gained to their body stat squared.
 
-#### Group magic
+### Group magic
 A group of mages can work together to create a larger effect than any individual mage could control. The mages all collectively gather and shape power channeling the bits of it individually with a lead mage finalizing the effect. To calculate arcane dues first have each mage suffer dues for the successes they gathered and shaped then the lead mage suffers arcane dues equal to the total number of successes in the effect, he can shunt off any amount of this to the other mages participating in the spell, any non lead mage that dies as a result of arcane dues sends the remainder of the dues they would suffer back to the lead mage and should a lead mage die as a result of the arcane dues the remainder is inflicted, in full, to all remaining living participants. Group magic takes at least 1 minute per participating mage, they can take extra time to increase their effective body stat, as above, increasing the cast time to 10 minutes per participant to have each mage gain 1 to their body stat for calculating arcane dues, 2 hours per participant to increase this bonus to 2, or a full day for each participant to increase this bonus to 3.
 
-#### Spell lists and creating spells
+### Spell lists and creating spells
 Each mage may know a number of spells equal to half their rank in the mind attribute (round up) and may change or modify them between adventures. Mages gain a number of free successes they may add to their spells when designing them, these successes may be distributed as the mage wishes between one or more spells; for each arcane aptitude secondary skill the mage has at least one rank in they may assign one free success to one spell on their spell list, this success must be spent on an effect the secondary skill provides, and for each rank in arcane aptitude the mage gains one free success that can be spent on any effect the mage has access to. Once the mage has determined the basic idea of the spells in his spell list that will utilize free successes they may design their spells.
 
 steps in designing spells -

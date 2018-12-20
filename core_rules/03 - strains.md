@@ -2,19 +2,32 @@
 
 ## Basics:
 Strains are the intelligent species of Flax that, generally, consider themselves persons. Not all strains are treated equally in all societies or by each other. The strains listed as primary strains can be found in all nations of Flax and, generally, recognize each other as persons, while those listed as secondary are either less common, considered inferior by other strains, or both. Each strain has a series of stats as described below:
-* **Physical Appearance -** a brief physical description of the strain.
-* **Origin -** many strains trace their origins back to the Ohma who created them.
-* **Family/Social Structure -** common family and species specific customs.
-* **Breeding -** how the strain reproduces and commonly raises their young.
-* **Place in Society -** how members of the strain typically fit into society as a whole, specifically in the mixed strain towns and cities.
-* **Naming Conventions -** the traditional naming conventions of the strain, not noted here is the cultural influence of each nation.
-* **Size -** the starting size attribute (before traits) for members of this strain.
-* **Base Attributes -** the starting value of each of the four primary attributes before they are increased during character creation.
-* **Attribute points -** the number of points members of this strain have to spend on increasing their attributes during character creation. Increasing a base attribute by one point cost one attribute point providing that attribute has a score of less than twice its base value; once an attribute's value is double its base value it costs two attribute points to increase further.
-* **Required Traits -** these are traits, that may or may not be available to other strains, that every member of the strain possesses.
-* **Strain Traits -** some strains have access to, but are not required to take, certain traits that are not available to everyone; they, if available, will be listed here.
-* **Arcane Traits -** not all strains have access to every arcane trait; the arcane traits available to the strain, along with their cost will be listed here.
-* **Trait Points -** not all strains are equally powerful, to balance this out during character creation they will apply this modifier to how many Trait Points they have to use during character creation. If the modifier would reduce the total number of available Trait Points to below 10 it is suggested that the strain not be used at that power level for a PC.
+#### Physical Appearance  
+a brief physical description of the strain.
+#### Origin
+many strains trace their origins back to the Ohma who created them.
+#### Family/Social Structure
+common family and species specific customs.
+#### Breeding
+how the strain reproduces and commonly raises their young.
+#### Place in Society
+how members of the strain typically fit into society as a whole, specifically in the mixed strain towns and cities.
+#### Naming Conventions
+the traditional naming conventions of the strain, not noted here is the cultural influence of each nation.
+#### Size
+the starting size attribute (before traits) for members of this strain.
+#### Base Attributes
+the starting value of each of the four primary attributes before they are increased during character creation.
+#### Attribute points
+the number of points members of this strain have to spend on increasing their attributes during character creation. Increasing a base attribute by one point cost one attribute point providing that attribute has a score of less than twice its base value; once an attribute's value is double its base value it costs two attribute points to increase further.
+#### Required Traits
+these are traits, that may or may not be available to other strains, that every member of the strain possesses.
+#### Strain Traits
+some strains have access to, but are not required to take, certain traits that are not available to everyone; they, if available, will be listed here.
+#### Arcane Traits
+not all strains have access to every arcane trait; the arcane traits available to the strain, along with their cost will be listed here.
+#### Trait Points
+not all strains are equally powerful, to balance this out during character creation they will apply this modifier to how many Trait Points they have to use during character creation. If the modifier would reduce the total number of available Trait Points to below 10 it is suggested that the strain not be used at that power level for a PC.
 
 ## Primary strains:
 
