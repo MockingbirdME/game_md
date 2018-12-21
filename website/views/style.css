@@ -41,7 +41,7 @@ p {
 }
 
 .banner {
-    background: linear-gradient(45deg, #660066,  #9900CB, #660066);
+    background: linear-gradient(180deg, #660066,  #9900CB, #660066);
     color: white;
     padding-left: 3rem;
     margin-top: 0;
