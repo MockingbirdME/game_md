@@ -6,7 +6,7 @@ const toc = require('markdown-toc');
 const DOCUMENTATION_EXTENSION = '.md';
 const DOCUMENTATION_DIRECTORIES = ["core_rules", "weapons_&_equipment", "arcane_powers_&_themes"];
 const documentation = {
-    "text": "# Table of Contents"
+    "text": ""
 };
 
 DOCUMENTATION_DIRECTORIES.forEach(directoryName => {
