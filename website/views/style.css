@@ -15,7 +15,6 @@ main {
 }
 
 h1, h2, h3, h4, h5, h6 {
-
 }
 
 a {
@@ -71,6 +70,10 @@ p {
 
 .content p {
     margin: 0;
+}
+
+.content a {
+    font-family: 'Alegreya';
 }
 
 .document-link {
