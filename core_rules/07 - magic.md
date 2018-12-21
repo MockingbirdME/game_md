@@ -18,7 +18,7 @@ A group of mages can work together to create a larger effect than any individual
 ### Spell lists and creating spells
 Each mage may know a number of spells equal to half their rank in the mind attribute (round up) and may change or modify them between adventures. Mages gain a number of free successes they may add to their spells when designing them, these successes may be distributed as the mage wishes between one or more spells; for each arcane aptitude secondary skill the mage has at least one rank in they may assign one free success to one spell on their spell list, this success must be spent on an effect the secondary skill provides, and for each rank in arcane aptitude the mage gains one free success that can be spent on any effect the mage has access to. Once the mage has determined the basic idea of the spells in his spell list that will utilize free successes they may design their spells.
 
-steps in designing spells -
+Steps in designing spells -
 1. determine the basic idea of what the spell will do.
 2. determine number of free successes, if any, and what they will be used for.
 3. determine which secondary skills will be used to create the spell’s effects.
