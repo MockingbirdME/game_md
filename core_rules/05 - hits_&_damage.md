@@ -45,11 +45,10 @@ Unless the hit location is already determined the attack is considered to have s
 * Arm - a character receiving damage to an arm may have a difficulty time using it or drop whatever items they are holding.
     - Stun - a character receiving one or more stuns to an arm receive one penalty die to each skill check on their next turn that uses the damaged arm.
     - Wound - a character can not use an arm that suffered one or more wounds since their last turn. If they suffer two or more wounds at once they also drop any item they are holding in the associated hand.
-* Legs -
+* Legs - a character who receives damage to their legs may have difficulty moving or even lose their balance and fall prone.
+    - Stun - a character who received one or more stuns to their legs since their last turn cannot spend stamina on move actions.
+    - Wound - a character has their movement reduced by 3 for each wound they suffer to their legs, if they suffer two or more wounds to their legs at once they are also knocked prone.
 * Body - damage suffered to the body area causes no additional effects.
-
-    * Leg wounds - when a character suffers wounds to their legs they can not spend stamina on move actions during their next turn and their base move is reduced by three per wound suffered (minimum 1) until the wounds are healed, if they suffer two, or more, wounds at once they are knocked prone, if they suffer three, or more, wounds at once they can not take any move actions other than to walk and their first move action each turn no longer has its turn requirement reduced until the wounds heal.
-    * Body wounds - a character suffering wounds to the body suffer no additional penalties beyond those granted by having the wound(s).
 
 
 ### Dying and permanent injuries
