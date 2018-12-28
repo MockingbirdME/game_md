@@ -6,9 +6,9 @@ Grail used copper and silver as its standard of currency for hundreds of years b
 
 ## Common currency
 penny (coper)- coper coins used in everyday trade.
-shield (silver) - small silver coins worth 20 pennies.
-talent -  silver coins worth 5 silver or an ounce of silver each.
-bar - iron coins worth 20 talents.
+shield (silver) - small silver coins worth 5 pennies.
+talent -  silver coins worth 5 silver or 25 pennies each.
+bar - iron coins worth 10 talents, 50 shields, or 250 pennies.
 
 ## Common Wages
 
