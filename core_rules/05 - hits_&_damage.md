@@ -27,9 +27,21 @@ Unless the hit location is already determined the attack is considered to have s
 
 ## Forms of damage
 * Stamina - for every point of stamina damage dealt the victim loses one stamina.
-* Stun - when a character suffers a stun they lose one stamina and gain a stun. If a character gained one or more stuns since their last turn they suffer 1 penalty die to every skill check they make until the end of their turn. A character's max stamina is reduced by the number of stuns they are currently suffering from.
-* Fatigue - when a character suffers a point of fatigue they lose one stamina, and gain a point of fatigue; a point of fatigue is a special type of stun that can not be recovered with a restoration action and takes much longer to heal naturally. If a character has a number of fatigue equal to or greater than their body stat plus their rank in the endurance primary skill they are rendered exhausted. An exhausted character can not spend stamina and suffers one penalty die to all skill checks. 
-* Wound - when a character suffers a wound they lose a stamina, gain a stun, gain a wound, and suffers a location specific effect (see below). All skill checks a wounded character makes gain a penalty die for each wound the character suffering from. A character with at least as many wounds as their max wound attribute is dying and rendered unable to act. A character that suffers a single hit/effect which inflicts at least as many wounds as their max wound attribute, or a character with a total number of wounds exceeding double their max wound attribute, dies immediately.
+* Stun - when a character suffers a stun they lose one stamina and gain a stun. A character becomes stunned when they receive one or more stuns. A character's max stamina is reduced by the number of stuns they are currently suffering from.
+* Fatigue - when a character suffers a point of fatigue they lose one stamina, and gain a point of fatigue; a point of fatigue is a special type of stun that can not be recovered with a restoration action and takes much longer to heal naturally. If a character has a number of fatigue equal to or greater than their body stat plus their rank in the endurance primary skill they are rendered exhausted.
+* Wound - when a character suffers a wound they lose a stamina, gain a stun, and gain a wound. A character with at least one wound is wounded, a character with a number of wounds equal to or greater than half their max wounds stat is badly wounded and a character with as many wounds as their max wounds stat is dying. A character that suffers a single hit/effect which inflicts at least as many wounds as their max wound attribute, or a character with a total number of wounds exceeding double their max wound attribute, dies immediately.
+
+### Character Statuses
+There are a number of statuses that can be incurred by damage; a character suffers the effects from each status effect they are experiencing.
+* Stunned - the character suffers one penalty die to each skill checks they make. A character ceases to be stunned at the end of their turn.
+* Exhausted - an exhausted character can not spend stamina and suffers one penalty die to all skill checks, an exhausted character stops being exhausted when they no longer have any fatigue.
+* Wounded - a wounded character suffers one penalty die to each skill check they make.
+* Badly Wounded - a badly wounded character suffers one penalty die to each skill checks they make. _Badly wounded is suffered in addition to being wounded for a total of two penalty dice being added to each skill check as a result of the character's wounds._
+* Dying - a dying character can not take actions that require skill checks and will die without medical attention.
+
+
+
+
     * Head wounds - when a character suffers one or more wounds to the head they gain two additional stuns per wound suffered and can not reduce any action's turn requirement until the end of their next turn.
     * Arm wounds - when a character suffers any number of wounds to an arm they can not use that arm for actions on their next turn and loose any bonuses gained from equipment carried by that arm (parry, shield, etc.) until the end of their next turn, if they suffer two, or more, wounds at once they drop whatever they're holding in the associated hand and if they suffer three, or more, wounds at once the arm is rendered unusable until their wounds heal.
     * Leg wounds - when a character suffers wounds to their legs they can not spend stamina on move actions during their next turn and their base move is reduced by three per wound suffered (minimum 1) until the wounds are healed, if they suffer two, or more, wounds at once they are knocked prone, if they suffer three, or more, wounds at once they can not take any move actions other than to walk and their first move action each turn no longer has its turn requirement reduced until the wounds heal.
