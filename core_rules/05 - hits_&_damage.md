@@ -22,9 +22,6 @@ When making an attack there are times that the target is not another character b
 ## Areas of Effect
 Many items, spells, and abilities cause everything in an area to be affected. These effects originate from a hex or character. Once per round a character aware of an AOE they will end up in may accept two penalty dice to all actions on their next turn to move a number of meters equal to the greater of their ranks in personal defense and personal movement or spend a advancement point to move a number of meters equal to the sum of their ranks in those skills; add that advancement point to either their personal defense or personal movement skill.
 
-## Hit locations:
-Unless the hit location is already determined the attack is considered to have struck the character's body. Area effects generally damage the target’s body location and do not require a roll.
-
 ## Forms of damage
 * Stamina - for every point of stamina damage dealt the victim loses one stamina.
 * Stun - when a character suffers a stun they lose one stamina and gain a stun. A character becomes stunned when they receive one or more stuns. A character's max stamina is reduced by the number of stuns they are currently suffering from.
@@ -40,9 +37,15 @@ There are a number of statuses that can be incurred by damage; a character suffe
 * Dying - a dying character can not take actions that require skill checks and will die without medical attention.
 
 
+### Location specific damage effects:
+Unless the hit location is already determined the attack is considered to have struck the character's body. Area effects generally damage the target’s body location and do not require a roll.
+* Head - a character suffering damage to their head causes disorientation and can knock them out cold.
+    - Stun - when a character suffers one or more stuns to their head they lose an additional defense per stun inflicted and risk being knocked unconscious. The character must make a skill check using body as the primary stat and endurance as the primary skill against a difficulty of 10 + the total number of stuns they were previously suffering from + 3 for each stun inflicted by this attack. Any form of failure on the skill check renders the character unconscious, if the character has ranks in the remain conscious secondary skill they can ignore a near failure result by instead suffering an additional 3 minus their rank in remain conscious stuns or a regular failure by suffering an additional 5 minus their rank in remain conscious suns.
+    - Wound - the character can not take any actions with a turn requirement of one other than a recovery action on their next turn.
+* Arm - 
+* Legs -
+* Body - damage suffered to the body area causes no additional effects.
 
-
-    * Head wounds - when a character suffers one or more wounds to the head they gain two additional stuns per wound suffered and can not reduce any action's turn requirement until the end of their next turn.
     * Arm wounds - when a character suffers any number of wounds to an arm they can not use that arm for actions on their next turn and loose any bonuses gained from equipment carried by that arm (parry, shield, etc.) until the end of their next turn, if they suffer two, or more, wounds at once they drop whatever they're holding in the associated hand and if they suffer three, or more, wounds at once the arm is rendered unusable until their wounds heal.
     * Leg wounds - when a character suffers wounds to their legs they can not spend stamina on move actions during their next turn and their base move is reduced by three per wound suffered (minimum 1) until the wounds are healed, if they suffer two, or more, wounds at once they are knocked prone, if they suffer three, or more, wounds at once they can not take any move actions other than to walk and their first move action each turn no longer has its turn requirement reduced until the wounds heal.
     * Body wounds - a character suffering wounds to the body suffer no additional penalties beyond those granted by having the wound(s).
