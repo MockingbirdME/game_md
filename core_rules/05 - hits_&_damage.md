@@ -1,11 +1,14 @@
 # Hits & Damage
 <!-- TODO update wording throughout to use hex and add disclaimer that if not using a battle map the term hex correlates to roughly one square meter in theater of the mind -->
 ## Hitting and getting hit:
-Most attacks are made as a melee or ranged combat skill check where the total is compared to the opponent’s defense in order to determine the result of the attack.
-* Miss: if the attack result is less than the defender’s current defense with all bonuses the attack simply misses with has no effect.
-* Near miss: (_melee only_): if the attack result is at least equal to the opponent's current defense before but not after their melee defense and parry bonuses the attack is avoided but the defender loses one defense.
-* Hit: an attack result that equals or exceeds the target’s defense with melee/ranged defense bonus hits. The defender loses two defense and suffers the effects of the attack.
-* Additional successes: for every three points an attack’s skill check result exceeded the target’s defense it gains an additional success that may be spent to choose a hit location (0 for body, 1 for arm or legs, 2 for head) or for any attack to gain the bonus effects from the weapon or attack type used. <!-- Consider having locations need to be called for ranged attacks. -->
+Most attacks are made as a melee or ranged combat skill check where the difficulty is equal to the defender's defense of with their relevant attack type bonus.
+* Critical Failure:
+* Failure: the attack misses with no effect.
+* Near Success: if the skill check was a melee attack the defender loses one defense as they parry, block, or dodge the attack; if the skill check was a ranged attack compare the skill check's result to the defense of a random character within one meter of the defender, if the skill check equals or exceeds the difficulty to hit that character treat the attack as a hit on the second character and if it's a success that character is hit instead (ignore any other result including additional successes).
+* Success: the attack hits causing the defender to lose two defense and suffer the effects of the attack.
+* Additional successes: in addition to the success uses provided by the weapon or attack type all attacks can use the following additional successes:
+    - Location hit arm or legs (1 success) - the attack strikes an arm or the legs of the defender as chosen by the attacker.
+    - Location hit head (2 successes) - the attack strikes the defender's head.
 
 ## Targeting objects or hexes:
 When making an attack there are times that the target is not another character but an object or an area (like a hex on the battle map if using miniatures).
