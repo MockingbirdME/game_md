@@ -2,7 +2,7 @@
 <!-- TODO update wording throughout to use hex and add disclaimer that if not using a battle map the term hex correlates to roughly one square meter in theater of the mind -->
 ## Hitting and getting hit:
 Most attacks are made as a melee or ranged combat skill check where the difficulty is equal to the defender's defense of with their relevant attack type bonus.
-* Critical Failure:
+* Critical Failure: the attack misses and something bad happens at the GM's discretion this may be as simple as the attacker leaving themselves open and loses a few defense to something more dramatic like the character dropping their weapon or having their bow string break. 
 * Failure: the attack misses with no effect.
 * Near Success: if the skill check was a melee attack the defender loses one defense as they parry, block, or dodge the attack; if the skill check was a ranged attack compare the skill check's result to the defense of a random character within one meter of the defender, if the skill check equals or exceeds the difficulty to hit that character treat the attack as a hit on the second character and if it's a success that character is hit instead (ignore any other result including additional successes).
 * Success: the attack hits causing the defender to lose two defense and suffer the effects of the attack.
