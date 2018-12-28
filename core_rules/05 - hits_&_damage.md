@@ -9,9 +9,9 @@ Most attacks are made as a melee or ranged combat skill check where the difficul
 * Additional successes: in addition to the success uses provided by the weapon or attack type all attacks can use the following additional successes:
     - Location hit arm or legs (1 success) - the attack strikes an arm or the legs of the defender as chosen by the attacker.
     - Location hit head (2 successes) - the attack strikes the defender's head.
-    - Precision hit item (1-3 success) - the attack hits a specific item carried in the targeted location (body if no successes have been spent to chose a different hit location) the attack hits that carried item either instead or first, depending on how it's carried. One success is needed to his a large item like a heavy weapon, slung shield, or book, two successes are needed for a small item like a potion vial, small weapon, or piece of fruit, and three successes are needed for really small items such as a locked, coin, or button.
+    - Precision hit item (1-3 successes) - the attack hits a specific item carried in the targeted location (body if no successes have been spent to chose a different hit location) the attack hits that carried item either instead or first, depending on how it's carried. One success is needed to his a large item like a heavy weapon, slung shield, or book, two successes are needed for a small item like a potion vial, small weapon, or piece of fruit, and three successes are needed for really small items such as a locked, coin, or button.
     - Blunted attack _melee only_ (1 success) - an attack that would normally inflict penetrating damage may instead inflict concussive damage by striking with the flat of the blade or side of the spike.
-    - Pulled attack _melee only_ (1 success) - reduce the damage of the attack by up to 3 by holding back on the power of the swing at the last moment or by precisely targeting the attack to cause less harm.
+    - Pulled attack (1 success for melee 2 success for ranged) - reduce the damage of the attack by up to 3 by holding back on the power of the swing at the last moment or by precisely targeting the attack to cause less harm.
 
 ## Targeting objects or hexes:
 When making an attack there are times that the target is not another character but an object or an area (like a hex on the battle map if using miniatures).
