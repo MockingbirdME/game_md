@@ -21,7 +21,15 @@ When a character may wishes to attempt an action where success is not certain an
 * Roll all dice in the die pool
 * For each penalty die, one at a time, remove the die with the highest score from the die pool
 * From the remaining dice select a number of dice of your choice (generally those with the greatest results) equal to the primary attribute score; the total of these selected dice is the skill check’s result
-* Compare the result to the action’s difficulty, for every 3 points by which the result exceeded the difficulty the action gains a success
+* Compare the result to the action’s difficulty, and determine the result.
+
+#### Skill Check Results
+Compare the skill check result to its difficulty and resolve the action as follows:
+* __Critical Failure__ (Result is less than half the difficulty) - the skill check fails badly, the GM should consider some negative result based on the check in question if it is not explicitly detailed in the skill check description (a crafting check wastes the materials that would be used, a movement check results in the character tripping and falling, etc.).
+* __Failure__ (Result is greater than half the difficulty but less than the difficulty minus five) - the skill check fails with no benefit or penalty.
+* __Near Failure__ (Result is less than, but within five, of the difficulty) - the skill check fails but makes some progression towards a future success.
+* __Success__ (Result is equal to or greater than the difficulty) - the skill check succeeds!
+* __Additional Successes__ (Result is at least three greater than the difficulty) - for every three points by which the result exceeded the difficulty the action gains an additional success granting some additional benefit to the skill check. 
 
 ### Roll-less skill checks (take standard/take time) *NOTE* these need better terms
 When a player wishes to not risk a poor roll during a skill check they may take a standard result or, if the character is not rushed, take their time. Opposed or attack skill checks can never be made roll-lessly. Roll-less skill checks follow these alternate steps:

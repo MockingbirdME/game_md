@@ -1,11 +1,17 @@
 # Hits & Damage
 <!-- TODO update wording throughout to use hex and add disclaimer that if not using a battle map the term hex correlates to roughly one square meter in theater of the mind -->
 ## Hitting and getting hit:
-Most attacks are made as a melee or ranged combat skill check where the total is compared to the opponent’s defense in order to determine the result of the attack.
-* Miss: if the attack result is less than the defender’s current defense with all bonuses the attack simply misses with has no effect.
-* Near miss: (_melee only_): if the attack result is at least equal to the opponent's current defense before but not after their melee defense and parry bonuses the attack is avoided but the defender loses one defense.
-* Hit: an attack result that equals or exceeds the target’s defense with melee/ranged defense bonus hits. The defender loses two defense and suffers the effects of the attack.
-* Additional successes: for every three points an attack’s skill check result exceeded the target’s defense it gains an additional success that may be spent to choose a hit location (0 for body, 1 for arm or legs, 2 for head) or for any attack to gain the bonus effects from the weapon or attack type used. <!-- Consider having locations need to be called for ranged attacks. -->
+Most attacks are made as a melee or ranged combat skill check where the difficulty is equal to the defender's defense of with their relevant attack type bonus.
+* Critical Failure:
+* Failure: the attack misses with no effect.
+* Near Success: if the skill check was a melee attack the defender loses one defense as they parry, block, or dodge the attack; if the skill check was a ranged attack compare the skill check's result to the defense of a random character within one meter of the defender, if the skill check equals or exceeds the difficulty to hit that character treat the attack as a hit on the second character and if it's a success that character is hit instead (ignore any other result including additional successes).
+* Success: the attack hits causing the defender to lose two defense and suffer the effects of the attack.
+* Additional successes: in addition to the success uses provided by the weapon or attack type all attacks can use the following additional successes:
+    - Location hit arm or legs (1 success) - the attack strikes an arm or the legs of the defender as chosen by the attacker.
+    - Location hit head (2 successes) - the attack strikes the defender's head.
+    - Precision hit item (1-3 successes) - the attack hits a specific item carried in the targeted location (body if no successes have been spent to chose a different hit location) the attack hits that carried item either instead or first, depending on how it's carried. One success is needed to his a large item like a heavy weapon, slung shield, or book, two successes are needed for a small item like a potion vial, small weapon, or piece of fruit, and three successes are needed for really small items such as a locked, coin, or button.
+    - Blunted attack _melee only_ (1 success) - an attack that would normally inflict penetrating damage may instead inflict concussive damage by striking with the flat of the blade or side of the spike.
+    - Pulled attack (1 success for melee 2 success for ranged) - reduce the damage of the attack by up to 3 by holding back on the power of the swing at the last moment or by precisely targeting the attack to cause less harm.
 
 ## Targeting objects or hexes:
 When making an attack there are times that the target is not another character but an object or an area (like a hex on the battle map if using miniatures).
@@ -16,18 +22,33 @@ When making an attack there are times that the target is not another character b
 ## Areas of Effect
 Many items, spells, and abilities cause everything in an area to be affected. These effects originate from a hex or character. Once per round a character aware of an AOE they will end up in may accept two penalty dice to all actions on their next turn to move a number of meters equal to the greater of their ranks in personal defense and personal movement or spend a advancement point to move a number of meters equal to the sum of their ranks in those skills; add that advancement point to either their personal defense or personal movement skill.
 
-## Hit locations:
-Unless the hit location is already determined the attack is considered to have struck the character's body. Area effects generally damage the target’s body location and do not require a roll.
-
 ## Forms of damage
 * Stamina - for every point of stamina damage dealt the victim loses one stamina.
-* Stun - when a character suffers a stun they lose one stamina and gain a stun. If a character gained a stun last round they suffer a -1 penalty for each stun they have to every skill check they make. A character with a number of stuns equal to or greater than their max stamina is rendered unconscious and doesn't count their body attribute when reducing concussive damage.
-* Fatigue - when a character suffers a point of fatigue they lose one stamina, and gain a point of fatigue; a point of fatigue is a special type of stun that can not be recovered with a restoration action and takes much longer to heal naturally.
-* Wound - when a character suffers a wound they lose a stamina, gain a stun, gain a wound, and suffers a location specific effect (see below). All skill checks a wounded character makes gain a penalty die for each wound the character suffering from. A character with at least as many wounds as their max wound attribute is dying and rendered unable to act. A character that suffers a single hit/effect which inflicts at least as many wounds as their max wound attribute, or a character with a total number of wounds exceeding double their max wound attribute, dies immediately.
-    * Head wounds - when a character suffers one or more wounds to the head they gain two additional stuns per wound suffered and can not reduce any action's turn requirement until the end of their next turn.
-    * Arm wounds - when a character suffers any number of wounds to an arm they can not use that arm for actions on their next turn and loose any bonuses gained from equipment carried by that arm (parry, shield, etc.) until the end of their next turn, if they suffer two, or more, wounds at once they drop whatever they're holding in the associated hand and if they suffer three, or more, wounds at once the arm is rendered unusable until their wounds heal.
-    * Leg wounds - when a character suffers wounds to their legs they can not spend stamina on move actions during their next turn and their base move is reduced by three per wound suffered (minimum 1) until the wounds are healed, if they suffer two, or more, wounds at once they are knocked prone, if they suffer three, or more, wounds at once they can not take any move actions other than to walk and their first move action each turn no longer has its turn requirement reduced until the wounds heal.
-    * Body wounds - a character suffering wounds to the body suffer no additional penalties beyond those granted by having the wound(s).
+* Stun - when a character suffers a stun they lose one stamina and gain a stun. A character becomes stunned when they receive one or more stuns. A character's max stamina is reduced by the number of stuns they are currently suffering from.
+* Fatigue - when a character suffers a point of fatigue they lose one stamina, and gain a point of fatigue; a point of fatigue is a special type of stun that can not be recovered with a restoration action and takes much longer to heal naturally. If a character has a number of fatigue equal to or greater than their body stat plus their rank in the endurance primary skill they are rendered exhausted.
+* Wound - when a character suffers a wound they lose a stamina, gain a stun, and gain a wound. A character with at least one wound is wounded, a character with a number of wounds equal to or greater than half their max wounds stat is badly wounded and a character with as many wounds as their max wounds stat is dying. A character that suffers a single hit/effect which inflicts at least as many wounds as their max wound attribute, or a character with a total number of wounds exceeding double their max wound attribute, dies immediately.
+
+### Character Statuses
+There are a number of statuses that can be incurred by damage; a character suffers the effects from each status effect they are experiencing.
+* Stunned - the character suffers one penalty die to each skill checks they make. A character ceases to be stunned at the end of their turn.
+* Exhausted - an exhausted character can not spend stamina and suffers one penalty die to all skill checks, an exhausted character stops being exhausted when they no longer have any fatigue.
+* Wounded - a wounded character suffers one penalty die to each skill check they make.
+* Badly Wounded - a badly wounded character suffers one penalty die to each skill checks they make. _Badly wounded is suffered in addition to being wounded for a total of two penalty dice being added to each skill check as a result of the character's wounds._
+* Dying - a dying character can not take actions that require skill checks and will die without medical attention.
+
+
+### Location specific damage effects:
+Unless the hit location is already determined the attack is considered to have struck the character's body. Area effects generally damage the target’s body location and do not require a roll.
+* Head - a character suffering damage to their head causes disorientation and can knock them out cold.
+    - Stun - when a character suffers one or more stuns to their head they lose an additional defense per stun inflicted and risk being knocked unconscious. The character must make a skill check using body as the primary stat and endurance as the primary skill against a difficulty of 10 + the total number of stuns they were previously suffering from + 3 for each stun inflicted by this attack. Any form of failure on the skill check renders the character unconscious, if the character has ranks in the remain conscious secondary skill they can ignore a near failure result by instead suffering an additional 3 minus their rank in remain conscious stuns or a regular failure by suffering an additional 5 minus their rank in remain conscious suns.
+    - Wound - the character can not take any actions with a turn requirement of one other than a recovery action on their next turn.
+* Arm - a character receiving damage to an arm may have a difficulty time using it or drop whatever items they are holding.
+    - Stun - a character receiving one or more stuns to an arm receive one penalty die to each skill check on their next turn that uses the damaged arm.
+    - Wound - a character can not use an arm that suffered one or more wounds since their last turn. If they suffer two or more wounds at once they also drop any item they are holding in the associated hand.
+* Legs - a character who receives damage to their legs may have difficulty moving or even lose their balance and fall prone.
+    - Stun - a character who received one or more stuns to their legs since their last turn cannot spend stamina on move actions.
+    - Wound - a character has their movement reduced by 3 for each wound they suffer to their legs, if they suffer two or more wounds to their legs at once they are also knocked prone.
+* Body - damage suffered to the body area causes no additional effects.
 
 
 ### Dying and permanent injuries
