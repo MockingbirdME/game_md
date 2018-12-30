@@ -29,7 +29,7 @@ Compare the skill check result to its difficulty and resolve the action as follo
 * __Failure__ (Result is greater than half the difficulty but less than the difficulty minus five) - the skill check fails with no benefit or penalty.
 * __Near Failure__ (Result is less than, but within five, of the difficulty) - the skill check fails but makes some progression towards a future success.
 * __Success__ (Result is equal to or greater than the difficulty) - the skill check succeeds!
-* __Additional Successes__ (Result is at least three greater than the difficulty) - for every three points by which the result exceeded the difficulty the action gains an additional success granting some additional benefit to the skill check. 
+* __Additional Successes__ (Result is at least three greater than the difficulty) - for every three points by which the result exceeded the difficulty the action gains an additional success granting some additional benefit to the skill check.
 
 ### Roll-less skill checks (take standard/take time) *NOTE* these need better terms
 When a player wishes to not risk a poor roll during a skill check they may take a standard result or, if the character is not rushed, take their time. Opposed or attack skill checks can never be made roll-lessly. Roll-less skill checks follow these alternate steps:
@@ -164,11 +164,24 @@ When an opponent moves through a hex the character threatens the character may i
 ## Non-Combat Actions
 Many primary skills are used partially or entirely out of combat; a, by no means exhaustive, list of some common actions associated with each primary skill is listed below. Many non-combat actions have a _passive_ tag; actions with a _passive_ tag detail skill checks the GM will ask the players to make not actions the character chooses to make.
 
-### Awareness Actions
+
+### Awareness Actions (Investigate Area, Search for Item(s), Keep Watch)
 
 #### Investigate Area
-The character looks for information in an area related to a specific topic declared by the player. The players makes a skill check using Perception and Awareness while the GM sets a difficulty for any clues that may be present in the area (generally ~5-10 for obvious clues, 10-15 for slightly obscure ones and 20 or higher for really obscure clues). A success on this skill check means the character finds the clue in question with additional successes revealing additional information about the clue. If the skill check succeeds the character may gain additional successes equal to their rank in the the investigate secondary skill instead of the number they rolled.
+  - Primary Attribute: Perception
+  - Primary Skill: Awareness
+  - Relevant Secondary Skills: Investigate
+  - Relevant Secondary Skill Usage: if a character finds a clue they may ask the GM one question for each rank they have to gain additional information from the clue; the GM must give true answers but does not need to reveal information the clue could not provide.
+  - Aiding Others: when aiding another character grant their skill check one bonus die plus one bonus die for each rank the aiding character has in the secondary skill.
+  - Description: the character looks for information in an area related to a specific topic declared by the player.
+  - Difficulty: set by the GM (generally ~5-10 for obvious clues, 10-15 for slightly obscure ones and 20 or higher for really obscure clues) in the event of multiple clues use a single skill check result and compare it to the difficulty of of the easiest to find clue and assign the additional clues a cost in additional successes to find.
+  - Critical Failure: a clue is not found but is potentially damaged or lost during the course of the investigation preventing the character from gaining some or all of its information.
+  - Failure: no clue was found, the character may not try again without additional help.
+  - Near Failure: if the character is not rushed they find the clue but do not get to ask any questions granted by ranks in the secondary skill, if they are rushed they do not find the clue but can look try again in the future.
+  - Success: the clue was found.
+  - Additional Success: if there were more than one clue to find additional successes are used to find additional clues as determined by the MG.
 
-#### Search for Item(s)
 
 #### Keep Watch
+
+#### Search for Item(s)
