@@ -213,6 +213,19 @@ Many primary skills are used partially or entirely out of combat; a, by no means
 Some skill checks are made because something is happening in the world that the players may be able to react to depending on the success of the action in question. These skill checks are made only when the GM calls for them and not as a response to an action taken by the character.
 
 
+#### Alertness Check
+  - Primary Attribute: Perception
+  - Primary Skill: Awareness
+  - Relevant Secondary Skills: Alertness
+  - Relevant Secondary Skill Usage: gain additional successes equal to your rank on a successful skill check.
+  - Aiding Others: none, multiple characters asked to make alertness checks should each make them individually.
+  - Description: when there's something the character may not notice they should be asked to make this check to see if they become aware of it.
+  - Difficulty: determined by the GM (10-30 for most situations), or equal to the stealth check of a sneaking character.
+  - Critical Failure: the character falls to notice anything and if a danger is presented they are off kilter for it, both being surprised and being flatfooted losing.
+  - Failure: the character fails to notice any signs of whatever they may have noticed.
+  - Near Failure: the character doesn't notice any danger until it's too late, but is not surprised on the first round of combat; they do not notice any non-danger cause for the check.
+  - Success: the character is aware of whatever caused the check to be made, if the check was for some kind of danger they become aware of it at the last possible moment having only one round to act before the opponent.
+  - Additional Success: for each additional success the character notices the danger or event sooner allowing for more time to react.
 
 #### Action or Skill Check
   - Primary Attribute:
