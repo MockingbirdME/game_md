@@ -181,7 +181,7 @@ Many primary skills are used partially or entirely out of combat; a, by no means
   - Failure: no clue was found, the character may not try again without additional help.
   - Near Failure: if the character is not rushed they find the clue but do not get to ask any questions granted by ranks in the secondary skill, if they are rushed they do not find the clue but can look try again in the future.
   - Success: the clue was found.
-  - Additional Success: if there were more than one clue to find additional successes are used to find additional clues as determined by the MG.
+  - Additional Success: if there were more than one clue to find additional successes are used to find additional clues as determined by the GM.
 
 #### Keep Watch
   - Primary Attribute: Perception
@@ -198,18 +198,18 @@ Many primary skills are used partially or entirely out of combat; a, by no means
   - Additional Success: for each additional success the character notices the danger or event sooner allowing for more time to react.
 
 #### Search for Item(s)
-  - Primary Attribute:
-  - Primary Skill:
-  - Relevant Secondary Skills:
-  - Relevant Secondary Skill Usage:
-  - Aiding Others:
-  - Description:
-  - Difficulty:
-  - Critical Failure:
-  - Failure:
-  - Near Failure:
-  - Success:
-  - Additional Success:
+  - Primary Attribute: Perception
+  - Primary Skill: Awareness
+  - Relevant Secondary Skills: Search
+  - Relevant Secondary Skill Usage: if the skill check is a success add additional successes equal to the character's rank.
+  - Aiding Others: when aiding another character grant their skill check one bonus die plus one bonus and increase the rolling character's secondary skill rank by one if the aiding character has a rank in the secondary skill.
+  - Description: the character searches an area for money, valuables, or other items of interest.
+  - Difficulty: set by the GM (generally 5-30 depending on how well hidden the present items are) in the event of multiple items use a single skill check result and compare it to the difficulty of of the easiest to find item and assign the additional items a cost in additional successes to find.
+  - Critical Failure: not only are no items found but the character is convinced there could be no other place to look and may have even broken something.
+  - Failure: no items were found, the character may not try again without additional help.
+  - Near Failure: the character finds the easiest to find, least valuable item but does not get to apply their secondary skill ranks.
+  - Success: the easiest to find item(s) were found.
+  - Additional Success: additional items may be found based on the additional success requirements of each of them the GM determined.
 
 ## Passive Non-Combat Skill Checks
 Some skill checks are made because something is happening in the world that the players may be able to react to depending on the success of the action in question. These skill checks are made only when the GM calls for them and not as a response to an action taken by the character.
