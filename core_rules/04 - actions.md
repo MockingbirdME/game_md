@@ -169,6 +169,21 @@ When an opponent moves through a hex the character threatens the character may i
 Many primary skills are used partially or entirely out of combat; a, by no means exhaustive, list of some common actions associated with each primary skill is listed below. Many non-combat actions have a _passive_ tag; actions with a _passive_ tag detail skill checks the GM will ask the players to make not actions the character chooses to make.
 
 
+#### Gather Information
+  - Primary Attribute:
+  - Primary Skill:
+  - Relevant Secondary Skills:
+  - Relevant Secondary Skill Usage:
+  - Aiding Others:
+  - Description:
+  - Difficulty:
+  - Critical Failure:
+  - Failure:
+  - Near Failure:
+  - Success:
+  - Additional Success:
+
+
 #### Investigate Area
   - Primary Attribute: Perception
   - Primary Skill: Awareness
