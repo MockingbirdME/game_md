@@ -148,6 +148,8 @@ A +1 to +9 defense bonus against attacks made from the other side of the cover. 
 Like cover, concealment grants a variable defense bonus based on completeness of it.
 #### Flanking
 If a character has multiple opponents in melee range and at least one is outside their front arc they suffer a -1 penalty to their melee defense for each opponent contributing to the situation.
+#### Flat Footed
+#### Surprised
 #### Wind
 Depending on the strength and regularity of the wind, ranged attack skill checks receive up to five penalty dice, heavier or smaller projectiles should receive lesser penalties and massless ranged magical effects do not suffer ranged penalties from wind.
 #### Reach
@@ -165,8 +167,6 @@ When an opponent moves through a hex the character threatens the character may i
 Many primary skills are used partially or entirely out of combat; a, by no means exhaustive, list of some common actions associated with each primary skill is listed below. Many non-combat actions have a _passive_ tag; actions with a _passive_ tag detail skill checks the GM will ask the players to make not actions the character chooses to make.
 
 
-### Awareness Actions (Investigate Area, Search for Item(s), Keep Watch)
-
 #### Investigate Area
   - Primary Attribute: Perception
   - Primary Skill: Awareness
@@ -181,8 +181,21 @@ Many primary skills are used partially or entirely out of combat; a, by no means
   - Success: the clue was found.
   - Additional Success: if there were more than one clue to find additional successes are used to find additional clues as determined by the MG.
 
-
 #### Keep Watch
+  - Primary Attribute: Perception
+  - Primary Skill: Awareness
+  - Relevant Secondary Skills: Alertness
+  - Relevant Secondary Skill Usage: gain additional successes equal to your rank on a successful skill check.
+  - Aiding Others: none, multiple characters keeping watch should each make a keep watch skill check.
+  - Description: the character actively attempts to keep an eye out and an ear open for signs of danger or other unusual happenings.
+  - Difficulty: determined by the GM (10-20 for most situations), or equal to the stealth check of a sneaking character.
+  - Critical Failure: the character falls asleep during their watch or is otherwise distracted making it easier for any potential dangers to happen.
+  - Failure: the character fails to notice any signs of danger.
+  - Near Failure: the character doesn't notice any danger until it's too late, they may be aware of an attack or theft after it happens and have a chance to respond to it.
+  - Success: the character notices the danger or event at the last possible moment and has one round to respond to it.
+  - Additional Success: for each additional success the character notices the danger or event sooner allowing for more time to react.
+
+#### Search for Item(s)
   - Primary Attribute:
   - Primary Skill:
   - Relevant Secondary Skills:
@@ -196,7 +209,12 @@ Many primary skills are used partially or entirely out of combat; a, by no means
   - Success:
   - Additional Success:
 
-#### Search for Item(s)
+## Passive Non-Combat Skill Checks
+Some skill checks are made because something is happening in the world that the players may be able to react to depending on the success of the action in question. These skill checks are made only when the GM calls for them and not as a response to an action taken by the character.
+
+
+
+#### Action or Skill Check
   - Primary Attribute:
   - Primary Skill:
   - Relevant Secondary Skills:
