@@ -211,6 +211,20 @@ Many primary skills are used partially or entirely out of combat; a, by no means
   - Success: the easiest to find item(s) were found.
   - Additional Success: additional items may be found based on the additional success requirements of each of them the GM determined.
 
+#### Sense Motive
+  - Primary Attribute:
+  - Primary Skill:
+  - Relevant Secondary Skills:
+  - Relevant Secondary Skill Usage:
+  - Aiding Others:
+  - Description:
+  - Difficulty:
+  - Critical Failure:
+  - Failure:
+  - Near Failure:
+  - Success:
+  - Additional Success:
+
 ## Passive Non-Combat Skill Checks
 Some skill checks are made because something is happening in the world that the players may be able to react to depending on the success of the action in question. These skill checks are made only when the GM calls for them and not as a response to an action taken by the character.
 
