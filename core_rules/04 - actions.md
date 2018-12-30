@@ -149,7 +149,9 @@ Like cover, concealment grants a variable defense bonus based on completeness of
 #### Flanking
 If a character has multiple opponents in melee range and at least one is outside their front arc they suffer a -1 penalty to their melee defense for each opponent contributing to the situation.
 #### Flat Footed
+The character starts combat having lost defense equal to their reflexes stat.
 #### Surprised
+The character does not gain melee or ranged defense bonuses including parry and block bonuses from carried equipment.
 #### Wind
 Depending on the strength and regularity of the wind, ranged attack skill checks receive up to five penalty dice, heavier or smaller projectiles should receive lesser penalties and massless ranged magical effects do not suffer ranged penalties from wind.
 #### Reach
