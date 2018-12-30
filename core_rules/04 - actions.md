@@ -183,5 +183,29 @@ Many primary skills are used partially or entirely out of combat; a, by no means
 
 
 #### Keep Watch
+  - Primary Attribute:
+  - Primary Skill:
+  - Relevant Secondary Skills:
+  - Relevant Secondary Skill Usage:
+  - Aiding Others:
+  - Description:
+  - Difficulty:
+  - Critical Failure:
+  - Failure:
+  - Near Failure:
+  - Success:
+  - Additional Success:
 
 #### Search for Item(s)
+  - Primary Attribute:
+  - Primary Skill:
+  - Relevant Secondary Skills:
+  - Relevant Secondary Skill Usage:
+  - Aiding Others:
+  - Description:
+  - Difficulty:
+  - Critical Failure:
+  - Failure:
+  - Near Failure:
+  - Success:
+  - Additional Success:
