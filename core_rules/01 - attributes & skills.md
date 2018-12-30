@@ -59,7 +59,13 @@ Secondary skills represent subsets of or specializations in, the primary skill i
 
 ### Skill Descriptions
 #### Awareness:
- The quintessential perception skill, should be used whenever the character is checking to see if he notices something.
+  The quintessential perception skill, is used when looking for loot or information as well as noticing threats both passively and when actively looking for them.
+  **Secondary Skills:**
+    - Alertness: being aware of danger and other happenings around the character, this secondary skill is added to the character's ranged defense bonus and is the relevant secondary skill for the keep watch and alertness skill checks.
+    - Investigate: looking for clues and gathering information it is the relevant secondary skill for the investigate area and gather information skill checks.
+    - Search: looking for valuables and sussing out the best hiding places for items and people it is the relevant secondary skill for the search area skill check.
+    - Sense Motive: reading people and being able to tell when they're lying or acting it is the relevant secondary skill to the sense motive skill check.
+
 #### Animal Handling:
  How familiar is the character with animals, particularly domestic ones. This skill should be used when dealing with an animal that has a chance of being controlled or calmed.
 #### Craft/Profession:
