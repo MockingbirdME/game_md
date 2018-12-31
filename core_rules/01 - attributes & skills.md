@@ -101,7 +101,7 @@ Secondary skills represent subsets of or specializations in, the primary skill i
     - Climb:
     - Fly:
     - Jump:
-    - Run:
+    - Run: overland travel speed both over long distance and sprints, this is the relevant secondary skill for the flee/pursuit skill check and the sprint combat action. 
     - Swim:
     - Tumbling:
 
