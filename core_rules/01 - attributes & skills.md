@@ -68,6 +68,7 @@ Secondary skills represent subsets of or specializations in, the primary skill i
 
 #### Animal Handling:
  How familiar is the character with animals, particularly domestic ones. This skill should be used when dealing with an animal that has a chance of being controlled or calmed.
+  **Secondary Skills:**
 #### Craft/Profession:
  Not one skill but a collection of them that few character’s are likely to have more than one of. A primary skill should be a broad grouping and should have at least three options for secondary skills. Some examples include:
 - Alchemy (Poisons, Medicine, Arcane Essence)
