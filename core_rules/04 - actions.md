@@ -30,18 +30,6 @@ Compare the skill check result to its difficulty and resolve the action as follo
 * __Success__ (Result is equal to or greater than the difficulty) - the skill check succeeds!
 * __Additional Successes__ (Result is at least three greater than the difficulty) - for every three points by which the result exceeded the difficulty the action gains an additional success granting some additional benefit to the skill check.
 
-### Roll-less skill checks (take standard/take time) *NOTE* these need better terms
-When a player wishes to not risk a poor roll during a skill check they may take a standard result or, if the character is not rushed, take their time. Opposed or attack skill checks can never be made roll-lessly. Roll-less skill checks follow these alternate steps:
-* Declare the action the character intends to take
-* Determine if action requires a skill check
-* Determine primary attribute and primary skill
-* Calculate successes:
-    * add the primary attribute, halved for standard, plus one to successes
-    * add the primary skill's rank to successes
-    * add half the number of bonus dice as successes
-    * Remove one successes for every penalty die, halved for time taken.
-* Apply the character's total successes, ignoring any partial success, to the action being taken
-
 
 ## Skill Checks
 There may never be an exhaustive list of all potential skill checks to be made in a game but below is a list of common checks that may need to be made. GM's should feel free to modify the difficulties or results of any given skill check.
