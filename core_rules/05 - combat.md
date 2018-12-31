@@ -8,19 +8,19 @@ Each character on their turn may take actions to move, attack, etc. All actions 
 These actions actions are those that will commonly be taken during round based combat but are by no means limited to that type of play. Each action is detailed with its name followed by its stamina cost in parentheses and a description.
 
 ### Move actions
-The first move action a character takes each round has a turn requirement of zero, subsequent move actions have a turn requirement of one. When outside of turn based combat there is no need to specifically track stamina spent on movement, if moving at a regular pace (up to five times your base movement per minute) arrive at your destination with full stamina if moving at a quick pace (up to 10 times your base movement per minute) you arrive at any destination with only half your max stamina and suffer two penalty dice to all perception checks along the way.
+Character's move during combat they have a number of different options when doing so and may select one, or more, of them each round as detailed below. If a character makes any non movement actions during their turn they may take them during any point in their movement (ie. a character who walks 4m may move two take another action then move the other two).
 #### Walk(0)
-Move half your base movement in meters, round down.
-#### Dash(2)
-Move up to your base movement in meters.
+Move half your base movement in meters, round down. This action has a zero turn requirement if it's the first move action the character takes during their turn.
+#### Dash(1)
+Move up to your base movement in meters. This action has a zero turn requirement if it's the first move action the character takes during their turn.
 #### Sprint(3)
 TBA.
 #### Swim(2)
-Make a skill check using body as the primary attribute, personal movement as the primary skill, and a difficulty of 10-30(depending on conditions), if the check succeeds move through water up to 1 meter per rank in the swim secondary skill plus 1 meter per additional success in the skill check.
+Make a skill check using body as the primary attribute, personal movement as the primary skill, and a difficulty of 10-30(depending on conditions), if the check succeeds move through water up to 1 meter per rank in the swim secondary skill plus 1 meter per additional success in the skill check. This action has a zero turn requirement if it's the first move action the character takes during their turn.
 #### Climb(2)
-Make a skill check using body as the primary attribute, personal movement as the primary skill, and a difficulty of 10-30(depending on conditions), on a success transverse across a surface up to 1 meter per rank in the climb secondary skill plus 1 meter per success in the skill check, if the skill check critically fails the character loses his grip and falls.
+Make a skill check using body as the primary attribute, personal movement as the primary skill, and a difficulty of 10-30(depending on conditions), on a success transverse across a surface up to 1 meter per rank in the climb secondary skill plus 1 meter per success in the skill check, if the skill check critically fails the character loses his grip and falls. This action has a zero turn requirement if it's the first move action the character takes during their turn.
 #### Jump(2)
- make a skill check using body as the primary attribute, personal movement as the primary skill, and a difficulty of 10, on a success jump horizontally a number or meters equal to your rank in the jump secondary skill plus 1 meter per two additional success, or half that distance vertically, increase the total distance by 50% if you've taken a dash or sprint action already this turn.
+ make a skill check using body as the primary attribute, personal movement as the primary skill, and a difficulty of 10, on a success jump horizontally a number or meters equal to your rank in the jump secondary skill plus 1 meter per two additional success, or half that distance vertically, increase the total distance by 50% if you've taken a dash or sprint action already this turn. This action has a zero turn requirement if it's the first move action the character takes during their turn.
 
 ### Melee Actions
 Unless stated otherwise, melee actions have a turn requirement of one.
