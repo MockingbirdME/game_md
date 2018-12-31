@@ -35,7 +35,7 @@ Make a melee attack skill check with two penalty dice added to the skill check, 
 #### Flurry of blows(3)
 Make a melee attack skill check with two penalty dice added to the skill check; if the skill check succeeds the character ignores any additional successes in excess of their rank in the flurry of blows secondary skill, then resolve the skill check's result twice.
 #### Half-Sword(2)
-Make a basic attack using a one handed weapon with the thrust keyword two-handed. For this attack treat the weapon's reach as half of its base value. This attack does not gain a standard two handed bonus but does gain additional APV equal to the character's rank in the half-sword secondary skill, and each additional success spent to increase APV increases it by an additional one.
+Make a melee attack skill check using a one handed weapon with the thrust keyword two-handed. For this attack treat the weapon's reach as half of its base value. This attack does not gain a standard two handed bonus but does gain additional APV equal to the character's rank in the half-sword secondary skill, and each additional success in the skill check spent to increase APV increases it by an additional one.
 #### Lunge(2)
 Make a basic attack treating the character’s, not the weapon’s, reach as double its standard value for this attack plus the character's rank in the lunge secondary skill. This attack's skill check has two penalty dice added to it and the character loses any parry bonus from the weapon used until the beginning of their next turn unless the weapon or attack used has the _Thrust_ keyword.
 #### Off-hand attack(1)
