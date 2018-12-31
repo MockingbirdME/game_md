@@ -168,6 +168,20 @@ When an opponent moves through a hex the character threatens the character may i
 ## Non-Combat Actions
 Many primary skills are used partially or entirely out of combat; a, by no means exhaustive, list of some common actions associated with each primary skill is listed below. Many non-combat actions have a _passive_ tag; actions with a _passive_ tag detail skill checks the GM will ask the players to make not actions the character chooses to make.
 
+#### Flee/Pursuit
+  - Primary Attribute: Body or Reflexes (player's choice over open clear terrain, reflexes only in difficult terrain).
+  - Primary Skill: Personal Movement
+  - Relevant Secondary Skills: Run
+  - Relevant Secondary Skill Usage: Add additional successes equal to the character's rank on a successful check.
+  - Aiding Others: none, multiple characters participating in a pursuit must each make separate flee/pursuit skill checks.
+  - Description: when two, or more, groups of characters are taking part in a chase they will make flee/pursuit checks to determine how the chase progresses.
+  - Difficulty: 10. The parties in the chase start some number of successes apart (each success may be 1 meter in round based combat, 10m in a longer cross country chase, or even longer distances in truly long distance pursuits), each round/time period of the chase each participant makes this skill check adding successes to their total distance until either the pursuers reduce the gap between them and their prey to zero successes or the fleeing party escapes. The first skill check of each pursuit costs all characters one stamina, the second skill check costs each character two stamina, etc. if a character runs out of stamina in the chase they can not continue to participate in the chase until they've recovered all their stamina at which point the cost restarts at one.
+  - Critical Failure: the character trips and falls, they make no progress in the chase this check and suffer two penalty dice to the next flee/pursuit skill check made as part of it.
+  - Failure: N/A with difficulty 10 or less.
+  - Near Failure: the character contributes their base movement in successes towards their flight or pursuit.  
+  - Success: the character contributes their base movement plus their rank in the secondary skill in successes towards their flight or pursuit.
+  - Additional Success: the character adds a number of additional successes towards their chase equal to the number of additional successes in their skill check.
+
 
 #### Gather Information
   - Primary Attribute:
