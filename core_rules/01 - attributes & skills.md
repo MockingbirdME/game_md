@@ -101,7 +101,7 @@ Secondary skills represent subsets of or specializations in, the primary skill i
     - **Climb:** scaling a ladder, wall, or other climbable surface this is the relevant secondary skill for the climb skill check and combat action.
     - **Fly:**
     - **Jump:**
-    - **Run:** overland travel speed both over long distance and sprints, this is the relevant secondary skill for the flee/pursuit skill check and the sprint combat action.
+    - **Run:** overland travel speed both over long distance and sprints, this is the relevant secondary skill for the flee/pursuit and sprint skill checks.
     - **Swim:** flailing to avoid drowning long enough to be rescued or gliding through the water like an eel swim is the relevant secondary skill for the swim skill check and combat action.
     - **Tumbling:**
 
