@@ -175,7 +175,7 @@ Many primary skills are used partially or entirely out of combat; a, by no means
   - Relevant Secondary Skill Usage: add the character's rank bonus dice to the skill check and add the character's rank in additional successes on a successful or near failure skill check.
   - Aiding Others: a character helping another climb adds one bonus die or their rank in the secondary skill bonus dice to that character's skill check.
   - Description: climbing a well limbed oak tree or a stony cliff face with few handholds a climb skill check is what allows a character to scale any climbable surface.
-  - Difficulty: any given climb will have a difficulty determined by the GM (generally between 10 and 30) as well as a total number of successes needed to make the climb (generally between 3 and 30). A character may continue attempting to make a climb continuing to contribute successes towards the total needed until they reach the peak or fall and need to start over.
+  - Difficulty: any given climb will have a difficulty determined by the GM (generally between 10 and 30) as well as a total number of successes needed to make the climb (generally between 3 and 30). A character may continue attempting to make climb checks continuing to contribute successes towards the total needed until they reach the peak or fall and need to start over.
   - Critical Failure: the character loses his grip and falls any distance already climbed, or fails to make any progress if already on the ground. A character who falls suffers regular falling damage.
   - Failure: the character makes no progress towards their climb.
   - Near Failure: the character contributes their rank in the secondary skill towards their progress.
@@ -268,6 +268,20 @@ Many primary skills are used partially or entirely out of combat; a, by no means
   - Near Failure:
   - Success:
   - Additional Success:
+
+#### Swim
+  - Primary Attribute: Body
+  - Primary Skill: Personal Movement
+  - Relevant Secondary Skills: Swim
+  - Relevant Secondary Skill Usage: add the character's rank bonus dice to the skill check and add the character's rank in additional successes on a successful or near failure skill check.
+  - Aiding Others: a character helping another swim adds one bonus die to that character's skill check.
+  - Description: making headway through water and, more importantly, not drowning.
+  - Difficulty: any given swim will have a difficulty determined by the GM (generally between 10 and 30 depending on the conditions) as well as a total number of successes needed to reach the character's destination (generally between 1 and 30). A character may continue attempting to make swim checks continuing to contribute successes towards the total needed until they reach their destination.
+  - Critical Failure: the character starts breathing in water losing 10 stamina and risking passing out and drowning if their stamina reaches zero.
+  - Failure: the character makes no progress towards their goal and looses 5 stamina.
+  - Near Failure: the character contributes their rank in the secondary skill towards their progress and loses 5 stamina minus their rank in the secondary skill (minimum 1).
+  - Success: the character contributes one plus their rank in the secondary skill successes towards their progress.
+  - Additional Success: each additional success adds one successes towards the character's progress.
 
 ## Passive Non-Combat Skill Checks
 Some skill checks are made because something is happening in the world that the players may be able to react to depending on the success of the action in question. These skill checks are made only when the GM calls for them and not as a response to an action taken by the character.
