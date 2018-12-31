@@ -122,6 +122,22 @@ Most skill checks are made as part of an action taken by the character these ski
   - **Success:** the character notices the danger or event at the last possible moment and has one round to respond to it.
   - **Additional Success:** for each additional success the character notices the danger or event sooner allowing for more time to react.
 
+
+#### Melee Attack
+  - **Primary Attribute:** Reflexes
+  - **Primary Skill:** Melee Combat
+  - **Relevant Secondary Skills:** Specific melee weapon type.
+  - **Relevant Secondary Skill Usage:** If the character is proficient add bonus dice to the skill check equal to the character's rank.
+  - **Aiding Others:** none, character's make this skill check on their own.
+  - **Description:** the character makes an attack with a melee weapon or their body against a target in their reach.
+  - **Difficulty:** equal to the target's defense plus melee defense, parry, and cover bonuses.
+  - **Critical Failure:** see hitting and getting hit.
+  - **Failure:** see hitting and getting hit.
+  - **Near Failure:** see hitting and getting hit.
+  - **Success:** see hitting and getting hit.
+  - **Additional Success:** see hitting and getting hit.
+
+
 #### Search area
   - **Primary Attribute:** Perception
   - **Primary Skill:** Awareness
