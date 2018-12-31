@@ -14,7 +14,7 @@ Move half your base movement in meters, round down. This action has a zero turn 
 #### Dash(1)
 Move up to your base movement in meters. This action has a zero turn requirement if it's the first move action the character takes during their turn.
 #### Sprint(3)
-TBA.
+The character makes a sprint skill check and resolves its effects.
 #### Swim(2)
 Make a skill check using body as the primary attribute, personal movement as the primary skill, and a difficulty of 10-30(depending on conditions), if the check succeeds move through water up to 1 meter per rank in the swim secondary skill plus 1 meter per additional success in the skill check. This action has a zero turn requirement if it's the first move action the character takes during their turn.
 #### Climb(2)

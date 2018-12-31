@@ -150,6 +150,21 @@ Most skill checks are made as part of an action taken by the character these ski
   - **Success:**
   - **Additional Success:**
 
+
+#### Sprint
+  - **Primary Attribute:** Body or Reflexes (player's choice over open clear terrain, reflexes only in difficult terrain).
+  - **Primary Skill:** Personal Movement
+  - **Relevant Secondary Skills:** Run
+  - **Relevant Secondary Skill Usage:** Add additional successes equal to the character's rank on a near failure or successful check.
+  - **Aiding Others:** none, multiple characters participating in a pursuit must each make separate flee/pursuit skill checks.
+  - **Description:** when a character is attempting to cover a large distance as quickly as possible they are likely to need to make this skill check.
+  - **Difficulty:** 15.
+  - **Critical Failure:** the character trips and falls, becoming prone, after moving their base movement speed in meters.
+  - **Failure:** the character moves twice their base movement in meters.
+  - **Near Failure:** the character moves twice their base movement plus their rank in the secondary skill in meters.  
+  - **Success:** the character moves one plus twice their base movement plus their rank in the secondary skill in meters.
+  - **Additional Success:** increases the character's movement by one meter per additional success.
+
 #### Swim
   - **Primary Attribute:** Body
   - **Primary Skill:** Personal Movement
