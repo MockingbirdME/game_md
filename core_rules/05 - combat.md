@@ -45,7 +45,7 @@ Make a melee attack skill check with two penalty dice added to it, zero penalty 
 #### Quick attack(2)
 Make a melee attack skill check with a turn requirement of 0, if the skill check succeeds the character ignores any additional successes in excess of their rank in the quick attack secondary skill. Limit once per round.
 #### Ready/Stow Weapon(0)
-A one or more weapons not currently readied but within easy reach, and uncontested, become readied by the character or the character sheaths, holsters, pockets, or slings one or more readied, uncontested weapons. This action's turn requirement can be reduced to zero provided by adding a penalty die to all other skill checks taken until the beginning of the character's next turn.
+A one or more weapons not currently readied but within easy reach, and uncontested, become readied by the character or the character sheaths, holsters, pockets, or slings one or more readied, uncontested weapons. This action's turn requirement can be reduced to zero by adding a penalty die to all other skill checks taken until the beginning of the character's next turn.
 #### Reckless attack(2)
 Make a basic attack and choose to gain between up to three, plus the character's rank in the reckless attack secondary skill, bonus dice to the attack's skill check, after performing the attack the character loses defense equal to twice the number of bonus dice this attack added to the skill check, reduced by the character's rank in the reckless attack secondary skill.
 #### Trip(2)
