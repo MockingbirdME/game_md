@@ -63,7 +63,7 @@ TBA.
 #### Swim(2)
 Make a skill check using body as the primary attribute, personal movement as the primary skill, and a difficulty of 10-30(depending on conditions), if the check succeeds move through water up to 1 meter per rank in the swim secondary skill plus 1 meter per additional success in the skill check.
 #### Climb(2)
-Make a skill check using body as the primary attribute, personal movement as the primary skill, and a difficulty of 10-30(depending on conditions), on a success transverse across a surface up to 1 meter per rank in the climb secondary skill plus 1 meter per success in the skill check, if the skill check fails the character loses his grip and falls.
+Make a skill check using body as the primary attribute, personal movement as the primary skill, and a difficulty of 10-30(depending on conditions), on a success transverse across a surface up to 1 meter per rank in the climb secondary skill plus 1 meter per success in the skill check, if the skill check critically fails the character loses his grip and falls.
 #### Jump(2)
  make a skill check using body as the primary attribute, personal movement as the primary skill, and a difficulty of 10, on a success jump horizontally a number or meters equal to your rank in the jump secondary skill plus 1 meter per two additional success, or half that distance vertically, increase the total distance by 50% if you've taken a dash or sprint action already this turn.
 
@@ -167,6 +167,21 @@ When an opponent moves through a hex the character threatens the character may i
 
 ## Non-Combat Actions
 Many primary skills are used partially or entirely out of combat; a, by no means exhaustive, list of some common actions associated with each primary skill is listed below. Many non-combat actions have a _passive_ tag; actions with a _passive_ tag detail skill checks the GM will ask the players to make not actions the character chooses to make.
+
+#### Climb
+  - Primary Attribute: Body
+  - Primary Skill: Personal Movement
+  - Relevant Secondary Skills: Climb
+  - Relevant Secondary Skill Usage: add the character's rank bonus dice to the skill check and add the character's rank in additional successes on a successful or near failure skill check.
+  - Aiding Others: a character helping another climb adds one bonus die or their rank in the secondary skill bonus dice to that character's skill check.
+  - Description: climbing a well limbed oak tree or a stony cliff face with few handholds a climb skill check is what allows a character to scale any climbable surface.
+  - Difficulty: any given climb will have a difficulty determined by the GM (generally between 10 and 30) as well as a total number of successes needed to make the climb (generally between 3 and 30). A character may continue attempting to make a climb continuing to contribute successes towards the total needed until they reach the peak or fall and need to start over.
+  - Critical Failure: the character loses his grip and falls any distance already climbed, or fails to make any progress if already on the ground. A character who falls suffers regular falling damage.
+  - Failure: the character makes no progress towards their climb.
+  - Near Failure: the character contributes their rank in the secondary skill towards their progress.
+  - Success: the character contributes one plus their rank in the secondary skill successes towards their progress.
+  - Additional Success: each additional success adds one successes towards the character's progress.
+
 
 #### Flee/Pursuit
   - Primary Attribute: Body or Reflexes (player's choice over open clear terrain, reflexes only in difficult terrain).
