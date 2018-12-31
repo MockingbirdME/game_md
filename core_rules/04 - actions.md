@@ -45,8 +45,12 @@ When a player wishes to not risk a poor roll during a skill check they may take 
 
 
 
-## Non-Combat Actions
-Many primary skills are used partially or entirely out of combat; a, by no means exhaustive, list of some common actions associated with each primary skill is listed below. Many non-combat actions have a _passive_ tag; actions with a _passive_ tag detail skill checks the GM will ask the players to make not actions the character chooses to make.
+## Skill Checks
+There may never be an exhaustive list of all potential skill checks to be made in a game but below is a list of common checks that may need to be made. GM's should feel free to modify the difficulties or results of any given skill check.
+
+### Active Skill Checks
+Most skill checks are made as part of an action taken by the character these skill checks should only be rolled when the character takes the appropriate action.
+
 
 #### Climb
   - **Primary Attribute:** Body
@@ -163,7 +167,7 @@ Many primary skills are used partially or entirely out of combat; a, by no means
   - **Success:** the character contributes one plus their rank in the secondary skill successes towards their progress.
   - **Additional Success:** each additional success adds one successes towards the character's progress.
 
-## Passive Non-Combat Skill Checks
+### Passive Skill Checks
 Some skill checks are made because something is happening in the world that the players may be able to react to depending on the success of the action in question. These skill checks are made only when the GM calls for them and not as a response to an action taken by the character.
 
 
