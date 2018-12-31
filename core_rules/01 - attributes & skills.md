@@ -50,7 +50,7 @@ Secondary skills represent subsets of or specializations in, the primary skill i
 | Endurance | Hold breath, Lifting, Remain Conscious, Stamina|
 | Knowledge | Physics, Biology, Nation’s history, National politics, Geography, etc. |
 | Magical Aptitude | Individual Arcane Powers or Themes |
-| Melee Combat | Axes, Bludgeons, Brawling, Long Blades, Pole Arms, Short Blades |
+| Melee Combat | weapon type, attack type |
 | Personal Defense | Armor, Dodge, Parry, Regain Composure, Shields |
 | Personal Movement | Balance, Climb, Fly, Jump, Run, Swim, Tumbling |
 | Ranged Combat | Aim, Bows, Crossbows, Pistols, Reload(weapon type), Spells, Throw |
@@ -98,6 +98,8 @@ Secondary skills represent subsets of or specializations in, the primary skill i
 #### Melee Combat:
  How well a character fights with a sword, axe, or fists. Melee combat skill is most often used when fighting in close quarters but also has a place in many sporting activities.
   **Secondary Skills:**
+  - **Weapon Type:** each type of weapon (short blades, long blades, bludgeoning, spears, axes, etc.) have their own secondary skill. This secondary skill is used to determine if the character is proficient in a given weapon and is the relevant secondary skill for the melee attack skill check.
+  - **Attack Type:** many melee actions have a specific benefit from having the same named secondary skill each is detailed in its melee attack description.
 #### Personal Defense:
  How apt a character is at avoiding getting hit or keeping themselves from harm. This skill affects the character’s defense.
   **Secondary Skills:**
