@@ -84,16 +84,22 @@ Secondary skills represent subsets of or specializations in, the primary skill i
 
 #### Discipline/Willpower:
  A measure of a character’s self control. This skill should be used when a character has to act against their desires or when otherwise compelled to do something they're trying not to.
+  **Secondary Skills:**
 #### Endurance:
  A measure of a character’s resistance to exhaustion. The skill should be used when a character is avoiding or resisting an effect such as fatigue or poison as well as when recovering from injury or illness.
+  **Secondary Skills:**
 #### Knowledge:
  Formal education is rare but for families powerful or wealthy enough to afford it there are many fields of study. This skill is for determining if a character knows something that is not common knowledge.
+  **Secondary Skills:**
 #### Magical Aptitude:
  How well trained in magic a character is. Characters with an arcane trait will use this skill for crafting magical effects and casting spells.
+  **Secondary Skills:**
 #### Melee Combat:
  How well a character fights with a sword, axe, or fists. Melee combat skill is most often used when fighting in close quarters but also has a place in many sporting activities.
+  **Secondary Skills:**
 #### Personal Defense:
  How apt a character is at avoiding getting hit or keeping themselves from harm. This skill affects the character’s defense.
+  **Secondary Skills:**
 #### Personal Movement:
  A character’s speed and competency during their natural movements. Used whenever a character’s speed and footing comes into question.
   **Secondary Skills:**
@@ -108,7 +114,10 @@ Secondary skills represent subsets of or specializations in, the primary skill i
 
 #### Ranged combat:
  Many characters have need to hit a target from a distance for combat, hunting, or sport.
+  **Secondary Skills:**
 #### Stealth:
  How well a character conceals themselves or something/someone else as well as how well they may disguise themselves or move in such a way as to avoid notice.
+  **Secondary Skills:**
 #### Survival:
  How well a character can keep themselves alive and healthy outside of civilization or when in the less comfortable parts of it.
+  **Secondary Skills:**
