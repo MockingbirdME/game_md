@@ -1,5 +1,4 @@
 # Actions
-<!-- TODO this chapter goes back and forth between referring to "the character and you/your; fix this!" -->
 
 ## The skill check
 When a character may wishes to attempt an action where success is not certain and failure is not guaranteed, or when a character’s degree of success or failure matters, the GM may call for a skill check.
@@ -20,7 +19,7 @@ When a character may wishes to attempt an action where success is not certain an
 * Add bonus and penalty dice to the die pool
 * Roll all dice in the die pool
 * For each penalty die, one at a time, remove the die with the highest score from the die pool
-* From the remaining dice select a number of dice of your choice (generally those with the greatest results) equal to the primary attribute score; the total of these selected dice is the skill check’s result
+* From the remaining dice select the X highest dice where X is equal to the primary attribute score; the total of these selected dice is the skill check’s result.
 * Compare the result to the action’s difficulty, and determine the result.
 
 #### Skill Check Results
@@ -41,8 +40,7 @@ When a player wishes to not risk a poor roll during a skill check they may take 
     * add the primary skill's rank to successes
     * add half the number of bonus dice as successes
     * Remove one successes for every penalty die, halved for time taken.
-* Apply your total successes, ignoring any partial success, to the action being taken
-
+* Apply the character's total successes, ignoring any partial success, to the action being taken
 
 
 ## Skill Checks
@@ -50,7 +48,6 @@ There may never be an exhaustive list of all potential skill checks to be made i
 
 ### Active Skill Checks
 Most skill checks are made as part of an action taken by the character these skill checks should only be rolled when the character takes the appropriate action.
-
 
 #### Climb
   - **Primary Attribute:** Body
@@ -115,7 +112,7 @@ Most skill checks are made as part of an action taken by the character these ski
   - **Primary Attribute:** Perception
   - **Primary Skill:** Awareness
   - **Relevant Secondary Skills:** Alertness
-  - **Relevant Secondary Skill Usage:** gain additional successes equal to your rank on a successful skill check.
+  - **Relevant Secondary Skill Usage:** gain additional successes equal to the character's rank on a successful skill check.
   - **Aiding Others:** none, multiple characters keeping watch should each make a keep watch skill check.
   - **Description:** the character actively attempts to keep an eye out and an ear open for signs of danger or other unusual happenings.
   - **Difficulty:** determined by the GM (10-20 for most situations), or equal to the stealth check of a sneaking character.
@@ -161,7 +158,7 @@ Most skill checks are made as part of an action taken by the character these ski
   - **Aiding Others:** a character helping another swim adds one bonus die to that character's skill check.
   - **Description:** making headway through water and, more importantly, not drowning.
   - **Difficulty:** any given swim will have a difficulty determined by the GM (generally between 10 and 30 depending on the conditions) as well as a total number of successes needed to reach the character's destination (generally between 1 and 30). A character may continue attempting to make swim checks continuing to contribute successes towards the total needed until they reach their destination.
-  - **Critical Failure:** the character starts breathing in water losing 10 stamina and risking passing out and drowning if their stamina reaches zero.
+  - **Critical Failure:** the character starts breathing in water; they lose 10 stamina and risking passing out and drowning if their stamina reaches zero.
   - **Failure:** the character makes no progress towards their goal and looses 5 stamina.
   - **Near Failure:** the character contributes their rank in the secondary skill towards their progress and loses 5 stamina minus their rank in the secondary skill (minimum 1).
   - **Success:** the character contributes one plus their rank in the secondary skill successes towards their progress.
@@ -175,7 +172,7 @@ Some skill checks are made because something is happening in the world that the 
   - **Primary Attribute:** Perception
   - **Primary Skill:** Awareness
   - **Relevant Secondary Skills:** Alertness
-  - **Relevant Secondary Skill Usage:** gain additional successes equal to your rank on a successful skill check.
+  - **Relevant Secondary Skill Usage:** gain additional successes equal to the character's rank on a successful skill check.
   - **Aiding Others:** none, multiple characters asked to make alertness checks should each make them individually.
   - **Description:** when there's something the character may not notice they should be asked to make this check to see if they become aware of it.
   - **Difficulty:** determined by the GM (10-30 for most situations), or equal to the stealth check of a sneaking character.
