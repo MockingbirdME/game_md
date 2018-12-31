@@ -33,7 +33,7 @@ Make a melee attack skill check targeting an opponents weapon instead of body, a
 #### Distracting attack(2)
 Make a melee attack skill check with two penalty dice added to the skill check, three if the opponents weapon's reach is greater than the attackers; if the skill check results in a near failure the target loses one additional point of defense plus the character's rank in the distracting attack secondary skill, if the skill check succeeds, in addition to the normal effects, the target loses 3 additional defense plus the character's rank in the distracting attack secondary skill, and additional successes on the skill check may be spent to force them to lose an additional 2 defense.
 #### Flurry of blows(3)
-Make a basic attack with two penalty dice added to the skill check; if the skill check succeeds the character ignores any additional successes in excess of their rank in the flurry of blows secondary skill, then resolve its results twice.
+Make a melee attack skill check with two penalty dice added to the skill check; if the skill check succeeds the character ignores any additional successes in excess of their rank in the flurry of blows secondary skill, then resolve the skill check's result twice.
 #### Half-Sword(2)
 Make a basic attack using a one handed weapon with the thrust keyword two-handed. For this attack treat the weapon's reach as half of its base value. This attack does not gain a standard two handed bonus but does gain additional APV equal to the character's rank in the half-sword secondary skill, and each additional success spent to increase APV increases it by an additional one.
 #### Lunge(2)
