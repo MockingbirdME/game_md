@@ -43,7 +43,7 @@ Make a melee attack skill check with a readied weapon the character is wielding 
 #### Power attack(2)
 Make a melee attack skill check with two penalty dice added to it, zero penalty dice if this is the first attack after the character performed a dash action this turn; the character treats his body stat as if it were the character's rank in the power attack secondary skill greater for the purposes of calculating damage on this attack. Each additional success spent to increase the attack's damage increases its damage by an additional one, if the weapon or attack has the _pick_ keyword these additional successes also increase the attack's APV by one.
 #### Quick attack(2)
-Make a basic attack with a turn requirement of 0, if the skill check succeeds the character ignores any additional successes in excess of their rank in the quick attack secondary skill. Limit once per round.
+Make a melee attack skill check with a turn requirement of 0, if the skill check succeeds the character ignores any additional successes in excess of their rank in the quick attack secondary skill. Limit once per round.
 #### Ready/Stow Weapon(0)
 A one or more weapons not currently readied but within easy reach, and uncontested, become readied by the character or the character sheaths, holsters, pockets, or slings one or more readied, uncontested weapons. This action's turn requirement can be reduced to zero provided by adding a penalty die to all other skill checks taken until the beginning of the character's next turn.
 #### Reckless attack(2)
