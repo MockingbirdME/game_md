@@ -7,7 +7,7 @@ Most alchemist shops keep a stock of bound essence on hand as it is quick and ea
 
 Some of the most commonly bound effects are:
 
-#### Anti-Ambush Amulet
+#### Anti-Ambush (Traveler's) Amulet
  these amulets or broaches are designed to trigger the first time a ranged attack would hit the character creating a force barrier with an armor value of 4-6, a body value of 4, and lasting 4-12 rounds. The barrier has it's armor value reduced by two each time it is bypassed and by one for each would the wearer suffers from non-penetrating damage that was reduced by it. The barrier grants added damage reduction equal to its armor value against each attack that bypasses is (this is calculated before the armor value is reduced from penetration). The barrier fails completely if its armor value is reduced to 0. The amulet is destroyed after one use, though more powerful and reusable options are available.
 
 #### Augmentation Draughts
