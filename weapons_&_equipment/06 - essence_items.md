@@ -29,7 +29,7 @@ Some of the most commonly bound effects are:
  this liquid can be added to drinking water to turn it into passible wine, while not of the highest quality the lightweight nature of this powder make it very popular amongst travelers - turn 3-5 liters of drinkable water into wine.
 
 #### Healing Potion
- a character consuming such a potion heals 2-6 times faster than usual for next week.
+ a character consuming such a potion heals much faster than usual for next week. Each healing roll they make gains 1-4 bonus dice and if they would recover at least one wound they recover the same number additional wounds.
 
 #### Quick Fix
  This draught or powder restores the user's stamina when consumed or snuffed - the consumer immediately regains 5-25 stamina depending on the skill of the alchemist the user also suffers 25% of the stamina recovered as fatigue.

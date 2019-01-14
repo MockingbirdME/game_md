@@ -162,7 +162,7 @@ Arcane Power stat meanings:
 * **Slow** - touch, temporal or cold, all mages
     * (1+) - target character is slowed, the first success spent reduces their movement by X, the second success decreases their defense by X, the third grants the character half of X, rounded down, penalty dice to all reflex based actions. Additional successes may be spent in order to increase the target’s movement, defense, or bonus dice to reflex based actions by one. The effects of slow last for one round. Slow effects caused by cold have their function as if they had one fewer success in them for each 3 cold resistance the target has not gained from mundane equipment.
 * **Speed Recovery** - touch, healing, all mages
-    * (1+) - target character heals wounds X+1 times as fast as natural for the next X days. Additional successes may be spent to increase the number of days this spell lasts for by one.
+    * (1+) - target character heals wounds faster than natural gaining X bonus dice to healing checks for X days and recovers X additional wounds for any healing check result that would normally recover at least one wound. Additional successes may be spent to increase the number of days this spell lasts for by one.
 * **Suppress magic** - short, arcane, all mages
     * null magic zone (3+) - target 1m hex becomes a null magic zone for X rounds, spells cast in this zone have one penalty die added to their skill check + 1 per additional success spent, max(X). Cantrips can not be cast in this zone.
     * counter spell (3+) - target spell fizzles if it has less than X, plus one per additional success, successes in it or target character who has gathered energy looses X, plus one per additional success, successes from their gathered energy pool.
