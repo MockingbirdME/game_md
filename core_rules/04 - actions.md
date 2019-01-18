@@ -125,6 +125,19 @@ Most skill checks are made as part of an action taken by the character these ski
   - **Success:** see hitting and getting hit.
   - **Additional Success:** see hitting and getting hit.
 
+#### Regain Composure
+  - **Primary Attribute:** Reflexes or Perception
+  - **Primary Skill:** Personal Defense
+  - **Relevant Secondary Skills:** Regain Composure
+  - **Relevant Secondary Skill Usage:** if the skill check is a success or near miss add additional successes equal to the character's rank.
+  - **Aiding Others:** none.
+  - **Description:** the character steadies themselves and takes stock of what threatens them.
+  - **Difficulty:** 5
+  - **Critical Failure:**  none.
+  - **Failure:** the character recovers no defense.
+  - **Near Failure:** the character recovers no defense.
+  - **Success:** the character recovers 3 defense.
+  - **Additional Success:** the character recovers an additional defense.
 
 #### Search area
   - **Primary Attribute:** Perception
