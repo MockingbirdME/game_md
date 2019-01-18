@@ -139,6 +139,20 @@ Most skill checks are made as part of an action taken by the character these ski
   - **Success:** the character recovers 3 defense.
   - **Additional Success:** the character recovers an additional defense.
 
+#### Restoration
+  - **Primary Attribute:** Body
+  - **Primary Skill:** Endurance
+  - **Relevant Secondary Skills:** Stamina
+  - **Relevant Secondary Skill Usage:** if the skill check is a success or near miss add additional successes equal to the character's rank.
+  - **Aiding Others:** none.
+  - **Description:** the character catches their breath to be able to continue pushing themselves.
+  - **Difficulty:** 5
+  - **Critical Failure:**  none.
+  - **Failure:** the character recovers no stamina.
+  - **Near Failure:** the character recovers no stamina.
+  - **Success:** the character recovers 3 stamina.
+  - **Additional Success:** the character recovers an additional stamina.  
+
 #### Search area
   - **Primary Attribute:** Perception
   - **Primary Skill:** Awareness
