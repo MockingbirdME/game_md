@@ -80,16 +80,16 @@ A character with stored arcane energy shapes those successes into an effect. Mak
 The character releases the effect they've crafted, the effect as is either immediately activated or can be thrown as normal within a number of rounds equal to the character's rank in arcane aptitude. The character suffers arcane dues equal to the number of successes worth of power they had stored plus one for each action they took a gather arcane energy or shape arcane energy action. The arcane dues are suffered whether the stored power was shaped into the effect or not. Any stored successes that were not shaped into the effect are lost.
 
 ### Defensive Actions
-Defensive Actions have a turn requirement of one that can be reduced to zero by adding two penalty dice to each other action taken until the beginning of the character's next turn. A defensive action must be taken before any, non-movement, action requiring a skill check.
-#### Disengage(2)
-Act defensively gaining plus 10 to the character's defense against free attacks until their next turn. Once performed this action cannot be taken until the beginning of the character's next turn.
-#### Dodge(2)
-Bob and weave, zig and zag, and otherwise generally make yourself difficult to hit by range attacks. The character gains a bonus to their ranged defense equal to one plus their rank in the dodge secondary skill for every 5 meters moved this turn.
+Defensive Actions have a turn requirement of one and a character who made a defensive action on their turn cannot make an attack until their next turn.
+#### Defensive Stance(0)
+The character readies themselves to continue an extended melee. They make a regain composure skill check to regain defense and double their melee defense bonus (not including any parry or cover bonuses) until their next turn.
+#### Disengage(0)
+The character carefully disengages from their opponent and moves carefully through the battlefield. They make a regain composure skill check to regain defense and gain a situational 10 defense bonus against any free attacks until their next turn
+#### Dodge(0)
+The character bobs and weaves, zig zags, and generally makes themselves a difficult target for ranged attacks. They make a regain composure skill check to regain defense, double their ranged defense bonus (not including any cover bonuses) and gain a situational defense bonus equal to the distance they move on the turn they took this action until their next turn.
 
 ### Recovery Actions
 Recovery actions have a turn requirement of one that may not be reduced.
-#### Regain Composure(1)
-A character cannot perform this action if they've already made an attack this round and a character who performs a regain composure action cannot perform an attack until the beginning of their next turn. Make a skill check using reflexes or perception for the primary attribute and personal defense as the primary skill. The character recovers defense equal to their ranks in regain composure plus one for each success rolled.
 #### Restoration action(0)
 Restoration can not be performed in a turn where the character spends more stamina than they have ranks in the stamina secondary skill. Make a skill check using body for primary attribute and endurance for the primary skill. The character recovers an amount of stamina equal to their ranks in the stamina secondary skill plus one per additional success rolled, the character may reduce the amount of stamina recovered by 3 to lose one stun.
 
