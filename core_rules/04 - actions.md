@@ -139,6 +139,20 @@ Most skill checks are made as part of an action taken by the character these ski
   - **Success:** the character recovers 3 defense.
   - **Additional Success:** the character recovers an additional defense.
 
+#### Remain Conscious
+  - **Primary Attribute:** Body
+  - **Primary Skill:** Endurance
+  - **Relevant Secondary Skills:** Remain Conscious
+  - **Relevant Secondary Skill Usage:** gain bonus dice equal to your rank to the skill check.
+  - **Aiding Others:** none.
+  - **Description:** the character is suffering some effect that is likely to render them unconscious, the skill check is to avoid this effect.
+  - **Difficulty:** varies
+  - **Critical Failure:**  the character is knocked out cold and suffers a sound from the associated contusion.
+  - **Failure:** the character is knocked unconscious.
+  - **Near Failure:** the character remains conscious but becomes stunned and they do not remove their stun on their next turn.
+  - **Success:** the character remains conscious.
+  - **Additional Success:** vs damage reduce the lost defense from this damage by 1, vs continuous effects wait one additional round before needing to remake this skill check.
+
 #### Restoration
   - **Primary Attribute:** Body
   - **Primary Skill:** Endurance
