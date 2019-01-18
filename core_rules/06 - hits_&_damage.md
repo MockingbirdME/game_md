@@ -81,9 +81,9 @@ Concussive damage is reduced by the character’s body stat and physical damage 
 
 | Damage | stun/wound (total defense) | Damage | stamina/stun/wound
 | --- | --- | ---| ---
-| 1 | 1 stun (1) | 10 | 1 wound + 2 stun (3)
-| 3 | 2 stuns (2)| 15 | 2 wounds + 1 stun (3)
-| 6 | 3 stuns (3)| 20 | 3 wounds (3)
+| 1 | 1 stun (1) | 10 | 1 wound + 3 stuns (4)
+| 3 | 2 stuns (2)| 15 | 2 wounds + 3 stuns (5)
+| 6 | 3 stuns (3)| 20 | 3 wounds + 3 stuns (6)
 |  | | every additional 4 | +1 wound, +1 stun (+2)
 
 #### Penetrating damage
