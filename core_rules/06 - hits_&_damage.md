@@ -39,8 +39,9 @@ There are a number of statuses that can be incurred by damage; a character suffe
 ### Location specific damage effects:
 Unless the hit location is already determined the attack is considered to have struck the character's body. Area effects generally damage the target’s body location and do not require a roll.
 * Head - a character suffering damage to their head causes disorientation and can knock them out cold.
-    - Stun - when a character suffers one or more stuns to their head they lose an additional defense per stun inflicted and risk being knocked unconscious. The character must make a skill check using body as the primary stat and endurance as the primary skill against a difficulty of 10 + the total number of stuns they were previously suffering from + 3 for each stun inflicted by this attack. Any form of failure on the skill check renders the character unconscious, if the character has ranks in the remain conscious secondary skill they can ignore a near failure result by instead suffering an additional 3 minus their rank in remain conscious stuns or a regular failure by suffering an additional 5 minus their rank in remain conscious suns.
-    - Wound - the character can not take any actions with a turn requirement of one other than a recovery action on their next turn.
+    - when a character suffers damage to their head they lose an additional defense per stun, or wound, inflicted, then the number of stuns inflicted is doubled.
+    - vs Concussive Damage - if the damaged character suffers more total stuns and wounds than their rank in the remain conscious secondary skill they must make a remain conscious skill check with a difficulty equal to 5 + 3 times the total stuns and wounds suffered.
+    - vs Penetrating Damage - double the number of wounds the character suffers.
 * Arm - a character receiving damage to an arm may have a difficulty time using it or drop whatever items they are holding.
      - a character can not use an arm that suffered one or more wounds, or 3 or more stuns, since their last turn. If they suffer two or more wounds, or 5 or more stuns, at once they also drop any item they are holding in the associated hand.
 * Legs - a character who receives damage to their legs may have difficulty moving or even lose their balance and fall prone.
