@@ -2,7 +2,7 @@
 <!-- TODO update wording throughout to use hex and add disclaimer that if not using a battle map the term hex correlates to roughly one square meter in theater of the mind -->
 ## Hitting and getting hit:
 Most attacks are made as a melee or ranged combat skill check where the difficulty is equal to the defender's defense of with their relevant attack type bonus.
-* Critical Failure: the attack misses and something bad happens at the GM's discretion this may be as simple as the attacker leaving themselves open and loses a few defense to something more dramatic like the character dropping their weapon or having their bow string break. 
+* Critical Failure: the attack misses and something bad happens at the GM's discretion this may be as simple as the attacker leaving themselves open and loses a few defense to something more dramatic like the character dropping their weapon or having their bow string break.
 * Failure: the attack misses with no effect.
 * Near Success: if the skill check was a melee attack the defender loses one defense as they parry, block, or dodge the attack; if the skill check was a ranged attack compare the skill check's result to the defense of a random character within one meter of the defender, if the skill check equals or exceeds the difficulty to hit that character treat the attack as a hit on the second character and if it's a success that character is hit instead (ignore any other result including additional successes).
 * Success: the attack hits causing the defender to lose two defense and suffer the effects of the attack.
@@ -23,10 +23,9 @@ When making an attack there are times that the target is not another character b
 Many items, spells, and abilities cause everything in an area to be affected. These effects originate from a hex or character. Once per round a character aware of an AOE they will end up in may accept two penalty dice to all actions on their next turn to move a number of meters equal to the greater of their ranks in personal defense and personal movement or spend a advancement point to move a number of meters equal to the sum of their ranks in those skills; add that advancement point to either their personal defense or personal movement skill.
 
 ## Forms of damage
-* Stamina - for every point of stamina damage dealt the victim loses one stamina.
-* Stun - when a character suffers a stun they lose one stamina and gain a stun. A character becomes stunned when they receive one or more stuns. A character's max stamina is reduced by the number of stuns they are currently suffering from.
-* Fatigue - when a character suffers a point of fatigue they lose one stamina, and gain a point of fatigue; a point of fatigue is a special type of stun that can not be recovered with a restoration action and takes much longer to heal naturally. If a character has a number of fatigue equal to or greater than their body stat plus their rank in the endurance primary skill they are rendered exhausted.
-* Wound - when a character suffers a wound they lose a stamina, gain a stun, and gain a wound. A character with at least one wound is wounded, a character with a number of wounds equal to or greater than half their max wounds stat is badly wounded and a character with as many wounds as their max wounds stat is dying. A character that suffers a single hit/effect which inflicts at least as many wounds as their max wound attribute, or a character with a total number of wounds exceeding double their max wound attribute, dies immediately.
+* Stun - when a character suffers a stun they lose one defense and become stunned until their next turn.
+* Fatigue - when a character suffers a point of fatigue they lose one stamina, and gain a point of fatigue. If a character has a number of fatigue equal to or greater than their body stat plus their rank in the endurance primary skill they are rendered exhausted.
+* Wound - when a character suffers a wound they lose a defense, become stunned, and gain a wound. A character with at least one wound is wounded, a character with a number of wounds equal to or greater than half their max wounds stat is badly wounded and a character with as many wounds as their max wounds stat is dying. A character that suffers a single hit/effect which inflicts at least as many wounds as their max wound attribute, or a character with a total number of wounds exceeding double their max wound attribute, dies immediately.
 
 ### Character Statuses
 There are a number of statuses that can be incurred by damage; a character suffers the effects from each status effect they are experiencing.
@@ -80,23 +79,21 @@ Recovering from wounds is a slow process. Each day a character spends mostly at 
 #### Concussive damage
 Concussive damage is reduced by the character’s body stat and physical damage resistance.
 
-| Damage | stamina/stun/wound | Damage | stamina/stun/wound
+| Damage | stun/wound (total defense) | Damage | stamina/stun/wound
 | --- | --- | ---| ---
-| 1 | 1 stamina | 10 | 1 wound + 2 stun
-| 2 | 2 stamina | 13 | 2 wounds + 1 stun
-| 3 | 1 stun + 1 stamina | 17 | 3 wounds
-| 5 | 2 stuns | 21 | 4 wounds
-| 7 | 3 stuns| every additional 4 | +1 wound, +1 stun
+| 1 | 1 stun (1) | 10 | 1 wound + 2 stun (3)
+| 3 | 2 stuns (2)| 15 | 2 wounds + 1 stun (3)
+| 6 | 3 stuns (3)| 20 | 3 wounds (3)
+|  | | every additional 4 | +1 wound, +1 stun (+2)
 
 #### Penetrating damage
 Penetrating damage with armor piercing value less than the target’s armor value becomes concussive. Penetrating damage is reduced by the character’s physical damage resistance.
 
-| Damage | stamina/stun/wound | Damage | stamina/stun/wound |
+| Damage | stun/wound (total defense) | Damage | stamina/stun/wound |
 | --- | --- | ---| --- |
-| 0 | 1 stamina | 7 | 2 wounds |
-| 1 | 1 stun | 10 | 3 wounds |
-| 2 | 2 stuns | 13 | 5 wounds |
-| 4 | 1 wound, 1 stun | every additional | +1 wound |
+| 1 | 1 stun (1) | 10 | 3 wounds (3) |
+| 4 | 1 wound (1) | 13 | 4 wounds (4) |
+| 7 | 2 wounds (2) | every additional 2 | +1 wound (+1) |
 
 #### Fire damage
 Fire damage is reduced by any fire resistance the character may have. Fire damage causes burning; the character suffers the same damage -1 next round to the burning body location, if this damage was itself caused by burning randomly determined one adjacent body location to also suffer this damage next round; if a body location would suffer multiple instances of burning only resolve the most severe one. Any character with one hand free within one meter of a burning character may take an action, with a one turn requirement, to reduce all burning damage they would suffer next round by 3, this reduction is increased to 5 if the burning character is prone; a character with two free hands may double this reduction.
