@@ -87,11 +87,8 @@ The character readies themselves to continue an extended melee. They make a rega
 The character carefully disengages from their opponent and moves carefully through the battlefield. They make a regain composure skill check to regain defense and gain a situational 10 defense bonus against any free attacks until their next turn
 #### Dodge(0)
 The character bobs and weaves, zig zags, and generally makes themselves a difficult target for ranged attacks. They make a regain composure skill check to regain defense, double their ranged defense bonus (not including any cover bonuses) and gain a situational defense bonus equal to the distance they move on the turn they took this action until their next turn.
-
-### Recovery Actions
-Recovery actions have a turn requirement of one that may not be reduced.
 #### Restoration action(0)
-Restoration can not be performed in a turn where the character spends more stamina than they have ranks in the stamina secondary skill. Make a skill check using body for primary attribute and endurance for the primary skill. The character recovers an amount of stamina equal to their ranks in the stamina secondary skill plus one per additional success rolled, the character may reduce the amount of stamina recovered by 3 to lose one stun.
+The character does their best to catch their breath and reposition themselves. They make a restoration skill check to regain stamina additionally regain defense equal to the sum of the character's rank in personal defense and regain composure.
 
 ### Combat Modifiers
 Various conditions can affect a combat situation, changing the difficult to hit a target.
