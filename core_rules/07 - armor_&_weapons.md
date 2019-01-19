@@ -31,7 +31,6 @@ Values that apply to the weapon being used.
 * Notes: any additional information needed for the proper use of the weapon.
 * Attacks: each weapon will have one or more attacks that it can perform.
 
-
 ### Melee weapon attack statistics:
 * Damage Type: what type of damage this attack deals, either piercing (P) or concussive (C).
 * APV: the armor piercing value of this attack.
