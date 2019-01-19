@@ -26,7 +26,7 @@ Values that apply to the weapon being used.
 * Reach: the default reach of the weapon.
 * Difficulty: attack skill checks made with the weapon receive this many penalty dice reduced by the sum of the character’s ranks in melee combat and the weapon’s secondary skill.
 * Parry bonus: listed in three parts, one handed, two handed, and off handed; add this bonus to the character’s melee defense when wielding the weapon in these ways. A character’s total parry bonus can not exceed the sum of their ranks in personal defense, the parry secondary skill, and the weapon’s secondary skill(s). Reduce this bonus by one for each penalty die the character would gain due to the weapon’s difficulty.
-* Cover bonus: a defensive bonus that only applies to attacks originating in the character’s front arc, shields gain additional cover bonus equal to the character's rank in the shields secondary skill.
+* Cover bonus: a defensive bonus that applies to all attacks originating in the character’s front arc.
 * Secondary skill: the specific secondary skill(s) related to the use of this weapon.
 * Notes: any additional information needed for the proper use of the weapon including any brawling or ranged attacks that can be made with it.
 * Attacks: each weapon will have one or more attacks that it can perform.
