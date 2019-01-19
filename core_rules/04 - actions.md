@@ -117,7 +117,7 @@ Most skill checks are made as part of an action taken by the character these ski
   - **Relevant Secondary Skills:** Specific melee weapon type.
   - **Relevant Secondary Skill Usage:** If the character is proficient add bonus dice to the skill check equal to the character's rank.
   - **Aiding Others:** none, character's make this skill check on their own.
-  - **Description:** the character makes an attack with a melee weapon or their body against a target in their reach.
+  - **Description:** the character makes an attack with a melee weapon or their body against a target in their reach (1m per 5 total reach).
   - **Difficulty:** equal to the target's defense plus melee defense, parry, and cover bonuses.
   - **Critical Failure:** see hitting and getting hit.
   - **Failure:** see hitting and getting hit.
