@@ -206,8 +206,8 @@ Most skill checks are made as part of an action taken by the character these ski
   - **Difficulty:** 15.
   - **Critical Failure:** the character trips and falls, becoming prone, after moving their base movement speed in meters.
   - **Failure:** the character moves twice their base movement in meters.
-  - **Near Failure:** the character moves twice their base movement plus their rank in the secondary skill in meters.  
-  - **Success:** the character moves one plus twice their base movement plus their rank in the secondary skill in meters.
+  - **Near Failure:** the character moves twice their base movement in meters.  
+  - **Success:** the character moves one plus twice their base movement in meters.
   - **Additional Success:** increases the character's movement by one meter per additional success.
 
 #### Swim
