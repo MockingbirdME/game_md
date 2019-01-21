@@ -81,6 +81,19 @@ Most skill checks are made as part of an action taken by the character these ski
   - **Success:**
   - **Additional Success:**
 
+#### Hide/Sneak
+  - **Primary Attribute:** Reflexes or Perception
+  - **Primary Skill:** Stealth
+  - **Relevant Secondary Skills:** Sneak or Hide
+  - **Relevant Secondary Skill Usage:** Add additional successes equal to the character's rank on a successful check.
+  - **Aiding Others:**
+  - **Description:** keeping oneself hidden from prying eyes and keen ears.
+  - **Difficulty:** 5-30 depending on terrain.
+  - **Critical Failure:** the character accidentally draws attention to themselves being noticed immediately but does not realize it.
+  - **Failure:** the character accidentally draws attention to themselves being noticed immediately.
+  - **Near Failure:** the character does not draw attention to themselves but neither do they make themselves more difficult to notice.
+  - **Success:** increase the difficulty needed to notice the character by one success.
+  - **Additional Success:** increase the difficulty to notice the character by one success.
 
 #### Investigate Area
   - **Primary Attribute:** Perception
@@ -209,20 +222,6 @@ Most skill checks are made as part of an action taken by the character these ski
   - **Near Failure:** the character moves twice their base movement in meters.  
   - **Success:** the character moves one plus twice their base movement in meters.
   - **Additional Success:** increases the character's movement by one meter per additional success.
-
-#### Hide/Sneak
-  - **Primary Attribute:** Reflexes or Perception
-  - **Primary Skill:** Stealth
-  - **Relevant Secondary Skills:** Sneak or Hide
-  - **Relevant Secondary Skill Usage:** Add additional successes equal to the character's rank on a successful check.
-  - **Aiding Others:**
-  - **Description:** keeping oneself hidden from prying eyes and keen ears.
-  - **Difficulty:** 5-30 depending on terrain.
-  - **Critical Failure:** the character accidentally draws attention to themselves being noticed immediately but does not realize it.
-  - **Failure:** the character accidentally draws attention to themselves being noticed immediately.
-  - **Near Failure:** the character does not draw attention to themselves but neither do they make themselves more difficult to notice.
-  - **Success:** increase the difficulty needed to notice the character by one success.
-  - **Additional Success:** increase the difficulty to notice the character by one success.
 
 
 #### Swim
