@@ -210,6 +210,21 @@ Most skill checks are made as part of an action taken by the character these ski
   - **Success:** the character moves one plus twice their base movement in meters.
   - **Additional Success:** increases the character's movement by one meter per additional success.
 
+#### Hide/Sneak
+  - **Primary Attribute:** Reflexes or Perception
+  - **Primary Skill:** Stealth
+  - **Relevant Secondary Skills:** Sneak or Hide
+  - **Relevant Secondary Skill Usage:** Add additional successes equal to the character's rank on a successful check.
+  - **Aiding Others:**
+  - **Description:** keeping oneself hidden from prying eyes and keen ears.
+  - **Difficulty:** 5-30 depending on terrain.
+  - **Critical Failure:** the character accidentally draws attention to themselves being noticed immediately but does not realize it.
+  - **Failure:** the character accidentally draws attention to themselves being noticed immediately.
+  - **Near Failure:** the character does not draw attention to themselves but neither do they make themselves more difficult to notice.
+  - **Success:** increase the difficulty needed to notice the character by one success.
+  - **Additional Success:** increase the difficulty to notice the character by one success.
+
+
 #### Swim
   - **Primary Attribute:** Body
   - **Primary Skill:** Personal Movement
@@ -235,7 +250,7 @@ Some skill checks are made because something is happening in the world that the 
   - **Relevant Secondary Skill Usage:** gain additional successes equal to the character's rank on a successful skill check.
   - **Aiding Others:** none, multiple characters asked to make alertness checks should each make them individually.
   - **Description:** when there's something the character may not notice they should be asked to make this check to see if they become aware of it.
-  - **Difficulty:** determined by the GM (10-30 for most situations), or equal to the stealth check of a sneaking character.
+  - **Difficulty:** 5 with a number of successes needed determined by the GM (1-10 for most situations), or equal to the stealth check of a sneaking character.
   - **Critical Failure:** the character falls to notice anything and if a danger is presented they are off kilter for it, both being surprised and being flatfooted losing.
   - **Failure:** the character fails to notice any signs of whatever they may have noticed.
   - **Near Failure:** the character doesn't notice any danger until it's too late, but is not surprised on the first round of combat; they do not notice any non-danger cause for the check.
