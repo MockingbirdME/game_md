@@ -54,7 +54,7 @@ Secondary skills represent subsets of or specializations in, the primary skill i
 | Personal Defense | Armor, Dodge, Parry, Regain Composure, Shields |
 | Personal Movement | Balance, Climb, Fly, Jump, Run, Swim, Tumbling |
 | Ranged Combat | Aim, Bows, Crossbows, Pistols, Reload(weapon type), Spells, Throw |
-| Stealth | Cover tracks, Disguise, Hide Self, Hide object/other, Move Quietly |
+| Stealth | Cover tracks, Disguise, Hide Character/Object, Sneak |
 | Survival | Find/build shelter, Forage, Hunt, Specific environment, Track |
 
 ### Skill Descriptions
