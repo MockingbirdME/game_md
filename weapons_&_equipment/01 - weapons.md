@@ -6,12 +6,8 @@
 * Two-handed - when wielding a weapon with the _Two-handed_ trait two-handed count the character’s body stat as 2 greater than it is, when wielding it one handed add a penalty die to the attack.
 
 ### Common Brawling options
-* Slap - Reach: 0, Difficulty: 1, Parry: 0/-/-, Notes: none.
-  - Damage Type: C, Damage: Body -2, APV: -, Additional Successes: 1 damage, Notes: none.
-* Strike - Reach: 0, Difficulty: 2, Parry: 0/-/-, Notes: none.
-  - Damage Type: C, Damage: Body, APV: -, Additional Successes: 1 damage, Notes: increase damage by one plus one per additional success if holding a hard item such as knuckledusters or a weapon in the hand used to strike with.
-* Kick - Reach: 1, Difficulty: 3, Parry: 0/-/-, Notes: _Trip_.
-  - Damage Type: C, Damage: Body, APV: -, Additional Successes: 1 damage, Notes: lose one defense.
+* Body - Reach: 0, Difficulty: 1, Parry: 0/-/-, Notes: _trip_ this is used for any attack that utilizes the character's body such as punches, kicks, bull rushes, and tackles.
+  - Damage Type: C, Damage: Body, APV: -, Additional Successes: 1 + rank in brawling damage, Notes: increase damage by one plus one per additional success if holding a hard item such as knuckledusters or a weapon in the hand used to strike with.
 * Pommel/Guard Strike - Reach: 0, Difficulty: 3, Parry: 0/-/-, Notes: _Bash_ requires a weapon with a solid pommel or guard to strike with.
   - Damage Type: C, Damage: Body+3, APV: -, Additional Successes: 2 damage, Notes: none.
 
