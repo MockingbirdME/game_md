@@ -88,9 +88,9 @@ There is so much variety in swords throughout flax that a short list doesn't ade
   - Damage Type: C, Damage: 3Body, APV: -, Additional Successes: 3 damage, Notes: _Bash_   Only if the weapon has a hammer, may use bludgeoning weapons secondary skill.
 
 ### Common Shields
-* Buckler: Reach: 0, Difficulty: 2, Parry: 0/-/2, Cover: 1, Notes: _Small_, if a character wielding this weapon chooses not to make an attack with it they may gain one bonus die to the first attack they make with a weapon in their other hand this round.
+* Buckler: Reach: 0, Difficulty: 2, Parry: 0/-/3, Cover: 1, Notes: _Small_, if a character wielding this weapon chooses not to make an attack with it they may gain one bonus die to the first attack they make with a weapon in their other hand this round.
   - Damage Type: C, Damage: Body+1, APV: -, Additional Successes: 2 damage, Notes: may use the brawling secondary skill.
-* Round/Heater Shield: Reach: 3, Difficulty: 3, Parry: 0/-/1, Cover: 3, Notes: _Bash_ if a character wielding this weapon chooses not to make an attack with it they may instead increase the shields cover bonus by their rank in the shield secondary skill for one round.
+* Round/Heater Shield: Reach: 3, Difficulty: 3, Parry: 0/-/2, Cover: 4, Notes: _Bash_ if a character wielding this weapon chooses to attack with it they loose its cover bonus until their next turn.
   - Damage Type: C, Damage: Body +2, APV: -, Additional Successes: 2 damage, Notes: none.
 * Kite Shield: Reach: 0, Difficulty: 5, Parry: 0/-/2, Cover: 6, Notes: _Bash_ this weapon may not be used to perform the off handed attack action.
   - Damage Type: C, Damage: 2Body, APV: -, Additional Successes: 2 damage, Notes: none.
