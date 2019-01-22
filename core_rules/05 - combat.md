@@ -51,7 +51,7 @@ A one or more weapons not currently readied but within easy reach, and uncontest
 #### Reckless attack(2)
 Make a melee attack skill check and choose to gain between one and three, plus the character's rank in the reckless attack secondary skill, bonus dice to the attack's skill check, after performing the attack the character loses defense equal to twice the number of bonus dice this attack added to the skill check, reduced by the character's rank in the reckless attack secondary skill, minimum one.
 #### Tackle(2)
-Make a trip attack using the character's body, this attack does not suffer the normal penalty dice from a trip attack and, if successful, always results in the character becoming prone along with his target.
+Make a trip attack using the character's body attribute instead of reflexes, this attack does not suffer the normal penalty dice from a trip attack and always results in the character becoming prone regardless of success.
 #### Trip(2)
 Make a melee attack skill check using the character's body or a weapon with the _Trip_ keyword. This attack's skill check has two, plus the defender's rank in the balance secondary skill, penalty dice added to it and deals no damage.  If the attack succeeds the target it knocked prone. If the attack was made with a weapon and failed the weapon is dropped by the target's feet. If the attack was made with the character's body and failed the attacker loses 3 defense, if it critically failed the attacker becomes prone.
 
