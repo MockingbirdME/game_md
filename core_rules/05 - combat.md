@@ -63,13 +63,12 @@ Select a target, the character's ranged attacks against that target gain one plu
 Refer to the weapon’s description for details on turn and loading requirements.
 #### Loose/shoot/fire(0)
 Make an attack with a readied, loaded, ranged weapon. The character makes a ranged attack skill check and applies the results.
-#### Ready weapon/ammo(0)
-Ready a ranged weapon or one plus ranks in reload pieces of ammunition. This action's turn requirement may be reduced to zero the first time it is taken in a turn by adding one penalty dice to all skill checks the character makes until the beginning of their next turn.
+#### Ready/stow weapon/ammo(0)
+Ready or stow a ranged weapon or one plus ranks in reload pieces of ammunition. This action's turn requirement may be reduced to zero the first time it is taken in a turn by adding one penalty dice to all skill checks the character makes until the beginning of their next turn.
 #### Throw Spell(0)
 Make an attack with a cast spell. The character makes a ranged attack skill check and applies the results. Treat the character's spells secondary skill rank as one higher for every rank the character has in the arcane aptitude targeting secondary skill.
 #### Throw Weapon(1)
 Make an attack with a readied, throwing weapon. The character makes a ranged attack skill check and applies the results. Treat the character's throw secondary skill rank as one higher for every two ranks the character has in the melee combat secondary skill for the thrown weapon type.
-
 
 ### Magic Actions
 Magic actions have a turn requirement of one and may only be taken by characters with an arcane trait. Magical skill checks use mind as a primary attribute.
