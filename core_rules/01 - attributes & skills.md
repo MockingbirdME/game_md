@@ -71,6 +71,8 @@ Secondary skills represent subsets of or specializations in, the primary skill i
  How familiar is the character with animals, particularly domestic ones. This skill should be used when dealing with an animal that has a chance of being controlled or calmed.
   **Secondary Skills:**
 #### Alchemy:
+  Description Pending.
+  **Secondary Skills:**
 #### Awareness:
   The quintessential perception skill, is used when looking for loot or information as well as noticing threats both passively and when actively looking for them.
   **Secondary Skills:**
