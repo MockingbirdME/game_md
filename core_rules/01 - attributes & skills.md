@@ -102,6 +102,8 @@ Secondary skills represent subsets of or specializations in, the primary skill i
 #### Magical Aptitude:
  How well trained in magic a character is. Characters with an arcane trait will use this skill for crafting magical effects and casting spells.
   **Secondary Skills:**
+  - **Individual Arcane Power:**
+  - **Individual Arcane Theme:**
 #### Melee Combat:
  How well a character fights with a sword, axe, or fists. Melee combat skill is most often used when fighting in close quarters but also has a place in many sporting activities.
   **Secondary Skills:**
