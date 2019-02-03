@@ -270,6 +270,21 @@ Some skill checks are made because something is happening in the world that the 
   - **Success:** the character maintains their footing but their movement is reduced to 1 plus their rank in secondary skill meters until the end of their next turn as long as the reason they needed to make the skill check persists.
   - **Additional Success:** increase the character's reduced movement by one, this can not bring the character's movement above their base.
 
+#### Tumble
+  - **Primary Attribute:** Reflexes
+  - **Primary Skill:** Personal Movement
+  - **Relevant Secondary Skills:** Tumbling
+  - **Relevant Secondary Skill Usage:** additional benefit on near failure and successful checks.
+  - **Aiding Others:** none, character's make this skill check on their own.
+  - **Description:** damage from falling from a great height or tumbling down a slope may be reduced with a successful skill check.
+  - **Difficulty:** 5
+  - **Critical Failure:** none
+  - **Failure:** the character takes full damage and effects from the fall/tumble.
+  - **Near Failure:** the damage is decreased by twice the character's rank in the secondary skill.
+  - **Success:** the damage is decreased by 3 plus three times the character's rank in the secondary skill. If the damage is reduced to zero the character may end the fall/tumble kneeling or standing instead of prone.
+  - **Additional Success:** reduce the damage by an additional 3 points.
+
+
 #### Action or Skill Check
   - **Primary Attribute:**
   - **Primary Skill:**
