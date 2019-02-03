@@ -56,17 +56,20 @@ Make a trip attack using the character's body as their weapon and substituting t
 Make a melee attack skill check using the character's body or a weapon with the _Trip_ keyword. This attack's skill check has two, plus the defender's rank in the balance secondary skill, penalty dice added to it and deals no damage.  If the attack succeeds the target it knocked prone. If the attack was made with a weapon and failed the weapon is dropped by the target's feet. If the attack was made with the character's body and failed the attacker loses 3 defense, if it critically failed the attacker becomes prone.
 
 ### Ranged Actions
-Ranged actions have a turn requirement of one that can be reduced to zero by adding one penalty die to this skill check and all other skill checks made until the beginning of the character's next turn.
+Unless stated otherwise, ranged actions have a turn requirement of one.
 #### Aim(0)
-Select a target, your ranged attacks against that target gain one plus the character's rank in the aim secondary skill bonus dice, until the end of the character's next turn. Aim’s turn requirement may not be reduced.
+Select a target, the character's ranged attacks against that target gain one plus the character's rank in the aim secondary skill bonus dice, until the end of the character's next turn.
 #### Load weapon(varies)
-Refer to the weapon’s description for details on loading requirements.
+Refer to the weapon’s description for details on turn and loading requirements.
 #### Loose/shoot/fire(0)
-Make an attack with a readied, loaded, ranged weapon or spell. This skill check uses perception as its primary attribute and gains a number of bonus dice equal to their rank in the weapon's secondary skill it also gains a bonus die for each size the target is over 5 and a penalty die for each size they are less than 5.
+Make an attack with a readied, loaded, ranged weapon. The character makes a ranged attack skill check and applies the results.
 #### Ready weapon/ammo(0)
-Ready a ranged weapon or one plus ranks in reload pieces of ammunition.
-#### Throw(1)
-Make a ranged attack with a ready throwing weapon. Gain a bonus die for every rank in the throw secondary skill plus an additional bonus die for every two ranks in a relevant melee combat secondary skill for this weapon it also gains a bonus die for each size the target is over 5 and a penalty die for each size they are less than 5.
+Ready a ranged weapon or one plus ranks in reload pieces of ammunition. This action's turn requirement may be reduced to zero the first time it is taken in a turn by adding one penalty dice to all skill checks the character makes until the beginning of their next turn.
+#### Throw Spell(0)
+Make an attack with a cast spell. The character makes a ranged attack skill check and applies the results. Treat the character's spells secondary skill rank as one higher for every rank the character has in the arcane aptitude targeting secondary skill.
+#### Throw Weapon(1)
+Make an attack with a readied, throwing weapon. The character makes a ranged attack skill check and applies the results. Treat the character's throw secondary skill rank as one higher for every two ranks the character has in the melee combat secondary skill for the thrown weapon type.
+
 
 ### Magic Actions
 Magic actions have a turn requirement of one and may only be taken by characters with an arcane trait. Magical skill checks use mind as a primary attribute.
