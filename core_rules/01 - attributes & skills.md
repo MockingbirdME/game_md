@@ -43,14 +43,23 @@ Secondary skills represent subsets of or specializations in, the primary skill i
 
 | Primary Skill | Example Secondary Skills |
 | --- | --- |
-| Awareness | Alertness, Investigate, Search, Sense Motive |
 | Animal Handling | Animal type, Befriend, Command, Drive, Herd, Joust, Read Emotions, Ride, Subdue, Train |
-| Craft/Profession | ex. Smith (black, armor, gold, weapon), Builder (house, stone, bridge, siege weapon) |
+| Alchemy |   |
+| Awareness | Alertness, Investigate, Search, Sense Motive |
+| Craft (Artist)  | Drafter, Drawer, Painter, Sculptor  |
+| Craft (Chemistry)  | Brewing, Distilling, Medicine/Poison, Wine Making |
+| Craft (Cooking)  | Chef, Army Cooking, Limited Ingredients |
+| Craft (Mason)  | Bricklayer, Road Layer, Stonecutter, Stoneworker  |
+| Craft (Smith)  | Armor, Black, Weapon, White |
+| Craft (Woodworker)   | Bower, Carpenter, Furniture Maker, Whittler |
 | Discipline | Command, Concentrate, Resist fear |
 | Endurance | Hold breath, Lifting, Remain Conscious, Stamina|
 | Knowledge | Arcane, History, Politics, Science |
+| legerdemain | Picklocks, Pickpockets, Slight of Hand, Thieves' Cant  |
+| Medicine  | Diagnoses, First Aid, Medicine, Surgery, Would Type (burn, concussive, penetrating, etc.) |
 | Magical Aptitude | Individual Arcane Powers or Themes |
 | Melee Combat | Weapon Type, Attack Type |
+| Performance | Acting, Instrument (select one), Oration, Singing  |
 | Personal Defense | Armor, Dodge, Parry, Regain Composure, Shields |
 | Personal Movement | Balance, Climb, Fly, Jump, Run, Swim, Tumbling |
 | Ranged Combat | Aim, Reload(weapon type), Weapon Type(Bows, Crossbows, Pistols, Spells, Thrown Weapons) |
@@ -69,20 +78,10 @@ Secondary skills represent subsets of or specializations in, the primary skill i
 #### Animal Handling:
  How familiar is the character with animals, particularly domestic ones. This skill should be used when dealing with an animal that has a chance of being controlled or calmed.
   **Secondary Skills:**
-#### Craft/Profession:
- Not one skill but a collection of them that few character’s are likely to have more than one of. A primary skill should be a broad grouping and should have at least three options for secondary skills. Some examples include:
-- Alchemy (Poisons, Medicine, Arcane Essence)
-- Architect (Houses, Walls, Steeples, Towers, Bridges)
-- Artist (Sculptor, Painter, Drafter)
-- Cook (Chef, Army cooking, Limited ingredients)
-- Mason (Stoneworker, Bricklayer, Stonecutter, Road Worker)
-- Medical (Diagnoses, First Aid, Surgery, Treat Wound, Treat Burn, Medicine)
-- Musician (Lute, Flute, Harp, Violin, Composer)
-- Performer (Orator, Actor, Singer)
-- Smith (Black, White, Weapon, Armor)
-- Thief (Pick pockets, Cut purse, Pick lock)
-- Woodworker (Bower, Furniture maker, Whittler, Carpenter)
-
+#### Craft
+ There are many craft skills each representing a specific type of crafting but what they all have in common is that they are used to create or repair goods of their type.
+  **Secondary Skills:**
+    - **Various:** Each craft skill has their own set of secondary skills for some aspect of the greater craft but each is the relevant secondary skill for the craft and repair skill checks when working on that type of item.
 #### Discipline/Willpower:
  A measure of a character’s self control. This skill should be used when a character has to act against their desires or when otherwise compelled to do something they're trying not to.
   **Secondary Skills:**
