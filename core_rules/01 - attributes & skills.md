@@ -92,6 +92,10 @@ Secondary skills represent subsets of or specializations in, the primary skill i
 #### Endurance:
  A measure of a character’s resistance to exhaustion. The skill should be used when a character is avoiding or resisting an effect such as fatigue or poison as well as when recovering from injury or illness.
   **Secondary Skills:**
+  - **Hold breath:**
+  - **Lifting:**
+  - **Remain Conscious:**
+  - **Stamina:**
 #### Knowledge:
  Formal education is rare but for families powerful or wealthy enough to afford it there are many fields of study. This skill is for determining if a character knows something that is not common knowledge.
   **Secondary Skills:**
