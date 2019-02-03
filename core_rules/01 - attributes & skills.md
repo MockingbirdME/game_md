@@ -50,10 +50,10 @@ Secondary skills represent subsets of or specializations in, the primary skill i
 | Endurance | Hold breath, Lifting, Remain Conscious, Stamina|
 | Knowledge | Physics, Biology, Nation’s history, National politics, Geography, etc. |
 | Magical Aptitude | Individual Arcane Powers or Themes |
-| Melee Combat | weapon type, attack type |
+| Melee Combat | Weapon Type, Attack Type |
 | Personal Defense | Armor, Dodge, Parry, Regain Composure, Shields |
 | Personal Movement | Balance, Climb, Fly, Jump, Run, Swim, Tumbling |
-| Ranged Combat | Aim, Bows, Crossbows, Pistols, Reload(weapon type), Spells, Throw |
+| Ranged Combat | Aim, Reload(weapon type), Weapon Type(Bows, Crossbows, Pistols, Spells, Thrown Weapons) |
 | Stealth | Cover tracks, Disguise, Hide Character/Object, Sneak |
 | Survival | Find/build shelter, Forage, Hunt, Specific environment, Track |
 
@@ -118,6 +118,10 @@ Secondary skills represent subsets of or specializations in, the primary skill i
 #### Ranged combat:
  Many characters have need to hit a target from a distance for combat, hunting, or sport.
   **Secondary Skills:**
+  - **Aim:** enhancing one's chance of hitting at range, not all weapons can be used to aim. This secondary skill directly impacts the effect of the aim combat action.
+  - **Reload:** drawing and loading ammunition for various weapon types, this secondary skill directly impacts the number of pieces of ammunition that can be readied at once and may have an affect in reloading various types of ranged weapons.
+  - **Weapon Type:** each type of weapon (bows, crossbows, pistols, spells, thrown, etc.) have their own secondary skill. This secondary skill is used to determine if the character is proficient in a given weapon and is the relevant secondary skill for the ranged attack skill check.
+
 #### Stealth:
  How well a character conceals themselves or something/someone else as well as how well they may disguise themselves or move in such a way as to avoid notice.
   **Secondary Skills:**
