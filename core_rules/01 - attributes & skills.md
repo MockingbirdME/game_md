@@ -106,13 +106,13 @@ Secondary skills represent subsets of or specializations in, the primary skill i
 #### Personal Movement:
  A character’s speed and competency during their natural movements. Used whenever a character’s speed and footing comes into question.
   **Secondary Skills:**
-    - **Balance:**
+    - **Balance:** keeping ones footing when the footing is precarious, this is the relevant secondary skill for the balance skill check.
     - **Climb:** scaling a ladder, wall, or other climbable surface this is the relevant secondary skill for the climb skill check and combat action.
     - **Fly:**
     - **Jump:**
     - **Run:** overland travel speed both over long distance and sprints, this is the relevant secondary skill for the flee/pursuit and sprint skill checks.
     - **Swim:** flailing to avoid drowning long enough to be rescued or gliding through the water like an eel swim is the relevant secondary skill for the swim skill check and combat action.
-    - **Tumbling:**
+    - **Tumbling:** rolling with a fall to minimize damage, this is the relevant secondary skill for the tumble skill check.
 
 
 #### Ranged combat:
