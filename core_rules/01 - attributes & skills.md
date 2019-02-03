@@ -86,6 +86,9 @@ Secondary skills represent subsets of or specializations in, the primary skill i
 #### Discipline/Willpower:
  A measure of a character’s self control. This skill should be used when a character has to act against their desires or when otherwise compelled to do something they're trying not to.
   **Secondary Skills:**
+  - **Command:**
+  - **Concentrate:**
+  - **Resist fear:**
 #### Endurance:
  A measure of a character’s resistance to exhaustion. The skill should be used when a character is avoiding or resisting an effect such as fatigue or poison as well as when recovering from injury or illness.
   **Secondary Skills:**
