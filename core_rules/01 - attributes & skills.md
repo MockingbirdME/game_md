@@ -112,6 +112,11 @@ Secondary skills represent subsets of or specializations in, the primary skill i
 #### Personal Defense:
  How apt a character is at avoiding getting hit or keeping themselves from harm. This skill affects the character’s defense.
   **Secondary Skills:**
+  - **Armor:**
+  - **Dodge:**
+  - **Parry:**
+  - **Regain Composure:**
+  - **Shields:**
 #### Personal Movement:
  A character’s speed and competency during their natural movements. Used whenever a character’s speed and footing comes into question.
   **Secondary Skills:**
