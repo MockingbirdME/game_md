@@ -10,17 +10,17 @@ These actions actions are those that will commonly be taken during round based c
 ### Move actions
 Character's move during combat they have a number of different options when doing so and may select one, or more, of them each round as detailed below. If a character makes any non movement actions during their turn they may take them during any point in their movement (ie. a character who walks 4m may move two take another action then move the other two).
 #### Walk(0)
-Move half your base movement in meters, round down. This action has a zero turn requirement if it's the first move action the character takes during their turn.
+Move half your base movement in meters, round down. This action has its turn requirement reduced to zero if it's the first move action the character takes during their turn\.
 #### Dash(1)
-Move up to your base movement in meters. This action has a zero turn requirement if it's the first move action the character takes during their turn.
+Move up to your base movement in meters. This action has its turn requirement reduced to zero if it's the first move action the character takes during their turn\.
 #### Sprint(3)
 The character makes a sprint skill check and resolves its effects.
 #### Swim(2)
-Make a skill check using body as the primary attribute, personal movement as the primary skill, and a difficulty of 10-30(depending on conditions), if the check succeeds move through water up to 1 meter per rank in the swim secondary skill plus 1 meter per additional success in the skill check. This action has a zero turn requirement if it's the first move action the character takes during their turn.
+Make a skill check using body as the primary attribute, personal movement as the primary skill, and a difficulty of 10-30(depending on conditions), if the check succeeds move through water up to 1 meter per rank in the swim secondary skill plus 1 meter per additional success in the skill check. This action has its turn requirement reduced to zero if it's the first move action the character takes during their turn\.
 #### Climb(2)
-Make a skill check using body as the primary attribute, personal movement as the primary skill, and a difficulty of 10-30(depending on conditions), on a success transverse across a surface up to 1 meter per rank in the climb secondary skill plus 1 meter per success in the skill check, if the skill check critically fails the character loses his grip and falls. This action has a zero turn requirement if it's the first move action the character takes during their turn.
+Make a skill check using body as the primary attribute, personal movement as the primary skill, and a difficulty of 10-30(depending on conditions), on a success transverse across a surface up to 1 meter per rank in the climb secondary skill plus 1 meter per success in the skill check, if the skill check critically fails the character loses his grip and falls. This action has its turn requirement reduced to zero if it's the first move action the character takes during their turn\.
 #### Jump(2)
- make a skill check using body as the primary attribute, personal movement as the primary skill, and a difficulty of 10, on a success jump horizontally a number or meters equal to your rank in the jump secondary skill plus 1 meter per two additional success, or half that distance vertically, increase the total distance by 50% if you've taken a dash or sprint action already this turn. This action has a zero turn requirement if it's the first move action the character takes during their turn.
+ make a skill check using body as the primary attribute, personal movement as the primary skill, and a difficulty of 10, on a success jump horizontally a number or meters equal to your rank in the jump secondary skill plus 1 meter per two additional success, or half that distance vertically, increase the total distance by 50% if you've taken a dash or sprint action already this turn. This action has its turn requirement reduced to zero if it's the first move action the character takes during their turn\.
 
 ### Melee Actions
 Unless stated otherwise, melee actions have a turn requirement of one.
@@ -116,6 +116,10 @@ Against a character with greater reach than your melee attack’s add one penalt
 ### Reactions
 Reactions are special actions that are taken outside of the character's turn. A character can make only one reaction between each of their turns. Reactions have no turn requirement even if they specify taking an action that normally would.
 
+#### Scramble(2)
+The character moves up to their base movement in meters, move actions they make on their next turn cannot have its turn requirement reduced.
+
 #### Free attack(\*)
-When an opponent moves through a hex the character threatens the character may immediately make a basic attack action, off handed attack action, loose/shoot/fire action, or a throw action with a ready, loaded when applicable, weapon or spell against that opponent. This reaction's stamina cost is that of the action taken.
+When an opponent provokes a free attack the character may make a basic attack action, off handed attack action, loose/shoot/fire action, or a throw action with a ready, loaded when applicable, weapon or spell against that opponent. This reaction's stamina cost is that of the action taken.
+
 #### Take cover(2)
