@@ -180,6 +180,20 @@ Most skill checks are made as part of an action taken by the character these ski
   - **Success:** the character remains conscious.
   - **Additional Success:** vs damage reduce the lost defense from this damage by 1, vs continuous effects wait one additional round before needing to remake this skill check.
 
+#### Ranged Attack
+  - **Primary Attribute:** Perception
+  - **Primary Skill:** Ranged Combat
+  - **Relevant Secondary Skills:** Specific ranged weapon type.
+  - **Relevant Secondary Skill Usage:** If the character is proficient add bonus dice to the skill check equal to the character's rank.
+  - **Aiding Others:** none, character's make this skill check on their own.
+  - **Description:** the character makes an attack with a ranged weapon against a target in its range.
+  - **Difficulty:** equal to the target's defense plus ranged defense and cover bonuses. This skill check gains a bonus die for every size category the target is over 6 and a penalty die for each size category they are under 5.
+  - **Critical Failure:** see hitting and getting hit.
+  - **Failure:** see hitting and getting hit.
+  - **Near Failure:** see hitting and getting hit.
+  - **Success:** see hitting and getting hit.
+  - **Additional Success:** see hitting and getting hit.
+
 #### Restoration
   - **Primary Attribute:** Body
   - **Primary Skill:** Endurance
