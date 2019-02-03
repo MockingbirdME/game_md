@@ -127,6 +127,13 @@ Secondary skills represent subsets of or specializations in, the primary skill i
   **Secondary Skills:**
     - **Weapon Type:** each type of weapon (short blades, long blades, bludgeoning, spears, axes, etc.) have their own secondary skill. This secondary skill is used to determine if the character is proficient in a given weapon and is the relevant secondary skill for the melee attack skill check.
     - **Attack Type:** many melee actions have a specific benefit from having the same named secondary skill each is detailed in its melee attack description.
+#### Performance:
+  Playing musical instruments, acting, or giving a speech are all variations of performance.
+    **Secondary Skills:**
+      - **Acting:**
+      - **Instrument:**
+      - **Oration:**
+      - **Singing:**
 #### Personal Defense:
  How apt a character is at avoiding getting hit or keeping themselves from harm. This skill affects the character’s defense.
   **Secondary Skills:**
