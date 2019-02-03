@@ -67,6 +67,10 @@ Secondary skills represent subsets of or specializations in, the primary skill i
 | Survival | Find/build shelter, Forage, Hunt, Specific environment, Track |
 
 ### Skill Descriptions
+#### Animal Handling:
+ How familiar is the character with animals, particularly domestic ones. This skill should be used when dealing with an animal that has a chance of being controlled or calmed.
+  **Secondary Skills:**
+#### Alchemy:
 #### Awareness:
   The quintessential perception skill, is used when looking for loot or information as well as noticing threats both passively and when actively looking for them.
   **Secondary Skills:**
@@ -74,10 +78,6 @@ Secondary skills represent subsets of or specializations in, the primary skill i
     - **Investigate:** looking for clues and gathering information it is the relevant secondary skill for the investigate area and gather information skill checks.
     - **Search:** looking for valuables and sussing out the best hiding places for items and people it is the relevant secondary skill for the search area skill check.
     - **Sense Motive:** reading people and being able to tell when they're lying or acting it is the relevant secondary skill to the sense motive skill check.
-
-#### Animal Handling:
- How familiar is the character with animals, particularly domestic ones. This skill should be used when dealing with an animal that has a chance of being controlled or calmed.
-  **Secondary Skills:**
 #### Craft
  There are many craft skills each representing a specific type of crafting but what they all have in common is that they are used to create or repair goods of their type.
   **Secondary Skills:**
