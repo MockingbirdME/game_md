@@ -48,7 +48,7 @@ Secondary skills represent subsets of or specializations in, the primary skill i
 | Craft/Profession | ex. Smith (black, armor, gold, weapon), Builder (house, stone, bridge, siege weapon) |
 | Discipline | Command, Concentrate, Resist fear |
 | Endurance | Hold breath, Lifting, Remain Conscious, Stamina|
-| Knowledge | Physics, Biology, Nation’s history, National politics, Geography, etc. |
+| Knowledge | Arcane, History, Politics, Science |
 | Magical Aptitude | Individual Arcane Powers or Themes |
 | Melee Combat | Weapon Type, Attack Type |
 | Personal Defense | Armor, Dodge, Parry, Regain Composure, Shields |
