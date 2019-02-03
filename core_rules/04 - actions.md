@@ -195,9 +195,9 @@ Most skill checks are made as part of an action taken by the character these ski
   - **Additional Success:** additional items may be found based on the additional success requirements of each of them the GM determined.
 
 #### Sense Motive
-  - **Primary Attribute:**
-  - **Primary Skill:**
-  - **Relevant Secondary Skills:**
+  - **Primary Attribute:** Perception
+  - **Primary Skill:** Awareness  
+  - **Relevant Secondary Skills:** Sense Motive
   - **Relevant Secondary Skill Usage:**
   - **Aiding Others:**
   - **Description:**
@@ -255,6 +255,20 @@ Some skill checks are made because something is happening in the world that the 
   - **Near Failure:** the character doesn't notice any danger until it's too late, but is not surprised on the first round of combat; they do not notice any non-danger cause for the check.
   - **Success:** the character is aware of whatever caused the check to be made, if the check was for some kind of danger they become aware of it at the last possible moment having only one round to act before the opponent.
   - **Additional Success:** for each additional success the character notices the danger or event sooner allowing for more time to react.
+
+#### Balance
+  - **Primary Attribute:** Reflexes
+  - **Primary Skill:** Personal Movement
+  - **Relevant Secondary Skills:** Balance
+  - **Relevant Secondary Skill Usage:** Reduce the difficulty by 3 for each rank.
+  - **Aiding Others:** Aiding another allows that character to treat their secondary skill rank as half your rank higher (minimum one higher). Two characters can help each other.
+  - **Description:** The character is at risk of falling or otherwise loosing their balance if they do not succeed this skill check.
+  - **Difficulty:** 10 - 30 depending on situation.
+  - **Critical Failure:** the character falls bringing down any allies helping them.
+  - **Failure:** the character falls.
+  - **Near Failure:** the character falls but catches themselves, they are prone but do not continue any further if they otherwise would have.
+  - **Success:** the character maintains their footing but their movement is reduced to 1 plus their rank in secondary skill meters until the end of their next turn as long as the reason they needed to make the skill check persists.
+  - **Additional Success:** increase the character's reduced movement by one, this can not bring the character's movement above their base.
 
 #### Action or Skill Check
   - **Primary Attribute:**
