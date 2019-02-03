@@ -109,6 +109,14 @@ Secondary skills represent subsets of or specializations in, the primary skill i
     - **Pickpockets:**
     - **Slight of Hand:**
     - **Thieves' Cant:**
+#### Medicine:
+  Court physicians to midwifes and witch doctors all use their skills to heal the sick and prevent medical misfortune.
+    **Secondary Skills:**
+      - **Diagnoses:**
+      - **First Aid:**
+      - **Medicine:**
+      - **Surgery:**
+      - **Would Type:**
 #### Magical Aptitude:
  How well trained in magic a character is. Characters with an arcane trait will use this skill for crafting magical effects and casting spells.
   **Secondary Skills:**
