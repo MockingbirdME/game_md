@@ -99,6 +99,10 @@ Secondary skills represent subsets of or specializations in, the primary skill i
 #### Knowledge:
  Formal education is rare but for families powerful or wealthy enough to afford it there are many fields of study. This skill is for determining if a character knows something that is not common knowledge.
   **Secondary Skills:**
+  - **Arcane:**
+  - **History:**
+  - **Politics:**
+  - **Science:**
 #### Magical Aptitude:
  How well trained in magic a character is. Characters with an arcane trait will use this skill for crafting magical effects and casting spells.
   **Secondary Skills:**
