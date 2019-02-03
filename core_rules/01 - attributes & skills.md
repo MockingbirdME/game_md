@@ -55,7 +55,7 @@ Secondary skills represent subsets of or specializations in, the primary skill i
 | Discipline | Command, Concentrate, Resist fear |
 | Endurance | Hold breath, Lifting, Remain Conscious, Stamina|
 | Knowledge | Arcane, History, Politics, Science |
-| legerdemain | Picklocks, Pickpockets, Slight of Hand, Thieves' Cant  |
+| Legerdemain | Picklocks, Pickpockets, Slight of Hand, Thieves' Cant  |
 | Medicine  | Diagnoses, First Aid, Medicine, Surgery, Would Type (burn, concussive, penetrating, etc.) |
 | Magical Aptitude | Individual Arcane Powers or Themes |
 | Melee Combat | Weapon Type, Attack Type |
@@ -102,6 +102,13 @@ Secondary skills represent subsets of or specializations in, the primary skill i
     - **History:**
     - **Politics:**
     - **Science:**
+#### Legerdemain:
+  Members of the various underworlds of Flax or the government's covert programs practice all manor of clandestine arts.
+  **Secondary Skills:**
+    - **Picklocks:**
+    - **Pickpockets:**
+    - **Slight of Hand:**
+    - **Thieves' Cant:**
 #### Magical Aptitude:
  How well trained in magic a character is. Characters with an arcane trait will use this skill for crafting magical effects and casting spells.
   **Secondary Skills:**
