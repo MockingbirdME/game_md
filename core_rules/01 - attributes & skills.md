@@ -43,7 +43,7 @@ Secondary skills represent subsets of or specializations in, the primary skill i
 
 | Primary Skill | Example Secondary Skills |
 | --- | --- |
-| Animal Handling | Animal type, Befriend, Command, Drive, Herd, Joust, Read Emotions, Ride, Subdue, Train |
+| Animal Handling | Animal type, Befriend, Command, Ride, Train |
 | Alchemy |   |
 | Awareness | Alertness, Investigate, Search, Sense Motive |
 | Craft (Artist)  | Drafter, Drawer, Painter, Sculptor  |
@@ -70,6 +70,11 @@ Secondary skills represent subsets of or specializations in, the primary skill i
 #### Animal Handling:
  How familiar is the character with animals, particularly domestic ones. This skill should be used when dealing with an animal that has a chance of being controlled or calmed.
   **Secondary Skills:**
+    - **Animal type:**
+    - **Befriend:**
+    - **Command:**
+    - **Ride:**
+    - **Train:**
 #### Alchemy:
   Description Pending.
   **Secondary Skills:**
