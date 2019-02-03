@@ -109,6 +109,20 @@ Most skill checks are made as part of an action taken by the character these ski
   - **Success:** the clue was found.
   - **Additional Success:** if there were more than one clue to find additional successes are used to find additional clues as determined by the GM.
 
+#### Jump
+  - **Primary Attribute:** Body
+  - **Primary Skill:** Personal Movement  
+  - **Relevant Secondary Skills:** Jump
+  - **Relevant Secondary Skill Usage:** add additional successes on a successful skill check.
+  - **Aiding Others:** none.
+  - **Description:** a character may need to hop a fence or leap a gorge.
+  - **Difficulty:** 10 reduced by the distance, in meters, the character has moved already this turn.
+  - **Critical Failure:** none
+  - **Failure:** none
+  - **Near Failure:** the character fails to jump, coming to a stop at the last moment.
+  - **Success:** the character jumps one meter forward or half a meter up.
+  - **Additional Success:** each additional success can be spent to increase a long jump by 1/3rd meter or a high jump by half that.
+
 #### Keep Watch
   - **Primary Attribute:** Perception
   - **Primary Skill:** Awareness
@@ -207,7 +221,6 @@ Most skill checks are made as part of an action taken by the character these ski
   - **Near Failure:**
   - **Success:**
   - **Additional Success:**
-
 
 #### Sprint
   - **Primary Attribute:** Body or Reflexes (player's choice over open clear terrain, reflexes only in difficult terrain).
