@@ -112,19 +112,20 @@ Originally natives to the Northern Desert, and though many have migrated south t
 
 **Size:** 7
 
-**Base Attributes:** Body: 6, Reflexes: 4, Perception: 4, Mind: 4
+**Base Attributes:** Body: 5, Reflexes: 4, Perception: 4, Mind: 4
 
 **Attribute points:** 4
 
 **Required Traits:**
-* Cool Temperament - gain three skill points that must be spent on the discipline skill or its secondary skills.
+* Cool Temperament - gain one rank in the discipline skill and one rank in its resist fear secondary skill.
+* Great Strength - gain two ranks in the lifting secondary skill.
 * Used to the cold - gain cold resist 4.
 
 **Strain Traits:** None
 
 **Arcane Traits:** Learned Mage: 12
 
-**Trait Points:** +15
+**Trait Points:** +18
 
 #### Sapeen
 Most often found living in towns and cities or on lands ruled by one Sapeen are one of the most prevalent strains on flax, can be found in any civilized area and are the most common single strain in most nations. Sapeen are amongst the most ambitious and adaptive of the strains, they are as eager to learn new sciences and trades as they are eager to expand the lands of their mother nation.
