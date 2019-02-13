@@ -78,9 +78,9 @@ Denja are generally quick witted and conversational, preferring to participate i
 
 **Size:** 4
 
-**Base Attributes:** Body: 2, Reflexes: 3, Perception: 4, Mind: 5
+**Base Attributes:** Body: 3, Reflexes: 3, Perception: 4, Mind: 5
 
-**Attribute points:** 6
+**Attribute points:** 5
 
 **Required Traits:**
 * Natural Armor - scales: armor value 4, body value 0, Physical Damage Reduction: 1.
@@ -247,9 +247,9 @@ Born to be fierce and competitive tribal warriors Kaazt are truly of two breeds,
 
 **Size:** 5
 
-**Base Attributes:** Body: 4, Reflexes: 5, Perception: 4, Mind: 2
+**Base Attributes:** Body: 4, Reflexes: 5, Perception: 4, Mind: 3
 
-**Attribute points:** 5
+**Attribute points:** 4
 
 **Required Traits:**
 * Natural Weapon - claws - as brawling but -1 penetrating damage with armor piercing value of 2.
