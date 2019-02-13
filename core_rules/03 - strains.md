@@ -117,7 +117,7 @@ Originally natives to the Northern Desert, and though many have migrated south t
 **Attribute points:** 4
 
 **Required Traits:**
-* Cool Temperament - gain one rank in the discipline skill and one rank in its resist fear secondary skill.
+* Cool Temperament - gain three ranks in the resist fear secondary skill.
 * Great Strength - gain two ranks in the lifting secondary skill.
 * Used to the cold - gain cold resist 4.
 
