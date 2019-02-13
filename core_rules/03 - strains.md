@@ -179,6 +179,7 @@ The most diverse of strains Teejee females are either breeders or drones; the br
 
 **Required Traits:**
 * Four Legs - gain 3 ranks to the balance secondary skill and ignore up to two penalty dice to movement checks caused by rough or difficult terrain.
+* Many times their weight - consider the character's size to be two greater for calculating lifting or carrying weights.
 * Pheromone Communication - can communicate rough ideas with other Teejee within 30m silently.
 * Pheromone Influence - gain 4 bonus dice on all checks to control Teejee drones and 4 penalty dice to avoid being influenced by Teejee breeding females.
 
