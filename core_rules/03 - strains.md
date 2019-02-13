@@ -214,12 +214,12 @@ Torleni were created by Milnot, the mistress of the mountain, in the range domin
 **Attribute points:** 4
 
 **Required Traits:**
-* Blood of Shimmer - increase two attributes by one point or one attribute by two points. Each month the character may choose to decrease one attribute increased by this trait by one point to gain one reserve point, or loose one reserve point to gain one point in an attribute of their choice. The character may, over a number of months equal to the cost of a positive, non-arcane trait, lose that trait in order to gain that many trait-reserve points, or the character may spend a number of months and spend as many trait-reserve points to gain a new non-arcane trait.
-* Natural Armor - scales - armor value: 5, body value: 1, Physical/Fire/Lightning/Cold damage reduction: 1.
+* Blood of Shimmer - The character may, over a number of months equal to the cost of a positive, non-arcane trait, lose that trait in order to gain that many trait-reserve points, or the character may spend a number of months and spend as many trait-reserve points to gain a new non-arcane trait.
 
 **Strain Traits:**
+* Scale Armor (3)- gain Natural Armor - scales - armor value: 5, body value: 1, Physical/Fire/Lightning/Cold damage reduction: 1.
 * Thickened Scales (1) - Natural Armor + 1 body. Each time this trait is taken increase the cost to take it again by one (max cost 3).
-* Hardened Scales (1) - Natural Armor + 1 armor value. Each time this trait is taken increase the cost to take it again by one (max cost 3).
+* Hardened Scales (1) - Natural Armor + 1 armor value. Each time this trait is taken increase its cost to take it again by one (max cost 3).
 * Elemental Scales (1) - distribute 3 points between cold, fire, and lightning and gain resistance in each equal to the number of points allocated. Each time this trait is taken increase the cost to take it again by one (max cost 3).
 * Chameleon Scales (1) - passively others require an additional success to visually notice the you. Each time this trait is taken increase the cost to take it again by one (max cost 3).
 * Natural Weapon - Claws (1) - brawling attacks may deal -2 penetrating damage with armor piercing 1.
@@ -236,7 +236,7 @@ Torleni were created by Milnot, the mistress of the mountain, in the range domin
 
 **Arcane Traits:** Learned Mage: 10
 
-**Trait Points:** +14
+**Trait Points:** +30
 
 ## Secondary strains
 
