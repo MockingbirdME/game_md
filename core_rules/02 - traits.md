@@ -85,8 +85,8 @@ Like general traits negative traits are available to any character, with GM appr
  This trait can be taken any number of times; for each time a character has taken this trait they suffer -1 stamina, they also receive 1 penalty die on all athletic or acrobatic skill checks for every time they’ve taken this trait beyond the first.
 #### Slow(1)
  This trait may be taken any number of times; a character receives -1 to their movement attribute for each time they’ve taken this trait.
-#### Reduced Attribute(2)
- This trait may be taken any number of times, each time it is taken choose a primary attribute and reduce its score by 1.
+#### Reduced Attribute(X)
+ This trait may be taken any number of times, each time it is taken choose a primary attribute and reduce its score by 1. This trait's cost is equal to two times the new attribute score.
 #### Weak eyes(2)
  A character may take this trait up to twice; they suffer 2 penalty dice to all sight based checks for each time they’ve taken this trait.
 
