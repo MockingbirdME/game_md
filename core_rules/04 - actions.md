@@ -52,6 +52,21 @@ Most skill checks are made as part of an action taken by the character these ski
   - **Additional Success:** each additional success adds one successes towards the character's progress.
 
 
+#### Craft
+  - **Primary Attribute:** Mind or situation based
+  - **Primary Skill:** Craft(any)  
+  - **Relevant Secondary Skills:** varies
+  - **Relevant Secondary Skill Usage:**
+  - **Aiding Others:**
+  - **Description:**
+  - **Difficulty:**
+  - **Critical Failure:**
+  - **Failure:**
+  - **Near Failure:**
+  - **Success:**
+  - **Additional Success:**
+
+
 #### Flee/Pursuit
   - **Primary Attribute:** Body or Reflexes (player's choice over open clear terrain, reflexes only in difficult terrain).
   - **Primary Skill:** Personal Movement
@@ -193,6 +208,20 @@ Most skill checks are made as part of an action taken by the character these ski
   - **Near Failure:** see hitting and getting hit.
   - **Success:** see hitting and getting hit.
   - **Additional Success:** see hitting and getting hit.
+
+#### Repair
+  - **Primary Attribute:** Mind or situation based
+  - **Primary Skill:** Craft(any)  
+  - **Relevant Secondary Skills:** varies
+  - **Relevant Secondary Skill Usage:**
+  - **Aiding Others:**
+  - **Description:**
+  - **Difficulty:**
+  - **Critical Failure:**
+  - **Failure:**
+  - **Near Failure:**
+  - **Success:**
+  - **Additional Success:**
 
 #### Restoration
   - **Primary Attribute:** Body
