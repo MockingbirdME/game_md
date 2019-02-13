@@ -48,9 +48,9 @@ So similar to Sapeen that, but for their dusky skin, they could be mistaken for 
 
 **Size:** 5
 
-**Base Attributes:** Body: 3, Reflexes: 3, Perception: 3, Mind: 3
+**Base Attributes:** Body: 4, Reflexes: 4, Perception: 4, Mind: 4
 
-**Attribute points:** 9
+**Attribute points:** 5
 
 **Required Traits:**
 * Horse Affinity: gain three skill points that must be spent on animal handling base skill or horse related secondary skill(s)
@@ -78,9 +78,9 @@ Denja are generally quick witted and conversational, preferring to participate i
 
 **Size:** 4
 
-**Base Attributes:** Body: 1, Reflexes: 2, Perception: 3, Mind: 4
+**Base Attributes:** Body: 2, Reflexes: 3, Perception: 4, Mind: 5
 
-**Attribute points:** 10
+**Attribute points:** 6
 
 **Required Traits:**
 * Natural Armor - scales: armor value 4, body value 0, Physical Damage Reduction: 1.
@@ -112,9 +112,9 @@ Originally natives to the Northern Desert, and though many have migrated south t
 
 **Size:** 7
 
-**Base Attributes:** Body: 5, Reflexes: 3, Perception: 3, Mind: 3
+**Base Attributes:** Body: 6, Reflexes: 4, Perception: 4, Mind: 4
 
-**Attribute points:** 8
+**Attribute points:** 4
 
 **Required Traits:**
 * Cool Temperament - gain three skill points that must be spent on the discipline skill or its secondary skills.
@@ -143,9 +143,9 @@ Most often found living in towns and cities or on lands ruled by one Sapeen are 
 
 **Size:** 5
 
-**Base Attributes:** Body: 3, Reflexes: 3, Perception: 3, Mind: 3
+**Base Attributes:** Body: 4, Reflexes: 4, Perception: 4, Mind: 4
 
-**Attribute points:** 9
+**Attribute points:** 5
 
 **Required Traits:** None
 
@@ -172,9 +172,9 @@ The most diverse of strains Teejee females are either breeders or drones; the br
 
 **Size:** 4
 
-**Base Attributes:** Body: 3, Reflexes: 2, Perception: 4, Mind: 3
+**Base Attributes:** Body: 4, Reflexes: 3, Perception: 5, Mind: 4
 
-**Attribute points:** 9
+**Attribute points:** 5
 
 **Required Traits:**
 * Four Legs - gain 3 ranks to the balance secondary skill and ignore up to two penalty dice to movement checks caused by rough or difficult terrain.
@@ -207,9 +207,9 @@ Torleni were created by Milnot, the mistress of the mountain, in the range domin
 
 **Size:** 6
 
-**Base Attributes:** Body: 3, Reflexes: 3, Perception: 3, Mind: 3
+**Base Attributes:** Body: 4, Reflexes: 4, Perception: 4, Mind: 4
 
-**Attribute points:** 8
+**Attribute points:** 4
 
 **Required Traits:**
 * Blood of Shimmer - increase two attributes by one point or one attribute by two points. Each month the character may choose to decrease one attribute increased by this trait by one point to gain one reserve point, or loose one reserve point to gain one point in an attribute of their choice. The character may, over a number of months equal to the cost of a positive, non-arcane trait, lose that trait in order to gain that many trait-reserve points, or the character may spend a number of months and spend as many trait-reserve points to gain a new non-arcane trait.
@@ -247,9 +247,9 @@ Born to be fierce and competitive tribal warriors Kaazt are truly of two breeds,
 
 **Size:** 5
 
-**Base Attributes:** Body: 3, Reflexes: 4, Perception: 3, Mind: 1
+**Base Attributes:** Body: 4, Reflexes: 5, Perception: 4, Mind: 2
 
-**Attribute points:** 9
+**Attribute points:** 5
 
 **Required Traits:**
 * Natural Weapon - claws - as brawling but -1 penetrating damage with armor piercing value of 2.
