@@ -44,7 +44,7 @@
 - Size - set by the character's strain.
 - Speed - set by strain, plus size, plus ranks in the personal movement skill.
 - Stamina - 8 + body stat + ranks in endurance + ranks in stamina (endurance).
-- Toughness - 0.
+- Toughness - 1.
 
 
 # Strains
@@ -111,13 +111,18 @@
 # Traits
 ## General Traits
 
+### Adventure's Health
+**Requirements:** none.
+Each time a character takes this trait they increase their max wounds by two.
+### Linguist
+**Requirements:** none.
+The character learns one spoken or written language or two spoken languages for which they already know a related language.
 ### Skilled
 **Requirements:** none.
 Each time a character takes this trait do one of the following:
 * Gain rank one (Novice) in a new skill and one rank in one of that skills secondary skills
 * Increase a skill from rank one (Novice) to rank two (Proficient).
 * Choose three secondary skills, for each of those skills either gain rank one or increase its existing rank by one.
-
 ### Highly Skilled
 **Requirements:** level 5, plus 10 for each time the character has already taken this trait.
 Each time a character takes this trait do one of the following:
@@ -173,9 +178,9 @@ Each time the character suffers at least as many wounds as they have instances o
 ### Hard to Kill
 **Requirements:** 8 total warrior traits.
 Once per scene the character may spend their reaction to halve the number of wounds they would suffer from an attack.
-### Healthy
+### Warrior's Health
 **Requirements:** none.
-Each time a character takes this trait they increase their max wounds by 3 plus their body stat, minimum of one. The increase to max wounds granted by this trait is recalculated if the character's body attribute changes.
+Each time a character takes this trait they increase their max wounds by one plus their body stat, minimum of one. The increase to max wounds granted by this trait is recalculated if the character's body attribute changes.
 ### Mobile Combatant
 **Requirements:** 2 warrior traits.
 The character doubles their melee defense bonus against free attacks provided they have not taken the disengage action this turn.
@@ -188,18 +193,21 @@ The character no longer provokes free attacks.
 ### Push the Body
 **Requirements:** 2 total warrior traits increased by 3 for each time the character has already taken this trait.
 Once per turn the character may recover 5 plus 3 for each instance of this trait they have beyond the first *stamina* and suffer one *fatigue*.
+### Quick Draw
+**Requirements:** 2 warrior traits.
+The first *ready/stow item* action the character takes each turn has an action point cost of 0.
 ### Tough
 **Requirements:** none.
 Each time a character takes this trait increase their toughness by one.
 ### Two Weapon Fighting
 **Requirements:** 2 warrior traits.
-The character does not suffer the normal level of disadvantage when performing an attack with their off-hand. Additionally they may make *Off-Hand Attack* actions with weapons that do not have the *small* keyword but gain a level of disadvantage when doing so.
+The character does not suffer the normal level of disadvantage when performing an attack with their off-hand. Additionally they may make *Off-Hand Attack* actions with weapons that have the *one-handed* keyword but gain a level of disadvantage when doing so.
 ### Two Weapon Fighting, Advanced
 **Requirements:** Two Weapon Fighting, 5 warrior traits.
-If the character has already taken an attack action on their turn with their primary hand or a weapon wielded in it the first *Off-Hand Attack* action they make on this turn does not cost an action point.
+If the character has already taken an attack action on their turn with their primary hand or a weapon wielded in it the first *Off-Hand Attack* action they make on this turn does not cost an action point. Additionally they may make *Off-Hand Attack* actions with weapons that have the *hand-and-a-half* keyword but gain a level of disadvantage when doing so.
 ### Two Weapon Fighting, Heroic
 **Requirements:** Advanced Two Weapon Fighting, 8 warrior traits.
-The character no longer gains a level of disadvantage when making *Off-Hand Attack* actions with weapons that do not have the *small* keyword. Additionally, as long as the character has already made a  attack on their turn with their primary hand or a weapon wielded in it, the first *Off-Hand Attack* action the character takes each round may be treated as a *Bash*, *Disarm*, *Distracting Attack*, *Power Attack*, *Reckless Attack*, *Throw*, or *Loose, Shoot, Fire* action performed with the character's off-hand or ready weapon wielded in their off-hand; this attack costs an additional stamina but still costs no action points.
+The character no longer gains a level of disadvantage when making *Off-Hand Attack* actions with weapons that have the *one-handed* or *hand-and-a-half* keywords. Additionally, as long as the character has already made a  attack on their turn with their primary hand or a weapon wielded in it, the first *Off-Hand Attack* action the character takes each round may be treated as a *Bash*, *Disarm*, *Distracting Attack*, *Power Attack*, *Reckless Attack*, *Throw*, or *Loose, Shoot, Fire* action performed with the character's off-hand or ready weapon wielded in their off-hand; this attack costs an additional stamina but still costs no action points.
 
 
 # Skill Checks
@@ -360,10 +368,17 @@ The character carefully disengages from their opponent and moves carefully throu
 **Action Points:** 1
 **Stamina Cost:** 0
 The character bobs and weaves, zig zags, and generally makes themselves a difficult target for ranged attacks. They make a regain composure skill check to regain defense, double their ranged defense bonus (not including any cover bonuses) and gain a situational defense bonus equal to the number of stamina spent on move actions this turn until their next turn.
-#### Restoration action
+#### Restoration Action
 **Action Points:** 1
 **Stamina Cost:** 0
-The character does their best to catch their breath and reposition themselves. They make a restoration skill check to regain stamina..
+The character does their best to catch their breath and reposition themselves. They make a restoration skill check to regain stamina.
+
+### Other Actions
+Some actions don't fit neatly into a category, they are detailed here.
+#### Ready/Stow Item
+**Action Points:** 1
+**Stamina Cost:** 0
+The character readies up to one weapon or item or up to one plus their rank in the *reload secondary skill (ranged combat)* pieces of ammunition or stows the same number of currently readied weapons/items or pieces of ammunition.
 
 ## Reactions
 Reactions are special actions that are taken outside of the character's turn. A character can make only one reaction between each of their turns. Reactions have no turn requirement even if they specify taking an action that normally would.
@@ -393,12 +408,12 @@ When a character suffers damage from some attack or effect follow the steps belo
 2. If damage type is penetrating and the total amount of damage is less than the character's *armor value* change the damage type to concussive.
 3. Reduce the damage by the character's *resistance* for the specific type of damage.
 4. If the character has the *weakness* trait for the damage type double the remaining damage.
-4. If the remaining damage is greater than zero reduce it by the character's *toughness*, to a minimum of one.
+4. If the remaining damage is greater than zero reduce and equalt to or less than the character's *toughness*, reduce the damage to one.
 5. Inflict the a number of wounds to the character equal to the remaining damage.
 
 ## Suffering From Damage
 A character who has taken damage may suffers from the most penalizing of follow conditions that they qualify for.
-* **Stunned -** if the character has suffered one or more wounds since their last turn they suffer minus one penalty to each of their skill checks.
+* **Stunned -** if the character has suffered two or more wounds from one instance of damage since their last turn they suffer a minus one penalty to each of their skill checks.
 * **Lightly Wounded -** if the character has suffered at least as many wounds as their *toughness* they suffer a minus one penalty to all of their skill checks.
 * **Wounded -** if a character has suffered at least half their *max wounds* they gain disadvantage to each of their skill checks.
 * **Badly Wounded -** if a character has suffered a number of wounds equal to their *max wounds* they suffer two levels of disadvantage to each of their skill checks.
@@ -413,6 +428,38 @@ A character who has taken damage may suffers from the most penalizing of follow 
 # Money and Equipment
 ## Currency
 ## Armor and Weapons
+### Armor
+### Weapons
+Weapons have a number of keywords as follows:
+Any Number: *armor piercing(x)*, *bash*, *balanced*, *cover(x)*, *crude*, *heavy(x)*, *non-lethal*, *parrying*, *pole arm*, *reach(x)*, *sap*, *size(x)*, *trip*, *a single word for requires training*
+Always One: *hand-and-a-half*, *one-handed*, *small*, *two-handed*
+Always One: *axe*, *blade, short*, *blade, long*, *bludgeoning*, *brawling*, *spear*
+  - *armor piercing(x):* this weapon reduces the target's armor value by x while resolving its attacks.
+  - *bash:* can be used to make the *bash* melee combat action.
+  - *balanced:* if wielded in the user's primary hand they gain a +1 parry bonus to their melee defense bonus (a character's total parry bonus can not be greater than the number of ranks they have in the *parry secondary skill (personal defense)*).
+  - *cover(x):* a character wielding this weapon gains a +x shield bonus to their melee and ranged defense bonus against attacks coming from their front arc (a character's total shield bonus can not be greater than one plus the number of ranks they have in the *shields secondary skill (personal defense)*).
+  - *crude:* the weapon's base damage is reduced by one and all attacks made with the weapon gain one level of disadvantage.
+  - *heavy(x):* a character without with a body attribute of less than x gains a penalty die when attacking with this weapon, can not make free attacks with it, and does not benefit from any defense bonuses from it.
+  - *non-lethal:*
+  - *parrying:* a character wielding this weapon gains a +1 parry bonus to their melee defense bonus (a character's total parry bonus can not be greater than the number of ranks they have in the *parry secondary skill (personal defense)*).
+  - *pole arm:* 
+  - *reach(x):*
+  - *sap:*
+  - *size(x):* x is the size of character the weapon is designed for (size 0 if this keyword is absent). A character wielding a weapon designed for a size larger than itself gains a level of disadvantage to all attacks they make with the weapon and do not benefit from any defense bonuses from it. A weapon with a negative size has its base damage reduced by its size, minimum one. A weapon with a positive size has its max body damage bonus increased by the size.
+  - *trip:* can be used to make the *trip* melee combat action.
+  - *a single word for requires training:*
+  - *hand-and-a-half:* the weapon can be wielded two-handed (increasing its damage by 2); it has a base damage of 3 and ignores any damage bonus from the character's body stat exceeding +2.
+  - *one-handed:* the weapon can be wielded two-handed (increasing its damage by 1); it has a base damage of 2 and ignores any damage bonus from the character's body stat exceeding +2.
+  - *small:* the weapon has a base damage of 1 and a max body bonus of +1.
+  - *two-handed:* the weapon can be wielded two-handed (increasing its damage by 2); it has a base damage of 3, if wielded one handed the character gains two levels of disadvantage to all attacks made with it and does not benefit from any defense bonuses from it, and ignores any damage bonus from the character's body stat exceeding +3.
+  - *axe:* the weapon inflicts penetrating damage and its max body damage bonus is increased by one.
+  - *blade, short:* the weapon inflicts penetrating damage, if the damage is converted to concussive damage additional successes cannot be used to increase damage. Additional successes can be used to reduce the armor value of a target by 2 each for the purpose of the attack.
+  - *blade, long:* the weapon inflicts penetrating damage, if the damage is converted to concussive damage additional successes in excess of the weapon's max body damage bonus cannot be used to increase damage. Additional successes can be used to reduce the armor value of a target by 1 each for the purpose of the attack.
+  - *bludgeoning:* the weapon inflicts concussive damage, its base damage and max body damage bonus are doubled.
+  - *brawling:* this weapon's base damage is increased by the character's rank in the *brawling secondary skill (melee combat)*
+  - *spear:* the weapon inflicts penetrating damage, each success used to increase damage also increases reduces the target's armor value for the purpose of the attack, if the attack is converted to concussive damage ignore all damage added from successes.
+
+
 ## Adventuring Gear
 ## Arcane Essence and Essence Items
 ## Cost of Living
