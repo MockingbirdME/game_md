@@ -32,19 +32,45 @@
 - Survival
 
 ## Other
-- Armor Value - 0.
-- Defense - 8 + reflexes stat + perception stat + ranks in the personal defense skill.
-- Defense Bonus, Magic - ranks in Discipline + ranks in magical aptitude.
-- Defense Bonus, Melee - ranks in melee combat + ranks in parry (personal defense).
-- Defense Bonus, Range - ranks in awareness + ranks in dodge secondary skill (personal defense).
-- Max Wounds - 8 + size, if positive, + body stat.
-- Reach - 0 + size if positive.
-- Resistance (concussive) - 0 + body if positive.
-- Resistance (damage type) - 0 for each other damage type.
-- Size - set by the character's strain.
-- Speed - set by strain, plus size, plus ranks in the personal movement skill.
-- Stamina - 8 + body stat + ranks in endurance + ranks in stamina (endurance).
-- Toughness - 1.
+- **Armor Value**
+  *Description:* The difficulty to pierce the character's flesh with penetrating weapons, if the damage from a penetrating weapon is less than this value the weapon inflicts concussive damage instead.
+  *Base Value:* 0.
+- **Defense**
+  *Description:*
+  *Base Value:* 8 + reflexes stat + perception stat + ranks in the personal defense skill.
+- **Defense Bonus, Magic**
+  *Description:*
+  *Base Value:* ranks in Discipline + ranks in magical aptitude.
+- **Defense Bonus, Melee**
+  *Description:*
+  *Base Value:* ranks in melee combat + ranks in parry (personal defense).
+- **Defense Bonus, Range**
+  *Description:*
+  *Base Value:* ranks in awareness + ranks in dodge secondary skill (personal defense).
+- **Max Wounds**
+  *Description:*
+  *Base Value:* 8 + size, if positive, + body stat.
+- **Reach**
+  *Description:*
+  *Base Value:* 0 + size if positive.
+- **Resistance (concussive)**
+  *Description:*
+  *Base Value:* 0 + body if positive.
+- **Resistance (damage type)**
+  *Description:*
+  *Base Value:* 0 for each other damage type.
+- **Size**
+  *Description:*
+  *Base Value:* set by the character's strain.
+- **Speed**
+  *Description:*
+  *Base Value:* set by strain, plus size, plus ranks in the personal movement skill.
+- **Stamina**
+  *Description:*
+  *Base Value:* 8 + body stat + ranks in endurance + ranks in stamina (endurance).
+- **Toughness**
+  *Description:*
+  *Base Value:* 1.
 
 
 # Strains
@@ -69,7 +95,7 @@
   - **Naming Conventions:**
   - **Size:** -1
   - **Attribute Modifiers:** -1 to body and reflexes, + 1 mind.
-  - **Starting Traits:**
+  - **Starting Traits:** one rank in *natural armor, scales*, *natural weapon, clawed fingers*, *claws and webbed feet*, and *air sacks* and 5 traits to be assigned.
   - **Strain Traits:**
 
 ### Rhosk
@@ -81,8 +107,8 @@
   - **Naming Conventions:**
   - **Size:** +2
   - **Attribute Modifiers:** +2 body.
-  - **Starting Traits:**
-  - **Strain Traits:**
+  - **Starting Traits:** one rank in *cool temperament* and *great strength*, as well as two ranks in *used to the cold* and 4 traits to assign.
+
 
 ### Sapeen
   - **Physical Appearance:**
@@ -93,8 +119,7 @@
   - **Naming Conventions:**
   - **Size:** 0
   - **Attribute Modifiers:** +1 to any attribute.
-  - **Starting Traits:**
-  - **Strain Traits:**
+  - **Starting Traits:** 5 traits to assign.
 
 ### Tor'leni
   - **Physical Appearance:**
@@ -109,6 +134,40 @@
   - **Strain Traits:**
 
 # Traits
+
+## Background/Starting Traits:
+Background Traits can only be taken at character creation or with GM approval during a campaign.
+### Air Sacks
+**Requirements:** denja.
+the character can hold their breath for ten times as long as normal.
+### Cool Temperament
+**Requirements:** none.
+the character gains one level of advantage on rolls to resist fear.
+### Claws and Webbed Feet
+**Requirements:** denja.
+the character gains advantage on swim and climb skill checks.
+### Gliding Membrane
+**Requirements:** denja.
+the character may take the *glide* move action provided they are not wearing clothing or armor that prevents the membrane running from wrist to ankle from opening and are not encumbered. Additionally, provided the conditions for the character gliding are met they suffer only half damage from falling.
+### Great Strength
+**Requirements:** rhosk or teejee.
+the character treats their size as one higher for the purpose of lifting and carrying capacity, teejee may take this trait multiple times.
+### Hardy
+**Requirements:** none.
+the character gains advantage on rolls to resist illness and poisons.
+### Large/Small Size
+**Requirements:** none.
+Increase or decrease the character's size by one.
+### Natural Armor, Scales
+**Requirements:** Denja.
+the character has natural armor with *armor value* ???, *body value* 0 and *resistance (concussive and penetrating)* 1
+### Natural Weapon, Clawed Fingers
+**Requirements:** denja.
+the character's brawling attacks may inflict penetrating damage, doing so reduces the max bonus body damage of the attack to +1.
+### Used to the Cold
+**Requirements:** none.
+the character gains two to their *resistance (cold)* attribute each time they take this trait.
+
 ## General Traits
 
 ### Adventure's Health
@@ -197,7 +256,7 @@ Once per turn the character may recover 5 plus 3 for each instance of this trait
 **Requirements:** 2 warrior traits.
 The first *ready/stow item* action the character takes each turn has an action point cost of 0.
 ### Tough
-**Requirements:** none.
+**Requirements:** 2 total warrior traits increased by 3 for each time the character has already taken this trait..
 Each time a character takes this trait increase their toughness by one.
 ### Two Weapon Fighting
 **Requirements:** 2 warrior traits.
@@ -239,6 +298,118 @@ To perform a skill check requires a number of steps as follows:
 * Greater than difficulty plus required successes - the action gains an additional success for each point by which the result exceeds the difficulty.
 
 ## Common Skill Checks
+### Climb ??????
+  - **Primary Attribute:** Body
+  - **Primary Skill:** Personal Movement
+  - **Relevant Secondary Skills:** Climb
+  - **Relevant Secondary Skill Usage:**
+  - **Aiding Others:** a character can assist another by allowing the second character to use their rank in the climb secondary skill however both character's only move at the rate of the slower of the two. A character can not assist more than one other character at a time.
+  - **Description:** from a well limbed oak tree to a stony cliff face with few handholds a climb skill check is what allows a character to scale any climbable surface.
+  - **Difficulty:** the skill check's difficulty is what's required to make any progress during the climb not the difficulty to full ascend the tree/wall/cliff/etc. that they're attempting to climb.
+  - **Required Successes:** N/A.
+  - **Critical Failure:** the character loses their grip and falls any distance already climbed, or fails to make any progress if they are still grounded.
+  - **Failure:** the character makes no progress on their climb.
+  - **Near Success:** the character ascends a number of hexes equal to the character's secondary skill rank.
+  - **Complete Success:** the character ascends a number of hexes equal to one plus the character's secondary skill rank.
+  - **Additional Success:** each additional success rolled increases the distance the character climbs by one hex.
+### Craft ??????
+  - **Primary Attribute:** Mind or situation based
+  - **Primary Skill:** Craft(any)
+  - **Relevant Secondary Skills:** varies.
+  - **Relevant Secondary Skill Usage:**
+  - **Aiding Others:**
+  - **Description:**
+  - **Difficulty:**
+  - **Required Successes:**
+  - **Critical Failure:**
+  - **Failure:**
+  - **Near Success:**
+  - **Complete Success:**
+  - **Additional Success:** 
+### Flee/Pursuit ??????
+  - **Primary Attribute:** Reflexes
+  - **Primary Skill:** Melee Combat
+  - **Relevant Secondary Skills:** Specific melee attack type.
+  - **Relevant Secondary Skill Usage:**
+  - **Aiding Others:** none, character's make this skill check on their own.
+  - **Description:** the character makes an attack with a melee weapon or their body against a target in their reach.
+  - **Difficulty:** equal to the target's defense.
+  - **Required Successes:** equal to the target's melee defense bonus.
+  - **Critical Failure:** the attack misses and something goes wrong, if not detailed elsewhere this is determined by the GM and may range from dropping or breaking the weapon to harming the attacker or their ally.
+  - **Failure:** the attack misses with no further effect.
+  - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
+  - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
+  - **Additional Success:** the target suffers additional effects based on the attack/weapon.
+### Gather Information ??????
+  - **Primary Attribute:** Reflexes
+  - **Primary Skill:** Melee Combat
+  - **Relevant Secondary Skills:** Specific melee attack type.
+  - **Relevant Secondary Skill Usage:**
+  - **Aiding Others:** none, character's make this skill check on their own.
+  - **Description:** the character makes an attack with a melee weapon or their body against a target in their reach.
+  - **Difficulty:** equal to the target's defense.
+  - **Required Successes:** equal to the target's melee defense bonus.
+  - **Critical Failure:** the attack misses and something goes wrong, if not detailed elsewhere this is determined by the GM and may range from dropping or breaking the weapon to harming the attacker or their ally.
+  - **Failure:** the attack misses with no further effect.
+  - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
+  - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
+  - **Additional Success:** the target suffers additional effects based on the attack/weapon.
+### Hide/Sneak ??????
+  - **Primary Attribute:** Reflexes
+  - **Primary Skill:** Melee Combat
+  - **Relevant Secondary Skills:** Specific melee attack type.
+  - **Relevant Secondary Skill Usage:**
+  - **Aiding Others:** none, character's make this skill check on their own.
+  - **Description:** the character makes an attack with a melee weapon or their body against a target in their reach.
+  - **Difficulty:** equal to the target's defense.
+  - **Required Successes:** equal to the target's melee defense bonus.
+  - **Critical Failure:** the attack misses and something goes wrong, if not detailed elsewhere this is determined by the GM and may range from dropping or breaking the weapon to harming the attacker or their ally.
+  - **Failure:** the attack misses with no further effect.
+  - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
+  - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
+  - **Additional Success:** the target suffers additional effects based on the attack/weapon.
+### Investigate Area ??????
+  - **Primary Attribute:** Reflexes
+  - **Primary Skill:** Melee Combat
+  - **Relevant Secondary Skills:** Specific melee attack type.
+  - **Relevant Secondary Skill Usage:**
+  - **Aiding Others:** none, character's make this skill check on their own.
+  - **Description:** the character makes an attack with a melee weapon or their body against a target in their reach.
+  - **Difficulty:** equal to the target's defense.
+  - **Required Successes:** equal to the target's melee defense bonus.
+  - **Critical Failure:** the attack misses and something goes wrong, if not detailed elsewhere this is determined by the GM and may range from dropping or breaking the weapon to harming the attacker or their ally.
+  - **Failure:** the attack misses with no further effect.
+  - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
+  - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
+  - **Additional Success:** the target suffers additional effects based on the attack/weapon.
+### Jump ??????
+  - **Primary Attribute:** Reflexes
+  - **Primary Skill:** Melee Combat
+  - **Relevant Secondary Skills:** Specific melee attack type.
+  - **Relevant Secondary Skill Usage:**
+  - **Aiding Others:** none, character's make this skill check on their own.
+  - **Description:** the character makes an attack with a melee weapon or their body against a target in their reach.
+  - **Difficulty:** equal to the target's defense.
+  - **Required Successes:** equal to the target's melee defense bonus.
+  - **Critical Failure:** the attack misses and something goes wrong, if not detailed elsewhere this is determined by the GM and may range from dropping or breaking the weapon to harming the attacker or their ally.
+  - **Failure:** the attack misses with no further effect.
+  - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
+  - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
+  - **Additional Success:** the target suffers additional effects based on the attack/weapon.
+### Keep Watch ??????
+  - **Primary Attribute:** Reflexes
+  - **Primary Skill:** Melee Combat
+  - **Relevant Secondary Skills:** Specific melee attack type.
+  - **Relevant Secondary Skill Usage:**
+  - **Aiding Others:** none, character's make this skill check on their own.
+  - **Description:** the character makes an attack with a melee weapon or their body against a target in their reach.
+  - **Difficulty:** equal to the target's defense.
+  - **Required Successes:** equal to the target's melee defense bonus.
+  - **Critical Failure:** the attack misses and something goes wrong, if not detailed elsewhere this is determined by the GM and may range from dropping or breaking the weapon to harming the attacker or their ally.
+  - **Failure:** the attack misses with no further effect.
+  - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
+  - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
+  - **Additional Success:** the target suffers additional effects based on the attack/weapon.
 ### Melee Attack
   - **Primary Attribute:** Reflexes
   - **Primary Skill:** Melee Combat
@@ -253,7 +424,104 @@ To perform a skill check requires a number of steps as follows:
   - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
   - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
   - **Additional Success:** the target suffers additional effects based on the attack/weapon.
-
+### Regain Composure ??????
+  - **Primary Attribute:** Reflexes
+  - **Primary Skill:** Melee Combat
+  - **Relevant Secondary Skills:** Specific melee attack type.
+  - **Relevant Secondary Skill Usage:**
+  - **Aiding Others:** none, character's make this skill check on their own.
+  - **Description:** the character makes an attack with a melee weapon or their body against a target in their reach.
+  - **Difficulty:** equal to the target's defense.
+  - **Required Successes:** equal to the target's melee defense bonus.
+  - **Critical Failure:** the attack misses and something goes wrong, if not detailed elsewhere this is determined by the GM and may range from dropping or breaking the weapon to harming the attacker or their ally.
+  - **Failure:** the attack misses with no further effect.
+  - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
+  - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
+  - **Additional Success:** the target suffers additional effects based on the attack/weapon.
+### Remain Conscious ??????
+  - **Primary Attribute:** Reflexes
+  - **Primary Skill:** Melee Combat
+  - **Relevant Secondary Skills:** Specific melee attack type.
+  - **Relevant Secondary Skill Usage:**
+  - **Aiding Others:** none, character's make this skill check on their own.
+  - **Description:** the character makes an attack with a melee weapon or their body against a target in their reach.
+  - **Difficulty:** equal to the target's defense.
+  - **Required Successes:** equal to the target's melee defense bonus.
+  - **Critical Failure:** the attack misses and something goes wrong, if not detailed elsewhere this is determined by the GM and may range from dropping or breaking the weapon to harming the attacker or their ally.
+  - **Failure:** the attack misses with no further effect.
+  - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
+  - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
+  - **Additional Success:** the target suffers additional effects based on the attack/weapon.
+### Ranged Attack ??????
+  - **Primary Attribute:** Reflexes
+  - **Primary Skill:** Melee Combat
+  - **Relevant Secondary Skills:** Specific melee attack type.
+  - **Relevant Secondary Skill Usage:**
+  - **Aiding Others:** none, character's make this skill check on their own.
+  - **Description:** the character makes an attack with a melee weapon or their body against a target in their reach.
+  - **Difficulty:** equal to the target's defense.
+  - **Required Successes:** equal to the target's melee defense bonus.
+  - **Critical Failure:** the attack misses and something goes wrong, if not detailed elsewhere this is determined by the GM and may range from dropping or breaking the weapon to harming the attacker or their ally.
+  - **Failure:** the attack misses with no further effect.
+  - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
+  - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
+  - **Additional Success:** the target suffers additional effects based on the attack/weapon.
+### Repair ??????
+  - **Primary Attribute:** Reflexes
+  - **Primary Skill:** Melee Combat
+  - **Relevant Secondary Skills:** Specific melee attack type.
+  - **Relevant Secondary Skill Usage:**
+  - **Aiding Others:** none, character's make this skill check on their own.
+  - **Description:** the character makes an attack with a melee weapon or their body against a target in their reach.
+  - **Difficulty:** equal to the target's defense.
+  - **Required Successes:** equal to the target's melee defense bonus.
+  - **Critical Failure:** the attack misses and something goes wrong, if not detailed elsewhere this is determined by the GM and may range from dropping or breaking the weapon to harming the attacker or their ally.
+  - **Failure:** the attack misses with no further effect.
+  - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
+  - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
+  - **Additional Success:** the target suffers additional effects based on the attack/weapon.
+### Restoration ??????
+  - **Primary Attribute:** Reflexes
+  - **Primary Skill:** Melee Combat
+  - **Relevant Secondary Skills:** Specific melee attack type.
+  - **Relevant Secondary Skill Usage:**
+  - **Aiding Others:** none, character's make this skill check on their own.
+  - **Description:** the character makes an attack with a melee weapon or their body against a target in their reach.
+  - **Difficulty:** equal to the target's defense.
+  - **Required Successes:** equal to the target's melee defense bonus.
+  - **Critical Failure:** the attack misses and something goes wrong, if not detailed elsewhere this is determined by the GM and may range from dropping or breaking the weapon to harming the attacker or their ally.
+  - **Failure:** the attack misses with no further effect.
+  - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
+  - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
+  - **Additional Success:** the target suffers additional effects based on the attack/weapon.
+### Search Area ??????
+  - **Primary Attribute:** Reflexes
+  - **Primary Skill:** Melee Combat
+  - **Relevant Secondary Skills:** Specific melee attack type.
+  - **Relevant Secondary Skill Usage:**
+  - **Aiding Others:** none, character's make this skill check on their own.
+  - **Description:** the character makes an attack with a melee weapon or their body against a target in their reach.
+  - **Difficulty:** equal to the target's defense.
+  - **Required Successes:** equal to the target's melee defense bonus.
+  - **Critical Failure:** the attack misses and something goes wrong, if not detailed elsewhere this is determined by the GM and may range from dropping or breaking the weapon to harming the attacker or their ally.
+  - **Failure:** the attack misses with no further effect.
+  - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
+  - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
+  - **Additional Success:** the target suffers additional effects based on the attack/weapon.
+### Sense Motive ??????
+  - **Primary Attribute:** Reflexes
+  - **Primary Skill:** Melee Combat
+  - **Relevant Secondary Skills:** Specific melee attack type.
+  - **Relevant Secondary Skill Usage:**
+  - **Aiding Others:** none, character's make this skill check on their own.
+  - **Description:** the character makes an attack with a melee weapon or their body against a target in their reach.
+  - **Difficulty:** equal to the target's defense.
+  - **Required Successes:** equal to the target's melee defense bonus.
+  - **Critical Failure:** the attack misses and something goes wrong, if not detailed elsewhere this is determined by the GM and may range from dropping or breaking the weapon to harming the attacker or their ally.
+  - **Failure:** the attack misses with no further effect.
+  - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
+  - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
+  - **Additional Success:** the target suffers additional effects based on the attack/weapon.
 #### Sprint
   - **Primary Attribute:** Body or Reflexes (player's choice over open clear terrain, reflexes only in difficult terrain).
   - **Primary Skill:** Personal Movement
@@ -268,7 +536,20 @@ To perform a skill check requires a number of steps as follows:
   - **Near Success:** the character increases their movement by their secondary skill rank.
   - **Complete Success:** the character increases their movement by one, plus their secondary skill rank.
   - **Additional Success:** increases the character's movement by one per additional success.
-
+### Swim ??????
+  - **Primary Attribute:** Reflexes
+  - **Primary Skill:** Melee Combat
+  - **Relevant Secondary Skills:** Specific melee attack type.
+  - **Relevant Secondary Skill Usage:**
+  - **Aiding Others:** none, character's make this skill check on their own.
+  - **Description:** the character makes an attack with a melee weapon or their body against a target in their reach.
+  - **Difficulty:** equal to the target's defense.
+  - **Required Successes:** equal to the target's melee defense bonus.
+  - **Critical Failure:** the attack misses and something goes wrong, if not detailed elsewhere this is determined by the GM and may range from dropping or breaking the weapon to harming the attacker or their ally.
+  - **Failure:** the attack misses with no further effect.
+  - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
+  - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
+  - **Additional Success:** the target suffers additional effects based on the attack/weapon.
 # Combat
 
 ## Combat Round
@@ -307,6 +588,10 @@ Move up to the three times the character's speed in hexes then make a *sprint* s
 #### Jump
 **Action Points:**
 **Stamina Cost:**
+#### Glide
+**Action Points:** 1
+**Stamina Cost:** 1
+Requires trait or equipment that allows this action. If the action completes with the character still in the air they must continue to spend action points on this action or they will fall the remaining distance. The character falls 5 hexes and may move horizontally up to 10 hexes plus twice their rank in the *fly secondary skill (personal movement)*.
 
 ### Melee Actions
 Unless stated otherwise in the action description taking a melee action adds one level of disadvantage to all other skill checks the character makes this turn.
@@ -429,26 +714,63 @@ A character who has taken damage may suffers from the most penalizing of follow 
 ## Currency
 ## Armor and Weapons
 ### Armor
+Suits of armor have a number of properties:
+  - **Armor Value:** The character may use the armor value of his equipped armor, if a character has multiple armor value options (such as from natural armor and from worn armor) they use the highest value and increase it by one for each additional source of armor.
+  - **Resistance (type):** Most armor provides resistance to concussive and penetrating damage and some armor provides resistance to additional types as well. A character who receives resistance of a given type from multiple sources adds those values together to gain the full resistance value for that damage type.
+  - **Required Training:** How difficult the armor is to be comfortable moving in, if the character wearing the armor doesn't have combine ranks in the *personal defense primary skill* and the *armor secondary skill (personal defense)* they receive one level of disadvantage to all skill checks where reflexes is the primary attribute.
+  - **Perception Penalty:** Helmets only, the character wearing the armor suffers the armor's penalty levels of disadvantage on all perception skill checks while wearing the helmet portion of the armor.
+
+#### Sample Armor:
+  - **Gambeson, light** Thin cloth armor easy available to any town guard or would be adventurer.
+    - Armor Value: 3
+    - Resistance (Concussive): 2
+    - Resistance (Penetrating): 0
+    - Resistance (Cold): 1
+    - Required Training: 1
+    - Perception Penalty: 0
+  - **Gambeson, heavy** Thicker Cloth armor, commonly worn by militia soldiers and poorer professional troops. .
+    - Armor Value: 4
+    - Resistance (Concussive): 3
+    - Resistance (Penetrating): 0
+    - Resistance (Cold): 2
+    - Required Training: 2
+    - Perception Penalty: 1
+  - **Mail, light** A short-sleeved mail shirt worn over a light gambeson, common armor for citizen soldiers.
+    - Armor Value: 5
+    - Resistance (Concussive): 3
+    - Resistance (Penetrating): 1
+    - Resistance (Cold): 1
+    - Required Training: 2
+    - Perception Penalty: 0
+  - **Mail, heavy** A long-sleeved mail shirt and skirt worn by high end professional soldiers such as knights and men-at-arms.
+    - Armor Value: 6
+    - Resistance (Concussive): 4
+    - Resistance (Penetrating): 2
+    - Resistance (Cold): 2
+    - Required Training: 3
+    - Perception Penalty: 1
 ### Weapons
 Weapons have a number of keywords as follows:
-Any Number: *armor piercing(x)*, *bash*, *balanced*, *cover(x)*, *crude*, *heavy(x)*, *non-lethal*, *parrying*, *pole arm*, *reach(x)*, *sap*, *size(x)*, *trip*, *a single word for requires training*
+Any Number: *armor piercing(x)*, *bash*, *balanced*, *body(x)*, *cover(x)*, *crude*, *heavy(x)*, *non-lethal*, *parrying*, *pole arm*, *ranged(x,y)*, *reach(x)*, *sap*, *size(x)*, *trip*, *thrown*, *requires training(x)*
 Always One: *hand-and-a-half*, *one-handed*, *small*, *two-handed*
-Always One: *axe*, *blade, short*, *blade, long*, *bludgeoning*, *brawling*, *spear*
+Always One: *axe*, *blade, short*, *blade, long*, *bludgeoning*, *bow*, *brawling*, *crossbow*, *pistol*, *spear*
   - *armor piercing(x):* this weapon reduces the target's armor value by x while resolving its attacks.
   - *bash:* can be used to make the *bash* melee combat action.
-  - *balanced:* if wielded in the user's primary hand they gain a +1 parry bonus to their melee defense bonus (a character's total parry bonus can not be greater than the number of ranks they have in the *parry secondary skill (personal defense)*).
+  - *balanced:* if wielded in the user's primary hand or two handed they gain a +1 parry bonus to their melee defense bonus (a character's total parry bonus can not be greater than the number of ranks they have in the *parry secondary skill (personal defense)*).
+  - *body(x):* the weapon has a body stat of x, this is relevant for some weapon types.
   - *cover(x):* a character wielding this weapon gains a +x shield bonus to their melee and ranged defense bonus against attacks coming from their front arc (a character's total shield bonus can not be greater than one plus the number of ranks they have in the *shields secondary skill (personal defense)*).
   - *crude:* the weapon's base damage is reduced by one and all attacks made with the weapon gain one level of disadvantage.
   - *heavy(x):* a character without with a body attribute of less than x gains a penalty die when attacking with this weapon, can not make free attacks with it, and does not benefit from any defense bonuses from it.
   - *non-lethal:*
   - *parrying:* a character wielding this weapon gains a +1 parry bonus to their melee defense bonus (a character's total parry bonus can not be greater than the number of ranks they have in the *parry secondary skill (personal defense)*).
-  - *pole arm:* 
+  - *pole arm:*
+  - *ranged(x,y):* the weapon is ranged, it can be used with no penalty at up to x hexes away and gains a level of disadvantage for every additional y hexes away the target it. If a target is far enough away that the attack would gain 4 levels of disadvantage from range the attack automatically fails. Thrown weapons will have often include some kind of calculation involving the character's body attribute.
   - *reach(x):*
   - *sap:*
   - *size(x):* x is the size of character the weapon is designed for (size 0 if this keyword is absent). A character wielding a weapon designed for a size larger than itself gains a level of disadvantage to all attacks they make with the weapon and do not benefit from any defense bonuses from it. A weapon with a negative size has its base damage reduced by its size, minimum one. A weapon with a positive size has its max body damage bonus increased by the size.
   - *trip:* can be used to make the *trip* melee combat action.
   - *a single word for requires training:*
-  - *hand-and-a-half:* the weapon can be wielded two-handed (increasing its damage by 2); it has a base damage of 3 and ignores any damage bonus from the character's body stat exceeding +2.
+  - *hand-and-a-half:* the weapon can be wielded two-handed (increasing its damage by 2); it has a base damage of 2 and ignores any damage bonus from the character's body stat exceeding +2.
   - *one-handed:* the weapon can be wielded two-handed (increasing its damage by 1); it has a base damage of 2 and ignores any damage bonus from the character's body stat exceeding +2.
   - *small:* the weapon has a base damage of 1 and a max body bonus of +1.
   - *two-handed:* the weapon can be wielded two-handed (increasing its damage by 2); it has a base damage of 3, if wielded one handed the character gains two levels of disadvantage to all attacks made with it and does not benefit from any defense bonuses from it, and ignores any damage bonus from the character's body stat exceeding +3.
@@ -456,9 +778,25 @@ Always One: *axe*, *blade, short*, *blade, long*, *bludgeoning*, *brawling*, *sp
   - *blade, short:* the weapon inflicts penetrating damage, if the damage is converted to concussive damage additional successes cannot be used to increase damage. Additional successes can be used to reduce the armor value of a target by 2 each for the purpose of the attack.
   - *blade, long:* the weapon inflicts penetrating damage, if the damage is converted to concussive damage additional successes in excess of the weapon's max body damage bonus cannot be used to increase damage. Additional successes can be used to reduce the armor value of a target by 1 each for the purpose of the attack.
   - *bludgeoning:* the weapon inflicts concussive damage, its base damage and max body damage bonus are doubled.
+  - *bow:*
   - *brawling:* this weapon's base damage is increased by the character's rank in the *brawling secondary skill (melee combat)*
+  - *crossbow:*
+  - *pistol:*
   - *spear:* the weapon inflicts penetrating damage, each success used to increase damage also increases reduces the target's armor value for the purpose of the attack, if the attack is converted to concussive damage ignore all damage added from successes.
 
+#### Sample Weapons:
+- **Example:** list of keywords
+  - Damage: one-handed damage/two-handed damage (max body damage bonus) damage type.
+- **Arming Sword:** *Balanced*, *Reach(2)*, *One-Handed*, *Long Blade*
+  - Damage: 2/3(+2) Penetrating
+- **Battle Axe:** *Heavy(0)*, *Reach(1)*, *Trip*, *One-Handed*, *Axe*
+  - Damage: 2/3(+3) Penetrating
+- **Truncheon:** *Bash*, *Reach(1)*, *Ranged(3+Body, 1+Body)*, *Small*, *Bludgeoning*
+  - Damage: 2/- (+2) Concussive
+- **Dagger:** *Armor Piercing (2)*, *Parrying*, *Ranged(5+Body, 2+Body)*, *Reach(1)*, *Small*, *Light Blade*
+  - Damage: 1/- (+1) Penetrating
+- **Short Spear:** *Reach(4)*, *Ranged(8+Body, 5+Body)*, *One-Handed*, *Spear*
+  - Damage: 2/3 (+2) Penetrating
 
 ## Adventuring Gear
 ## Arcane Essence and Essence Items
