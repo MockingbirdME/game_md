@@ -1,91 +1,78 @@
 # Character Statistics
 
 ## Attributes
-- Body
-- Reflexes
-- Perception
-- Mind
+#### Body
+#### Reflexes
+#### Perception
+#### Mind
 
 ## Skills (primary - secondary)
-- Animal Handling
-- Alchemy
-- Awareness
-- Craft (Artist)
-- Craft (Chemistry)
-- Craft (Cooking)
-- Craft (Mason)
-- Craft (Smith)
-- Craft (Woodworker)
-- Discipline
-- Endurance
-- Knowledge (Academics)
-- Knowledge (Lure)
-- Legerdemain
-- Medicine
-- Magical Aptitude
-- Melee Combat
-- Performance
-- Personal Defense
-- Personal Movement
-- Ranged Combat
-- Stealth
-- Survival
+#### Animal Handling
+#### Alchemy
+#### Awareness
+#### Craft (Artist)
+#### Craft (Chemistry)
+#### Craft (Cooking)
+####  Craft (Mason)
+####  Craft (Smith)
+####  Craft (Woodworker)
+####  Discipline
+####  Endurance
+####  Knowledge (Academics)
+####  Knowledge (Lure)
+####  Legerdemain
+####  Medicine
+####  Magical Aptitude
+####  Melee Combat
+####  Performance
+####  Personal Defense
+####  Personal Movement
+####  Ranged Combat
+####  Stealth
+####  Survival
 
 ## Other
-- **Armor Value**
+#### **Armor Value**
   *Description:* The difficulty to pierce the character's flesh with penetrating weapons, if the damage from a penetrating weapon is less than this value the weapon inflicts concussive damage instead.
   *Base Value:* 0.
-- **Defense**
+#### **Defense**
   *Description:*
   *Base Value:* 8 + reflexes stat + perception stat + ranks in the personal defense skill.
-- **Defense Bonus, Magic**
+#### Defense Bonus, Magic
   *Description:*
   *Base Value:* ranks in Discipline + ranks in magical aptitude.
-- **Defense Bonus, Melee**
+#### Defense Bonus, Melee
   *Description:*
   *Base Value:* ranks in melee combat + ranks in parry (personal defense).
-- **Defense Bonus, Range**
+#### Defense Bonus, Range
   *Description:*
   *Base Value:* ranks in awareness + ranks in dodge secondary skill (personal defense).
-- **Max Wounds**
+#### Max Wounds
   *Description:*
   *Base Value:* 8 + size, if positive, + body stat.
-- **Reach**
+#### Reach
   *Description:*
   *Base Value:* 0 + size if positive.
-- **Resistance (concussive)**
+#### Resistance (concussive)
   *Description:*
   *Base Value:* 0 + body if positive.
-- **Resistance (damage type)**
+#### Resistance (damage type)
   *Description:*
   *Base Value:* 0 for each other damage type.
-- **Size**
+#### Size
   *Description:*
   *Base Value:* set by the character's strain.
-- **Speed**
+#### Speed
   *Description:*
-  *Base Value:* set by strain, plus size, plus ranks in the personal movement skill.
-- **Stamina**
+  *Base Value:* set by strain plus ranks in the personal movement skill.
+#### Stamina
   *Description:*
   *Base Value:* 8 + body stat + ranks in endurance + ranks in stamina (endurance).
-- **Toughness**
+#### Toughness
   *Description:*
   *Base Value:* 1.
 
-
 # Strains
-### Example
-  - **Physical Appearance:**
-  - **History:**
-  - **Family/Social Structure:**
-  - **Breeding:**
-  - **Place in Society:**
-  - **Naming Conventions:**
-  - **Size:**
-  - **Attribute Modifiers:**
-  - **Starting Traits:**
-  - **Strain Traits:**
-
 ### Denja
   - **Physical Appearance:**
   - **History:**
@@ -94,9 +81,14 @@
   - **Place in Society:**
   - **Naming Conventions:**
   - **Size:** -1
-  - **Attribute Modifiers:** -1 to body and reflexes, + 1 mind.
-  - **Starting Traits:** one rank in *natural armor, scales*, *natural weapon, clawed fingers*, *claws and webbed feet*, and *air sacks* and 5 traits to be assigned.
-  - **Strain Traits:**
+  - **Speed:** 3
+  - **Attribute Modifiers:** -1 to body and reflexes, + 1 mind
+  - **Strain Abilities:**
+    - *Air Sacks:* the character can hold their breath for ten minutes before needing to make breath holding or remain conscious checks provided they had the opportunity to fill their air sacks before submerging.
+    - *Claws, Webbed Feet, and Tail:* the character gains advantage on swim and climb skill checks.
+    - *Gliding Membrane:* the character may glide when falling as an action provided they are not wearing clothing or armor that prevents the membrane running from wrist to ankle from opening and are not encumbered. This action costs one action point and one stamina point and allows the character to move 10 hexes plus up to their rank in the *fly secondary skill (personal movement)* while falling 5 hexes; if the character is still in the air after this action is completed and they have any additional action points left on their turn they must continue to take this action or they will fall the remaining distance. If a character finds themselves falling outside of their turn they may use their reaction to take this action. Gliding can not be done if the character can not move the required 10 hexes, such as if falling down a narrow shaft or well.
+    - *Natural Armor, Scales:* the character has natural armor with *armor value* ???, *body value* 0 and *resistance (concussive and penetrating)* 1
+    - *Natural Weapon, clawed fingers and toes:* the character's brawling attacks may inflict penetrating damage, doing so reduces the max bonus body damage of the attack to +1.
 
 ### Rhosk
   - **Physical Appearance:**
@@ -105,10 +97,13 @@
   - **Breeding:**
   - **Place in Society:**
   - **Naming Conventions:**
-  - **Size:** +2
+  - **Size:** +1
+  - **Speed:** 4
   - **Attribute Modifiers:** +2 body.
-  - **Starting Traits:** one rank in *cool temperament* and *great strength*, as well as two ranks in *used to the cold* and 4 traits to assign.
-
+  - **Strain Abilities:**
+    - *Cool Temperament:* the character gains advantage on all checks to resist fear.
+    - *Great Strength:* the character treats their size as one higher for the purpose of lifting and carrying capacity.
+    - *Used to the Cold:* the character gains three to their *resistance (cold)*.
 
 ### Sapeen
   - **Physical Appearance:**
@@ -118,8 +113,10 @@
   - **Place in Society:**
   - **Naming Conventions:**
   - **Size:** 0
+  - **Speed:** 4
   - **Attribute Modifiers:** +1 to any attribute.
-  - **Starting Traits:** 5 traits to assign.
+  - **Strain Abilities:**
+    - *Highly Adaptive:* the character gains one additional trait at creation and can have one more _advanced_ trait than they could otherwise.
 
 ### Tor'leni
   - **Physical Appearance:**
@@ -134,140 +131,123 @@
   - **Strain Traits:**
 
 # Traits
-
-## Background/Starting Traits:
-Background Traits can only be taken at character creation or with GM approval during a campaign.
-### Air Sacks
-**Requirements:** denja.
-the character can hold their breath for ten times as long as normal.
-### Cool Temperament
-**Requirements:** none.
-the character gains one level of advantage on rolls to resist fear.
-### Claws and Webbed Feet
-**Requirements:** denja.
-the character gains advantage on swim and climb skill checks.
-### Gliding Membrane
-**Requirements:** denja.
-the character may take the *glide* move action provided they are not wearing clothing or armor that prevents the membrane running from wrist to ankle from opening and are not encumbered. Additionally, provided the conditions for the character gliding are met they suffer only half damage from falling.
-### Great Strength
-**Requirements:** rhosk or teejee.
-the character treats their size as one higher for the purpose of lifting and carrying capacity, teejee may take this trait multiple times.
-### Hardy
-**Requirements:** none.
-the character gains advantage on rolls to resist illness and poisons.
-### Large/Small Size
-**Requirements:** none.
-Increase or decrease the character's size by one.
-### Natural Armor, Scales
-**Requirements:** Denja.
-the character has natural armor with *armor value* ???, *body value* 0 and *resistance (concussive and penetrating)* 1
-### Natural Weapon, Clawed Fingers
-**Requirements:** denja.
-the character's brawling attacks may inflict penetrating damage, doing so reduces the max bonus body damage of the attack to +1.
-### Used to the Cold
-**Requirements:** none.
-the character gains two to their *resistance (cold)* attribute each time they take this trait.
+Traits have a number of properties:
+- Requirements: some traits have one or more requirements, these may be a specific strain limitation, some number of other traits with a shared keyword, or another specific trait(s).
+- Keywords: nearly all traits have at least one keyword, represented by italic words at the beginning of the traits description; some keywords are only important for other traits that reference them while other's have specific meanings as detailed below.
+  - Advanced: a character may have only one advanced trait plus one advanced trait for every three levels they've gained.
+  - Heroic: a character may have only one heroic trait for every 5 levels they've gained.
+  - Epic: a character may have only one epic trait for every 10 levels they've gained.
+  - Starting: a character can only take this trait at character creation or with allowance from the GM after they've woven a reason for it into the storyline.
 
 ## General Traits
-
-### Adventure's Health
-**Requirements:** none.
-Each time a character takes this trait they increase their max wounds by two.
+### Hardy
+The character gains advantage on rolls to resist illness and poisons.
+### Healthy
+Each time a character takes this trait they increase their max wounds by one plus their body stat, minimum of two total max wounds. The increase to max wounds granted by this trait is recalculated if the character's body attribute changes.
+### Large/Small Size
+_Starting_ Increase or decrease the character's size by one.
 ### Linguist
-**Requirements:** none.
 The character learns one spoken or written language or two spoken languages for which they already know a related language.
-### Skilled
-**Requirements:** none.
-Each time a character takes this trait do one of the following:
-* Gain rank one (Novice) in a new skill and one rank in one of that skills secondary skills
-* Increase a skill from rank one (Novice) to rank two (Proficient).
-* Choose three secondary skills, for each of those skills either gain rank one or increase its existing rank by one.
-### Highly Skilled
-**Requirements:** level 5, plus 10 for each time the character has already taken this trait.
-Each time a character takes this trait do one of the following:
-* Increase a rank two (Proficient) skill, that the character has at least 5 ranks worth of secondary skills in, to rank three (Expert).
-* Increase a rank three skill (Expert), that the character has at least 10 ranks worth of secondary skills in, to rank four (Master).
-
+### Specialized Training, Novice
+The character gains rank one in three secondary skills.
+### Specialized Training, Skilled
+The character increases two secondary skills from rank one to rank two.
+### Specialized Training, Expert
+_Advanced_ The character increases one secondary skill from rank two to rank three.
+### Specialized Training, Master
+_Heroic_ The character increases one secondary skill from rank three to rank four.
+### Training, Novice
+The character gains rank one in a new skill and one rank in one of that skills secondary skills
+### Training, Skilled
+_Advanced_ The character increases a skill from rank one to rank two.
+### Training, Expert
+_Heroic_ The character increases one skill from rank two to rank three.
+### Training, Master
+_Epic_ The character increases one skill from rank three to rank four.
 ### Heroic Attribute
 **Requirements:** level 10, plus 15 for each time the character has already taken this trait.
+_Epic_ One of the character's primary attribute's is increased by one one. This can not increase any trait to higher than +3 plus the strains racial adjustment to that attribute.
 
 ## Mage Traits
 
 ## Warrior Traits
-
 ### Combat Reflexes
-**Requirements:** 2 total warrior traits.
 The character gains an additional reaction each turn, this reaction can only be used to make a free attack.
 ### Combat Reflexes, Advanced
-**Requirements:** Combat Reflexes, 5 total warrior traits.
-The additional reaction gained from *combat reflexes* can now be used for any reaction.
+**Requirements:** Combat Reflexes
+_Advanced_ The additional reaction gained from *combat reflexes* can now be used for any reaction.
 ### Combat Reflexes, Heroic
-**Requirements:** Advanced Combat Reflexes, 8 total warrior traits.
-Gain an additional reaction each turn.
+**Requirements:** Advanced Combat Reflexes
+_Heroic_ Gain an additional reaction each turn.
 ### Danger Sense
-**Requirements:** 2 total warrior traits.
 The character is never *flat footed* when conscious and unrestrained.
 ### Danger Sense, Advanced
-**Requirements:** Danger Sense, 5 total warrior traits.
-The character still benefits from their melee, ranged, and magic defense bonuses when *surprised*, conscious, and unrestrained.
+**Requirements:** Danger Sense
+_Advanced_ The character still benefits from their melee, ranged, and magic defense bonuses when *surprised*, conscious, and unrestrained.
 ### Danger Sense, Heroic
-**Requirements:** Advanced Danger Sense, 8 total warrior traits.
-The character may act on rounds when they are surprised, if their initiative would be before all non-surprised enemies they act after the enemy with the highest initiative.
+**Requirements:** Advanced Danger Sense
+_Heroic_ The character may act on rounds when they are surprised, if their initiative would be before all non-surprised enemies they act after the enemy with the highest initiative.
 ### Duelist
-**Requirements:** 2 total warrior traits.
-The character may spend one action point to choose one character within this trait's range of 10 hexes to be their dueling opponent. The character may spend their reaction to add one level of disadvantage to an attack's skill check against them made by their dueling opponent provided the attack was made from within range and no other character is within melee range of them or grant one level of advantage to an attack skill check they make against their dueling opponent within range provided they are in melee range of no other character. A character ceases to be a dueling opponent if another character is made a dueling opponent or if they leave the character's sight for a full round.  
+The character may spend one action point to choose one character within this trait's range of 10 hexes to be their dueling opponent. The character may spend their reaction to add one level of disadvantage to an attack's skill check against them made by their dueling opponent provided the attack was made from within range and no other character is within melee range of them or grant one level of advantage to an attack skill check they make against their dueling opponent within range provided they are in melee range of no other character. A character ceases to be a dueling opponent if another character is made a dueling opponent or if they leave the character's sight for a full round.
 ### Duelist, Defensive
-**Requirements:** Duelist, 5 total warrior traits.
-When the character spends their reaction to add a level of disadvantage to their dueling opponent they now add one level of disadvantage to all eligible attacks from their opponent until the character's next turn.
+**Requirements:** Duelist
+_Advanced_ When the character spends their reaction to add a level of disadvantage to their dueling opponent they now add one level of disadvantage to all eligible attacks from their opponent until the character's next turn.
 ### Duelist, Distance
-**Requirements:** Duelist, 5 total warrior traits.
-The range for Duelist's effects is increased to 30 hexes.
+**Requirements:** Duelist
+_Advanced_ The range for Duelist's effects is increased to 30 hexes.
 ### Duelist, Melee
-**Requirements:** Duelist, 5 total warrior traits.
-The character no longer requires that no other character is within melee range of them to use their reaction for to gain benefits from duelist traits.
+**Requirements:** Duelist
+_Advanced_ The character no longer requires that no other character is within melee range of them to use their reaction for to gain benefits from duelist traits.
 ### Duelist, Heroic
-**Requirements:** Duelist and either Defensive Duelist, Distance Duelist, or Melee Duelist, and 8 total warrior traits.
-When the character spends their reaction to grant disadvantage to one or more attacks by their dueling opponent they gain one level of advantage on their next eligible attack against their dueling opponent before the end of their next turn.
+**Requirements:** Duelist and either Defensive Duelist, Distance Duelist, or Melee Duelist
+_Heroic_ When the character spends their reaction to grant disadvantage to one or more attacks by their dueling opponent they gain one level of advantage on their next eligible attack against their dueling opponent before the end of their next turn.
 ### Fast Reflexes
-**Requirements:** none.
 For each time a character has this trait they gain a +1 bonus to their initiative.
 ### Fueled by Pain
-**Requirements:** 2 total warrior traits increased by 3 for each time the character has already taken this trait.
-Each time the character suffers at least as many wounds as they have instances of this trait they recover a number of stamina equal to the number of times they've taken this trait.
+Each time the character suffers at least one wound, they recover one stamina.
+### Fueled by Pain, Advanced
+**Requirements:** Fueled by Pain
+_Advanced_ Increase the number of wounds the character recovers from the Fueled by Pain trait to 2.
+### Fueled by Pain, Heroic
+**Requirements:** Advanced Fueled by Pain
+_Advanced_ Increase the number of wounds the character recovers from the Fueled by Pain trait to 2 + the character's body.
 ### Hard to Kill
-**Requirements:** 8 total warrior traits.
-Once per scene the character may spend their reaction to halve the number of wounds they would suffer from an attack.
-### Warrior's Health
-**Requirements:** none.
-Each time a character takes this trait they increase their max wounds by one plus their body stat, minimum of one. The increase to max wounds granted by this trait is recalculated if the character's body attribute changes.
+_Heroic_ Once per scene the character may spend their reaction to suffer no damage from one attack. The controlling player may decide to use this ability after they know the damage the character would take.
 ### Mobile Combatant
-**Requirements:** 2 warrior traits.
 The character doubles their melee defense bonus against free attacks provided they have not taken the disengage action this turn.
 ### Mobile Combatant, Advanced
-**Requirements:** Mobile Combatant, 5 total warrior traits.
-The character gains their mobile combatant defense bonus to free attacks even if they've taken the disengage action this turn.
+**Requirements:** Mobile Combatant
+_Advanced_ The character gains their mobile combatant defense bonus to free attacks even if they've taken the disengage action this turn.
 ### Mobile Combatant, Heroic
-**Requirements:** Advanced Mobile Combatant, 8 total warrior traits.
-The character no longer provokes free attacks.
+**Requirements:** Advanced Mobile Combatant
+_Heroic_ The character no longer provokes free attacks.
+### Multi-Attack
+**Requirements:** 5 warrior traits, at least rank 2 in *Melee Combat*.
+_Epic_ The first time the character would receive disadvantage to a melee skill check for having already taken a melee action each turn ignore that penalty.
 ### Push the Body
-**Requirements:** 2 total warrior traits increased by 3 for each time the character has already taken this trait.
-Once per turn the character may recover 5 plus 3 for each instance of this trait they have beyond the first *stamina* and suffer one *fatigue*.
+Once per turn the character may recover up to 3 *stamina* and suffer one *fatigue*.
+### Push the Body, Advanced
+**Requirements:** Push the Body
+_Advanced_ Increase the stamina regained when the character uses Push the Body by their body stat.
+### Push the Body, Heroic
+**Requirements:** Advanced Push the Body
+_Heroic_ Double the stamina regained when the character uses Push the Body.
 ### Quick Draw
-**Requirements:** 2 warrior traits.
 The first *ready/stow item* action the character takes each turn has an action point cost of 0.
+### Quick Draw, Advanced
+_Advanced_ The first two *ready/stow item* actions the character takes each turn has an action point cost of 0.
+### Quick Draw, Heroic
+_Heroic_ The first 2 plus the character's reflexes, if positive, *ready/stow item* actions the character takes each turn has an action point cost of 0.
 ### Tough
-**Requirements:** 2 total warrior traits increased by 3 for each time the character has already taken this trait..
-Each time a character takes this trait increase their toughness by one.
+_Advanced_ Each time a character takes this trait increase their toughness by one.
 ### Two Weapon Fighting
-**Requirements:** 2 warrior traits.
 The character does not suffer the normal level of disadvantage when performing an attack with their off-hand. Additionally they may make *Off-Hand Attack* actions with weapons that have the *one-handed* keyword but gain a level of disadvantage when doing so.
 ### Two Weapon Fighting, Advanced
-**Requirements:** Two Weapon Fighting, 5 warrior traits.
-If the character has already taken an attack action on their turn with their primary hand or a weapon wielded in it the first *Off-Hand Attack* action they make on this turn does not cost an action point. Additionally they may make *Off-Hand Attack* actions with weapons that have the *hand-and-a-half* keyword but gain a level of disadvantage when doing so.
+**Requirements:** Two Weapon Fighting
+_Advanced_ If the character has already taken an attack action on their turn with their primary hand or a weapon wielded in it the first *Off-Hand Attack* action they make on this turn does not cost an action point. Additionally they may make *Off-Hand Attack* actions with weapons that have the *hand-and-a-half* keyword but gain a level of disadvantage when doing so.
 ### Two Weapon Fighting, Heroic
-**Requirements:** Advanced Two Weapon Fighting, 8 warrior traits.
-The character no longer gains a level of disadvantage when making *Off-Hand Attack* actions with weapons that have the *one-handed* or *hand-and-a-half* keywords. Additionally, as long as the character has already made a  attack on their turn with their primary hand or a weapon wielded in it, the first *Off-Hand Attack* action the character takes each round may be treated as a *Bash*, *Disarm*, *Distracting Attack*, *Power Attack*, *Reckless Attack*, *Throw*, or *Loose, Shoot, Fire* action performed with the character's off-hand or ready weapon wielded in their off-hand; this attack costs an additional stamina but still costs no action points.
-
+**Requirements:** Advanced Two Weapon Fighting
+_Heroic_ The character no longer gains a level of disadvantage when making *Off-Hand Attack* actions with weapons that have the *one-handed* or *hand-and-a-half* keywords. Additionally, as long as the character has already made a  attack on their turn with their primary hand or a weapon wielded in it, the first *Off-Hand Attack* action the character takes each round may be treated as a *Bash*, *Disarm*, *Distracting Attack*, *Power Attack*, *Reckless Attack*, *Throw*, or *Loose, Shoot, Fire* action performed with the character's off-hand or ready weapon wielded in their off-hand; this attack costs an additional stamina but still costs no action points.
 
 # Skill Checks
 When a character may wishes to attempt an action where success is not certain and failure is not guaranteed, or when a character’s degree of success or failure matters, the GM may call for a skill check.
@@ -298,24 +278,24 @@ To perform a skill check requires a number of steps as follows:
 * Greater than difficulty plus required successes - the action gains an additional success for each point by which the result exceeds the difficulty.
 
 ## Common Skill Checks
-### Climb ??????
+### Climb
   - **Primary Attribute:** Body
   - **Primary Skill:** Personal Movement
   - **Relevant Secondary Skills:** Climb
   - **Relevant Secondary Skill Usage:**
   - **Aiding Others:** a character can assist another by allowing the second character to use their rank in the climb secondary skill however both character's only move at the rate of the slower of the two. A character can not assist more than one other character at a time.
   - **Description:** from a well limbed oak tree to a stony cliff face with few handholds a climb skill check is what allows a character to scale any climbable surface.
-  - **Difficulty:** the skill check's difficulty is what's required to make any progress during the climb not the difficulty to full ascend the tree/wall/cliff/etc. that they're attempting to climb.
+  - **Difficulty:** the skill check's difficulty is what's required to make any progress during the climb not the difficulty to fully ascend the tree/wall/cliff/etc. that they're attempting to climb.
   - **Required Successes:** N/A.
   - **Critical Failure:** the character loses their grip and falls any distance already climbed, or fails to make any progress if they are still grounded.
   - **Failure:** the character makes no progress on their climb.
   - **Near Success:** the character ascends a number of hexes equal to the character's secondary skill rank.
   - **Complete Success:** the character ascends a number of hexes equal to one plus the character's secondary skill rank.
   - **Additional Success:** each additional success rolled increases the distance the character climbs by one hex.
-### Craft ??????
+### Craft
   - **Primary Attribute:** Mind or situation based
   - **Primary Skill:** Craft(any)
-  - **Relevant Secondary Skills:** varies.
+  - **Relevant Secondary Skills:** varies
   - **Relevant Secondary Skill Usage:**
   - **Aiding Others:**
   - **Description:**
@@ -325,91 +305,77 @@ To perform a skill check requires a number of steps as follows:
   - **Failure:**
   - **Near Success:**
   - **Complete Success:**
-  - **Additional Success:** 
-### Flee/Pursuit ??????
-  - **Primary Attribute:** Reflexes
-  - **Primary Skill:** Melee Combat
-  - **Relevant Secondary Skills:** Specific melee attack type.
+  - **Additional Success:**
+### Gather Information
+  - **Primary Attribute:**
+  - **Primary Skill:**
+  - **Relevant Secondary Skills:**
   - **Relevant Secondary Skill Usage:**
-  - **Aiding Others:** none, character's make this skill check on their own.
-  - **Description:** the character makes an attack with a melee weapon or their body against a target in their reach.
-  - **Difficulty:** equal to the target's defense.
-  - **Required Successes:** equal to the target's melee defense bonus.
-  - **Critical Failure:** the attack misses and something goes wrong, if not detailed elsewhere this is determined by the GM and may range from dropping or breaking the weapon to harming the attacker or their ally.
-  - **Failure:** the attack misses with no further effect.
-  - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
-  - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
-  - **Additional Success:** the target suffers additional effects based on the attack/weapon.
-### Gather Information ??????
-  - **Primary Attribute:** Reflexes
-  - **Primary Skill:** Melee Combat
-  - **Relevant Secondary Skills:** Specific melee attack type.
+  - **Aiding Others:**
+  - **Description:**
+  - **Difficulty:**
+  - **Required Successes:**
+  - **Critical Failure:**
+  - **Failure:**
+  - **Near Success:**
+  - **Complete Success:**
+  - **Additional Success:**
+### Hide/Sneak
+  - **Primary Attribute:** Reflexes or Perception
+  - **Primary Skill:** Stealth
+  - **Relevant Secondary Skills:** Hide or Sneak
   - **Relevant Secondary Skill Usage:**
-  - **Aiding Others:** none, character's make this skill check on their own.
-  - **Description:** the character makes an attack with a melee weapon or their body against a target in their reach.
-  - **Difficulty:** equal to the target's defense.
-  - **Required Successes:** equal to the target's melee defense bonus.
-  - **Critical Failure:** the attack misses and something goes wrong, if not detailed elsewhere this is determined by the GM and may range from dropping or breaking the weapon to harming the attacker or their ally.
-  - **Failure:** the attack misses with no further effect.
-  - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
-  - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
-  - **Additional Success:** the target suffers additional effects based on the attack/weapon.
-### Hide/Sneak ??????
-  - **Primary Attribute:** Reflexes
-  - **Primary Skill:** Melee Combat
-  - **Relevant Secondary Skills:** Specific melee attack type.
+  - **Aiding Others:** none, characters make this skill check on their own.
+  - **Description:** keeping oneself hidden from prying eyes and keen ears, a character attempting to move while sneaking gains a level of disadvantage to this skill check unless they move at half speed or less.
+  - **Difficulty:** 10 + a bonus equal to the *perception* plus rank in the *awareness skill* plus rank in the *alertness secondary skill (awareness)*. This number of successes needed is compared individually for every character that may notice the sneaking character all using the same skill check.
+  - **Required Successes:** none.
+  - **Critical Failure:** the character accidentally draws attention to themselves being noticed immediately but does not realize it.
+  - **Failure:** the character accidentally draws attention to themselves being noticed immediately.
+  - **Near Success:** N/A.
+  - **Complete Success:** the character is not noticed.
+  - **Additional Success:** the character does not need to make a stealth check for one additional round to stay hidden provided their situation does not change (they don't take another action that might draw attention to themselves and no other character draws attention to them).
+### Investigate Area
+  - **Primary Attribute:** Perception
+  - **Primary Skill:** Awareness
+  - **Relevant Secondary Skills:** Investigate
   - **Relevant Secondary Skill Usage:**
-  - **Aiding Others:** none, character's make this skill check on their own.
-  - **Description:** the character makes an attack with a melee weapon or their body against a target in their reach.
-  - **Difficulty:** equal to the target's defense.
-  - **Required Successes:** equal to the target's melee defense bonus.
-  - **Critical Failure:** the attack misses and something goes wrong, if not detailed elsewhere this is determined by the GM and may range from dropping or breaking the weapon to harming the attacker or their ally.
-  - **Failure:** the attack misses with no further effect.
-  - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
-  - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
-  - **Additional Success:** the target suffers additional effects based on the attack/weapon.
-### Investigate Area ??????
-  - **Primary Attribute:** Reflexes
-  - **Primary Skill:** Melee Combat
-  - **Relevant Secondary Skills:** Specific melee attack type.
+  - **Aiding Others:** Multiple character's can work together allowing for one skill check to be made by the character with the highest skill and treat their secondary skill rank as one higher than the character with the highest rank.
+  - **Description:** the character looks for information in an area related to a specific topic declared by the player.
+  - **Difficulty:** set by the GM based on how difficult the clues are to find.
+  - **Required Successes:** if there's more than one potential clue the GM will set a number of required successes for various additional clues.
+  - **Critical Failure:** not only was no clue found, but one was damaged or lost during the course of the investigation; the character may not try again without additional help.
+  - **Failure:** no clue was found, the character may not try again without additional help.
+  - **Near Success:** N/A, while this skill check does have required successes they are for determining additional found clues.
+  - **Complete Success:** the easiest to find clue was discovered by the character. Add the character's secondary skill rank as extra successes for finding additional clues.
+  - **Additional Success:** the number of additional successes will determine how many additional clues are found.
+### Jump
+  - **Primary Attribute:**
+  - **Primary Skill:**
+  - **Relevant Secondary Skills:**
   - **Relevant Secondary Skill Usage:**
-  - **Aiding Others:** none, character's make this skill check on their own.
-  - **Description:** the character makes an attack with a melee weapon or their body against a target in their reach.
-  - **Difficulty:** equal to the target's defense.
-  - **Required Successes:** equal to the target's melee defense bonus.
-  - **Critical Failure:** the attack misses and something goes wrong, if not detailed elsewhere this is determined by the GM and may range from dropping or breaking the weapon to harming the attacker or their ally.
-  - **Failure:** the attack misses with no further effect.
-  - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
-  - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
-  - **Additional Success:** the target suffers additional effects based on the attack/weapon.
-### Jump ??????
-  - **Primary Attribute:** Reflexes
-  - **Primary Skill:** Melee Combat
-  - **Relevant Secondary Skills:** Specific melee attack type.
+  - **Aiding Others:**
+  - **Description:**
+  - **Difficulty:**
+  - **Required Successes:**
+  - **Critical Failure:**
+  - **Failure:**
+  - **Near Success:**
+  - **Complete Success:**
+  - **Additional Success:**
+### Keep Watch
+  - **Primary Attribute:**
+  - **Primary Skill:**
+  - **Relevant Secondary Skills:**
   - **Relevant Secondary Skill Usage:**
-  - **Aiding Others:** none, character's make this skill check on their own.
-  - **Description:** the character makes an attack with a melee weapon or their body against a target in their reach.
-  - **Difficulty:** equal to the target's defense.
-  - **Required Successes:** equal to the target's melee defense bonus.
-  - **Critical Failure:** the attack misses and something goes wrong, if not detailed elsewhere this is determined by the GM and may range from dropping or breaking the weapon to harming the attacker or their ally.
-  - **Failure:** the attack misses with no further effect.
-  - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
-  - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
-  - **Additional Success:** the target suffers additional effects based on the attack/weapon.
-### Keep Watch ??????
-  - **Primary Attribute:** Reflexes
-  - **Primary Skill:** Melee Combat
-  - **Relevant Secondary Skills:** Specific melee attack type.
-  - **Relevant Secondary Skill Usage:**
-  - **Aiding Others:** none, character's make this skill check on their own.
-  - **Description:** the character makes an attack with a melee weapon or their body against a target in their reach.
-  - **Difficulty:** equal to the target's defense.
-  - **Required Successes:** equal to the target's melee defense bonus.
-  - **Critical Failure:** the attack misses and something goes wrong, if not detailed elsewhere this is determined by the GM and may range from dropping or breaking the weapon to harming the attacker or their ally.
-  - **Failure:** the attack misses with no further effect.
-  - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
-  - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
-  - **Additional Success:** the target suffers additional effects based on the attack/weapon.
+  - **Aiding Others:**
+  - **Description:**
+  - **Difficulty:**
+  - **Required Successes:**
+  - **Critical Failure:**
+  - **Failure:**
+  - **Near Success:**
+  - **Complete Success:**
+  - **Additional Success:**
 ### Melee Attack
   - **Primary Attribute:** Reflexes
   - **Primary Skill:** Melee Combat
@@ -424,76 +390,76 @@ To perform a skill check requires a number of steps as follows:
   - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
   - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
   - **Additional Success:** the target suffers additional effects based on the attack/weapon.
-### Regain Composure ??????
-  - **Primary Attribute:** Reflexes
-  - **Primary Skill:** Melee Combat
-  - **Relevant Secondary Skills:** Specific melee attack type.
+### Regain Composure
+  - **Primary Attribute:** Reflexes or Perception
+  - **Primary Skill:** Personal Defense
+  - **Relevant Secondary Skills:** Regain Composure
   - **Relevant Secondary Skill Usage:**
   - **Aiding Others:** none, character's make this skill check on their own.
-  - **Description:** the character makes an attack with a melee weapon or their body against a target in their reach.
-  - **Difficulty:** equal to the target's defense.
-  - **Required Successes:** equal to the target's melee defense bonus.
-  - **Critical Failure:** the attack misses and something goes wrong, if not detailed elsewhere this is determined by the GM and may range from dropping or breaking the weapon to harming the attacker or their ally.
-  - **Failure:** the attack misses with no further effect.
-  - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
-  - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
-  - **Additional Success:** the target suffers additional effects based on the attack/weapon.
-### Remain Conscious ??????
-  - **Primary Attribute:** Reflexes
-  - **Primary Skill:** Melee Combat
-  - **Relevant Secondary Skills:** Specific melee attack type.
+  - **Description:** the character steadies themselves and takes stock of their surroundings.
+  - **Difficulty:** 12
+  - **Required Successes:** none
+  - **Critical Failure:** the character recovers no defense.
+  - **Failure:** the character recovers defense equal to their secondary skill rank.
+  - **Near Success:** N/A.
+  - **Complete Success:** the character regains one plus their secondary skill rank defense.
+  - **Additional Success:** the character regains an additional point of defense for each additional success.
+### Remain Conscious
+  - **Primary Attribute:** Body
+  - **Primary Skill:** Endurance
+  - **Relevant Secondary Skills:** Remain Conscious
   - **Relevant Secondary Skill Usage:**
   - **Aiding Others:** none, character's make this skill check on their own.
-  - **Description:** the character makes an attack with a melee weapon or their body against a target in their reach.
-  - **Difficulty:** equal to the target's defense.
-  - **Required Successes:** equal to the target's melee defense bonus.
-  - **Critical Failure:** the attack misses and something goes wrong, if not detailed elsewhere this is determined by the GM and may range from dropping or breaking the weapon to harming the attacker or their ally.
-  - **Failure:** the attack misses with no further effect.
-  - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
-  - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
-  - **Additional Success:** the target suffers additional effects based on the attack/weapon.
-### Ranged Attack ??????
-  - **Primary Attribute:** Reflexes
-  - **Primary Skill:** Melee Combat
-  - **Relevant Secondary Skills:** Specific melee attack type.
+  - **Description:** the character is suffering some effect that is likely to render them unconscious, the skill check is to avoid this effect.
+  - **Difficulty:** varies by the effect, increases by one on subsequent checks as long as the effect persists.
+  - **Required Successes:** none.
+  - **Critical Failure:** the character is unconscious and suffers an additional wound, or relevant effect, from the cause of the skill check.
+  - **Failure:** the character is unconscious.
+  - **Near Success:** N/A.
+  - **Complete Success:** the character remains conscious and doesn't need to check again for a number of rounds equal to their secondary skill rank.
+  - **Additional Success:** each additional success increases the number of rounds before the character needs to check again.
+### Ranged Attack
+  - **Primary Attribute:** Perception
+  - **Primary Skill:** Ranged Combat
+  - **Relevant Secondary Skills:** Specific ranged attack type.
   - **Relevant Secondary Skill Usage:**
   - **Aiding Others:** none, character's make this skill check on their own.
-  - **Description:** the character makes an attack with a melee weapon or their body against a target in their reach.
+  - **Description:** the character makes an attack with a ranged weapon or spell against a target in its range.
   - **Difficulty:** equal to the target's defense.
-  - **Required Successes:** equal to the target's melee defense bonus.
+  - **Required Successes:** equal to the target's ranged defense bonus.
   - **Critical Failure:** the attack misses and something goes wrong, if not detailed elsewhere this is determined by the GM and may range from dropping or breaking the weapon to harming the attacker or their ally.
-  - **Failure:** the attack misses with no further effect.
-  - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
+  - **Failure:** the attack misses, if there is one or more other characters in melee with the defender or behind the defender and in range of the attack randomize between them and compare this attack roll against them on a near success or higher the attack hits that character as if it had no extra successes.
+  - **Near Success:** the attack was dodged or blocked; the attack deals no damage but the defender loses one point of defense.
   - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
   - **Additional Success:** the target suffers additional effects based on the attack/weapon.
-### Repair ??????
-  - **Primary Attribute:** Reflexes
-  - **Primary Skill:** Melee Combat
-  - **Relevant Secondary Skills:** Specific melee attack type.
+### Repair
+  - **Primary Attribute:**
+  - **Primary Skill:**
+  - **Relevant Secondary Skills:**
+  - **Relevant Secondary Skill Usage:**
+  - **Aiding Others:**
+  - **Description:**
+  - **Difficulty:**
+  - **Required Successes:**
+  - **Critical Failure:**
+  - **Failure:**
+  - **Near Success:**
+  - **Complete Success:**
+  - **Additional Success:**
+### Restoration
+  - **Primary Attribute:** Body
+  - **Primary Skill:** Endurance
+  - **Relevant Secondary Skills:** Stamina
   - **Relevant Secondary Skill Usage:**
   - **Aiding Others:** none, character's make this skill check on their own.
-  - **Description:** the character makes an attack with a melee weapon or their body against a target in their reach.
-  - **Difficulty:** equal to the target's defense.
-  - **Required Successes:** equal to the target's melee defense bonus.
-  - **Critical Failure:** the attack misses and something goes wrong, if not detailed elsewhere this is determined by the GM and may range from dropping or breaking the weapon to harming the attacker or their ally.
-  - **Failure:** the attack misses with no further effect.
-  - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
-  - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
-  - **Additional Success:** the target suffers additional effects based on the attack/weapon.
-### Restoration ??????
-  - **Primary Attribute:** Reflexes
-  - **Primary Skill:** Melee Combat
-  - **Relevant Secondary Skills:** Specific melee attack type.
-  - **Relevant Secondary Skill Usage:**
-  - **Aiding Others:** none, character's make this skill check on their own.
-  - **Description:** the character makes an attack with a melee weapon or their body against a target in their reach.
-  - **Difficulty:** equal to the target's defense.
-  - **Required Successes:** equal to the target's melee defense bonus.
-  - **Critical Failure:** the attack misses and something goes wrong, if not detailed elsewhere this is determined by the GM and may range from dropping or breaking the weapon to harming the attacker or their ally.
-  - **Failure:** the attack misses with no further effect.
-  - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
-  - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
-  - **Additional Success:** the target suffers additional effects based on the attack/weapon.
+  - **Description:** the character catches their breath to be able to continue pushing themselves.
+  - **Difficulty:** 12
+  - **Required Successes:** none
+  - **Critical Failure:** the character recovers no stamina.
+  - **Failure:** the character recovers stamina equal to their secondary skill rank.
+  - **Near Success:** N/A.
+  - **Complete Success:** the character regains one plus their secondary skill rank stamina.
+  - **Additional Success:** the character regains an additional point of stamina for each additional success.
 ### Search Area ??????
   - **Primary Attribute:** Reflexes
   - **Primary Skill:** Melee Combat
@@ -508,20 +474,20 @@ To perform a skill check requires a number of steps as follows:
   - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
   - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
   - **Additional Success:** the target suffers additional effects based on the attack/weapon.
-### Sense Motive ??????
-  - **Primary Attribute:** Reflexes
-  - **Primary Skill:** Melee Combat
-  - **Relevant Secondary Skills:** Specific melee attack type.
+### Sense Motive
+  - **Primary Attribute:**
+  - **Primary Skill:**
+  - **Relevant Secondary Skills:**
   - **Relevant Secondary Skill Usage:**
-  - **Aiding Others:** none, character's make this skill check on their own.
-  - **Description:** the character makes an attack with a melee weapon or their body against a target in their reach.
-  - **Difficulty:** equal to the target's defense.
-  - **Required Successes:** equal to the target's melee defense bonus.
-  - **Critical Failure:** the attack misses and something goes wrong, if not detailed elsewhere this is determined by the GM and may range from dropping or breaking the weapon to harming the attacker or their ally.
-  - **Failure:** the attack misses with no further effect.
-  - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
-  - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
-  - **Additional Success:** the target suffers additional effects based on the attack/weapon.
+  - **Aiding Others:**
+  - **Description:**
+  - **Difficulty:**
+  - **Required Successes:**
+  - **Critical Failure:**
+  - **Failure:**
+  - **Near Success:**
+  - **Complete Success:**
+  - **Additional Success:**
 #### Sprint
   - **Primary Attribute:** Body or Reflexes (player's choice over open clear terrain, reflexes only in difficult terrain).
   - **Primary Skill:** Personal Movement
@@ -550,6 +516,7 @@ To perform a skill check requires a number of steps as follows:
   - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
   - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
   - **Additional Success:** the target suffers additional effects based on the attack/weapon.
+
 # Combat
 
 ## Combat Round
@@ -588,10 +555,6 @@ Move up to the three times the character's speed in hexes then make a *sprint* s
 #### Jump
 **Action Points:**
 **Stamina Cost:**
-#### Glide
-**Action Points:** 1
-**Stamina Cost:** 1
-Requires trait or equipment that allows this action. If the action completes with the character still in the air they must continue to spend action points on this action or they will fall the remaining distance. The character falls 5 hexes and may move horizontally up to 10 hexes plus twice their rank in the *fly secondary skill (personal movement)*.
 
 ### Melee Actions
 Unless stated otherwise in the action description taking a melee action adds one level of disadvantage to all other skill checks the character makes this turn.
