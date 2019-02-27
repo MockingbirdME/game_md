@@ -1,10 +1,57 @@
 # Character Statistics
 
-## Attributes
-#### Body
-#### Reflexes
-#### Perception
-#### Mind
+## Primary Attributes:
+Character’s have four primary attributes that describe their physical and mental talents. Primary attributes play a key role in determining a character’s potential for success in various actions.
+####  Body
+ a character’s strength, stamina, and toughness.
+####  Reflexes
+ how quickly a character moves or reacts.
+####  Perception
+ how well tuned the character’s senses are.
+####  Mind
+ a character’s learning and mental discipline.
+
+## Other Attributes
+These statistics and resources are derived from the character’s strain, primary attributes, and skills.
+#### Armor Value
+ *Description:* The difficulty to pierce the character's flesh with penetrating weapons, if the damage from a penetrating weapon is less than this value the weapon inflicts concussive damage instead.
+ *Base Value:* 0.
+#### Defense, Max
+ *Description:* The base difficulty for how hard a character is to hit, can be reduced or recovered by various effects.
+ *Base Value:* 8 + reflexes stat + perception stat + ranks in the personal defense skill.
+#### Defense Bonus, Magic
+ *Description:* A value added to a character’s defense against arcanely targeted attacks.
+ *Base Value:* ranks in Discipline + ranks in magical aptitude.
+#### Defense Bonus, Melee
+ *Description:* A value added to a character’s defense against melee attacks they are aware of.
+ *Base Value:* ranks in melee combat + ranks in parry (personal defense).
+#### Defense Bonus, Range
+ *Description:* A value added to a character’s defense against ranged attacks they are aware of.
+ *Base Value:* ranks in awareness + ranks in dodge secondary skill (personal defense).
+#### Reach
+ *Description:*
+ *Base Value:* 0 + size if positive.
+#### Resistance (concussive)
+ *Description:*
+ *Base Value:* 0 + body if positive.
+#### Resistance (damage type)
+ *Description:*
+ *Base Value:* 0 for each other damage type.
+#### Size
+ *Description:*
+ *Base Value:* set by the character's strain.
+#### Speed
+ *Description:*
+ *Base Value:* set by strain plus ranks in the personal movement skill.
+#### Stamina, Max
+ *Description:* The total number of stamina a character may spend before suffering fatigue.
+ *Base Value:* 8 + body stat + ranks in endurance + ranks in stamina (endurance).
+#### Toughness
+ *Description:*
+ *Base Value:* 1.
+#### Wounds, Max
+ *Description:* The total number of wounds a character may suffer before they are in danger of dying from them.
+ *Base Value:* 5 + size, if positive, + body stat.
 
 ## Skills (primary - secondary)
 #### Animal Handling
@@ -31,46 +78,7 @@
 ####  Stealth
 ####  Survival
 
-## Other
-#### **Armor Value**
-  *Description:* The difficulty to pierce the character's flesh with penetrating weapons, if the damage from a penetrating weapon is less than this value the weapon inflicts concussive damage instead.
-  *Base Value:* 0.
-#### **Defense**
-  *Description:*
-  *Base Value:* 8 + reflexes stat + perception stat + ranks in the personal defense skill.
-#### Defense Bonus, Magic
-  *Description:*
-  *Base Value:* ranks in Discipline + ranks in magical aptitude.
-#### Defense Bonus, Melee
-  *Description:*
-  *Base Value:* ranks in melee combat + ranks in parry (personal defense).
-#### Defense Bonus, Range
-  *Description:*
-  *Base Value:* ranks in awareness + ranks in dodge secondary skill (personal defense).
-#### Max Wounds
-  *Description:*
-  *Base Value:* 8 + size, if positive, + body stat.
-#### Reach
-  *Description:*
-  *Base Value:* 0 + size if positive.
-#### Resistance (concussive)
-  *Description:*
-  *Base Value:* 0 + body if positive.
-#### Resistance (damage type)
-  *Description:*
-  *Base Value:* 0 for each other damage type.
-#### Size
-  *Description:*
-  *Base Value:* set by the character's strain.
-#### Speed
-  *Description:*
-  *Base Value:* set by strain plus ranks in the personal movement skill.
-#### Stamina
-  *Description:*
-  *Base Value:* 8 + body stat + ranks in endurance + ranks in stamina (endurance).
-#### Toughness
-  *Description:*
-  *Base Value:* 1.
+
 
 # Strains
 ### Denja
@@ -278,12 +286,39 @@ To perform a skill check requires a number of steps as follows:
 * Greater than difficulty plus required successes - the action gains an additional success for each point by which the result exceeds the difficulty.
 
 ## Common Skill Checks
+### Alertness
+- **Primary Attribute:** Perception
+- **Primary Skill:** Awareness
+- **Relevant Secondary Skills:** Alertness
+- **Aiding Others:** none, multiple characters asked to make alertness checks should each make them individually.
+- **Description:** when there's something the character may not notice they should be asked to make this check to see if they become aware of it.
+- **Difficulty:** 5+ various phenomena or the stealth check total of a sneaking/hiding character.
+- **Required Successes:** N/A.
+- **Critical Failure:** the character falls to notice anything and if a danger is presented they are off kilter for it, both being surprised and being flat footed.
+- **Failure:** the character fails to notice any signs of whatever they may have noticed, if they failed to notice danger they are surprised when it acts.
+- **Near Success:** N/A.
+- **Complete Success:** the character is aware of whatever caused the check to be made, if the check was made for some kind of danger they become aware of it at the last possible moment having only one round to act before the opponent.
+- **Additional Success:** for each additional success the character notices the danger or event sooner allowing for more time to react.
+### Balance
+- **Primary Attribute:** Reflexes
+- **Primary Skill:** Personal Movement
+- **Relevant Secondary Skills:** Balance
+- **Relevant Secondary Skill Usage:**
+- **Aiding Others:** a character can assist another by allowing the second character to use their rank in the secondary skill however both character's only move at the rate of the slower of the two. A character can not assist more than one other character at a time. A character can not assist another if the skill check is not taken because of the character's, and their allies, action.
+- **Description:** The character is at risk of falling or otherwise loosing their balance if they do not succeed this skill check.
+- **Difficulty:** 8-20+ depending on the effect.
+- **Required Successes:** N/A.
+- **Critical Failure:** the character falls bringing down any allies helping them.
+- **Failure:** the character falls.
+- **Near Success:** N/A.
+- **Complete Success:** The character is able to move no more than their rank in the secondary skill hexes while still affected by what caused this skill check. If the character can move 0 hexes they are rendered prone if this is the first time they've made this skill check from the same effect.
+- **Additional Success:** Increase the max distance moved by one hex per additional success.
 ### Climb
   - **Primary Attribute:** Body
   - **Primary Skill:** Personal Movement
   - **Relevant Secondary Skills:** Climb
   - **Relevant Secondary Skill Usage:**
-  - **Aiding Others:** a character can assist another by allowing the second character to use their rank in the climb secondary skill however both character's only move at the rate of the slower of the two. A character can not assist more than one other character at a time.
+  - **Aiding Others:** a character can assist another by allowing the second character to use their rank in the secondary skill however both character's only move at the rate of the slower of the two. A character can not assist more than one other character at a time.
   - **Description:** from a well limbed oak tree to a stony cliff face with few handholds a climb skill check is what allows a character to scale any climbable surface.
   - **Difficulty:** the skill check's difficulty is what's required to make any progress during the climb not the difficulty to fully ascend the tree/wall/cliff/etc. that they're attempting to climb.
   - **Required Successes:** N/A.
@@ -460,20 +495,20 @@ To perform a skill check requires a number of steps as follows:
   - **Near Success:** N/A.
   - **Complete Success:** the character regains one plus their secondary skill rank stamina.
   - **Additional Success:** the character regains an additional point of stamina for each additional success.
-### Search Area ??????
-  - **Primary Attribute:** Reflexes
-  - **Primary Skill:** Melee Combat
-  - **Relevant Secondary Skills:** Specific melee attack type.
+### Search Area
+  - **Primary Attribute:** Perception
+  - **Primary Skill:** Awareness
+  - **Relevant Secondary Skills:** Search
   - **Relevant Secondary Skill Usage:**
-  - **Aiding Others:** none, character's make this skill check on their own.
-  - **Description:** the character makes an attack with a melee weapon or their body against a target in their reach.
-  - **Difficulty:** equal to the target's defense.
-  - **Required Successes:** equal to the target's melee defense bonus.
-  - **Critical Failure:** the attack misses and something goes wrong, if not detailed elsewhere this is determined by the GM and may range from dropping or breaking the weapon to harming the attacker or their ally.
-  - **Failure:** the attack misses with no further effect.
-  - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
-  - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
-  - **Additional Success:** the target suffers additional effects based on the attack/weapon.
+  - **Aiding Others:** Multiple character's can work together allowing for one skill check to be made by the character with the highest skill and treat their secondary skill rank as one higher than the character with the highest rank.
+  - **Description:** the character searches an area for money, valuables, other specific items of interest, or hiding characters.
+  - **Difficulty:** set by the GM based on how difficult the items/characters that could be found are to find.
+  - **Required Successes:** if there's more than one potential item/loot/character to find the GM will set a number of required successes for various additional searched for things.
+  - **Critical Failure:** not only was nothing found, but one item was damaged or lost during the course of the search; the character may not try again without additional help.
+  - **Failure:** no item was found, the character may not try again without additional help.
+  - **Near Success:** N/A, while this skill check does have required successes they are for determining additional found items/characters.
+  - **Complete Success:** the easiest to find item/characters was discovered by the character. Add the character's secondary skill rank as extra successes for finding additional items/characters.
+  - **Additional Success:** the number of additional successes will determine how many additional items/characters are found.
 ### Sense Motive
   - **Primary Attribute:**
   - **Primary Skill:**
@@ -502,20 +537,34 @@ To perform a skill check requires a number of steps as follows:
   - **Near Success:** the character increases their movement by their secondary skill rank.
   - **Complete Success:** the character increases their movement by one, plus their secondary skill rank.
   - **Additional Success:** increases the character's movement by one per additional success.
-### Swim ??????
+### Swim
+  - **Primary Attribute:** Body
+  - **Primary Skill:** Personal Movement
+  - **Relevant Secondary Skills:** Swim
+  - **Relevant Secondary Skill Usage:**
+  - **Aiding Others:** a character can assist another by allowing the second character to use their rank in the secondary skill however both character's only move at the rate of the slower of the two. A character can not assist more than one other character at a time.
+  - **Description:** making headway through water and, more importantly, not drowning.
+  - **Difficulty:** 8-20+ depending on the downward pull in the water, riptides, storms, and magic can all increase this difficulty.
+  - **Required Successes:** 0-5 depending on the movement of the water, increased by current, non-submerging whirlpools, and heavy winds.
+  - **Critical Failure:** the character starts breathing in water; they lose 5 stamina and risking passing out and drowning if their stamina reaches zero.
+  - **Failure:** the character makes no progress towards their goal and looses 5 stamina.
+  - **Near Success:** the character treads water and is able to move a number of hexes equal to their secondary skill rank, they also lose 1 stamina.
+  - **Complete Success:** the character moves up to one plus their rank in the secondary skill hexes.
+  - **Additional Success:** increase the distance the character swims by up to one hex.
+### Tumble
   - **Primary Attribute:** Reflexes
-  - **Primary Skill:** Melee Combat
-  - **Relevant Secondary Skills:** Specific melee attack type.
+  - **Primary Skill:** Personal Movement
+  - **Relevant Secondary Skills:** Tumbling
   - **Relevant Secondary Skill Usage:**
   - **Aiding Others:** none, character's make this skill check on their own.
-  - **Description:** the character makes an attack with a melee weapon or their body against a target in their reach.
-  - **Difficulty:** equal to the target's defense.
-  - **Required Successes:** equal to the target's melee defense bonus.
-  - **Critical Failure:** the attack misses and something goes wrong, if not detailed elsewhere this is determined by the GM and may range from dropping or breaking the weapon to harming the attacker or their ally.
-  - **Failure:** the attack misses with no further effect.
-  - **Near Success:** the attack was parried, dodged, or blocked; the attack deals no damage but the defender loses one point of defense.
-  - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
-  - **Additional Success:** the target suffers additional effects based on the attack/weapon.
+  - **Description:** damage from falling from a great height or tumbling down a slope may be reduced with a successful skill check.
+  - **Difficulty:** 8
+  - **Required Successes:** N/A
+  - **Critical Failure:** the character takes full damage and effects from the fall/tumble.
+  - **Failure:** the character gains their rank in the secondary skill damage resistance to the falling damage and raises their toughness by an equal amount for resolving the same damage.
+  - **Near Success:** N/A.
+  - **Complete Success:** the character gains one plus their rank in the secondary skill damage resistance to the falling damage and raises their toughness by an equal amount for resolving the same damage; if the character suffers one or less damage they may end the fall/tumble kneeling instead of prone.
+  - **Additional Success:** the character increases their damage resistance to the fall damage by one per additional success; if the character suffers no damage they may end the fall/tumble standing instead of prone.
 
 # Combat
 
