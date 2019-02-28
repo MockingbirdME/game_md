@@ -28,6 +28,8 @@ These statistics and resources are derived from the character’s strain, primar
 #### Defense Bonus, Range
  *Description:* A value added to a character’s defense against ranged attacks they are aware of.
  *Base Value:* ranks in awareness + ranks in dodge secondary skill (personal defense).
+#### Initiative (optional)
+ A measure of how quickly the character acts. Initiative is equal to the sum of a character’s current defense and current stamina.
 #### Reach
  *Description:*
  *Base Value:* 0 + size if positive.
@@ -53,32 +55,131 @@ These statistics and resources are derived from the character’s strain, primar
  *Description:* The total number of wounds a character may suffer before they are in danger of dying from them.
  *Base Value:* 5 + size, if positive, + body stat.
 
-## Skills (primary - secondary)
+## Skills
+### Primary Skills
+Primary skills are broad categories of learned or trained abilities a character has accumulated. A character's rank in a primary skill is used to help determine the level of advantage added to a skill check; some attributes are also affected by the number of ranks a character possesses in certain primary skills.
+
+### Secondary Skills
+Secondary skills represent subsets of or specializations in, the primary skill it is associated with. Various skill checks, combat actions, attributes, and arcane spell effects benefit from ranks in relevant secondary skills.
+
+### Skills List
 #### Animal Handling
+How familiar is the character with animals, particularly domestic ones. This skill should be used when dealing with an animal that has a chance of being controlled or calmed.
+**Secondary Skills:**
+  - **Animal type:**
+  - **Befriend:**
+  - **Command:**
+  - **Ride:**
+  - **Train:**
 #### Alchemy
+
 #### Awareness
+The quintessential perception skill, is used when looking for loot or information as well as noticing threats both passively and when actively looking for them.
+**Secondary Skills:**
+  - **Alertness:** being aware of danger and other happenings around the character, this secondary skill is the relevant secondary skill for the alertness skill check.
+  - **Investigate:** looking for clues and gathering information it is the relevant secondary skill for the investigate area skill check.
+  - **Search:** looking for valuables and sussing out the best hiding places for items and people it is the relevant secondary skill for the search area skill check.
+  - **Sense Motive:** reading people and being able to tell when they're lying or acting it is the relevant secondary skill to the sense motive skill check.
 #### Craft (Artist)
+
 #### Craft (Chemistry)
+
 #### Craft (Cooking)
+
 ####  Craft (Mason)
+
 ####  Craft (Smith)
+
 ####  Craft (Woodworker)
+
 ####  Discipline
-####  Endurance
+A measure of a character’s self control. This skill should be used when a character has to act against their desires or when otherwise compelled to do something they're trying not to.
+**Secondary Skills:**
+  - **Command:**
+  - **Concentrate:**
+  - **Resist fear:**
+#### Endurance:
+A measure of a character’s resistance to exhaustion. The skill should be used when a character is avoiding or resisting an effect such as fatigue or poison as well as when recovering from injury or illness.
+**Secondary Skills:**
+  - **Hold breath:**
+  - **Lifting:**
+  - **Remain Conscious:**
+  - **Stamina:**
 ####  Knowledge (Academics)
-####  Knowledge (Lure)
+
+####  Knowledge (Lore)
+
 ####  Legerdemain
+Members of the various underworlds of Flax or the government's covert programs practice all manor of clandestine arts.
+**Secondary Skills:**
+  - **Picklocks:**
+  - **Pickpockets:**
+  - **Slight of Hand:**
+  - **Thieves' Cant:**
 ####  Medicine
+Court physicians to midwifes and witch doctors all use their skills to heal the sick and prevent medical misfortune.
+**Secondary Skills:**
+  - **Diagnoses:**
+  - **First Aid:**
+  - **Medicine:**
+  - **Surgery:**
+  - **Would Type:**
 ####  Magical Aptitude
+How well trained in magic a character is. Characters with an arcane trait will use this skill for crafting magical effects and casting spells.
+**Secondary Skills:**
+  - **Individual Arcane Power:**
+  - **Individual Arcane Theme:**
 ####  Melee Combat
+How well a character fights with a sword, axe, or fists. Melee combat skill is most often used when fighting in close quarters but also has a place in many sporting activities.
+**Secondary Skills:**
+  - **Attack Type:** many melee actions have a specific benefit from having ranks in the secondary skill of the same name.
+
 ####  Performance
+Playing musical instruments, acting, or giving a speech are all variations of performance.
+**Secondary Skills:**
+  - **Acting:**
+  - **Instrument:**
+  - **Oration:**
+  - **Singing:**
 ####  Personal Defense
+How apt a character is at avoiding getting hit or keeping themselves from harm. This skill affects the character’s defense.
+**Secondary Skills:**
+  - **Armor:**
+  - **Dodge:**
+  - **Parry:**
+  - **Regain Composure:**
+  - **Shields:**
 ####  Personal Movement
+A character’s speed and competency during their natural movements. Used whenever a character’s speed and footing comes into question.
+**Secondary Skills:**
+  - **Balance:** keeping ones footing when the footing is precarious, this is the relevant secondary skill for the balance skill check.
+  - **Climb:** scaling a ladder, wall, or other climbable surface this is the relevant secondary skill for the climb skill check and combat action.
+  - **Fly:**
+  - **Jump:** leaping from rooftop to rooftop or across gullies, this is the relevant secondary skill for the jump skill check.
+  - **Run:** overland travel speed both over long distance and sprints, this is the relevant secondary skill for the flee/pursuit and sprint skill checks.
+  - **Swim:** flailing to avoid drowning long enough to be rescued or gliding through the water like an eel swim is the relevant secondary skill for the swim skill check and combat action.
+  - **Tumbling:** rolling with a fall to minimize damage, this is the relevant secondary skill for the tumble skill check.
 ####  Ranged Combat
+Many characters have need to hit a target from a distance for combat, hunting, or sport.
+**Secondary Skills:**
+  - **Aim:** enhancing one's chance of hitting at range, not all weapons can be used to aim. This secondary skill directly impacts the effect of the aim combat action.
+  - **Reload:** drawing and loading ammunition for various weapon types, this secondary skill directly impacts the number of pieces of ammunition that can be readied at once and may have an affect in reloading various types of ranged weapons.
+  - **Weapon Type:** each type of weapon (bows, crossbows, pistols, spells, thrown, etc.) have their own secondary skill. This secondary skill is used to determine if the character is proficient in a given weapon and is the relevant secondary skill for the ranged attack skill check.
 ####  Stealth
+How well a character conceals themselves or something/someone else as well as how well they may disguise themselves or move in such a way as to avoid notice.
+**Secondary Skills:**
+  - **Cover tracks:**
+  - **Disguise:**
+  - **Hide:**
+  - **Sneak:**
 ####  Survival
-
-
+How well a character can keep themselves alive and healthy outside of civilization or when in the less comfortable parts of it.
+**Secondary Skills:**
+  - **Find/build shelter:**
+  - **Forage:**
+  - **Hunt:**
+  - **Specific environment:**
+  - **Track:**
 
 # Strains
 ### Denja
@@ -154,6 +255,8 @@ The character gains advantage on rolls to resist illness and poisons.
 Each time a character takes this trait they increase their max wounds by one plus their body stat, minimum of two total max wounds. The increase to max wounds granted by this trait is recalculated if the character's body attribute changes.
 ### Large/Small Size
 _Starting_ Increase or decrease the character's size by one.
+### Left Handed
+_Starting_ Target's of your melee attacks performed only with your primary (left) hand do not benefit from the *balanced* or *parrying* traits on their readied weapons.
 ### Linguist
 The character learns one spoken or written language or two spoken languages for which they already know a related language.
 ### Specialized Training, Novice
@@ -230,7 +333,7 @@ _Advanced_ The character gains their mobile combatant defense bonus to free atta
 **Requirements:** Advanced Mobile Combatant
 _Heroic_ The character no longer provokes free attacks.
 ### Multi-Attack
-**Requirements:** 5 warrior traits, at least rank 2 in *Melee Combat*.
+**Requirements:** Any _Heroic warrior trait, at least rank 2 in *Melee Combat*.
 _Epic_ The first time the character would receive disadvantage to a melee skill check for having already taken a melee action each turn ignore that penalty.
 ### Push the Body
 Once per turn the character may recover up to 3 *stamina* and suffer one *fatigue*.
@@ -610,7 +713,7 @@ Unless stated otherwise in the action description taking a melee action adds one
 #### Basic Attack
 **Action Points:** 1
 **Stamina Cost:** 0
-Make a brawling attack or an attack with a readied melee weapon. The character makes a *melee attack skill check* and applies the results.
+Make an attack with a readied melee weapon. The character makes a *melee attack skill check* and applies the results.
 #### Bash
 **Action Points:** 1
 **Stamina Cost:** 1
@@ -621,6 +724,10 @@ Make an attack with a readied melee weapon. The character makes a *melee attack 
 **Stamina Cost:** 1
 **Requires:** *body* of at least +1.
 Make a brawling attack or attack with an equipped shield attempting to push the target back. The character makes a *melee attack skill check* and applies the results. The skill check uses *body* instead of *reflexes* as the primary attribute, gains one level of disadvantage if the character does not have at least one rank in the *bull rush secondary skill (melee combat)* and the target's *melee defense bonus* does not benefit from any shield(s) they may be wielding. On a hit the target is pushed back one hex per rank the character has in the bull rush secondary skill (melee combat), and unless the target is pinned against a wall or other hard surface the first X additional successes must be spent to increase the distance the target is pushed by one hex where X is equal to the sum of the target's *body* and *size* (minimum one) after the first X successes have been spent each additional success increases the distance pushed by one hex; if the target is pushed into a wall or other hard surface increase the damage inflicted by the attack by the number of hexes the target was pushed and any remaining successes can be spent to increase the damage by two. The attacker moves with the target as they are pushed but may choose to stop a number of hexes, equal to their *body* attribute, short; doing so prevents them from using additional successes for extra damage.
+#### Brawling
+**Action Points:** 1
+**Stamina Cost:** 0
+Make an attack with the character's fists, feet, or natural weapon. The character makes a *melee attack skill check* and applies the results, on a complete success add a number of additional successes to the result equal to the character's rank in the *brawling secondary skill (melee combat)*.
 #### Disarm
 **Action Points:** 1
 **Stamina Cost:** 1
@@ -815,7 +922,46 @@ Always One: *axe*, *blade, short*, *blade, long*, *bludgeoning*, *bow*, *brawlin
 ## Cost of Living
 
 # Magic
+Mages can wield and shape arcane energy in one of two ways, they can cast practiced spells and cantrips or they can draw upon raw arcane power to be shaped and molded by their will.
 
+## Casting Magic
+#### Spells
+The most common and safest way for a mage to bend reality is by practicing specific effects until they become rote.
+#### Cantrips
+Cantrips are simple spells that the mage has worked with so many times they no longer require a skill check to cast and have a set stamina cost.
+
+## Crafting Magic
+#### Gathering Power
+#### Molding Power
+
+## Complicated Magic
+#### Prolonged Arcane Manipulation   
+#### Group Arcane Manipulation
+
+## Creating Spells and Cantrips
+All spells start with an Action Point Cost of 3, a Stamina Cost of 0, an Arcane Pool of 0, and a Range of Touch. The spell is then developed by adding effects to the spell from amongst those the mage has access too. Each effect has an arcane cost associated with it, this cost is added to the spell's arcane pool.
+
+## Arcane Effects
+Many Arcane effects are available to all mages regardless of specialty or skill level others are associated with a specific Arcane Power. Arcane Powers are each associated with one or more Arcane Themes. For a mage to have access to the arcane effects of a specific arcane power they must have a mage trait that gives them access to effects from that power or one of its associated themes and have at least one rank in the Magical Aptitude secondary skill for that specific arcane power or theme.
+
+Arcane effects are listed in the following format:
+- *Effect Name (Effect's Arcane Cost)*
+  - Limitations: Extra limits on the use of the effect.
+  - Description: Description of the effect in a spell or cantrip.
+### Generic Arcane Effects
+These Effects are available to every mage.
+- *Range, Manifest (2)*
+  - Limitations: a spell or crafted effect can only have one range effect.
+  - Description: the spell gains a range and range increment of 5 hexes plus the caster's mind stat (it requires an arcane targeting attack to target an empty hex or unwilling character, if this is part of a spell with an action point cost of 0 this attack is made with the same skill check used to cast the spell).
+- *Range, Self (-1)*
+  - Limitations: a spell or crafted effect can only have one range effect.
+  - Description: the spell's range is set to self and affects only the caster.
+- *Range, Touch (0)*
+  - Limitations: a spell or crafted effect can only have one range effect.
+  - Description: the spell's range is set to touch and affects only a the caster or a character they touch (this requires a brawling attack to target an unwilling character).
+- *Range, Thrown (1)*
+  - Limitations: a spell or crafted effect can only have one range effect.
+  - Description: the spell gains a range and range increment of 5 hexes plus the caster's mind stat (it requires a throw attack to target an empty hex or unwilling character).
 # Character Creation
 1. Choose Strain
 2. Assign Attributes
