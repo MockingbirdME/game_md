@@ -939,10 +939,22 @@ Cantrips are simple spells that the mage has worked with so many times they no l
 #### Group Arcane Manipulation
 
 ## Creating Spells and Cantrips
-All spells start with an Action Point Cost of 3, a Stamina Cost of 0, an Arcane Pool of 0, and a Range of Touch. The spell is then developed by adding effects to the spell from amongst those the mage has access too. Each effect has an arcane cost associated with it, this cost is added to the spell's arcane pool.
+All spells start with a Stamina Cost of 0, an Arcane Pool of 0, and a Range of Touch. The spell is then developed by adding effects to the spell from amongst those the mage has access too. Each effect has an arcane cost associated with it, this cost is added to the spell's arcane pool.
 
 ## Arcane Effects
 Many Arcane effects are available to all mages regardless of specialty or skill level others are associated with a specific Arcane Power. Arcane Powers are each associated with one or more Arcane Themes. For a mage to have access to the arcane effects of a specific arcane power they must have a mage trait that gives them access to effects from that power or one of its associated themes and have at least one rank in the Magical Aptitude secondary skill for that specific arcane power or theme.
+
+
+## Spell, Cantrip, and Crafted Effect Building
+When building a spell, cantrip, or crafting an effect there are a number of steps to be followed:
+  1. Select one range effect the caster has access to.
+  2. Select one speed effect the caster has access to.
+  3. Select one delay effect the caster has access to.
+  4. Select any number of other effects the caster has access to.
+  5. Sum the arcane cost of all effects in the cantrip, spell, or crafted effect.
+  6. For spells and crafted effects the total arcane cost, modified by any relevant traits or other abilities the character has, is the amount of arcane dues the character suffers. Cantrips do not inflict arcane dues.
+  7. For spells the total arcane cost plus ???, modified by any relevant traits or other abilities the character has, is the spells difficulty to cast.
+
 
 Arcane effects are listed in the following format:
 - *Effect Name (Effect's Arcane Cost)*
@@ -950,18 +962,75 @@ Arcane effects are listed in the following format:
   - Description: Description of the effect in a spell or cantrip.
 ### Generic Arcane Effects
 These Effects are available to every mage.
+- *Delay, None (-1)*
+  - Limitations: spells only; a cantrip, spell, or crafted effect can only have one delay effect.
+  - Description: the spell must be triggered via throwing, manifesting, touching, etc. as the caster's very next action after, and on the same turn, as casting.
+- *Delay, Standard (0)*
+  - Limitations: a cantrip, spell, or crafted effect can only have one delay effect.
+  - Description: the spell must be triggered via throwing, manifesting, touching, etc. before the end of the casters next turn or it is lost.
+- *Delay, Extended (1)*
+  - Limitations: a cantrip, spell, or crafted effect can only have one delay effect.
+  - Description: the spell must be triggered via throwing, manifesting, touching, etc. within a minute after casting or it is lost.
+- *Duration, Basic (1)*
+  - Limitations: a caster cannot have more duration effects ongoing at one time than one plus their mind, if positive.
+  - Description: the non-character targeted damage effects of the cantrip, spell, or crafted effect remain in play until the end of the caster's next turn; additionally, if it is a cantrip or spell, the caster can spend one stamina on their turn where the cantrip, or spell would expire to have it continue functioning until the end of their next turn.
+- *Duration, Basic Extended (1+)*
+  - Limitations: must already have a duration effect.
+  - Description: the cantrip, spell, or crafted effect lasts for an additional round, plus one for each additional arcane cost spent on this effect, when cast before it expires (if the caster spends stamina to continue the effect it still only lasts for one additional round).
+- *Duplicate, Twinned (3)*
+  - Limitations: cantrips or spells only.
+  - Description: two instances of the cantrip or spell are created upon casting, they must be triggered separately.
+- *Duplicate, Tripled (2)*
+  - Limitations: cantrips or spells only, must already have the twinned duplicate effect.
+  - Description: three instances of the cantrip or spell are created upon casting, they must be triggered separately. This replaces the twinned duplicate effect rather than adding to it.
+- *Duplicate, Mass (1+)*
+  - Limitations: cantrips or spells only, must already have the tripled duplicate effect.
+  - Description: four instances, plus one for each additional arcane cost spent on this effect, of the cantrip or spell are created upon casting, they must be triggered separately. This replaces the tripled duplicate effect rather than adding to it.
+- *Extended Range, Basic (1+)*
+  - Limitations: cantrip, spell, or crafted effect must already have a range and range increment of at least 5 hexes each.
+  - Description: increase the cantrip's, spell's, or crafted effect's range and range increment by one hex plus one hex for every additional arcane cost spend on this effect.
 - *Range, Manifest (2)*
-  - Limitations: a spell or crafted effect can only have one range effect.
+  - Limitations: a cantrip, spell, or crafted effect can only have one range effect.
   - Description: the spell gains a range and range increment of 5 hexes plus the caster's mind stat (it requires an arcane targeting attack to target an empty hex or unwilling character, if this is part of a spell with an action point cost of 0 this attack is made with the same skill check used to cast the spell).
 - *Range, Self (-1)*
-  - Limitations: a spell or crafted effect can only have one range effect.
+  - Limitations: a cantrip, spell, or crafted effect can only have one range effect.
   - Description: the spell's range is set to self and affects only the caster.
 - *Range, Touch (0)*
-  - Limitations: a spell or crafted effect can only have one range effect.
+  - Limitations: a cantrip, spell, or crafted effect can only have one range effect.
   - Description: the spell's range is set to touch and affects only a the caster or a character they touch (this requires a brawling attack to target an unwilling character).
 - *Range, Thrown (1)*
-  - Limitations: a spell or crafted effect can only have one range effect.
+  - Limitations: a cantrip, spell, or crafted effect can only have one range effect.
   - Description: the spell gains a range and range increment of 5 hexes plus the caster's mind stat (it requires a throw attack to target an empty hex or unwilling character).
+- *Speed, Full Day (-5)*
+  - Limitations: spells only; a cantrip, spell, or crafted effect can only have one speed effect.
+  - Description: the spell takes a full waking day to cast.
+- *Speed, Partial Day (-4)*
+  - Limitations: spells only; a cantrip, spell, or crafted effect can only have one speed effect.
+  - Description: the spell takes 4 hours to cast.
+- *Speed, Quarter Hour (-3)*
+  - Limitations: spells only; a cantrip, spell, or crafted effect can only have one speed effect.
+  - Description: the spell takes 15 minutes to cast.
+- *Speed, Full Minute (-2)*
+  - Limitations: spells only; a cantrip, spell, or crafted effect can only have one speed effect.
+  - Description: the spell takes a full minute to cast.
+- *Speed, Multi-Round (-1)*
+  - Limitations: spells only; a cantrip, spell, or crafted effect can only have one speed effect.
+  - Description: the spell costs 6 action points, or two full rounds, to cast.
+- *Speed, Full Round (0)*
+  - Limitations: a cantrip, spell, or crafted effect can only have one speed effect.
+  - Description: the spell costs 3 action points, or one full round, to cast.
+- *Speed, Quickened (1)*
+  - Limitations: a cantrip, spell, or crafted effect can only have one speed effect.
+  - Description: the spell costs 2 action points, or one full round, to cast.
+- *Speed, Fast Cast (2)*
+  - Limitations: a cantrip, spell, or crafted effect can only have one speed effect.
+  - Description: the spell costs 1 action points, or one full round, to cast.
+- *Speed, Instant (3)*
+  - Limitations: a cantrip, spell, or crafted effect can only have one speed effect.
+  - Description: the spell costs 0 action points, or one full round, to cast.
+
+
+
 # Character Creation
 1. Choose Strain
 2. Assign Attributes
