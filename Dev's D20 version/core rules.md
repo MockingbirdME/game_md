@@ -1038,7 +1038,8 @@ These Effects are available to every mage.
     1. All four stats start at 0.
     2. Optionally increase one attribute to +1 and either reduce two others to -1 or one other to -2.
 2. Apply strain attribute modifiers.
-3. Assign Skills - 5 skills at rank one (proficient) and one at rank two (skilled).
+3. Assign Skills - 5 skills at rank one (novice) and one at rank two (skilled).
+4. Assign Secondary Skills - for each skill the character has at least one rank in choose one secondary skill associated with that skill to gain rank one in.
 4. Take Negative Traits if allowed
 5. Buy Traits
 7. Gear and Spells
