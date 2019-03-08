@@ -249,6 +249,8 @@ Traits have a number of properties:
   - Starting: a character can only take this trait at character creation or with allowance from the GM after they've woven a reason for it into the storyline.
 
 ## General Traits
+### Adventurer
+_Starting_ The character choose 5 skills to gain rank one (novice) and one skill to gain rank two (skilled) for each skill the character gained least one rank in from this trait choose one secondary skill associated with that skill to gain rank one in.
 ### Hardy
 The character gains advantage on rolls to resist illness and poisons.
 ### Healthy
@@ -1037,11 +1039,10 @@ These Effects are available to every mage.
   1. Option one, standard point buy:
     1. All four stats start at 0.
     2. Optionally increase one attribute to +1 and either reduce two others to -1 or one other to -2.
-2. Apply strain attribute modifiers.
-3. Assign Skills - 5 skills at rank one (novice) and one at rank two (skilled).
-4. Assign Secondary Skills - for each skill the character has at least one rank in choose one secondary skill associated with that skill to gain rank one in.
+2. Apply strain attribute modifiers and traits.
+3. Gain the Adventurer trait and apply its effects.
 4. Take Negative Traits if allowed
-5. Buy Traits
+5. Assign Traits - Gain 5 traits, following the standard rules for gaining traits.
 7. Gear and Spells
 
 # Beyond Starting Character Level
