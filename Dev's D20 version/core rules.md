@@ -1037,8 +1037,6 @@ These Effects are available to every mage.
   1. Option one, standard point buy:
     1. All four stats start at 0.
     2. Optionally increase one attribute to +1 and either reduce two others to -1 or one other to -2.
-  2. Option two, randomized:
-    1. roll 2d4-5 four times and either assign them in order or as the player chooses to the four attributes.
 2. Apply strain attribute modifiers.
 3. Assign Skills - 5 skills at rank one (proficient) and one at rank two (skilled).
 4. Take Negative Traits if allowed
