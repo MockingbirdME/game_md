@@ -225,7 +225,7 @@ How well a character can keep themselves alive and healthy outside of civilizati
   - **Speed:** 4
   - **Attribute Modifiers:** +1 to any attribute.
   - **Strain Abilities:**
-    - *Highly Adaptive:* the character gains one additional trait at creation and can have one more _advanced_ trait than they could otherwise.
+    - **Highly Adaptive:** the character gains one additional trait during the _assign traits_ step of creation and can have one more _advanced_ trait than they could otherwise.
 
 ### Tor'leni
   - **Physical Appearance:**
