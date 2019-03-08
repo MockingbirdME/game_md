@@ -565,9 +565,9 @@ To perform a skill check requires a number of steps as follows:
   - **Description:** the character makes an attack with a ranged weapon or spell against a target in its range.
   - **Difficulty:** equal to the target's defense.
   - **Required Successes:** equal to the target's ranged defense bonus.
-  - **Critical Failure:** the attack misses and something goes wrong, if not detailed elsewhere this is determined by the GM and may range from dropping or breaking the weapon to harming the attacker or their ally.
-  - **Failure:** the attack misses, if there is one or more other characters in melee with the defender or behind the defender and in range of the attack randomize between them and compare this attack roll against them on a near success or higher the attack hits that character as if it had no extra successes.
-  - **Near Success:** the attack was dodged or blocked; the attack deals no damage but the defender loses one point of defense.
+  - **Critical Failure:** the attack misses, if there is one or more other characters in melee with the defender or behind the defender and in range of the attack randomize between them and roll 2d10 if the result is equal to or greater than their defense they are struck by the attack as if it hit them with no additional successes.
+  - **Failure:** the attack misses with no further effect.
+  - **Near Success:** the attack was avoided by the target's with no further effect.
   - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
   - **Additional Success:** the target suffers additional effects based on the attack/weapon.
 ### Repair
