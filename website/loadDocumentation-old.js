@@ -4,7 +4,7 @@ const path = require('path');
 const toc = require('markdown-toc');
 
 const DOCUMENTATION_EXTENSION = '.md';
-const DOCUMENTATION_DIRECTORIES = ["Dev's D20 version"];
+const DOCUMENTATION_DIRECTORIES = ["core_rules", "weapons_&_equipment", "arcane_powers_&_themes"];
 const documentation = {
     "text": ""
 };
@@ -12,7 +12,7 @@ const documentation = {
 DOCUMENTATION_DIRECTORIES.forEach(directoryName => {
     let safeDirectoryName = generateName(directoryName);
     documentation[safeDirectoryName.simpleName] = {"topLevelDirectory": true};
-    documentation.text += `\n<h1 class="chapterTitles"><a href="document">Rules</a></h1>`;
+    documentation.text += `\n<h2 class="chapterTitles"><a href="document/${safeDirectoryName.url}"> ${safeDirectoryName.title}</a></h2>`;
     generateContent(directoryName);
 });
 
@@ -44,13 +44,11 @@ function generateMD(markdown, depthArray) {
 
     depthArray.forEach(item => {
         documentationPath = documentationPath[item.simpleName];
-        if (item.simpleName !== "devs d20 version") {
-            latestLink += `${item.url}/`;
-            linkMD += `[${item.simpleName}](${latestLink})/`;
-        }
+        latestLink += `${item.url}/`;
+        linkMD += `[${item.simpleName}](${latestLink})/`;
     });
 
-    if (depthArray.length === 2) {
+    if (depthArray.length === 1) {
         let firstLevelCatigory = documentation[depthArray[0].simpleName];
         if (!firstLevelCatigory.text) firstLevelCatigory.text = "";
 
@@ -72,7 +70,7 @@ function generateMD(markdown, depthArray) {
             return;
         }
         let title = generateName(item.match(/^.*/)[0].trim());
-        if (depthArray.length === 1) documentation.text += `\n<h2 class="chapterTitles">&#8226 <a href="/document/${title.url}/">${title.title}</a></h2>`;
+        if (depthArray.length === 1) documentation.text += `\n<h4 class="chapterTitles">- <a href="/document/${title.url}/">${title.title}</a></h4>`;
 
         let sectionMD = linkMD + `[${title.simpleName}]()\n\n`;
         for (let i = 0; i < depthArray.length; i++) sectionMD += "#";

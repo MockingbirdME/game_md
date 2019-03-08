@@ -225,7 +225,7 @@ How well a character can keep themselves alive and healthy outside of civilizati
   - **Speed:** 4
   - **Attribute Modifiers:** +1 to any attribute.
   - **Strain Abilities:**
-    - *Highly Adaptive:* the character gains one additional trait at creation and can have one more _advanced_ trait than they could otherwise.
+    - **Highly Adaptive:** the character gains one additional trait during the _assign traits_ step of creation and can have one more _advanced_ trait than they could otherwise.
 
 ### Tor'leni
   - **Physical Appearance:**
@@ -249,6 +249,8 @@ Traits have a number of properties:
   - Starting: a character can only take this trait at character creation or with allowance from the GM after they've woven a reason for it into the storyline.
 
 ## General Traits
+### Adventurer
+_Starting_ The character choose 5 skills to gain rank one (novice) and one skill to gain rank two (skilled) for each skill the character gained least one rank in from this trait choose one secondary skill associated with that skill to gain rank one in.
 ### Hardy
 The character gains advantage on rolls to resist illness and poisons.
 ### Healthy
@@ -565,9 +567,9 @@ To perform a skill check requires a number of steps as follows:
   - **Description:** the character makes an attack with a ranged weapon or spell against a target in its range.
   - **Difficulty:** equal to the target's defense.
   - **Required Successes:** equal to the target's ranged defense bonus.
-  - **Critical Failure:** the attack misses and something goes wrong, if not detailed elsewhere this is determined by the GM and may range from dropping or breaking the weapon to harming the attacker or their ally.
-  - **Failure:** the attack misses, if there is one or more other characters in melee with the defender or behind the defender and in range of the attack randomize between them and compare this attack roll against them on a near success or higher the attack hits that character as if it had no extra successes.
-  - **Near Success:** the attack was dodged or blocked; the attack deals no damage but the defender loses one point of defense.
+  - **Critical Failure:** the attack misses, if there is one or more other characters in melee with the defender or behind the defender and in range of the attack randomize between them and roll 2d10 if the result is equal to or greater than their defense they are struck by the attack as if it hit them with no additional successes.
+  - **Failure:** the attack misses with no further effect.
+  - **Near Success:** the attack was avoided by the target's with no further effect.
   - **Complete Success:** the target is hit, the target loses one defense and apply the effects of a hit with the attack/weapon.
   - **Additional Success:** the target suffers additional effects based on the attack/weapon.
 ### Repair
@@ -1083,12 +1085,10 @@ These Effects are all gained from the arcane power they are named for and linked
   1. Option one, standard point buy:
     1. All four stats start at 0.
     2. Optionally increase one attribute to +1 and either reduce two others to -1 or one other to -2.
-  2. Option two, randomized:
-    1. roll 2d4-5 four times and either assign them in order or as the player chooses to the four attributes.
-2. Apply strain attribute modifiers.
-3. Assign Skills - 5 skills at rank one (proficient) and one at rank two (skilled).
+2. Apply strain attribute modifiers and traits.
+3. Gain the Adventurer trait and apply its effects.
 4. Take Negative Traits if allowed
-5. Buy Traits
+5. Assign Traits - Gain 5 traits, following the standard rules for gaining traits.
 7. Gear and Spells
 
 # Beyond Starting Character Level
