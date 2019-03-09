@@ -1077,6 +1077,14 @@ These Effects are all gained from the arcane power they are named for and linked
   - Limitations: none.
   - Theme(s):
   - Description: target takes 2X, plus two per additional arcane cost spent on this effect, bludgeoning damage. The caster may spend an additional arcane cost to either apply the effects of a bash melee attack to this effect or to make the damage penetrating that reduces the armor value of the target by X, plus one for each additional arcane cost spent for this effect.
+- *Freeze Creature (3)*
+  - Limitations: none.
+  - Theme(s): cold
+  - Description: the target suffers X plus one per additional arcane cost spent on this power cold damage, if the target suffers at least one wound from this effect they gain a level of disadvantage to all skill checks on their turn that use body or reflexes as the primary attribute.
+- *Freeze Liquid (2)*
+  - Limitations: none.
+  - Theme(s): cold
+  - Description: instantly freeze up to X plus one per additional arcane cost spent for this effect pints of water, additional successes can be spent to affect other types of liquid one success for beer, two for wine or ink, three for spirits or oil, etc. One additional success can be spent to shape the ice at the casters whim including to make melee weapons with the magically hardened ice, it takes one pint to make a small weapon, three to make a one handed weapon, 5 to make a hand and a half weapon, and 8 to make a two handed weapon.
 - *Light (1)*
   - Limitations: none.
   - Theme(s): fire, lightning, matter, or perception
@@ -1085,10 +1093,10 @@ These Effects are all gained from the arcane power they are named for and linked
   - Limitations: none.
   - Theme(s): lightning or storm
   - Description: target suffers X lightning damage plus one per additional success spent on this power then X times apply this effect again to the nearest target other than the caster that hasn't been effected by it yet within X hexes (randomize if multiple characters are eligible); if this effect is part of a cantrip or arcane effect reduce the cost of any speed arcane effects in the spell/cantrip by one.
-- *Resist Magic (1+)*
+- *Resist Magic (3)*
   - Limitations: none.
   - Theme(s): arcane or fortification
-  - Description: increase the target's magic defense bonus and ranged defense bonus against thrown spells/cantrips/arcane effects by X. If the target is affected by an arcane effect that did not target them they gain X plus one per additional arcane cost spent resistance to its effects (this resistance is applied to all magic not just hostile magic).
+  - Description: increase the target's magic defense bonus and ranged defense bonus against thrown spells/cantrips/arcane effects by X. If the target is affected by an arcane effect that did not target them they reduce the "X" in all of its effects by X (this resistance is applied to all magic not just hostile magic).
 - *Resist Shock (1+)*
   - Limitations: none.
   - Theme(s): fortification or lighting
@@ -1097,6 +1105,10 @@ These Effects are all gained from the arcane power they are named for and linked
   - Limitations: none.
   - Theme(s): cold, fire, or fortification
   - Description: increase the target’s cold or fire resistance by X plus one per additional arcane cost spent on this power.
+- *Slow (5)*
+  - Limitations: none.
+  - Theme(s): cold or temporal
+  - Description: target has their movement reduced by X (minimum one), loses X defense, lowers their max defense by X, and gains one less action point during their turn. If this powers is gained from the cold arcane theme reduce X by 1 for every 3 cold resistance the target has.
 - *Wizard's Fire (3)*
   - Limitations: none.
   - Theme(s): fire  
