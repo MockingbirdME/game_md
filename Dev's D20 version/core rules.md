@@ -1,4 +1,4 @@
-# Character Statistics
+applied# Character Statistics
 
 ## Primary Attributes:
 Character’s have four primary attributes that describe their physical and mental talents. Primary attributes play a key role in determining a character’s potential for success in various actions.
@@ -1029,30 +1029,42 @@ These Effects are available to every mage.
   - Description: the spell costs 0 action points, or one full round, to cast.
 ### Power Linked Arcane Effects
 These Effects are all gained from the arcane power they are named for and linked to one or more arcane themes.
-- *Augment Body (3)*
+- *Arcane Armor (4+)*
+  - Limitations: none.
+  - Theme(s): fortification
+  - Description: target character gains an armor value of X plus one per additional arcane cost spent on this power or target armor (natural or warn) has its armor value increased by one; targeted character or armor also gains resistance (concussive and penetrating) of X.
+- *Augment Body (5)*
   - Limitations: none.
   - Theme(s): force or matter
   - Description: treat the target's body stat as being +X greater than it would otherwise be for all purposes but resolving arcane dues.
-- *Augment Mind (3)*
+- *Augment Mind (5)*
   - Limitations: none.
   - Theme(s): mind
   - Description: treat the target's mind stat as being +X greater than it would otherwise be for all purposes but resolving arcane dues.
-- *Augment Perception (3)*
+- *Augment Perception (5)*
   - Limitations: none.
   - Theme(s): perception
   - Description: treat the target's perception stat as being +X greater than it would otherwise be for all purposes but calculating defense.
-- *Augment Reflexes (3)*
+- *Augment Reflexes (5)*
   - Limitations: none.
   - Theme(s): movement
   - Description: treat the target's reflexes stat as being +X greater than it would otherwise be for all purposes but calculating defense.
-- *Control Temperature (1+)*
+- *Augment Speed (3+)*
+  - Limitations: none.
+  - Theme(s): lightning, movement, or wind
+  - Description: treat the target's movement stat as being X plus one per additional arcane cost spent greater than it would otherwise be.
+- *Control Temperature (2+)*
   - Limitations: none.
   - Theme(s): cold or fire
   - Description: Increase or Decrease the damage inflicted by an affected heat effect (either this spell or an existing heat effect) by X plus one per additional arcane cost spent on this power. If the mage has this power from either the cold or fire themes they may decrease the damage of either type but only increase the damage of the type they have the arcane theme for.
 - *Direct Heat (1+)*
   - Limitations: none.
   - Theme(s): fire  
-  - Description: the fire effects of this AOE spell, or existing area effect that inflicts no more than X per arcane cost spent on this power fire damage, project in only the direction(s) specified by the caster.  
+  - Description: the fire effects of this AOE spell, or existing area effect that inflicts no more than X per arcane cost spent on this power fire damage, project in only the direction(s) specified by the caster.
+- *Energize (1+)*
+  - Limitations: none.
+  - Theme(s): healing or lightning
+  - Description: target character regains X stamina plus an additional X for each additional arcane cost spent on this power, they then suffer one fatigue plus one for every three arcane cost spent on this power.
 - *Force Barrier (2+)*
   - Limitations: none.
   - Theme(s):
@@ -1069,9 +1081,21 @@ These Effects are all gained from the arcane power they are named for and linked
   - Limitations: none.
   - Theme(s): fire, lightning, matter, or perception
   - Description: the area of the effect plus X hexes is filled with bright light, X plus the radius of the effect beyond the bright light is filled with dim light.
+- *Lightning (3+)*
+  - Limitations: none.
+  - Theme(s): lightning or storm
+  - Description: target suffers X lightning damage plus one per additional success spent on this power then X times apply this effect again to the nearest target other than the caster that hasn't been effected by it yet within X hexes (randomize if multiple characters are eligible); if this effect is part of a cantrip or arcane effect reduce the cost of any speed arcane effects in the spell/cantrip by one.
+- *Resist Magic (1+)*
+  - Limitations: none.
+  - Theme(s): arcane or fortification
+  - Description: increase the target's magic defense bonus and ranged defense bonus against thrown spells/cantrips/arcane effects by X. If the target is affected by an arcane effect that did not target them they gain X plus one per additional arcane cost spent resistance to its effects (this resistance is applied to all magic not just hostile magic).
+- *Resist Shock (1+)*
+  - Limitations: none.
+  - Theme(s): fortification or lighting
+  - Description: increase the target’s lightning resistance by X plus one per additional arcane cost spent on this power.
 - *Resist Temperature (1+)*
   - Limitations: none.
-  - Theme(s): cold or fire
+  - Theme(s): cold, fire, or fortification
   - Description: increase the target’s cold or fire resistance by X plus one per additional arcane cost spent on this power.
 - *Wizard's Fire (3)*
   - Limitations: none.
