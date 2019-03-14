@@ -1085,16 +1085,16 @@ These Effects are available to every mage.
   - Limitations: spells and cantrips only; a cantrip, spell, or crafted effect can only have one delay effect.
   - Description: casting the spell requires the caster to speak loudly, have both hands free or holding arcane focuses, and to provide arcane components worth at least ??? that are consumed by the casting.
 - *Components, Standard (0)*
-  - Limitations: spells and cantrips only; a cantrip, spell, or crafted effect can only have one delay effect.
+  - Limitations: a cantrip, spell, or crafted effect can only have one delay effect.
   - Description: casting the spell requires the caster to speak loudly and have both hands free or holding arcane focuses.
 - *Components, Simple (1)*
-  - Limitations: spells and cantrips only; a cantrip, spell, or crafted effect can only have one delay effect.
+  - Limitations: a cantrip, spell, or crafted effect can only have one delay effect.
   - Description: casting the spell requires the caster to speak at a regular volume and have one hand free or holding arcane focuses, or to speak loudly with both hands occupied, or have both hands free and not speak at all.
 - *Components, Limited (2)*
-  - Limitations: spells and cantrips only; a cantrip, spell, or crafted effect can only have one delay effect.
+  - Limitations: a cantrip, spell, or crafted effect can only have one delay effect.
   - Description: casting the spell requires the caster to speak at a whisper or have one hand free or holding arcane focuses.
 - *Components, Simple (3)*
-  - Limitations: spells and cantrips only; a cantrip, spell, or crafted effect can only have one delay effect.
+  - Limitations: a cantrip, spell, or crafted effect can only have one delay effect.
   - Description: casting the spell requires no physical action from the caster.
 - *Delay, None (-1)*
   - Limitations: spells only; a cantrip, spell, or crafted effect can only have one delay effect.
