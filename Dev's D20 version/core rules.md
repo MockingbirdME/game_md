@@ -239,6 +239,25 @@ How well a character can keep themselves alive and healthy outside of civilizati
   - **Starting Traits:**
   - **Strain Traits:**
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Traits
 Traits have a number of properties:
 - Requirements: some traits have one or more requirements, these may be a specific strain limitation, some number of other traits with a shared keyword, or another specific trait(s).
@@ -361,6 +380,25 @@ _Advanced_ If the character has already taken an attack action on their turn wit
 ### Two Weapon Fighting, Heroic
 **Requirements:** Advanced Two Weapon Fighting
 _Heroic_ The character no longer gains a level of disadvantage when making *Off-Hand Attack* actions with weapons that have the *one-handed* or *hand-and-a-half* keywords. Additionally, as long as the character has already made a  attack on their turn with their primary hand or a weapon wielded in it, the first *Off-Hand Attack* action the character takes each round may be treated as a *Bash*, *Disarm*, *Distracting Attack*, *Power Attack*, *Reckless Attack*, *Throw*, or *Loose, Shoot, Fire* action performed with the character's off-hand or ready weapon wielded in their off-hand; this attack costs an additional stamina but still costs no action points.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Skill Checks
 When a character may wishes to attempt an action where success is not certain and failure is not guaranteed, or when a character’s degree of success or failure matters, the GM may call for a skill check.
@@ -671,6 +709,25 @@ To perform a skill check requires a number of steps as follows:
   - **Complete Success:** the character gains one plus their rank in the secondary skill damage resistance to the falling damage and raises their toughness by an equal amount for resolving the same damage; if the character suffers one or less damage they may end the fall/tumble kneeling instead of prone.
   - **Additional Success:** the character increases their damage resistance to the fall damage by one per additional success; if the character suffers no damage they may end the fall/tumble standing instead of prone.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Combat
 
 ## Combat Round
@@ -806,6 +863,24 @@ A surprised target does not benefit from melee, ranged, or magic defense bonuses
 #### Reach
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Hits and Damage
 
 ## Suffering Damage
@@ -814,7 +889,7 @@ When a character suffers damage from some attack or effect follow the steps belo
 2. If damage type is penetrating and the total amount of damage is less than the character's *armor value* change the damage type to concussive.
 3. Reduce the damage by the character's *resistance* for the specific type of damage.
 4. If the character has the *weakness* trait for the damage type double the remaining damage.
-4. If the remaining damage is greater than zero reduce and equalt to or less than the character's *toughness*, reduce the damage to one.
+4. If the remaining damage is greater than zero reduce and equal to or less than the character's *toughness*, reduce the damage to one.
 5. Inflict the a number of wounds to the character equal to the remaining damage.
 
 ## Suffering From Damage
@@ -830,6 +905,25 @@ A character who has taken damage may suffers from the most penalizing of follow 
 ## Dying
 
 ## Recovering from Injuries
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Money and Equipment
 ## Currency
@@ -923,6 +1017,25 @@ Always One: *axe*, *blade, short*, *blade, long*, *bludgeoning*, *bow*, *brawlin
 ## Arcane Essence and Essence Items
 ## Cost of Living
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Magic
 Mages can wield and shape arcane energy in one of two ways, they can cast practiced spells and cantrips or they can draw upon raw arcane power to be shaped and molded by their will.
 
@@ -949,6 +1062,7 @@ When building a spell, cantrip, or crafting an effect there are a number of step
   1. Select one range effect the caster has access to.
   2. Select one speed effect the caster has access to.
   3. Select one delay effect the caster has access to.
+  4. Select one components effect the caster has access to.
   4. Select any number of other effects the caster has access to.
   5. Sum the arcane cost of all effects in the cantrip, spell, or crafted effect.
   6. For spells and crafted effects the total arcane cost, modified by any relevant traits or other abilities the character has, is the amount of arcane dues the character suffers. Cantrips do not inflict arcane dues.
@@ -961,6 +1075,27 @@ Arcane effects are listed in the following format:
   - Description: Description of the effect in a spell or cantrip.
 ### Generic Arcane Effects
 These Effects are available to every mage.
+- *Components, Lavish Consumable (-3)*
+  - Limitations: spells and cantrips only; a cantrip, spell, or crafted effect can only have one delay effect.
+  - Description: casting the spell requires the caster to speak loudly, have both hands free or holding arcane focuses, and to provide arcane components worth at least ???x250 that are consumed by the casting.
+- *Components, Expensive Consumable (-2)*
+  - Limitations: spells and cantrips only; a cantrip, spell, or crafted effect can only have one delay effect.
+  - Description: casting the spell requires the caster to speak loudly, have both hands free or holding arcane focuses, and to provide arcane components worth at least ???x10 that are consumed by the casting.
+- *Components, Basic Consumable (-1)*
+  - Limitations: spells and cantrips only; a cantrip, spell, or crafted effect can only have one delay effect.
+  - Description: casting the spell requires the caster to speak loudly, have both hands free or holding arcane focuses, and to provide arcane components worth at least ??? that are consumed by the casting.
+- *Components, Standard (0)*
+  - Limitations: spells and cantrips only; a cantrip, spell, or crafted effect can only have one delay effect.
+  - Description: casting the spell requires the caster to speak loudly and have both hands free or holding arcane focuses.
+- *Components, Simple (1)*
+  - Limitations: spells and cantrips only; a cantrip, spell, or crafted effect can only have one delay effect.
+  - Description: casting the spell requires the caster to speak at a regular volume and have one hand free or holding arcane focuses, or to speak loudly with both hands occupied, or have both hands free and not speak at all.
+- *Components, Limited (2)*
+  - Limitations: spells and cantrips only; a cantrip, spell, or crafted effect can only have one delay effect.
+  - Description: casting the spell requires the caster to speak at a whisper or have one hand free or holding arcane focuses.
+- *Components, Simple (3)*
+  - Limitations: spells and cantrips only; a cantrip, spell, or crafted effect can only have one delay effect.
+  - Description: casting the spell requires no physical action from the caster.
 - *Delay, None (-1)*
   - Limitations: spells only; a cantrip, spell, or crafted effect can only have one delay effect.
   - Description: the spell must be triggered via throwing, manifesting, touching, etc. as the caster's very next action after, and on the same turn, as casting.
@@ -972,7 +1107,7 @@ These Effects are available to every mage.
   - Description: the spell must be triggered via throwing, manifesting, touching, etc. within a minute after casting or it is lost.
 - *Duration, Basic (1)*
   - Limitations: a caster cannot have more duration effects ongoing at one time than one plus their mind, if positive.
-  - Description: the non-character targeted damage effects of the cantrip, spell, or crafted effect remain in play until the end of the caster's next turn; additionally, if it is a cantrip or spell, the caster can spend one stamina on their turn where the cantrip, or spell would expire to have it continue functioning until the end of their next turn.
+  - Description: the non-character targeted damage effects of the cantrip, spell, or crafted effect remain in play until the end of the caster's next turn; additionally, if it is a cantrip or spell, the caster can spend one stamina on their turn that the cantrip, or spell would expire to have it continue functioning until the end of their next turn.
 - *Duration, Basic Extended (1+)*
   - Limitations: must already have a duration effect.
   - Description: the cantrip, spell, or crafted effect lasts for an additional round, plus one for each additional arcane cost spent on this effect, when cast before it expires (if the caster spends stamina to continue the effect it still only lasts for one additional round).
@@ -1113,6 +1248,24 @@ These Effects are all gained from the arcane power they are named for and linked
   - Limitations: none.
   - Theme(s): fire  
   - Description: the caster conjures arcane flames that inflict X fire damage with continuous X-3 (a character suffering continuous damage suffers the damage again on subsequent rounds modified by the damage's continuous value, any character may take an action to reduce the continuous damage they or another character they can touch is suffering by 5; continuous damage stops if it inflicts zero wounds on any given round).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # Character Creation
