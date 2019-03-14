@@ -301,6 +301,45 @@ _Epic_ The character increases one skill from rank three to rank four.
 _Epic_ One of the character's primary attribute's is increased by one one. This can not increase any trait to higher than +3 plus the strains racial adjustment to that attribute.
 
 ## Mage Traits
+### Arcane Font
+**Requirements:** Dependent Mage, Learned Mage, or Natural Mage.
+_Starting_ Before making a skill check for casting a spell, gathering arcane energy, or crafting arcane energy the caster may choose to add their body, along with their mind, to the skill check; if they do so they lose stamina equal to twice their body stat, if positive, before making the affected skill check.
+### Cantrip Caster
+**Requirements:** Dependent Mage, Learned Mage, or Natural Mage.
+_Advanced_ The first cantrip the character casts each turn does not count against the limit of one magic action per turn.
+### Dependent Mage
+**Requirements:** No other mage traits
+_Advanced_ The character is a dependent mage gaining the following benefits:  
+  - They can know up to two cantrips and up to two spells.
+  - They gains access to a number of arcane power secondary skills equal to one plus their rank in the magical aptitude secondary skill, if the character later increases their rank in the magical aptitude primary skill they may recalculate the number of arcane power secondary skills they have access to.
+  - They suffers one level of disadvantage to all skill checks to cast spells, gather, or shape arcane energy if they have no arcane essence in their system.
+  - They cannot make skill checks to cast spells, gather, or shape arcane energy if they have not consumed arcane essence in the last 24 hours.
+  - They cannot cast cantrips if they have not consumed arcane essence in the last span of days.
+  - They can burn the arcane essence in their system to reduce one instance of arcane dues they suffer by half.
+### Expanded Spell List
+**Requirements:** Dependent Mage, Learned Mage, or Natural Mage.
+This trait may be taken any number of times, each time it is taken the character increases the number of spells or cantrips they know by one.
+### Learned Mage
+**Requirements:** No other mage traits
+_Advanced_ The character is a learned mage gaining the following benefits:  
+  - They can know up to two cantrips and up to one plus their rank in the magical aptitude skill spells.
+  - They gains access to two arcane theme secondary skills.
+  - They gain access to learned mage specific arcane effects.
+### Learned Mage, Advanced Learning
+**Requirements:** Learned Mage
+_Advanced_ The character chooses one arcane theme secondary skill they have at least one rank in to gain access to.
+### Natural Mage
+**Requirements:** No other mage traits
+_Advanced_ The character is a natural mage gaining the following benefits:  
+  - They can know up to two cantrips and up to two spells.
+  - They gains access to one arcane theme secondary skill, this skill is treated as being two ranks higher than it actually is when determining the result of arcane effects.
+### Natural Mage, Expanded Powers
+**Requirements:** Natural Mage
+The character chooses one arcane power secondary skill, they gain access to one arcane effect secondary skill treating its rank as one, regardless of what it actually is, when using it in a cantrip, spell, or crated arcane effect.
+### Sneaky Spell Caster
+**Requirements:** Dependent Mage, Learned Mage, or Natural Mage.
+_Advanced_ This trait may be taken any number of times. Reduce the cost of component effects the caster adds to spells and cantrips by one per instance of this trait they have; this can not reduce an effect's arcane cost below zero.
+
 
 ## Warrior Traits
 ### Combat Reflexes
@@ -1055,7 +1094,7 @@ Cantrips are simple spells that the mage has worked with so many times they no l
 All spells start with a Stamina Cost of 0, an Arcane Pool of 0, and a Range of Touch. The spell is then developed by adding effects to the spell from amongst those the mage has access too. Each effect has an arcane cost associated with it, this cost is added to the spell's arcane pool.
 
 ## Arcane Effects
-Many Arcane effects are available to all mages regardless of specialty or skill level others are associated with a specific Arcane Power. Arcane Powers are each associated with one or more Arcane Themes. For a mage to have access to the arcane effects of a specific arcane power they must have a mage trait that gives them access to effects from that power or one of its associated themes and have at least one rank in the Magical Aptitude secondary skill for that specific arcane power or theme.
+Many Arcane effects are available to all mages regardless of specialty or skill level others are associated with a specific Arcane Power. Arcane Powers are each associated with one or more Arcane Themes. For a mage to have access to the arcane effects of a specific arcane power they must have a mage trait that gives them access to effects from that power or one of its associated themes.
 
 ## Spell, Cantrip, and Crafted Effect Building
 When building a spell, cantrip, or crafting an effect there are a number of steps to be followed:
