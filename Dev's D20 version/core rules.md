@@ -277,7 +277,7 @@ Each time a character takes this trait they increase their max wounds by one plu
 ### Large/Small Size
 _Starting_ Increase or decrease the character's size by one.
 ### Left Handed
-_Starting_ Target's of your melee attacks performed only with your primary (left) hand do not benefit from the *balanced* or *parrying* traits on their readied weapons.
+_Starting_ Target's of your melee attacks performed only with your primary (left) hand do not benefit from the *balanced* or *parrying* traits on any weapon readied in their primary hand.
 ### Linguist
 The character learns one spoken or written language or two spoken languages for which they already know a related language.
 ### Specialized Training, Novice
