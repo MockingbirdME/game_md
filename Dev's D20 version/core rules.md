@@ -464,7 +464,7 @@ To perform a skill check requires a number of steps as follows:
 * 18+ - Extremely difficult
 
 ## Skill Check Results
-* Less than 5 - critical failure, not only does the action fail but something went wrong as determined by the GM.
+* 5 or more Less than difficulty - critical failure, not only does the action fail but something went wrong as determined by the GM.
 * Less than difficulty - failure, the action simply fails but nothing else goes wrong.
 * Equal to difficulty -  near success, the action was not a complete success but brought the character closer to success than they were before performing the action.
 * Equal to difficulty plus required successes - complete success, the action is successful.
