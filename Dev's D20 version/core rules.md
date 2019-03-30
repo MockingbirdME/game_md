@@ -1026,6 +1026,10 @@ Make a *gather arcane energy skill check* applying its results. If the character
 **Action Points:** 1
 **Stamina Cost:** 1
 The character safely reduces the amount of arcane cost they have stored as energy by one plus their rank in the *gather arcane energy (magical aptitude)* secondary skill.
+#### Shape Arcane Energy
+**Action Points:** 1
+**Stamina Cost:** 1
+
 
 ### Defensive Actions
 Unless stated elsewhere a defensive action can not be taken on a turn that the character performs an attack.
