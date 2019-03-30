@@ -442,13 +442,13 @@ _Advanced_ The first two *ready/stow item* actions the character takes each turn
 ### Quick Draw, Heroic
 _Heroic_ The character may ready or stow the weapon used in any weapon attack they make.
 ### Two Weapon Fighting
-The character does not suffer the normal level of disadvantage when performing an attack with their off-hand. Additionally they may make *Off-Hand Attack* actions with weapons that have the *one-handed* keyword but gain a level of disadvantage when doing so.
+The character does not suffer the normal level of disadvantage when performing an attack with their off-hand and they may make *Off-Hand Attack* actions with *one-handed* weapons but gain a level of disadvantage when doing so.
 ### Two Weapon Fighting, Advanced
 **Requirements:** Two Weapon Fighting
-_Advanced_ If the character has already taken an attack action on their turn with their primary hand or a weapon wielded in it the first *Off-Hand Attack* action they make on this turn does not cost an action point. Additionally they may make *Off-Hand Attack* actions with weapons that have the *hand-and-a-half* keyword but gain a level of disadvantage when doing so.
+_Advanced_ The character does not suffer disadvantage for performing *Off-Hand Attack* actions with *one-handed* weapons and may make them with *hand-and-a-half* weapons but gain a level of disadvantage when doing so, additionally if they have already taken an attack action on their turn with their primary hand or a weapon wielded in it, the first *Off-Hand Attack* action they make on this turn does not cost an action point.
 ### Two Weapon Fighting, Heroic
 **Requirements:** Advanced Two Weapon Fighting
-_Heroic_ The character no longer gains a level of disadvantage when making *Off-Hand Attack* actions with weapons that have the *one-handed* or *hand-and-a-half* keywords. Additionally, as long as the character has already made a  attack on their turn with their primary hand or a weapon wielded in it, the first *Off-Hand Attack* action the character takes each round may be treated as a *Bash*, *Disarm*, *Distracting Attack*, *Power Attack*, *Reckless Attack*, *Throw*, or *Loose, Shoot, Fire* action performed with the character's off-hand or ready weapon wielded in their off-hand; this attack costs an additional stamina but still costs no action points.
+_Heroic_  If the character has already taken an attack action on their turn with their primary hand or a weapon wielded in it, the first *Off-Hand Attack* action they make on this turn may be treated as a *Bash*, *Disarm*, *Distracting Attack*, *Power Attack*, *Reckless Attack*, *Throw*, or *Loose, Shoot, Fire* action performed with the character's off-hand or ready weapon wielded in their off-hand; this attack costs an additional stamina and must otherwise be eligible for the attack type being made.
 
 
 
