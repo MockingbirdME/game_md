@@ -344,7 +344,7 @@ The character chooses one arcane power secondary skill, they gain access to one 
 _Advanced_ This trait may be taken any number of times. Reduce the cost of component effects the caster adds to spells and cantrips by one per instance of this trait they have; this can not reduce an effect's arcane cost below zero.
 
 
-## Warrior Traits
+## Combat Traits
 ### Ambusher, Backstab
 The character gains an ambush damage bonus that they can apply to one eligible attack each turn, the damage bonus is equal 3. Additionally the character may apply their ambush bonus when making a melee attack against a flat footed foe.
 ### Ambusher, Sneak Attack
