@@ -344,7 +344,7 @@ _Advanced_ The character is a natural mage gaining the following benefits:
   - They gains access to one arcane theme secondary skill, this skill is treated as being two ranks higher than it actually is when determining the result of arcane effects.
 ### Natural Mage, Expanded Powers
 **Requirements:** Natural Mage
-The character chooses one arcane power secondary skill, they gain access to one arcane effect secondary skill treating its rank as one, if its actual rank is higher than one, when using it in a cantrip, spell, or crated arcane effect.
+The character chooses one arcane power secondary skill to gain access to, that skill cannot be above rank one and cannot have their rank increased beyond one.
 ### Sneaky Spell Caster
 **Requirements:** Dependent Mage, Learned Mage, or Natural Mage.
 _Advanced_ This trait may be taken any number of times. Reduce the cost of component effects the caster adds to spells and cantrips by one per instance of this trait they have; this can not reduce an effect's arcane cost below zero.
