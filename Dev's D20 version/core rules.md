@@ -433,9 +433,6 @@ Once per turn the character may recover up to 3 *stamina* and suffer one *fatigu
 ### Push the Body, Advanced
 **Requirements:** Push the Body
 _Advanced_ Increase the stamina regained when the character uses Push the Body by their body stat.
-### Push the Body, Heroic
-**Requirements:** Advanced Push the Body
-_Heroic_ Double the stamina regained when the character uses Push the Body.
 ### Quick Draw
 The first *ready/stow item* action the character takes each turn has an action point cost of 0.
 ### Quick Draw, Advanced
