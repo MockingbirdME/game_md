@@ -345,6 +345,26 @@ _Advanced_ This trait may be taken any number of times. Reduce the cost of compo
 
 
 ## Warrior Traits
+### Ambusher, Backstab
+The character gains an ambush damage bonus that they can apply to one eligible attack each turn, the damage bonus is equal 3. Additionally the character may apply their ambush bonus when making a melee attack against a flat footed foe.
+### Ambusher, Sneak Attack
+**Requirements:** Backstab Ambusher
+_Advanced_ The character may apply their ambush bonus when making a melee attack against a flat footed or surprised foe.
+### Ambusher, Stealthy
+**Requirements:** Sneak Attack Ambusher
+_Advanced_ The character may apply their ambush bonus when making a melee attack against a foe who is unaware of the character's presence, or unaware that they are a threat.
+### Ambusher, Flanking
+**Requirements:** Stealthy Ambusher
+_Heroic_ The character may apply their ambush bonus when making a melee attack against a foe the character is flanking.
+### Ambusher, Ranged
+**Requirements:** Backstab Ambusher
+_Advanced_ The character may apply their ambush bonus when making a ranged attack at close range provided they meet their other requirements to apply this bonus.
+### Ambusher, Sniper
+**Requirements:** Ranged Ambusher
+_Heroic_ The character may apply their ambush bonus when making a ranged attack at any range provided they meet their other requirements to apply this bonus.
+### Ambusher, Assassin
+**Requirements:** Sneak Attack Ambusher
+_Heroic_ Increase the character's ambush damage bonus by 5, this trait may be taken multiple times.
 ### Combat Reflexes
 The character gains an additional reaction each turn, this reaction can only be used to make a free attack.
 ### Combat Reflexes, Advanced
