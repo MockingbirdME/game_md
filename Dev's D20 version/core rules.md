@@ -970,6 +970,10 @@ Make a brawling attack or an attack with a readied melee weapon. The character m
 Make a brawling attack or an attack with a readied melee weapon. The character makes a *melee attack skill check* and applies the results. The skill check gains one level of advantage. All melee attacks against the character gain one level of advantage until the beginning of the character's next turn.
 
 ### Ranged Actions
+#### Aim
+**Action Points:** 2
+**Stamina Cost:** 0
+The character selects one target they can see and is within range of a readied, loaded, ranged weapon; their next attack against that target get's a bonus to the skill check equal to one plus the character's rank in the *aim (ranged combat)* secondary skill. An aiming character that moves or takes any non ranged attack action that requires a skill check is no longer aiming.
 
 ### Magic Actions
 
