@@ -329,7 +329,7 @@ This trait may be taken any number of times, each time it is taken the character
 **Requirements:** No other mage traits
 _Advanced_ The character is a learned mage gaining the following benefits:  
   - They can know up to one cantrip and up to two spells.
-  - They gains access to two arcane theme secondary skills.
+  - They gains access to two arcane theme secondary skills, those skills cannot be above rank two and cannot be increased beyond rank two.
   - They gain access to learned mage specific arcane effects.
 ### Learned Mage, Advanced Learning
 **Requirements:** Learned Mage
