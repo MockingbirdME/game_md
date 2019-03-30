@@ -438,7 +438,7 @@ The first *ready/stow item* action the character takes each turn has an action p
 ### Quick Draw, Advanced
 _Advanced_ The first two *ready/stow item* actions the character takes each turn has an action point cost of 0.
 ### Quick Draw, Heroic
-_Heroic_ The first 2 plus the character's reflexes, if positive, *ready/stow item* actions the character takes each turn has an action point cost of 0.
+_Heroic_ The character may ready or stow the weapon used in any weapon attack they make.
 ### Tough
 _Advanced_ Each time a character takes this trait increase their toughness by one.
 ### Two Weapon Fighting
