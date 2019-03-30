@@ -1022,6 +1022,10 @@ Make an attack with a cast manifestable spell. The character makes a *magic atta
 **Action Points:** 2
 **Stamina Cost:** 0
 Make a *gather arcane energy skill check* applying its results. If the character stored any arcane energy from this skill check they store it until used, losing one stamina each round they hold it for and losing the gathered energy if they suffer any wounds while holding it (losing this energy causes the caster to suffer arcane dues equal to the amount of arcane cost stored).
+#### Release Arcane Energy
+**Action Points:** 1
+**Stamina Cost:** 1
+The character safely reduces the amount of arcane cost they have stored as energy by one plus their rank in the *gather arcane energy (magical aptitude)* secondary skill.
 
 ### Defensive Actions
 Unless stated elsewhere a defensive action can not be taken on a turn that the character performs an attack.
