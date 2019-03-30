@@ -281,15 +281,17 @@ _Starting_ Target's of your melee attacks performed only with your primary (left
 ### Linguist
 The character learns one spoken or written language or two spoken languages for which they already know a related language.
 ### Specialized Training, Novice
-The character gains rank one in three secondary skills.
+The character gains rank one in two different secondary skills.
 ### Specialized Training, Skilled
-The character increases two secondary skills from rank one to rank two.
+The character increases a secondary skill from rank one to rank two.
 ### Specialized Training, Expert
-_Advanced_ The character increases one secondary skill from rank two to rank three.
+_Advanced_ The character increases a secondary skill from rank two to rank three.
 ### Specialized Training, Master
-_Heroic_ The character increases one secondary skill from rank three to rank four.
+_Heroic_ The character increases a secondary skill from rank three to rank four.
+### Specialized Training, Legendary
+_Epic_ The character increases a secondary skill from rank four to rank five.
 ### Training, Novice
-The character gains rank one in a new skill and one rank in one of that skills secondary skills
+The character gains rank one in a new skill and one rank in one of that skills secondary skills.
 ### Training, Skilled
 _Advanced_ The character increases a skill from rank one to rank two.
 ### Training, Expert
@@ -297,8 +299,7 @@ _Heroic_ The character increases one skill from rank two to rank three.
 ### Training, Master
 _Epic_ The character increases one skill from rank three to rank four.
 ### Heroic Attribute
-**Requirements:** level 10, plus 15 for each time the character has already taken this trait.
-_Epic_ One of the character's primary attribute's is increased by one one. This can not increase any trait to higher than +3 plus the strains racial adjustment to that attribute.
+_Epic_ One of the character's primary attribute's is increased by one. This can not increase any trait to higher than 3 plus the strains racial adjustment to that attribute.
 
 ## Mage Traits
 ### Arcane Font
