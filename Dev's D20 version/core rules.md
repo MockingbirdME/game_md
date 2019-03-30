@@ -266,11 +266,11 @@ Traits have a number of properties:
   - Heroic: a character may have only one heroic trait for every 5 levels they've gained.
   - Epic: a character may have only one epic trait for every 10 levels they've gained.
   - Starting: a character can only take this trait at character creation or with allowance from the GM after they've woven a reason for it into the storyline.
-  - Character Type: a character may have only one character type trait.
+  - Character Type: a character may have only one character type trait and can only take it at creation.
 
 ## General Traits
 ### Adventurer
-_Starting_ _Character Type_ The character:
+_Character Type_ The character:
 - chooses 5 skills to gain rank one (novice) in and for each of them one secondary skill associated with that skill to gain rank one in.
 - chooses one of their skills at rank one to increase to rank two (skilled).
 - learn one spoken language as chosen by the GM.
