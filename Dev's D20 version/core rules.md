@@ -1369,13 +1369,13 @@ These Effects are available to every mage.
   - Description: the spell costs 3 action points, or one full round, to cast.
 - *Speed, Quickened (1)*
   - Limitations: a cantrip, spell, or crafted effect can only have one speed effect.
-  - Description: the spell costs 2 action points, or one full round, to cast.
+  - Description: the spell costs 2 action points to cast.
 - *Speed, Fast Cast (2)*
   - Limitations: a cantrip, spell, or crafted effect can only have one speed effect.
-  - Description: the spell costs 1 action points, or one full round, to cast.
+  - Description: the spell costs 1 action points to cast.
 - *Speed, Instant (3)*
   - Limitations: a cantrip, spell, or crafted effect can only have one speed effect.
-  - Description: the spell costs 0 action points, or one full round, to cast.
+  - Description: the spell costs 0 action points to cast.
 ### Power Linked Arcane Effects
 These Effects are all gained from the arcane power they are named for and linked to one or more arcane themes.
 - *Arcane Armor (4+)*
