@@ -415,7 +415,10 @@ The character gains a mobile combat defense bonus against free attacks provided 
 _Advanced_ The character gains their mobile combatant defense bonus to free attacks even if they've taken the disengage action this turn.
 ### Mobile Combatant, Heroic
 **Requirements:** Advanced Mobile Combatant
-_Heroic_ The character no longer provokes free attacks.
+_Heroic_ The first free attack the character provokes each turn automatically misses.
+### Mobile Combatant, Epic
+**Requirements:** Heroic Mobile Combatant
+_Epic_ The character no longer provokes free attacks.
 ### Multi-Attack
 **Requirements:** Any _Heroic warrior trait, at least rank 2 in *Melee Combat*.
 _Epic_ The first time the character would receive disadvantage to a melee skill check for having already taken a melee action each turn ignore that penalty.
