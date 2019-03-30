@@ -333,7 +333,7 @@ _Advanced_ The character is a learned mage gaining the following benefits:
   - They gain access to learned mage specific arcane effects.
 ### Learned Mage, Advanced Learning
 **Requirements:** Learned Mage
-_Advanced_ The character chooses one arcane theme secondary skill they have at least one rank in to gain access to.
+The character chooses one arcane theme secondary skill they have access to that skill can be increased by one rank (Note: this trait does not increase the rank of the selected skill, it only allows other traits/effects to increase it).
 ### Learned Mage, Expanded Learning
 **Requirements:** Learned Mage
 _Advanced_ The character gains access to one arcane theme secondary skill that skill cannot be above rank two and cannot be increased beyond rank two.
