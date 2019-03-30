@@ -317,7 +317,7 @@ _Advanced_ The first cantrip the character casts each turn does not count agains
 **Requirements:** No other mage traits
 _Advanced_ The character is a dependent mage gaining the following benefits:  
   - They can know up to one cantrip and up to two spells.
-  - They gains access to a number of arcane power secondary skills equal to one plus their rank in the magical aptitude secondary skill, if the character later increases their rank in the magical aptitude primary skill they may recalculate the number of arcane power secondary skills they have access to.
+  - They gains access to a number of arcane power secondary skills equal to one plus their rank in the magical aptitude secondary skill, if the character later increases their rank in the magical aptitude primary skill they may recalculate the number of arcane power secondary skills they have access to; these secondary skills can not have a rank of more than one greater than their rank in the magical aptitude primary skill.
   - They suffers one level of disadvantage to all skill checks to cast spells, gather, or shape arcane energy if they have no arcane essence in their system.
   - They cannot make skill checks to cast spells, gather, or shape arcane energy if they have not consumed arcane essence in the last 24 hours.
   - They cannot cast cantrips if they have not consumed arcane essence in the last span of days.
