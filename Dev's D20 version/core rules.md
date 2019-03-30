@@ -709,6 +709,20 @@ To perform a skill check requires a number of steps as follows:
   - **Near Success:**
   - **Complete Success:**
   - **Additional Success:**
+### Magic Attack
+  - **Primary Attribute:** Mind
+  - **Primary Skill:** Magical Aptitude
+  - **Relevant Secondary Skills:** Arcane Targeting
+  - **Relevant Secondary Skill Usage:**
+  - **Aiding Others:** none, character's make this skill check on their own.
+  - **Description:** the character makes an attack with a manifestable arcane effect against a target in its range.
+  - **Difficulty:** equal to the target's defense.
+  - **Required Successes:** equal to the target's magic defense bonus.
+  - **Critical Failure:** the attack misses, if there is one or more other characters in melee with the defender or behind the defender and in range of the attack randomize between them and roll 2d10 if the result is equal to or greater than their defense they are struck by the attack as if it hit them with no additional successes.
+  - **Failure:** the attack misses with no further effect.
+  - **Near Success:** the attack was resisted by the target with no further effect.
+  - **Complete Success:** the target is affected by the spell, the target loses one defense and apply the effects of the manifested spell.
+  - **Additional Success:** the target suffers additional effects based on the spell.
 ### Melee Attack
   - **Primary Attribute:** Reflexes
   - **Primary Skill:** Melee Combat
