@@ -807,6 +807,8 @@ A character's turn follows the following steps:
 5. Move to the next character's turn in initiative order.
 
 ## Actions
+### Multi-Attack Penalty
+Some actions, or reactions, are attack (re)actions, these require either a melee attack, ranged attack, or magical attack skill check; each time a character performs one of these skill checks they increase their multi-attack penalty by one, unless the action they took specifically states otherwise. Each attack skill check a character makes gains a level of disadvantage equal to their multi-attack penalty. A character's multi attack penalty is reset to zero at the begining and end of each of their turns.  
 
 ## Actions by type
 
@@ -834,7 +836,6 @@ Move up to the three times the character's speed in hexes then make a *sprint* s
 **Stamina Cost:**
 
 ### Melee Actions
-Unless stated otherwise in the action description taking a melee action adds one level of disadvantage to all other skill checks the character makes this turn.
 #### Basic Attack
 **Action Points:** 1
 **Stamina Cost:** 0
