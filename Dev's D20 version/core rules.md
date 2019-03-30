@@ -309,7 +309,7 @@ _Epic_ One of the character's primary attribute's is increased by one. This can 
 Before making a skill check for casting a spell, gathering arcane energy, or crafting arcane energy the caster may choose to add their body, along with their mind, to the skill check; if they do so they lose stamina equal to twice their body stat, if positive, before making the affected skill check.
 ### Cantrip Caster, Powerful
 **Requirements:** Dependent Mage, Learned Mage, or Natural Mage.
-_Epic_ This trait may be taken any number of times, increase the max arcane cost of the character's cantrips by the number of instances of this trait they have.
+_Heroic_ This trait may be taken any number of times, increase the max arcane cost of the character's cantrips by the number of instances of this trait they have.
 ### Cantrip Caster, Speedy
 **Requirements:** Dependent Mage, Learned Mage, or Natural Mage.
 _Advanced_ The first cantrip the character casts each turn does not count against the limit of one magic action per turn.
