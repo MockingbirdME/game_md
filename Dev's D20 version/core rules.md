@@ -974,6 +974,10 @@ Make a brawling attack or an attack with a readied melee weapon. The character m
 **Action Points:** 2
 **Stamina Cost:** 0
 The character selects one target they can see and is within range of a readied, loaded, ranged weapon; their next attack against that target get's a bonus to the skill check equal to one plus the character's rank in the *aim (ranged combat)* secondary skill. An aiming character that moves or takes any non ranged attack action that requires a skill check is no longer aiming.
+#### Load
+**Action Points:** varies
+**Stamina Cost:** varies
+The character loads one a ranged weapon. The action point cost and stamina cost of this action vary based on the weapon being loaded.
 
 ### Magic Actions
 
