@@ -282,15 +282,15 @@ _Starting_ Target's of your melee attacks performed only with your primary (left
 The character learns one spoken or written language or two spoken languages for which they already know a related language.
 ### Tough
 _Advanced_ Each time a character takes this trait increase their toughness by one.
-### Specialized Training, Novice
+### Training, Specialized Novice
 The character gains rank one in two different secondary skills.
-### Specialized Training, Skilled
+### Training, Specialized Skilled
 The character increases a secondary skill from rank one to rank two.
-### Specialized Training, Expert
+### Training, Specialized Expert
 _Advanced_ The character increases a secondary skill from rank two to rank three.
-### Specialized Training, Master
+### Training, Specialized Master
 _Heroic_ The character increases a secondary skill from rank three to rank four.
-### Specialized Training, Legendary
+### Training, Specialized Legendary
 _Epic_ The character increases a secondary skill from rank four to rank five.
 ### Training, Novice
 The character gains rank one in a new skill and one rank in one of that skills secondary skills.
