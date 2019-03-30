@@ -1,4 +1,4 @@
-applied# Character Statistics
+# Character Statistics
 
 ## Primary Attributes:
 Character’s have four primary attributes that describe their physical and mental talents. Primary attributes play a key role in determining a character’s potential for success in various actions.
@@ -246,6 +246,84 @@ How well a character can keep themselves alive and healthy outside of civilizati
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Languages
+There are many languages used on the face of Flax, those languages, spoken and written, are listed here.
+
+## Spoken Languages
+### Askelonian
+**Related to:** Grailic, Old Grailic, Proto
+The language of the nation of Askelon and the most common second language spoken along the river trade routes of Flax.
+### Centari
+**Related to:** None
+The language of the Centari people remains largely unchanged since their sudden appearance on Flax.
+### Denja
+**Related to:** Garjant
+The historic language of the denja, it is still spoken many many denja throughout flax and is the primary language of Flax's great marshes.
+### Galteranian
+**Related to:** Old Grailic
+The language of the nation of Galteran.
+### Garjant
+**Related to:** Denja
+The language of the monstrous Garjants, spoken almost exclusively by them and those who visit the breath bogs.
+### Grailic
+**Related to:** Askelonian, Old Grailic, Islander, Proto, Southron
+The language of the fractured nations that once made up the kingdom of Grail and the most common second language spoken among all of Flax particularly in coastal regions.
+### Islander
+**Related to:** Grailic, Old Grailic
+The language of the so called men of the isles along with the primary language of many isolated islands along Flax's easter coast.
+### Kaazt
+**Related to:** None
+The language of the jungle dwelling Kaazt.
+### Mablen
+**Related to:** None
+The musical language of the mablen and the language much of history is recorded in.
+### Old Grailic
+**Related to:** Askelonian, Galteranian, Grailic, Islander, Proto, Southron
+The, now dead, language of first nation of Grail long before it expanded into its last kingdom.
+### Proto
+**Related to:** Askelonian, Grailic, Old Grailic
+The language of the reclusive nation of Proto.
+### Rhosk
+**Related to:** None
+The language of the rhosk, spoken in the Norther Desert and many of the other northern territories.
+### Shimmer's Tongue
+**Related to:** Tor, Tor'leni
+The language of the mountain range populated by the descendants of Shimmer known as the Trail of Eyes.
+### Southron
+**Related to:** Galteranian, Grailic, Old Grailic
+The language of the denizens of the Southern Desert.
+### Tor
+**Related to:** Shimmer's Tongue, Tor'leni, Tor'otro
+The, now dead, language of the first Tor'leni before Shimmer's blood separated them and before the first failed transformations of the pure blooded strain.
+### Tor'leni
+**Related to:** Shimmer's Tongue, Tor
+The language of the Tor'leni followers of Tuice that populate Mt. Milomb.
+### Tor'otro
+**Related to:** Tor
+The bastardized language spoken by the descendants of many of the strains that are the result from failed Tor'leni transformations such as the Tor'joven and Tor'ninos.
+
+## Written Languages
+### Centari Alphabet
+The Centari had been writing for centuries before their arrival on Flax and they brought their 114 character alphabet that is used almost exclusively to record their own language.
+### Grailic Alphabet
+The most common form of writing on Flax; this 34 character, largely, phonetic alphabet is used for all Grailic languages and often records other languages as well though with less standardization.
+### Rhosk Symbology
+A symbolic alphabet used by the Rhosk but related more to ideas than that language in particular, many scholars learn Rhosk Symbology without learning the spoken tongue.
+#### Tor Symbology
+An extremely complicated symbolic alphabet where each character has multiple meanings that is used to read and write in Shimmer's Tongue, Tor, and Tor'leni.
 
 
 
