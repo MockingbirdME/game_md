@@ -367,13 +367,13 @@ _Heroic_ The character may apply their ambush bonus when making a ranged attack 
 **Requirements:** Sneak Attack Ambusher
 _Heroic_ Increase the character's ambush damage bonus by 5, this trait may be taken multiple times.
 ### Combat Reflexes
-The character gains an additional reaction each turn, this reaction can only be used to make a free attack.
+The character gains a second reaction each turn, this reaction can only be used to make a free attack.
 ### Combat Reflexes, Advanced
 **Requirements:** Combat Reflexes
 _Advanced_ The additional reaction gained from *combat reflexes* can now be used for any reaction.
 ### Combat Reflexes, Heroic
 **Requirements:** Advanced Combat Reflexes
-_Heroic_ Gain an additional reaction each turn.
+_Heroic_ Gain a third reaction each turn.
 ### Danger Sense
 The character is never *flat footed* when conscious and unrestrained.
 ### Danger Sense, Advanced
