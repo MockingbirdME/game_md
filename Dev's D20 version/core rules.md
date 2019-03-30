@@ -420,8 +420,14 @@ _Heroic_ The first free attack the character provokes each turn automatically mi
 **Requirements:** Heroic Mobile Combatant
 _Epic_ The character no longer provokes free attacks.
 ### Multi-Attack
-**Requirements:** Any _Heroic warrior trait, at least rank 2 in *Melee Combat*.
-_Epic_ The first time the character would receive disadvantage to a melee skill check for having already taken a melee action each turn ignore that penalty.
+**Requirements:** Any _Heroic_ combat trait, at least rank 2 in *Melee Combat*, *Ranged Combat*, or *Magical Aptitude*.
+_Epic_ The first time the character would receive disadvantage to an attack skill check as a result of their multi-attack penalty reduce that penalty by one.
+### Multi-Attack, Melee Expert
+**Requirements:** Multi-Attack, at least rank 3 in *Melee Combat*.
+_Epic_ Each time the character would receive disadvantage to a melee attack skill check as a result of their multi-attack penalty reduce that penalty by one.
+### Multi-Attack, Ranged Expert
+**Requirements:** Multi-Attack, at least rank 3 in *Ranged Combat*.
+_Epic_ Each time the character would receive disadvantage to a ranged attack skill check as a result of their multi-attack penalty reduce that penalty by one.
 ### Push the Body
 Once per turn the character may recover up to 3 *stamina* and suffer one *fatigue*.
 ### Push the Body, Advanced
