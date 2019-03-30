@@ -402,7 +402,7 @@ For each time a character has this trait they gain a +1 bonus to their initiativ
 Each time the character suffers at least one wound, they recover one stamina.
 ### Fueled by Pain, Advanced
 **Requirements:** Fueled by Pain
-_Advanced_ Increase the number of wounds the character recovers from the Fueled by Pain trait to 2.
+_Advanced_ Increase the number of stamina the character recovers from the Fueled by Pain trait to 2.
 ### Fueled by Pain, Heroic
 **Requirements:** Advanced Fueled by Pain
 _Advanced_ Increase the number of wounds the character recovers from the Fueled by Pain trait to 2 + the character's body.
