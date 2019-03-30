@@ -1018,6 +1018,10 @@ Cast one spell the caster knows by making a cast spell skill check with a diffic
 **Action Points:** 1
 **Stamina Cost:** 0
 Make an attack with a cast manifestable spell. The character makes a *magic attack skill check* and applies the results.
+#### Gather Arcane Energy
+**Action Points:** 2
+**Stamina Cost:** 0
+Make a *gather arcane energy skill check* applying its results. If the character stored any arcane energy from this skill check they store it until used, losing one stamina each round they hold it for and losing the gathered energy if they suffer any wounds while holding it (losing this energy causes the caster to suffer arcane dues equal to the amount of arcane cost stored).
 
 ### Defensive Actions
 Unless stated elsewhere a defensive action can not be taken on a turn that the character performs an attack.
