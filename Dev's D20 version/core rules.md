@@ -409,7 +409,7 @@ _Advanced_ Increase the number of wounds the character recovers from the Fueled 
 ### Hard to Kill
 _Heroic_ Once per scene the character may spend their reaction to suffer no damage from one attack. The controlling player may decide to use this ability after they know the damage the character would take.
 ### Mobile Combatant
-The character doubles their melee defense bonus against free attacks provided they have not taken the disengage action this turn.
+The character gains a mobile combat defense bonus against free attacks provided they have not taken the disengage action this turn, this bonus is equal to their melee defense bonus.
 ### Mobile Combatant, Advanced
 **Requirements:** Mobile Combatant
 _Advanced_ The character gains their mobile combatant defense bonus to free attacks even if they've taken the disengage action this turn.
