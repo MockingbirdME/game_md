@@ -986,6 +986,10 @@ Make an attack with a readied, loaded, ranged weapon. The character makes a *ran
 **Action Points:** 1
 **Stamina Cost:** 0
 The character chooses an area within the range of their readied, loaded, ranged weapon, readied throwable weapon, or cast, throwable spell. The area can be no larger than one plus their rank in the *overwatch (ranged combat)* secondary skill hexes. Until the beginning of the character's next turn they may spend their reaction to make a ranged attack against a target who enters or moves within the selected area.
+#### Throw
+**Action Points:** 1
+**Stamina Cost:** 1
+Make an attack with a readied throwable weapon or cast throwable spell. The character makes a *ranged attack skill check* and applies the results.
 
 ### Magic Actions
 
