@@ -1014,6 +1014,10 @@ Cast one cantrip the caster knows, its action point cost is determined by the ca
 **Action Points:** Varies
 **Stamina Cost:** varies
 Cast one spell the caster knows by making a cast spell skill check with a difficulty based on the spell being cast, if the skill check is successful the character suffers arcane dues as detailed on the spell. This action's action point cost is determined by the spell's selected speed effect. If the spell has an action point cost of zero and a range of self it takes effect immediately, if it has an action point cost of zero and a range of manifest the caster may take a manifest spell action with an action point cost of zero as their next action this turn.
+#### Manifest Spell
+**Action Points:** 1
+**Stamina Cost:** 0
+Make an attack with a cast manifestable spell. The character makes a *magic attack skill check* and applies the results.
 
 ### Defensive Actions
 Unless stated elsewhere a defensive action can not be taken on a turn that the character performs an attack.
