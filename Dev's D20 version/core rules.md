@@ -280,6 +280,8 @@ _Starting_ Increase or decrease the character's size by one.
 _Starting_ Target's of your melee attacks performed only with your primary (left) hand do not benefit from the *balanced* or *parrying* traits on any weapon readied in their primary hand.
 ### Linguist
 The character learns one spoken or written language or two spoken languages for which they already know a related language.
+### Tough
+_Advanced_ Each time a character takes this trait increase their toughness by one.
 ### Specialized Training, Novice
 The character gains rank one in two different secondary skills.
 ### Specialized Training, Skilled
@@ -439,8 +441,6 @@ The first *ready/stow item* action the character takes each turn has an action p
 _Advanced_ The first two *ready/stow item* actions the character takes each turn has an action point cost of 0.
 ### Quick Draw, Heroic
 _Heroic_ The character may ready or stow the weapon used in any weapon attack they make.
-### Tough
-_Advanced_ Each time a character takes this trait increase their toughness by one.
 ### Two Weapon Fighting
 The character does not suffer the normal level of disadvantage when performing an attack with their off-hand. Additionally they may make *Off-Hand Attack* actions with weapons that have the *one-handed* keyword but gain a level of disadvantage when doing so.
 ### Two Weapon Fighting, Advanced
