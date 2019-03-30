@@ -266,13 +266,15 @@ Traits have a number of properties:
   - Heroic: a character may have only one heroic trait for every 5 levels they've gained.
   - Epic: a character may have only one epic trait for every 10 levels they've gained.
   - Starting: a character can only take this trait at character creation or with allowance from the GM after they've woven a reason for it into the storyline.
+  - Character Type: a character may have only one character type trait.
 
 ## General Traits
 ### Adventurer
-_Starting_ The character:
+_Starting_ _Character Type_ The character:
 - chooses 5 skills to gain rank one (novice) in and for each of them one secondary skill associated with that skill to gain rank one in.
 - chooses one of their skills at rank one to increase to rank two (skilled).
 - learn one spoken language as chosen by the GM.
+- Gain 5 traits of the character's choice following the standard rules for gaining traits.
 ### Hardy
 The character gains advantage on rolls to resist illness and poisons.
 ### Healthy
@@ -1353,7 +1355,7 @@ These Effects are all gained from the arcane power they are named for and linked
 2. Apply strain attribute modifiers and traits.
 3. Gain the Adventurer trait and apply its effects.
 4. Take Negative Traits if allowed
-5. Assign Traits - Gain 5 traits, following the standard rules for gaining traits.
+5. Increase Level - Gain one trait for each level the character is starting as above standard (Level 0).
 7. Gear and Spells
 
 # Beyond Starting Character Level
