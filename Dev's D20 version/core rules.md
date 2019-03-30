@@ -316,7 +316,7 @@ _Advanced_ The first cantrip the character casts each turn does not count agains
 ### Dependent Mage
 **Requirements:** No other mage traits
 _Advanced_ The character is a dependent mage gaining the following benefits:  
-  - They can know up to two cantrips and up to two spells.
+  - They can know up to one cantrip and up to two spells.
   - They gains access to a number of arcane power secondary skills equal to one plus their rank in the magical aptitude secondary skill, if the character later increases their rank in the magical aptitude primary skill they may recalculate the number of arcane power secondary skills they have access to.
   - They suffers one level of disadvantage to all skill checks to cast spells, gather, or shape arcane energy if they have no arcane essence in their system.
   - They cannot make skill checks to cast spells, gather, or shape arcane energy if they have not consumed arcane essence in the last 24 hours.
@@ -328,7 +328,7 @@ This trait may be taken any number of times, each time it is taken the character
 ### Learned Mage
 **Requirements:** No other mage traits
 _Advanced_ The character is a learned mage gaining the following benefits:  
-  - They can know up to two cantrips and up to one plus their rank in the magical aptitude skill spells.
+  - They can know up to one cantrip and up to two spells.
   - They gains access to two arcane theme secondary skills.
   - They gain access to learned mage specific arcane effects.
 ### Learned Mage, Advanced Learning
@@ -337,11 +337,11 @@ _Advanced_ The character chooses one arcane theme secondary skill they have at l
 ### Natural Mage
 **Requirements:** No other mage traits
 _Advanced_ The character is a natural mage gaining the following benefits:  
-  - They can know up to two cantrips and up to two spells.
+  - They can know up to one cantrip and up to two spells.
   - They gains access to one arcane theme secondary skill, this skill is treated as being two ranks higher than it actually is when determining the result of arcane effects.
 ### Natural Mage, Expanded Powers
 **Requirements:** Natural Mage
-The character chooses one arcane power secondary skill, they gain access to one arcane effect secondary skill treating its rank as one, regardless of what it actually is, when using it in a cantrip, spell, or crated arcane effect.
+The character chooses one arcane power secondary skill, they gain access to one arcane effect secondary skill treating its rank as one, if its actual rank is higher than one, when using it in a cantrip, spell, or crated arcane effect.
 ### Sneaky Spell Caster
 **Requirements:** Dependent Mage, Learned Mage, or Natural Mage.
 _Advanced_ This trait may be taken any number of times. Reduce the cost of component effects the caster adds to spells and cantrips by one per instance of this trait they have; this can not reduce an effect's arcane cost below zero.
