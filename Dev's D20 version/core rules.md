@@ -978,6 +978,10 @@ The character selects one target they can see and is within range of a readied, 
 **Action Points:** varies
 **Stamina Cost:** varies
 The character loads one a ranged weapon. The action point cost and stamina cost of this action vary based on the weapon being loaded.
+#### Loose/Shoot/Fire
+**Action Points:** 1
+**Stamina Cost:** 0
+Make an attack with a readied, loaded, ranged weapon. The character makes a *ranged attack skill check* and applies the results.
 
 ### Magic Actions
 
