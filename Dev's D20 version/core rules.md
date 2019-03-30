@@ -1340,15 +1340,15 @@ These Effects are available to every mage.
 - *Range, Manifest (2)*
   - Limitations: a cantrip, spell, or crafted effect can only have one range effect.
   - Description: the spell gains a range and range increment of 5 hexes plus the caster's mind stat (it requires an arcane targeting attack to target an empty hex or unwilling character, if this is part of a spell with an action point cost of 0 this attack is made with the same skill check used to cast the spell).
-- *Range, Self (-1)*
-  - Limitations: a cantrip, spell, or crafted effect can only have one range effect.
-  - Description: the spell's range is set to self and affects only the caster.
-- *Range, Touch (0)*
-  - Limitations: a cantrip, spell, or crafted effect can only have one range effect.
-  - Description: the spell's range is set to touch and affects only a the caster or a character they touch (this requires a brawling attack to target an unwilling character).
 - *Range, Thrown (1)*
   - Limitations: a cantrip, spell, or crafted effect can only have one range effect.
   - Description: the spell gains a range and range increment of 5 hexes plus the caster's mind stat (it requires a throw attack to target an empty hex or unwilling character).
+- *Range, Touch (0)*
+  - Limitations: a cantrip, spell, or crafted effect can only have one range effect.
+  - Description: the spell's range is set to touch and affects only a the caster or a character they touch (this requires a brawling attack to target an unwilling character).
+- *Range, Self (-1)*
+  - Limitations: a cantrip, spell, or crafted effect can only have one range effect.
+  - Description: the spell's range is set to self and affects only the caster.
 - *Speed, Full Day (-5)*
   - Limitations: spells only; a cantrip, spell, or crafted effect can only have one speed effect.
   - Description: the spell takes a full waking day to cast.
