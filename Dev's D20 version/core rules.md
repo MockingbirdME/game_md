@@ -1355,7 +1355,7 @@ These Effects are all gained from the arcane power they are named for and linked
 2. Apply strain attribute modifiers and traits.
 3. Gain the Adventurer trait and apply its effects.
 4. Take Negative Traits if allowed
-5. Increase Level - Gain one trait for each level the character is starting as above standard (Level 0).
+5. Gain one trait for each level the character is starting as above standard (Level 0).
 7. Gear and Spells
 
 # Beyond Starting Character Level
