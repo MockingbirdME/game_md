@@ -1006,6 +1006,10 @@ The character chooses an area within the range of their readied, loaded, ranged 
 Make an attack with a readied throwable weapon or cast throwable spell. The character makes a *ranged attack skill check* and applies the results.
 
 ### Magic Actions
+#### Cast Cantrip
+**Action Points:** Varies
+**Stamina Cost:** 2
+Cast one cantrip the caster knows, its action point cost is determined by the cantrip's selected speed effect. If the cantrip has an action point cost of zero and a range of self it takes effect immediately, if it has an action point cost of zero and a range of manifest the caster may take a manifest spell action with an action point cost of zero as their next action this turn.
 
 ### Defensive Actions
 Unless stated elsewhere a defensive action can not be taken on a turn that the character performs an attack.
