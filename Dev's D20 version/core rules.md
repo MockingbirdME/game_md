@@ -639,6 +639,20 @@ To perform a skill check requires a number of steps as follows:
   - **Near Success:**
   - **Complete Success:**
   - **Additional Success:**
+### Gather Arcane Energy
+  - **Primary Attribute:** Mind
+  - **Primary Skill:** Magical Aptitude
+  - **Relevant Secondary Skills:** Gather Arcane Energy
+  - **Relevant Secondary Skill Usage:**
+  - **Aiding Others:** none, character's make this skill check on their own.
+  - **Description:** the character manifests and stores raw arcane energy to be shaped and released later.
+  - **Difficulty:** 12
+  - **Required Successes:** none
+  - **Critical Failure:** the character not only fails to draw upon any energy but triggers any energy they are currently holding losing all held energy and suffering arcane dues equal to the arcane cost of the energy lost.
+  - **Failure:** the character gathers no arcane energy.
+  - **Near Success:** N/A
+  - **Complete Success:** the character gathers arcane cost of arcane energy equal to their secondary skill rank.
+  - **Additional Success:** each additional success increases the the arcane cost of energy gathered by one.
 ### Gather Information
   - **Primary Attribute:**
   - **Primary Skill:**
