@@ -269,7 +269,10 @@ Traits have a number of properties:
 
 ## General Traits
 ### Adventurer
-_Starting_ The character choose 5 skills to gain rank one (novice) and one of those to increase to rank two (skilled), for each skill chosen choose one secondary skill associated with that skill to gain rank one in.
+_Starting_ The character:
+- chooses 5 skills to gain rank one (novice) in and for each of them one secondary skill associated with that skill to gain rank one in.
+- chooses one of their skills at rank one to increase to rank two (skilled).
+- learn one spoken language as chosen by the GM.
 ### Hardy
 The character gains advantage on rolls to resist illness and poisons.
 ### Healthy
