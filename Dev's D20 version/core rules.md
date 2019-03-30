@@ -334,6 +334,9 @@ _Advanced_ The character is a learned mage gaining the following benefits:
 ### Learned Mage, Advanced Learning
 **Requirements:** Learned Mage
 _Advanced_ The character chooses one arcane theme secondary skill they have at least one rank in to gain access to.
+### Learned Mage, Expanded Learning
+**Requirements:** Learned Mage
+_Advanced_ The character gains access to one arcane theme secondary skill that skill cannot be above rank two and cannot be increased beyond rank two.
 ### Natural Mage
 **Requirements:** No other mage traits
 _Advanced_ The character is a natural mage gaining the following benefits:  
