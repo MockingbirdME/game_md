@@ -435,7 +435,7 @@ _Advanced_ This trait may be taken any number of times. Reduce the cost of compo
 
 ## Combat Traits
 ### Ambusher, Backstab
-The character gains an ambush damage bonus that they can apply to one eligible attack each turn, the damage bonus is equal 3; once a character has applied ambush bonus damage they cannot do so again until their next turn. Additionally the character may apply their ambush bonus when making a melee attack against a flat footed foe.
+The character gains an ambush damage bonus that they can apply to eligible attacks, the damage bonus is equal 3; once a character has applied ambush bonus damage they cannot apply it to that target again until their next turn. Additionally the character may apply their ambush bonus when making a melee attack against a flat footed foe.
 ### Ambusher, Sneak Attack
 **Requirements:** Backstab Ambusher
 _Advanced_ The character may apply their ambush bonus when making a melee attack against a flat footed or surprised foe.
