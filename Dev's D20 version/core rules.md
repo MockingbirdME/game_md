@@ -18,13 +18,13 @@ These statistics and resources are derived from the character’s strain, primar
  *Base Value:* 0.
 #### Defense, Max
  *Description:* The base difficulty for how hard a character is to hit, can be reduced or recovered by various effects.
- *Base Value:* 8 + reflexes stat + perception stat + ranks in the personal defense skill.
+ *Base Value:* 8 + reflexes stat + perception stat + ranks in the personal defense skill - size.
 #### Defense Bonus, Magic
  *Description:* A value added to a character’s defense against arcanely targeted attacks.
  *Base Value:* ranks in Discipline + ranks in magical aptitude.
 #### Defense Bonus, Melee
  *Description:* A value added to a character’s defense against melee attacks they are aware of.
- *Base Value:* ranks in melee combat + ranks in parry (personal defense).
+ *Base Value:* ranks in melee combat + equipment bonuses.
 #### Defense Bonus, Range
  *Description:* A value added to a character’s defense against ranged attacks they are aware of.
  *Base Value:* ranks in awareness + ranks in dodge secondary skill (personal defense).
@@ -47,7 +47,7 @@ These statistics and resources are derived from the character’s strain, primar
  *Base Value:* set by strain plus ranks in the personal movement skill.
 #### Stamina, Max
  *Description:* The total number of stamina a character may spend before suffering fatigue.
- *Base Value:* 8 + body stat + ranks in endurance + ranks in stamina (endurance).
+ *Base Value:* 10 + body stat + ranks in endurance + ranks in stamina (endurance).
 #### Toughness
  *Description:*
  *Base Value:* 1.
