@@ -18,13 +18,13 @@ These statistics and resources are derived from the character’s strain, primar
  *Base Value:* 0.
 #### Defense, Max
  *Description:* The base difficulty for how hard a character is to hit, can be reduced or recovered by various effects.
- *Base Value:* 8 + reflexes stat + perception stat + ranks in the personal defense skill.
+ *Base Value:* 8 + reflexes stat + perception stat + ranks in the personal defense skill - size.
 #### Defense Bonus, Magic
  *Description:* A value added to a character’s defense against arcanely targeted attacks.
  *Base Value:* ranks in Discipline + ranks in magical aptitude.
 #### Defense Bonus, Melee
  *Description:* A value added to a character’s defense against melee attacks they are aware of.
- *Base Value:* ranks in melee combat + ranks in parry (personal defense).
+ *Base Value:* ranks in melee combat + equipment bonuses.
 #### Defense Bonus, Range
  *Description:* A value added to a character’s defense against ranged attacks they are aware of.
  *Base Value:* ranks in awareness + ranks in dodge secondary skill (personal defense).
@@ -47,7 +47,7 @@ These statistics and resources are derived from the character’s strain, primar
  *Base Value:* set by strain plus ranks in the personal movement skill.
 #### Stamina, Max
  *Description:* The total number of stamina a character may spend before suffering fatigue.
- *Base Value:* 8 + body stat + ranks in endurance + ranks in stamina (endurance).
+ *Base Value:* 10 + body stat + ranks in endurance + ranks in stamina (endurance).
 #### Toughness
  *Description:*
  *Base Value:* 1.
@@ -1199,13 +1199,13 @@ Always One: *hand-and-a-half*, *one-handed*, *small*, *two-handed*
 Always One: *axe*, *blade, short*, *blade, long*, *bludgeoning*, *bow*, *brawling*, *crossbow*, *pistol*, *spear*
   - *armor piercing(x):* this weapon reduces the target's armor value by x while resolving its attacks.
   - *bash:* can be used to make the *bash* melee combat action.
-  - *balanced:* if wielded in the user's primary hand or two handed they gain a +1 parry bonus to their melee defense bonus (a character's total parry bonus can not be greater than the number of ranks they have in the *parry secondary skill (personal defense)*).
+  - *balanced:* if wielded in the user's primary hand or two handed they gain a +1 parry bonus to their melee defense bonus, increased to +2 if the character has at least three ranks in the *parry secondary skill (personal defense)* (a character's total parry bonus can not be greater than the number of ranks they have in the *parry secondary skill (personal defense)*).
   - *body(x):* the weapon has a body stat of x, this is relevant for some weapon types.
   - *cover(x):* a character wielding this weapon gains a +x shield bonus to their melee and ranged defense bonus against attacks coming from their front arc (a character's total shield bonus can not be greater than one plus the number of ranks they have in the *shields secondary skill (personal defense)*).
   - *crude:* the weapon's base damage is reduced by one and all attacks made with the weapon gain one level of disadvantage.
   - *heavy(x):* a character without with a body attribute of less than x gains a penalty die when attacking with this weapon, can not make free attacks with it, and does not benefit from any defense bonuses from it.
   - *non-lethal:*
-  - *parrying:* a character wielding this weapon gains a +1 parry bonus to their melee defense bonus (a character's total parry bonus can not be greater than the number of ranks they have in the *parry secondary skill (personal defense)*).
+  - *parrying:* a character wielding this weapon gains a +1 parry bonus to their melee defense bonus, increased to +2 if the character has at least two ranks in the *parry secondary skill (personal defense)* (a character's total parry bonus can not be greater than the number of ranks they have in the *parry secondary skill (personal defense)*).
   - *pole arm:*
   - *ranged(x,y):* the weapon is ranged, it can be used with no penalty at up to x hexes away and gains a level of disadvantage for every additional y hexes away the target it. If a target is far enough away that the attack would gain 4 levels of disadvantage from range the attack automatically fails. Thrown weapons will have often include some kind of calculation involving the character's body attribute.
   - *reach(x):*
