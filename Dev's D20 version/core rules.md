@@ -1194,38 +1194,92 @@ Suits of armor have a number of properties:
     - Perception Penalty: 1
 ### Weapons
 Weapons have a number of keywords as follows:
-Any Number: *armor piercing(x)*, *bash*, *balanced*, *body(x)*, *cover(x)*, *crude*, *heavy(x)*, *non-lethal*, *parrying*, *pole arm*, *ranged(x,y)*, *reach(x)*, *sap*, *size(x)*, *trip*, *thrown*, *requires training(x)*
-Always One: *hand-and-a-half*, *one-handed*, *small*, *two-handed*
-Always One: *axe*, *blade, short*, *blade, long*, *bludgeoning*, *bow*, *brawling*, *crossbow*, *pistol*, *spear*
-  - *armor piercing(x):* this weapon reduces the target's armor value by x while resolving its attacks.
-  - *bash:* can be used to make the *bash* melee combat action.
-  - *balanced:* if wielded in the user's primary hand or two handed they gain a +1 parry bonus to their melee defense bonus, increased to +2 if the character has at least three ranks in the *parry secondary skill (personal defense)* (a character's total parry bonus can not be greater than the number of ranks they have in the *parry secondary skill (personal defense)*).
-  - *body(x):* the weapon has a body stat of x, this is relevant for some weapon types.
-  - *cover(x):* a character wielding this weapon gains a +x shield bonus to their melee and ranged defense bonus against attacks coming from their front arc (a character's total shield bonus can not be greater than one plus the number of ranks they have in the *shields secondary skill (personal defense)*).
-  - *crude:* the weapon's base damage is reduced by one and all attacks made with the weapon gain one level of disadvantage.
-  - *heavy(x):* a character without with a body attribute of less than x gains a penalty die when attacking with this weapon, can not make free attacks with it, and does not benefit from any defense bonuses from it.
-  - *non-lethal:*
-  - *parrying:* a character wielding this weapon gains a +1 parry bonus to their melee defense bonus, increased to +2 if the character has at least two ranks in the *parry secondary skill (personal defense)* (a character's total parry bonus can not be greater than the number of ranks they have in the *parry secondary skill (personal defense)*).
-  - *pole arm:*
-  - *ranged(x,y):* the weapon is ranged, it can be used with no penalty at up to x hexes away and gains a level of disadvantage for every additional y hexes away the target it. If a target is far enough away that the attack would gain 4 levels of disadvantage from range the attack automatically fails. Thrown weapons will have often include some kind of calculation involving the character's body attribute.
-  - *reach(x):*
-  - *sap:*
-  - *size(x):* x is the size of character the weapon is designed for (size 0 if this keyword is absent). A character wielding a weapon designed for a size larger than itself gains a level of disadvantage to all attacks they make with the weapon and do not benefit from any defense bonuses from it. A weapon with a negative size has its base damage reduced by its size, minimum one. A weapon with a positive size has its max body damage bonus increased by the size.
-  - *trip:* can be used to make the *trip* melee combat action.
-  - *a single word for requires training:*
-  - *hand-and-a-half:* the weapon can be wielded two-handed (increasing its damage by 2); it has a base damage of 2 and ignores any damage bonus from the character's body stat exceeding +2.
-  - *one-handed:* the weapon can be wielded two-handed (increasing its damage by 1); it has a base damage of 2 and ignores any damage bonus from the character's body stat exceeding +2.
-  - *small:* the weapon has a base damage of 1 and a max body bonus of +1.
-  - *two-handed:* the weapon can be wielded two-handed (increasing its damage by 2); it has a base damage of 3, if wielded one handed the character gains two levels of disadvantage to all attacks made with it and does not benefit from any defense bonuses from it, and ignores any damage bonus from the character's body stat exceeding +3.
-  - *axe:* the weapon inflicts penetrating damage and its max body damage bonus is increased by one.
-  - *blade, short:* the weapon inflicts penetrating damage, if the damage is converted to concussive damage additional successes cannot be used to increase damage. Additional successes can be used to reduce the armor value of a target by 2 each for the purpose of the attack.
-  - *blade, long:* the weapon inflicts penetrating damage, if the damage is converted to concussive damage additional successes in excess of the weapon's max body damage bonus cannot be used to increase damage. Additional successes can be used to reduce the armor value of a target by 1 each for the purpose of the attack.
-  - *bludgeoning:* the weapon inflicts concussive damage, its base damage and max body damage bonus are doubled.
-  - *bow:*
-  - *brawling:* this weapon's base damage is increased by the character's rank in the *brawling secondary skill (melee combat)*
-  - *crossbow:*
-  - *pistol:*
-  - *spear:* the weapon inflicts penetrating damage, each success used to increase damage also increases reduces the target's armor value for the purpose of the attack, if the attack is converted to concussive damage ignore all damage added from successes.
+**Balance:** all melee weapon's, and ranged weapons that can be used as such, have one of the following balance traits.
+    - *balanced* if wielded in the user's primary hand or two handed they gain a parry bonus to their melee defense bonus equal to half, round down, their rank in the *parry secondary skill (personal defense)* (a character's total parry bonus can not exceed their rank in the *parry secondary skill (personal defense)*).
+    - *crude* the weapon's base damage is reduced by one and all attacks made with the weapon gain one level of disadvantage.
+    - *parrying* a character wielding this weapon gains a parry bonus to their melee defense bonus equal to half, round up, their rank in the *parry secondary skill (personal defense)* (a character's total parry bonus can not exceed their rank in the *parry secondary skill (personal defense)*).
+    - *weighted* the weapon's base damage and max body damage bonus are increased by one.
+**Size:** a weapon's size determines the starting value for its base damage and max body damage bonus, as well as details on the rules for wielding it two handed.
+    - *brawling*
+        - Base Damage: 1
+        - Max Body Damage Bonus: +1
+        - Two-Handed: gains no benefit from being wielded two-handed.
+    - *small*
+        - Base Damage: 2
+        - Max Body Damage Bonus: +1
+        - Two-Handed: gains no benefit from being wielded two-handed.
+    - *one-handed*
+        - Base Damage: 3
+        - Max Body Damage Bonus: +2
+        - Two-Handed: treat the character's body as being one point higher.
+    - *hand-and-a-half*
+        - Base Damage: 3
+        - Max Body Damage Bonus: +3
+        - Two-Handed: increase the weapon's damage and may body damage bonus by one, and treat the character's body as being one point higher.
+    - *two-handed*
+        - Base Damage: 5
+        - Max Body Damage Bonus: +5
+        - Two-Handed: designed to be wielded two-handed, a character attempting to wield it one handed gains two levels of disadvantage to all attacks made with it and does not benefit from any defense bonuses from it, reduces both its base damage and its max body damage bonus by 2.
+**Type:** a weapon's type dictates its specific rules, if a weapon has multiple types the character chooses which type they are using each time they make an attack with it.
+    - *axe*
+        - Damage Type: penetrating
+        - Special Rules: if its damage is converted to concussive reduced its damage by one.
+        - Additional Success Uses: one damage.
+    - *beak*
+        - Damage Type: penetrating
+        - Special Rules: if its damage is converted to concussive reduced its damage by one and ignore any damage gained from additional successess.
+        - Additional Success Uses: one damage and two armor piercing value.
+    - *blade, short*
+        - Damage Type: penetrating
+        - Special Rules: if its damage is converted to concussive reduced its damage by three.
+        - Additional Success Uses: one damage, or two armor piercing value.
+          the weapon inflicts penetrating damage by default, if its damage is converted to bludgeoning it is reduced by three, additional successes may each be used to ether increase the weapon's damage by one or its armor piercing value by two.
+    - *blade, long*
+        - Damage Type: penetrating
+        - Special Rules: if its damage is converted to concussive reduced its damage by two.
+        - Additional Success Uses: one damage, or one armor piercing value.
+    - *bludgeoning*
+        - Damage Type: concussive
+        - Special Rules:  
+        - Additional Success Uses: one damage.
+    - *bow*
+        - Damage Type:
+        - Special Rules:
+        - Additional Success Uses:
+    - *brawling*
+        - Damage Type: concussive
+        - Special Rules: increases damage and max body damage bonus by the character's rank in the *brawling secondary skill (melee combat)*.
+        - Additional Success Uses: one damage.
+    - *crossbow*
+        - Damage Type:
+        - Special Rules:
+        - Additional Success Uses:
+    - *pistol*
+        - Damage Type:
+        - Special Rules:
+        - Additional Success Uses:
+    - *shield(x)*
+        - Damage Type: concussive
+        - Special Rules: shields have their damage reduced by 1 and provide a shield bonus to the character's melee and ranged defense bonuses equal to x (a character's total shield bonus can not exceed one plus their rank in the *shields secondary skill (personal defense)*).
+        - Additional Success Uses: half a damage (must be spent in groups of two successes).
+    - *spear*
+        - Damage Type: penetrating
+        - Special Rules: if its damage is converted to concussive reduced its damage by three.
+        - Additional Success Uses: one damage and one armor piercing value.
+**Special:** many weapons have additional attributes not directly tied to their balance, size, or general type.
+  - *armor piercing(x)* this weapon reduces the target's armor value by x while resolving its attacks.
+  - *bash* can be used to make the *bash* melee combat action.
+  - *exotic(x)*
+  - *strength(x)* the weapon has a strength of x (only relevant for certain ranged weapons).
+  - *heavy(x)* a character without with a body attribute of less than x gains levels of disadvantage equal to the difference when attacking with this weapon, can not make free attacks with it, and does not benefit from any defense bonuses from it.
+  - *large* the weapon is designed for character's with a size of greater than 0, the weapon has its max body damage bonus increased by the character's size; additionally characters of size less than zero suffer one level of disadvantage when making an attack skill check with this weapon.
+  - *pole arm*
+  - *ranged(x, y)* the weapon is ranged, it can be used with no penalty at up to x hexes away and gains a level of disadvantage for every additional y hexes away the target is. If a target is far enough away that the attack would gain 4 levels of disadvantage from range the attack automatically fails. The weapon does not gain a damage bonus from the character's body stat though some weapons will use it for its x and y calculations.
+  - *reach(x)*
+  - *sap*
+  - *small* the weapon is designed for character's with a size of less than 0, the weapon has its base damage and max body damage bonus both reduced by 1; additionally characters of size greater than zero suffer one level of disadvantage when making an attack skill check with this weapon.
+  - *thrown* this weapon with the ranged trait still has its damage modified by the character's body stat (following all other rules for the weapon).
+  - *trip* can be used to make the *trip* melee combat action.
 
 #### Sample Weapons:
 - **Example:** list of keywords
