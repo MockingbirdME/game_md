@@ -1197,7 +1197,7 @@ Weapons have a number of keywords as follows:
 **Balance:** all melee weapon's, and ranged weapons that can be used as such, have one of the following balance traits.
     - *balanced* if wielded in the user's primary hand or two handed they gain a parry bonus to their melee defense bonus equal to half, round down, their rank in the *parry secondary skill (personal defense)* (a character's total parry bonus can not exceed their rank in the *parry secondary skill (personal defense)*).
     - *crude* the weapon's base damage is reduced by one and all attacks made with the weapon gain one level of disadvantage.
-    - *parrying* a character wielding this weapon gains a parry bonus to their melee defense bonus equal to half, round up, their rank in the *parry secondary skill (personal defense)* (a character's total parry bonus can not exceed their rank in the *parry secondary skill (personal defense)*).
+    - *parrying* the weapon's base damage is reduced by one and a character wielding this weapon gains a parry bonus to their melee defense bonus equal to half, round up, their rank in the *parry secondary skill (personal defense)* (a character's total parry bonus can not exceed their rank in the *parry secondary skill (personal defense)*).
     - *weighted* the weapon's base damage and max body damage bonus are increased by one.
 **Size:** a weapon's size determines the starting value for its base damage and max body damage bonus, as well as details on the rules for wielding it two handed.
     - *brawling*
