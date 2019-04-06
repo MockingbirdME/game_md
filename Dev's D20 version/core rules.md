@@ -1272,12 +1272,12 @@ Weapons have a number of keywords as follows:
   - *exotic(x)*
   - *strength(x)* the weapon has a strength of x (only relevant for certain ranged weapons).
   - *heavy(x)* a character without with a body attribute of less than x gains levels of disadvantage equal to the difference when attacking with this weapon, can not make free attacks with it, and does not benefit from any defense bonuses from it.
-  - *large* the weapon is designed for character's with a size of greater than 0, the weapon has its max body damage bonus increased by the character's size; additionally characters of size less than zero suffer one level of disadvantage when making an attack skill check with this weapon.
   - *pole arm*
   - *ranged(close range, range increment)* the weapon is ranged, it can be used with no penalty at up to its close range hexes away and gains a level of disadvantage for every additional range increment of hexes away the target is. If a target is far enough away that the attack would gain 4 levels of disadvantage from range the attack automatically fails. The weapon does not gain a damage bonus from the character's body stat though some weapons will use it for its x and y calculations.
   - *reach(range)*
   - *sap*
-  - *small* the weapon is designed for character's with a size of less than 0, the weapon has its base damage and max body damage bonus both reduced by 1; additionally characters of size greater than zero suffer one level of disadvantage when making an attack skill check with this weapon.
+  - *size, large* the weapon is designed for character's with a size of greater than 0, the weapon has its max body damage bonus increased by the character's size; additionally characters of size less than zero suffer one level of disadvantage when making an attack skill check with this weapon.
+  - *size, small* the weapon is designed for character's with a size of less than 0, the weapon has its base damage and max body damage bonus both reduced by 1; additionally characters of size greater than zero suffer one level of disadvantage when making an attack skill check with this weapon.
   - *thrown* this weapon with the ranged trait still has its damage modified by the character's body stat (following all other rules for the weapon).
   - *trip* can be used to make the *trip* melee combat action.
 
