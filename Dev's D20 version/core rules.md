@@ -1210,16 +1210,16 @@ Weapons have a number of keywords as follows:
         - Two-Handed: gains no benefit from being wielded two-handed.
     - *one-handed*
         - Base Damage: 3
-        - Max Body Damage Bonus: +2
-        - Two-Handed: treat the character's body as being one point higher.
+        - Max Body Damage Bonus: +1
+        - Two-Handed: increase the weapon's base damage by one.
     - *hand-and-a-half*
         - Base Damage: 3
-        - Max Body Damage Bonus: +3
-        - Two-Handed: increase the weapon's damage and may body damage bonus by one, and treat the character's body as being one point higher.
+        - Max Body Damage Bonus: +2
+        - Two-Handed: increase the weapon's damage and max body damage bonus by one.
     - *two-handed*
         - Base Damage: 5
-        - Max Body Damage Bonus: +5
-        - Two-Handed: designed to be wielded two-handed, a character attempting to wield it one handed gains two levels of disadvantage to all attacks made with it and does not benefit from any defense bonuses from it, reduces both its base damage and its max body damage bonus by 2.
+        - Max Body Damage Bonus: +4
+        - Two-Handed: designed to be wielded two-handed, a character attempting to wield it one handed gains two levels of disadvantage to all attacks made with it, does not benefit from any defense bonuses from it, reduces both its base damage and its max body damage bonus by 2.
 **Type:** a weapon's type dictates its specific rules, if a weapon has multiple types the character chooses which type they are using each time they make an attack with it.
     - *axe*
         - Damage Type: penetrating
