@@ -1227,7 +1227,7 @@ Weapons have a number of keywords as follows:
         - Additional Success Uses: one damage.
     - *beak*
         - Damage Type: penetrating
-        - Special Rules: if its damage is converted to concussive reduced its damage by one and ignore any damage gained from additional successess.
+        - Special Rules: if its damage is converted to concussive reduced its damage by one and ignore any damage gained from additional successes.
         - Additional Success Uses: one damage and two armor piercing value.
     - *blade, short*
         - Damage Type: penetrating
