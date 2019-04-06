@@ -1160,8 +1160,8 @@ A character who has taken damage may suffers from the most penalizing of follow 
 Suits of armor have a number of properties:
   - **Armor Value:** The character may use the armor value of his equipped armor, if a character has multiple armor value options (such as from natural armor and from worn armor) they use the highest value and increase it by one for each additional source of armor.
   - **Resistance (type):** Most armor provides resistance to concussive and penetrating damage and some armor provides resistance to additional types as well. A character who receives resistance of a given type from multiple sources adds those values together to gain the full resistance value for that damage type.
-  - **Required Training:** How difficult the armor is to be comfortable moving in, if the character wearing the armor doesn't have combine ranks in the *personal defense primary skill* and the *armor secondary skill (personal defense)* they receive one level of disadvantage to all skill checks where reflexes is the primary attribute.
-  - **Perception Penalty:** Helmets only, the character wearing the armor suffers the armor's penalty levels of disadvantage on all perception skill checks while wearing the helmet portion of the armor.
+  - **Required Training:** How difficult the armor is to be comfortable moving in, if the character wearing the armor doesn't have ranks in the *armor secondary skill (personal defense)* they receive one level of disadvantage to all skill checks where reflexes is the primary attribute.
+  - **Perception Penalty:** Helms only, the character wearing the armor suffers the armor's penalty levels of disadvantage on all perception skill checks while wearing the helmet portion of the armor.
 
 #### Sample Armor:
   - **Gambeson, light** Thin cloth armor easy available to any town guard or would be adventurer.
