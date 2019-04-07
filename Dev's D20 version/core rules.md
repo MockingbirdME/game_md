@@ -1171,7 +1171,7 @@ Suits of armor have a number of properties:
     - Resistance (Cold): 1
     - Required Training: 1
     - Perception Penalty: 0
-  - **Gambeson, heavy** Thicker Cloth armor, commonly worn by militia soldiers and poorer professional troops. .
+  - **Gambeson, heavy** Thicker Cloth armor, commonly worn by militia soldiers and poorer professional troops.
     - Armor Value: 4
     - Resistance (Concussive): 3
     - Resistance (Penetrating): 0
@@ -1179,16 +1179,14 @@ Suits of armor have a number of properties:
     - Required Training: 2
     - Perception Penalty: 1
   - **Mail, light** A short-sleeved mail shirt worn over a light gambeson, common armor for citizen soldiers.
-    - Armor Value: 5
+    - Armor Value: 6
     - Resistance (Concussive): 3
-    - Resistance (Penetrating): 1
     - Resistance (Cold): 1
     - Required Training: 2
     - Perception Penalty: 0
   - **Mail, heavy** A long-sleeved mail shirt and skirt worn by high end professional soldiers such as knights and men-at-arms.
-    - Armor Value: 6
+    - Armor Value: 8
     - Resistance (Concussive): 4
-    - Resistance (Penetrating): 2
     - Resistance (Cold): 2
     - Required Training: 3
     - Perception Penalty: 1
