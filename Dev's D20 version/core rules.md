@@ -1288,6 +1288,10 @@ Weapons have a number of keywords as follows:
       - Special Rules:
       - Additional Success Uses:
 **Ammunition:** most ranged weapons utilize some kind of ammunition in order to loose/shoot/fire, like other weapon types ammunition has custom traits.
+  - *arrow* all arrows will have one of the following traits, or a custom one not listed here.
+    - Blunted: the arrow inflicts concussive damage.
+    - Bodkin: the arrow inflicts penetrating damage, has its damage reduced by 5 if converted to concussive, and increases its armor piercing value by 2.
+    - Broadhead: the arrow inflicts penetrating damage, has its damage reduced by 3 if converted to concussive, and increases its base damage value by 1.
 **Special:** many weapons have additional attributes not directly tied to their balance, size, or general type.
   - *armor piercing(x)* this weapon reduces the target's armor value by x while resolving its attacks.
   - *bash* can be used to make the *bash* melee combat action.
