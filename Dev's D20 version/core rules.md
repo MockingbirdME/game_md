@@ -1253,6 +1253,15 @@ Weapons have a number of keywords as follows:
         - Special Rules: if its damage is converted to concussive reduced its damage by three.
         - Additional Success Uses: one damage and one armor piercing value.
 **Type, Ranged:** like melee weapon's ranged weapons have a number of traits that determine their stats, range weapon's often require ammunition that further modify their stats.
+    - *bow*
+      - Require skill and strength: all bows have the heavy trait many of its other stats are derived from the value of these traits. Additionally when resolving the effects of the weapon's heavy trait they may add their rank in the *bows secondary skill (ranged combat)* to their body stat.
+      - Two Handed: all bows require two hands to wield.
+      - Reload Rules: loading a bow with a ready arrow requires one action point and no stamina, a character may hold up to their rank in the *bows secondary skill (ranged combat)* arrows ready while using the weapon.
+      - Base Close Range: twenty plus twice the weapon's *heavy* value hexes.
+      - Base Range Increment: twenty plus twice the weapon's *heavy* value hexes.
+      - Base Damage: equal to one plus the level of its *heavy* trait, if the character wielding it suffers any level of disadvantage due to the *heavy* trait reduce the base damage by the same amount.
+      - Base Armor Piercing Value: equal to the level of its *heavy* trait minus one, if the character wielding it suffers any level of disadvantage due to the *heavy* trait reduce the base armor piercing value by the same amount.
+      - Additional Success Uses: one damage or minus one damage and plus one armor piercing value.
 **Special:** many weapons have additional attributes not directly tied to their balance, size, or general type.
   - *armor piercing(x)* this weapon reduces the target's armor value by x while resolving its attacks.
   - *bash* can be used to make the *bash* melee combat action.
