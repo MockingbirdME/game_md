@@ -1274,6 +1274,19 @@ Weapons have a number of keywords as follows:
       - Base Damage: equal to the level of its *strength* trait.
       - Base Armor Piercing Value: equal to the level of its *strength* trait.
       - Additional Success Uses: one damage or minus one damage and plus one armor piercing value.
+    - *crossbow, hand*
+      - Weapon Strength: all hand crossbows have the strength trait, usually between 2 and 4, many of its other stats are derived from the value of these traits.
+      - One Handed: hand crossbows can be fired one handed gaining a level of disadvantage, are treated as *hand-and-a-half* weapons for the purposes of two weapon fighting, and require two hands to reload.
+      - Reload Rules: loading a hand crossbow requires first hand cranking its string taut requiring no stamina and a number of action points equal to its strength trait's value, these action points need not be taken in succession as a hand crossbow's screw cranking mechanism holds its tautness until fired, the character must then, after readying a hand crossbow bolt, spend one action point and no stamina to load it.
+      - Base Close Range: twice the weapon's *strength* value.
+      - Base Range Increment: twice the weapon's *strength* value.
+      - Base Damage: equal to the level of its *strength* trait.
+      - Base Armor Piercing Value: equal to the level of its *strength* trait.
+      - Additional Success Uses: one damage or minus one damage and plus one armor piercing value.
+    - *pistol*
+      - Damage Type:
+      - Special Rules:
+      - Additional Success Uses:
 **Special:** many weapons have additional attributes not directly tied to their balance, size, or general type.
   - *armor piercing(x)* this weapon reduces the target's armor value by x while resolving its attacks.
   - *bash* can be used to make the *bash* melee combat action.
