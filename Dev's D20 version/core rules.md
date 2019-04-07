@@ -1292,6 +1292,10 @@ Weapons have a number of keywords as follows:
     - Blunted: the arrow inflicts concussive damage.
     - Bodkin: the arrow inflicts penetrating damage, has its damage reduced by 5 if converted to concussive, and increases its armor piercing value by 2.
     - Broadhead: the arrow inflicts penetrating damage, has its damage reduced by 3 if converted to concussive, and increases its base damage value by 1.
+  - *bolt/quarrel* all bolts/quarrels will have one of the following traits, or a custom one not listed here.
+    - Blunted: the bolt/quarrel inflicts concussive damage.
+    - Injection: the bolt/quarrel inflicts penetrating damage, has its damage reduced to 0 if converted to concussive, halves its base damage, and can be used to deliver injectable potions or mundane poisons.  
+    - Standard: the bolt/quarrel inflicts penetrating damage.
 **Special:** many weapons have additional attributes not directly tied to their balance, size, or general type.
   - *armor piercing(x)* this weapon reduces the target's armor value by x while resolving its attacks.
   - *bash* can be used to make the *bash* melee combat action.
