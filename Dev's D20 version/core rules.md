@@ -1262,6 +1262,18 @@ Weapons have a number of keywords as follows:
       - Base Damage: equal to one plus the level of its *heavy* trait, if the character wielding it suffers any level of disadvantage due to the *heavy* trait reduce the base damage by the same amount.
       - Base Armor Piercing Value: equal to the level of its *heavy* trait minus one, if the character wielding it suffers any level of disadvantage due to the *heavy* trait reduce the base armor piercing value by the same amount.
       - Additional Success Uses: one damage or minus one damage and plus one armor piercing value.
+    - *crossbow*
+      - Weapon Strength: all crossbows have the strength trait, usually between 4 and 10, many of its other stats are derived from the value of these traits.
+      - Two Handed: crossbows require two hands to wield.
+      - Reload Rules: crossbows can be loaded in any of three ways:
+        - Hand loading: a crossbow of strength equal to or less than 1 plus the character's body stat may be reloaded by hand requiring a load action costing 2 action points and no no stamina to cock it followed by a ready action to ready a crossbow bolt and a load action costing one action point to load the readied bolt.
+        - Goats foot loading: a crossbow of strength equal to or less than 2 plus the character's body stat may be reloaded with a tool called a goats foot requiring a ready action to ready the goats foot, a load action costing 2 action points and no stamina to cock it, a stow action to stow the goats foot, a ready action to ready a crossbow bolt, and a load action costing one action point to load the readied bolt.
+        - Winch loading: any crossbow may be loaded with a winch requiring a ready action to ready the winch, a load action costing 1 action points and no stamina to secure the winch to the butt of the crossbow, any number of load actions costing a total number of action points equal to the weapon's *strength* value and no stamina to cock it, a load action costing 1 action points and no stamina to remove the winch from the butt of the crossbow, a stow action to stow the winch, a ready action to ready a crossbow bolt, and a load action costing one action point to load the readied bolt.
+      - Base Close Range: five times the weapon's *strength* value.
+      - Base Range Increment: five times the weapon's *strength* value.
+      - Base Damage: equal to the level of its *strength* trait.
+      - Base Armor Piercing Value: equal to the level of its *strength* trait.
+      - Additional Success Uses: one damage or minus one damage and plus one armor piercing value.
 **Special:** many weapons have additional attributes not directly tied to their balance, size, or general type.
   - *armor piercing(x)* this weapon reduces the target's armor value by x while resolving its attacks.
   - *bash* can be used to make the *bash* melee combat action.
