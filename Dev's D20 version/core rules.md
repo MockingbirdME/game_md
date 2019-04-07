@@ -1252,6 +1252,7 @@ Weapons have a number of keywords as follows:
         - Damage Type: penetrating
         - Special Rules: if its damage is converted to concussive reduced its damage by three.
         - Additional Success Uses: one damage and one armor piercing value.
+**Type, Ranged:** like melee weapon's ranged weapons have a number of traits that determine their stats, range weapon's often require ammunition that further modify their stats.
 **Special:** many weapons have additional attributes not directly tied to their balance, size, or general type.
   - *armor piercing(x)* this weapon reduces the target's armor value by x while resolving its attacks.
   - *bash* can be used to make the *bash* melee combat action.
