@@ -1287,6 +1287,7 @@ Weapons have a number of keywords as follows:
       - Damage Type:
       - Special Rules:
       - Additional Success Uses:
+**Ammunition:** most ranged weapons utilize some kind of ammunition in order to loose/shoot/fire, like other weapon types ammunition has custom traits.
 **Special:** many weapons have additional attributes not directly tied to their balance, size, or general type.
   - *armor piercing(x)* this weapon reduces the target's armor value by x while resolving its attacks.
   - *bash* can be used to make the *bash* melee combat action.
