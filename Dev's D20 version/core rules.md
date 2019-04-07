@@ -1301,7 +1301,7 @@ Weapons have a number of keywords as follows:
   - *bash* can be used to make the *bash* melee combat action.
   - *exotic(x)*
   - *strength(x)* the weapon has a strength of x (only relevant for certain ranged weapons).
-  - *heavy(x)* a character without with a body attribute of less than x gains levels of disadvantage equal to the difference when attacking with this weapon, can not make free attacks with it, and does not benefit from any defense bonuses from it.
+  - *heavy(x)* a character without with a body attribute of less than x gains levels of disadvantage equal to the difference when attacking with this weapon, can not make free attacks with it, and does not benefit from any defense bonuses from it; if the character would gain more than two levels of disadvantage as a result of this trait they cannot attack with it at all.
   - *ranged(close range, range increment)* the weapon is ranged, it can be used with no penalty at up to its close range hexes away and gains a level of disadvantage for every additional range increment of hexes away the target is. If a target is far enough away that the attack would gain 4 levels of disadvantage from range the attack automatically fails. The weapon does not gain a damage bonus from the character's body stat though some weapons will use it for its x and y calculations.
   - *reach(range)* the number of hexes away the weapon can be used to attack, a range that includes 0 can be used to attack targets that share a hex with the character.
   - *sap* can be used to make the *sap* melee combat action.
