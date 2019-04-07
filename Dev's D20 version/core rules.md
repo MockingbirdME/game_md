@@ -1198,7 +1198,7 @@ Weapons have a number of keywords as follows:
     - *parrying* the weapon's base damage is reduced by one and a character wielding this weapon gains a parry bonus to their melee defense bonus equal to half, round up, their rank in the *parry secondary skill (personal defense)* (a character's total parry bonus can not exceed their rank in the *parry secondary skill (personal defense)*).
     - *pole-arm* A character wielding this weapon two-handed gains a parry bonus to their melee defense bonus equal to one plus half, round up, their rank in the *parry secondary skill (personal defense)* (a character's total parry bonus can not exceed their rank in the *parry secondary skill (personal defense)*).
     - *weighted* the weapon's base damage and max body damage bonus are increased by one.
-**Size:** a weapon's size determines the starting value for its base damage and max body damage bonus, as well as details on the rules for wielding it two handed.
+**Size:** a melee weapon's size determines the starting value for its base damage and max body damage bonus, as well as details on the rules for wielding it two handed.
     - *brawling*
         - Base Damage: 1
         - Max Body Damage Bonus: +1
@@ -1219,7 +1219,7 @@ Weapons have a number of keywords as follows:
         - Base Damage: 5
         - Max Body Damage Bonus: +4
         - Two-Handed: designed to be wielded two-handed, a character attempting to wield it one handed gains two levels of disadvantage to all attacks made with it, does not benefit from any defense bonuses from it, reduces both its base damage and its max body damage bonus by 2.
-**Type:** a weapon's type dictates its specific rules, if a weapon has multiple types the character chooses which type they are using each time they make an attack with it.
+**Type, Melee:** a melee weapon's type dictates its specific rules, if a weapon has multiple types the character chooses which type they are using each time they make an attack with it.
     - *axe*
         - Damage Type: penetrating
         - Special Rules: if its damage is converted to concussive reduced its damage by one.
@@ -1240,22 +1240,10 @@ Weapons have a number of keywords as follows:
         - Damage Type: concussive
         - Special Rules:  
         - Additional Success Uses: one damage.
-    - *bow*
-        - Damage Type:
-        - Special Rules:
-        - Additional Success Uses:
     - *brawling*
         - Damage Type: concussive
         - Special Rules: increases damage and max body damage bonus by the character's rank in the *brawling secondary skill (melee combat)*.
         - Additional Success Uses: one damage.
-    - *crossbow*
-        - Damage Type:
-        - Special Rules:
-        - Additional Success Uses:
-    - *pistol*
-        - Damage Type:
-        - Special Rules:
-        - Additional Success Uses:
     - *shield(x)*
         - Damage Type: concussive
         - Special Rules: shields have their damage reduced by 1 and provide a shield bonus to the character's melee and ranged defense bonuses equal to x (a character's total shield bonus can not exceed one plus their rank in the *shields secondary skill (personal defense)*).
