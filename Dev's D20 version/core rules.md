@@ -1232,7 +1232,6 @@ Weapons have a number of keywords as follows:
         - Damage Type: penetrating
         - Special Rules: if its damage is converted to concussive reduced its damage by three.
         - Additional Success Uses: one damage, or two armor piercing value.
-          the weapon inflicts penetrating damage by default, if its damage is converted to bludgeoning it is reduced by three, additional successes may each be used to ether increase the weapon's damage by one or its armor piercing value by two.
     - *blade, long*
         - Damage Type: penetrating
         - Special Rules: if its damage is converted to concussive reduced its damage by two.
